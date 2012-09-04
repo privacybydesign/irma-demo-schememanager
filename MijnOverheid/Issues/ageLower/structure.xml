@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CredentialStructure xmlns="http://www.zurich.ibm.com/security/idemix"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix CredentialStructure.xsd">
+    
+    <Attributes>
+        <Attribute issuanceMode="known" name="over12" type="boolean" />
+        <Attribute issuanceMode="known" name="over16" type="boolean" />
+        <Attribute issuanceMode="known" name="over18" type="boolean" />
+        <Attribute issuanceMode="known" name="over21" type="boolean" />
+    </Attributes>
+
+    <Features/>
+
+    <Implementation>
+        <AttributeOrder>
+            <Attribute name="over12">1</Attribute>
+            <Attribute name="over16">2</Attribute>
+            <Attribute name="over18">3</Attribute>
+            <Attribute name="over21">4</Attribute>
+        </AttributeOrder>
+    </Implementation>
+
+</CredentialStructure>
