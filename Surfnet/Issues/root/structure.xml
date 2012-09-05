@@ -5,7 +5,7 @@
     xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix CredentialStructure.xsd">
     
     <Attributes>
-        <Attribute issuanceMode="known" name="userID" type="string" />
+        <Attribute issuanceMode="known" name="userID" type="int" />
         <Attribute issuanceMode="known" name="securityHash" type="int" />
     </Attributes>
 
