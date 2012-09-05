@@ -5,10 +5,10 @@
     xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix CredentialStructure.xsd">
     
     <Attributes>
-        <Attribute issuanceMode="known" name="over12" type="boolean" />
-        <Attribute issuanceMode="known" name="over16" type="boolean" />
-        <Attribute issuanceMode="known" name="over18" type="boolean" />
-        <Attribute issuanceMode="known" name="over21" type="boolean" />
+        <Attribute issuanceMode="known" name="over12" type="int" />
+        <Attribute issuanceMode="known" name="over16" type="int" />
+        <Attribute issuanceMode="known" name="over18" type="int" />
+        <Attribute issuanceMode="known" name="over21" type="int" />
     </Attributes>
 
     <Features/>
