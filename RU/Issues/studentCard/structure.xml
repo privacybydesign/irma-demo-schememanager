@@ -5,10 +5,10 @@
     xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix CredentialStructure.xsd">
     
     <Attributes>
-        <Attribute issuanceMode="known" name="university" type="string" />
-        <Attribute issuanceMode="known" name="studentCardNumber" type="string" />
-        <Attribute issuanceMode="known" name="studentID" type="string" />
-        <Attribute issuanceMode="known" name="level" type="string" />
+        <Attribute issuanceMode="known" name="university" type="int" />
+        <Attribute issuanceMode="known" name="studentCardNumber" type="int" />
+        <Attribute issuanceMode="known" name="studentID" type="int" />
+        <Attribute issuanceMode="known" name="level" type="int" />
     </Attributes>
 
     <Features/>
