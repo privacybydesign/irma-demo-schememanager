@@ -4,7 +4,8 @@
 	xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix ProofSpecification.xsd">
 
 	<Declaration>
-		<AttributeId name="id1" proofMode="unrevealed" type="int" />
+        <AttributeId name="id0" proofMode="revealed" type="int" />
+	    <AttributeId name="id1" proofMode="unrevealed" type="int" />
 		<AttributeId name="id2" proofMode="unrevealed" type="int" />
 		<AttributeId name="id3" proofMode="unrevealed" type="int" />
 		<AttributeId name="id4" proofMode="unrevealed" type="int" />
@@ -14,7 +15,8 @@
 		<Credentials>
 			<Credential issuerPublicKey="http://www.irmacard.org/credentials/phase1/RU/ipk.xml"
 				credStruct="http://www.irmacard.org/credentials/phase1/RU/studentCard/structure.xml" name="someRandomName">
-				<Attribute name="university">id1</Attribute>
+                <Attribute name="expiry">id0</Attribute>
+			    <Attribute name="university">id1</Attribute>
 				<Attribute name="studentCardNumber">id2</Attribute>
 				<Attribute name="studentID">id4</Attribute>
 				<Attribute name="level">id3</Attribute>

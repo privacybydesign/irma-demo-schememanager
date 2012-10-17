@@ -1,4 +1,4 @@
-% This is a description about the credentials Surfnet can issue.
+% This is a description about the credentials Radboud University can issue.
 
 % VERIFY 
  * [userID] @ Surfnet/root : used to look up the student in the database

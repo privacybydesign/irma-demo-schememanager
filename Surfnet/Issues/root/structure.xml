@@ -5,6 +5,7 @@
     xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix CredentialStructure.xsd">
     
     <Attributes>
+        <Attribute issuanceMode="known" name="expiry" type="int" />
         <Attribute issuanceMode="known" name="userID" type="int" />
         <Attribute issuanceMode="known" name="securityHash" type="int" />
     </Attributes>
@@ -13,6 +14,7 @@
 
     <Implementation>
         <AttributeOrder>
+            <Attribute name="expiry">0</Attribute>
             <Attribute name="userID">1</Attribute>
             <Attribute name="securityHash">2</Attribute>
         </AttributeOrder>
