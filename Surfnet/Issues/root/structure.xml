@@ -14,9 +14,9 @@
 
     <Implementation>
         <AttributeOrder>
-            <Attribute name="expiry">0</Attribute>
-            <Attribute name="userID">1</Attribute>
-            <Attribute name="securityHash">2</Attribute>
+            <Attribute name="expiry">1</Attribute>
+            <Attribute name="userID">2</Attribute>
+            <Attribute name="securityHash">3</Attribute>
         </AttributeOrder>
     </Implementation>
 

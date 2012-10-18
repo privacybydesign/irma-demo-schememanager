@@ -16,11 +16,11 @@
 
     <Implementation>
         <AttributeOrder>
-            <Attribute name="expiry">0</Attribute>
-            <Attribute name="over12">1</Attribute>
-            <Attribute name="over16">2</Attribute>
-            <Attribute name="over18">3</Attribute>
-            <Attribute name="over21">4</Attribute>
+            <Attribute name="expiry">1</Attribute>
+            <Attribute name="over12">2</Attribute>
+            <Attribute name="over16">3</Attribute>
+            <Attribute name="over18">4</Attribute>
+            <Attribute name="over21">5</Attribute>
         </AttributeOrder>
     </Implementation>
 
