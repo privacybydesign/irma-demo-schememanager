@@ -1,6 +1,8 @@
 <IssueSpecification>
 	<Name>Radboud University Student Card</Name>
-	<IssuerName>Radboud University Nijmegen</IssuerName>
+	<ShortName>Student Card</ShortName>
+	<IssuerID>RU</IssuerID>
+	<CredentialID>studentCard</CredentialID>
 	<Description>
 	  Student Card issued by the Radboud University Nijmegen.
 	</Description>

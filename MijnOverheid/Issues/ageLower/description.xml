@@ -1,6 +1,8 @@
 <IssueSpecification>
 	<Name>MijnOverheid Lower Age limits</Name>
-	<IssuerName>MijnOverheid</IssuerName>
+	<ShortName>Age (lower)</ShortName>
+	<IssuerID>MijnOverheid</IssuerID>
+	<CredentialID>ageLower</CredentialID>
 	<Description>
 	  Your age attributes issued by MijnOverheid based on GBA data.
 	</Description>

@@ -1,8 +1,10 @@
 <IssueSpecification>
 	<Name>MijnOverheid Address</Name>
-	<IssuerName>MijnOverheid</IssuerName>
+	<ShortName>Address</ShortName>
+	<IssuerID>MijnOverheid</IssuerID>
+	<CredentialID>address</CredentialID>
 	<Description>
-	  Address description issued by MijnOverheid based on GBA data.
+Address description issued by MijnOverheid based on GBA data.
 	</Description>
 
 	<Id>11</Id>

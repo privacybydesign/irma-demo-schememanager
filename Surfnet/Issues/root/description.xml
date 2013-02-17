@@ -1,9 +1,10 @@
 <IssueSpecification>
 	<Name>Surfnet Root</Name>
-	<IssuerName>Surfnet</IssuerName>
+	<IssuerID>Surfnet</IssuerID>
+	<ShortName>Surfnet Root</ShortName>
+	<CredentialID>root</CredentialID>
 	<Description>
-		Root credential issued by Surfnet. The userID is the same identifier 
-		that is used within the SurfFederation.
+	  Root credential issued by Surfnet. The userID is the same identifier that is used within the SurfFederation.
 	</Description>
 
 	<Id>1</Id>
