@@ -1,0 +1,20 @@
+<VerifySpecification>
+	<Name>Student Card All: Attributes</Name>
+
+	<IssuerID>RU</IssuerID>
+	<CredentialID>studentCard</CredentialID>
+
+	<VerifierID>RU</VerifierID>
+	<VerificationID>studentCard</VerificationID>
+
+	<ID>500</ID>
+
+	<Description>
+	  Reads all attributes from Student Card for administrative purposes.
+	</Description>
+
+	<AttributeModes>
+	  <AttributeMode id="userID" mode="revealed" />
+	  <AttributeMode id="securityHash" mode="unrevealed" />
+	</AttributeModes>
+</VerifySpecification>
