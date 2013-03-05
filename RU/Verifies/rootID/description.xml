@@ -1,16 +1,16 @@
 <VerifySpecification>
-	<Name>Student Card All: Attributes</Name>
+	<Name>Surfnet Root: surfnet identity</Name>
 
-	<IssuerID>RU</IssuerID>
-	<CredentialID>studentCard</CredentialID>
+	<IssuerID>Surfnet</IssuerID>
+	<CredentialID>root</CredentialID>
 
 	<VerifierID>RU</VerifierID>
-	<VerificationID>studentCard</VerificationID>
+	<VerificationID>rootID</VerificationID>
 
-	<ID>500</ID>
+	<Id>500</Id>
 
 	<Description>
-	  Reads all attributes from Student Card for administrative purposes.
+	  Gets user identifier from the Surfnet Root credential. This is used to identify someone within the surffederation with the goal to later maybe issue a student card.
 	</Description>
 
 	<AttributeModes>
