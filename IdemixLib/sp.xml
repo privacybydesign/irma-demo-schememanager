@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix SystemParameters.xsd">
 
 	<Elements>
-		<l_e>504</l_e>
+		<l_e>597</l_e>
 		<l_ePrime>120</l_ePrime>
 		<l_Gamma>768</l_Gamma>
 		<l_H>256</l_H>
@@ -17,7 +17,7 @@
 		<l_r>80</l_r>
 		<l_res>1</l_res>
 		<l_rho>256</l_rho>
-		<l_v>1604</l_v>
+		<l_v>1700</l_v>
 		<l_enc>256</l_enc>
 	</Elements>
 </SystemParameters>
