@@ -1,16 +1,16 @@
 <VerifySpecification>
-	<Name>Address: All Attributes</Name>
+	<Name>Woonplaats</Name>
 
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>address</CredentialID>
 
-	<VerifierID>MijnOverheid</VerifierID>
-	<VerificationID>addressAll</VerificationID>
+	<VerifierID>Stadspas</VerifierID>
+	<VerificationID>addressWoonplaats</VerificationID>
 
-	<Id>600</Id>
+	<Id>601</Id>
 
 	<Description>
-	  Gets the entire address credential for administrative purposes.
+	  Gets the city attribute from the address credential.
 	</Description>
 
 	<AttributeModes>
