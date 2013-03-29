@@ -4,8 +4,8 @@
 	xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix ProofSpecification.xsd">
 
 	<Declaration>
-	        <AttributeId name="id1" proofMode="revealed" type="int" />
-        	<AttributeId name="id2" proofMode="revealed" type="int" />
+        <AttributeId name="id1" proofMode="revealed" type="int" />
+        <AttributeId name="id2" proofMode="revealed" type="int" />
 		<AttributeId name="id3" proofMode="revealed" type="int" />
 		<AttributeId name="id4" proofMode="revealed" type="int" />
 		<AttributeId name="id5" proofMode="revealed" type="int" />
@@ -14,12 +14,12 @@
 	<Specification>
 		<Credentials>
 			<Credential issuerPublicKey="http://www.irmacard.org/credentials/phase1/MijnOverheid/ipk.xml"
-				credStruct="http://www.irmacard.org/credentials/phase1/MijnOverheid/address/structure.xml" name="someRandomName">
-				<Attribute name="expiry">id1</Attribute>
-			    	<Attribute name="country">id2</Attribute>
-				<Attribute name="city">id3</Attribute>
-				<Attribute name="street">id4</Attribute>
-				<Attribute name="zipcode">id5</Attribute>
+				credStruct="http://www.irmacard.org/credentials/phase1/MijnOverheid/ageLower/structure.xml" name="someRandomName">
+                <Attribute name="expiry">id1</Attribute>
+			    <Attribute name="over12">id2</Attribute>
+				<Attribute name="over16">id3</Attribute>
+				<Attribute name="over18">id4</Attribute>
+				<Attribute name="over21">id5</Attribute>
 			</Credential>
 		</Credentials>
 
