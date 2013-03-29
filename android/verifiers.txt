@@ -7,3 +7,5 @@ Bar
 IRMATube
 IRMAWiki
 NYTimes
+Stadspas
+Winery
