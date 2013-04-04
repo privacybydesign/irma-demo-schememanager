@@ -7,7 +7,7 @@
 	<VerifierID>Winery</VerifierID>
 	<VerificationID>over18</VerificationID>
 
-	<Id>602</Id>
+	<Id>801</Id>
 
 	<Description>
 	  Gets the over18 attribute from the ageLower credential.
