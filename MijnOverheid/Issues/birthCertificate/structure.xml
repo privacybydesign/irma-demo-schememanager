@@ -6,10 +6,10 @@
     
     <Attributes>
         <Attribute issuanceMode="known" name="expiry" type="int" />
-        <Attribute issuanceMode="known" name="firstnames" type="int" />
-        <Attribute issuanceMode="known" name="firstname" type="int" />
-        <Attribute issuanceMode="known" name="familyname" type="int" />
-        <Attribute issuanceMode="known" name="prefix" type="int" />
+        <Attribute issuanceMode="known" name="dateofbirth" type="int" />
+        <Attribute issuanceMode="known" name="placeofbirth" type="int" />
+        <Attribute issuanceMode="known" name="countryofbirth" type="int" />
+        <Attribute issuanceMode="known" name="gender" type="int" />
     </Attributes>
 
     <Features/>
@@ -17,10 +17,10 @@
     <Implementation>
         <AttributeOrder>
             <Attribute name="expiry">1</Attribute>
-            <Attribute name="firstnames">2</Attribute>
-            <Attribute name="firstname">3</Attribute>
-            <Attribute name="familyname">4</Attribute>
-            <Attribute name="prefix">5</Attribute>
+            <Attribute name="dateofbirth">2</Attribute>
+            <Attribute name="placeofbirth">3</Attribute>
+            <Attribute name="countryofbirth">4</Attribute>
+            <Attribute name="gender">5</Attribute>
         </AttributeOrder>
     </Implementation>
 
