@@ -1,0 +1,31 @@
+<IssueSpecification>
+	<Name>MijnOverheid Name</Name>
+	<ShortName>Name</ShortName>
+	<IssuerID>MijnOverheid</IssuerID>
+	<CredentialID>fullName</CredentialID>
+	<Description>
+Your birth certificate.
+	</Description>
+
+	<Id>14</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>birthplace</Name>
+			<Description>Your place of birth</Description>
+		</Attribute>
+		<Attribute>
+			<Name>dateofbirth</Name>
+			<Description>Your birth date</Description>
+		</Attribute>
+		<Attribute>
+			<Name>countryofbirth</Name>
+			<Description>Your birth country</Description>
+		</Attribute>
+		<Attribute>
+			<Name>gender</Name>
+			<Description>Your gender</Description>
+		</Attribute>
+
+	</Attributes>
+</IssueSpecification>
