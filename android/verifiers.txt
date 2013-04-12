@@ -3,3 +3,4 @@ RU
 Surfnet
 UitzendingGemist
 Albron
+Bar
