@@ -14,9 +14,9 @@
 	</Description>
 
 	<AttributeModes>
-	  <AttributeMode id="over12" mode="revealed" />
-	  <AttributeMode id="over16" mode="revealed" />
+	  <AttributeMode id="over12" mode="unrevealed" />
+	  <AttributeMode id="over16" mode="unrevealed" />
 	  <AttributeMode id="over18" mode="revealed" />
-	  <AttributeMode id="over21" mode="revealed" />
+	  <AttributeMode id="over21" mode="unrevealed" />
 	</AttributeModes>
 </VerifySpecification>

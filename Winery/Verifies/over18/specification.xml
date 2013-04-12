@@ -5,10 +5,10 @@
 
 	<Declaration>
         <AttributeId name="id1" proofMode="revealed" type="int" />
-        <AttributeId name="id2" proofMode="revealed" type="int" />
-		<AttributeId name="id3" proofMode="revealed" type="int" />
+        <AttributeId name="id2" proofMode="unrevealed" type="int" />
+		<AttributeId name="id3" proofMode="unrevealed" type="int" />
 		<AttributeId name="id4" proofMode="revealed" type="int" />
-		<AttributeId name="id5" proofMode="revealed" type="int" />
+		<AttributeId name="id5" proofMode="unrevealed" type="int" />
 	</Declaration>
 
 	<Specification>
