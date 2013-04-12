@@ -4,7 +4,7 @@
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>ageLower</CredentialID>
 
-	<VerifierID>Bar</VerifierID>
+	<VerifierID>Winery</VerifierID>
 	<VerificationID>over18</VerificationID>
 
 	<Id>801</Id>
