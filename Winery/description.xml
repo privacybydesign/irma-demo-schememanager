@@ -1,8 +1,0 @@
-<Issuer>
-  <ID>Winery</ID>
-  <Name>Winery</Name>
-  <ContactAddress></ContactAddress>
-  <ContactEMail>info@winery.com</ContactEMail>
-
-  <baseURL>http://www.irmacard.org/credentials/phase1/Winery/</baseURL>
-</Issuer>
