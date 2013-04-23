@@ -14,8 +14,8 @@
 	</Description>
 
 	<AttributeModes>
-	  <AttributeMode id="fullnames" mode="revealed" />
-	  <AttributeMode id="fullname" mode="revealed" />
+	  <AttributeMode id="firstnames" mode="revealed" />
+	  <AttributeMode id="firstname" mode="revealed" />
 	  <AttributeMode id="familyname" mode="revealed" />
 	  <AttributeMode id="prefix" mode="revealed" />
 	</AttributeModes>
