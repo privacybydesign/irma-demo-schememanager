@@ -6,7 +6,6 @@
     
     <Attributes>
         <Attribute issuanceMode="known" name="expiry" type="int" />
-        <Attribute issuanceMode="known" name="name" type="int" />
         <Attribute issuanceMode="known" name="type" type="int" />
         <Attribute issuanceMode="known" name="id" type="int" />
     </Attributes>
@@ -16,9 +15,8 @@
     <Implementation>
         <AttributeOrder>
             <Attribute name="expiry">1</Attribute>
-            <Attribute name="name">2</Attribute>
-            <Attribute name="type">3</Attribute>
-            <Attribute name="id">4</Attribute>
+            <Attribute name="type">2</Attribute>
+            <Attribute name="id">3</Attribute>
         </AttributeOrder>
     </Implementation>
 
