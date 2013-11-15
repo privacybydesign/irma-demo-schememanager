@@ -3,9 +3,8 @@ RU
 Surfnet
 UitzendingGemist
 Albron
+Stadspas
 Bar
 IRMATube
 IRMAWiki
 NYTimes
-Stadspas
-Winery
