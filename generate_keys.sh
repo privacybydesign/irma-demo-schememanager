@@ -1,8 +1,11 @@
 #!/bin/bash
 
-CREDENTIAL_KEYS=true
-ARCHIVE=true
-ENCRYPT=true
+# Set this if you want seperate keys per credential
+CREDENTIAL_KEYS=
+
+# Set this if you want to archive and encrypt the keys
+SECURE=true
+
 CLEANUP=true
 
 ARCHIVE_CMD=tar
@@ -11,6 +14,8 @@ ARCHIVE_OPT=-zcvf
 ENCRYPT_OPT="--cipher-algo AES --symmetric"
 
 PRIVATE_PATH=irma_private_keys
+
+BASE_URI=http://www.irmacard.org/credentials/phase1
 
 LOG=""
 
@@ -39,7 +44,7 @@ function generate_keys {
   chmod +w ${1} ${2}
 
   # Generate the keys
-  silvia_keygen -a 5 -n 1024 -p ${1} -P ${2} &> /dev/null
+  silvia_keygen -a 6 -n 1024 -p ${1} -P ${2} -u "${BASE_URI}/${3}/" &> /dev/null
 
   # Make the keys readonly
   chmod 440 ${1}
@@ -47,12 +52,20 @@ function generate_keys {
 }
 
 function generate_issuer_keys {
+  WORK_DIR=`pwd`
   echo "Generating keys for ${1} @ " `pwd`
-  local KEY_DIR=${WORK_DIR}/${PRIVATE_PATH}/${1}/private
+
+  if [[ ${SECURE} ]]
+  then
+    local WORK_DIR=`mktemp -d`
+    local KEY_DIR=${WORK_DIR}/${PRIVATE_PATH}/${1}/private
+  else
+    local KEY_DIR=${WORK_DIR}/private
+  fi
   mkdir -p ${KEY_DIR}
 
-  generate_keys ipk.xml ${KEY_DIR}/isk.xml
-  (archive_keys ${WORK_DIR} ${1})
+  generate_keys ipk.xml ${KEY_DIR}/isk.xml ${1}
+  [[ ${SECURE} ]] && (archive_keys ${WORK_DIR} ${1})
 }
 
 function generate_credential_keys {
@@ -63,17 +76,21 @@ function generate_credential_keys {
   local KEY_DIR=${WORK_DIR}/${PRIVATE_PATH}/${1}/Issues/${2}/private
   mkdir -p ${KEY_DIR}
 
-  generate_keys ipk.xml ${KEY_DIR}/isk.xml
+  generate_keys ipk.xml ${KEY_DIR}/isk.xml ${1}/${2}
 
   (archive_keys ${WORK_DIR} ${1} ${2})
 }
 
 function parse_issuer {
-  [[ ! ${CREDENTIAL_KEYS} ]] && (generate_issuer_keys ${1}) && return
-  cd Issues
-  for cred in `ls`; do
-    (generate_credential_keys ${1} ${cred})
-  done
+  if [[ ! ${CREDENTIAL_KEYS} ]]
+  then
+    (generate_issuer_keys ${1})
+  else
+    cd Issues
+    for cred in `ls`; do
+      (generate_credential_keys ${1} ${cred})
+    done
+  fi
 }
 
 function parse_dir {
