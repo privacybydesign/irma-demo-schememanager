@@ -1,0 +1,9 @@
+<Issuer>
+  <ID>Sodexo</ID>
+  <Name>Sodexo Nederland</Name>
+  <ContactAddress>Rivium Boulevard 2 
+2909 LK  Capelle aan den IJssel</ContactAddress>
+  <ContactEMail>info@sodexo.com</ContactEMail>
+
+  <baseURL>http://www.irmacard.org/credentials/phase1/Sodexo/</baseURL>
+</Issuer>
