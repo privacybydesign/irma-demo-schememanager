@@ -4,10 +4,10 @@
 	<IssuerID>RU</IssuerID>
 	<CredentialID>studentCard</CredentialID>
 
-	<VerifierID>RU</VerifierID>
-	<VerificationID>studentCardNone</VerificationID>
+	<VerifierID>Sodexo</VerifierID>
+	<VerificationID>studentCard</VerificationID>
 
-	<Id>501</Id>
+	<Id>1101</Id>
 
 	<Description>
 	  Only check if a student card credential is present.
