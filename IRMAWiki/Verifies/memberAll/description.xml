@@ -14,8 +14,9 @@
 	</Description>
 
 	<AttributeModes>
-	  <AttributeMode id="name" mode="revealed" />
 	  <AttributeMode id="type" mode="revealed" />
 	  <AttributeMode id="nickname" mode="revealed" />
+	  <AttributeMode id="realname" mode="revealed" />
+	  <AttributeMode id="email" mode="revealed" />
 	</AttributeModes>
 </VerifySpecification>

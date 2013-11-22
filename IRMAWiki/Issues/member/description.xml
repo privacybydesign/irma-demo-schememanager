@@ -18,5 +18,13 @@ Your IRMAWiki membership.
 			<Name>nickname</Name>
 			<Description>Your wiki nickname</Description>
 		</Attribute>
+		<Attribute>
+			<Name>realname</Name>
+			<Description>Your name</Description>
+		</Attribute>
+		<Attribute>
+			<Name>email</Name>
+			<Description>Your email address</Description>
+		</Attribute>
 	</Attributes>
 </IssueSpecification>
