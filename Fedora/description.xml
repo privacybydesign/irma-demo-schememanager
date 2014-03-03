@@ -1,0 +1,8 @@
+<Issuer>
+  <ID>Fedora</ID>
+  <Name>Fedora Project</Name>
+  <ContactAddress>https://fedoraproject.org/</ContactAddress>
+  <ContactEMail>admin@fedoraproject.org</ContactEMail>
+
+  <baseURL>http://irma.fedoraproject.org/pilot/</baseURL>
+</Issuer>
