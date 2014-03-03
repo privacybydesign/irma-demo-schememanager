@@ -1,0 +1,22 @@
+<VerifySpecification>
+	<Name>FedOAuth-Info</Name>
+
+	<IssuerID>Fedora</IssuerID>
+	<CredentialID>fasInfo</CredentialID>
+
+	<VerifierID>Fedora</VerifierID>
+	<VerificationID>FedOAuth-Info</VerificationID>
+
+	<Id>622</Id>
+
+	<Description>
+      User information for FedOAuth.
+	</Description>
+
+	<AttributeModes>
+	  <AttributeMode id="firstname" mode="revealed" />
+	  <AttributeMode id="lastname" mode="revealed" />
+	  <AttributeMode id="email" mode="revealed" />
+	  <AttributeMode id="timezone" mode="revealed" />
+	</AttributeModes>
+</VerifySpecification>
