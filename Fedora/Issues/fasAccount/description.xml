@@ -1,0 +1,30 @@
+<IssueSpecification>
+	<Name>Fedora Account System account</Name>
+	<ShortName>FAS Account</ShortName>
+	<IssuerID>Fedora</IssuerID>
+	<CredentialID>fasAccount</CredentialID>
+	<Description>
+      Fedora Account System account as registered to the Fedora Project.
+	</Description>
+
+	<Id>601</Id>
+
+	<Attributes>
+        <Attribute>
+            <Name>username</Name>
+            <Description></Description>
+        </Attribute>
+        <Attribute>
+            <Name>cla</Name>
+            <Description>True if the CLA was signed</Description>
+        </Attribute>
+        <Attribute>
+            <Name>claplusone</Name>
+            <Description>True if the user is CLA+1</Description>
+        </Attribute>
+        <Attribute>
+            <Name>environment</Name>
+            <Description>Either dev, stg or prod, indicating the environment</Description>
+        </Attribute>
+	</Attributes>
+</IssueSpecification>
