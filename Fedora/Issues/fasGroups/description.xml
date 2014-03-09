@@ -1,0 +1,31 @@
+<IssueSpecification>
+	<Name>Fedora Account System groups</Name>
+	<ShortName>FAS Groups</ShortName>
+	<IssuerID>Fedora</IssuerID>
+	<CredentialID>fasGroups</CredentialID>
+	<Description>
+      Fedora Account System groups the owner is member of
+	</Description>
+
+	<Id>605</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>groups1</Name>
+			<Description>A bitarray defining in which groups a user is (groups 0-255)</Description>
+		</Attribute>
+		<Attribute>
+			<Name>groups2</Name>
+			<Description>A bitarray defining in which groups a user is (groups 256-511)</Description>
+		</Attribute>
+		<Attribute>
+			<Name>groups3</Name>
+			<Description>A bitarray defining in which groups a user is (groups 512 - 767)</Description>
+		</Attribute>
+		<Attribute>
+			<Name>groups4</Name>
+			<Description>A bitarray defining in which groups a user is (groups 768 - 1023)</Description>
+		</Attribute>
+
+	</Attributes>
+</IssueSpecification>

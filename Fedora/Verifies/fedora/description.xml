@@ -1,0 +1,19 @@
+<VerifySpecification>
+	<Name>Fedora</Name>
+
+	<IssuerID>Fedora</IssuerID>
+	<CredentialID>fasRoot</CredentialID>
+
+	<VerifierID>Fedora</VerifierID>
+	<VerificationID>Fedora</VerificationID>
+
+	<Id>620</Id>
+
+	<Description>
+      Fedora card root
+	</Description>
+
+	<AttributeModes>
+	  <AttributeMode id="valid" mode="revealed" />
+	</AttributeModes>
+</VerifySpecification>

@@ -1,0 +1,22 @@
+<VerifySpecification>
+	<Name>FedOAuth Groups</Name>
+
+	<IssuerID>Fedora</IssuerID>
+	<CredentialID>fasGroups</CredentialID>
+
+	<VerifierID>Fedora</VerifierID>
+	<VerificationID>FedOAuth-Groups</VerificationID>
+
+	<Id>625</Id>
+
+	<Description>
+      Group membership information for FedOAuth.
+	</Description>
+
+	<AttributeModes>
+	  <AttributeMode id="groups1" mode="revealed" />
+	  <AttributeMode id="groups2" mode="revealed" />
+	  <AttributeMode id="groups3" mode="revealed" />
+	  <AttributeMode id="groups4" mode="revealed" />
+	</AttributeModes>
+</VerifySpecification>

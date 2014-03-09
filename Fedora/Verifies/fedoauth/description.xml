@@ -1,0 +1,22 @@
+<VerifySpecification>
+	<Name>FedOAuth</Name>
+
+	<IssuerID>Fedora</IssuerID>
+	<CredentialID>fasAccount</CredentialID>
+
+	<VerifierID>Fedora</VerifierID>
+	<VerificationID>FedOAuth</VerificationID>
+
+	<Id>621</Id>
+
+	<Description>
+      Authentication information for FedOAuth.
+	</Description>
+
+	<AttributeModes>
+	  <AttributeMode id="username" mode="revealed" />
+	  <AttributeMode id="cla" mode="revealed" />
+	  <AttributeMode id="claplusone" mode="revealed" />
+	  <AttributeMode id="environment" mode="revealed" />
+	</AttributeModes>
+</VerifySpecification>

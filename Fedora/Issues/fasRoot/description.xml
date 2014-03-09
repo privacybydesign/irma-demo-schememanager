@@ -1,0 +1,18 @@
+<IssueSpecification>
+	<Name>Fedora Account System Root</Name>
+	<ShortName>FAS Root</ShortName>
+	<IssuerID>Fedora</IssuerID>
+	<CredentialID>fasRoot</CredentialID>
+	<Description>
+      Fedora Account System card root
+	</Description>
+
+	<Id>600</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>valid</Name>
+			<Description>Is yes iff the card has been issued</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

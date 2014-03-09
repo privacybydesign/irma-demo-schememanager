@@ -1,0 +1,30 @@
+<IssueSpecification>
+	<Name>Fedora Account System user info</Name>
+	<ShortName>FAS Info</ShortName>
+	<IssuerID>Fedora</IssuerID>
+	<CredentialID>fasInfo</CredentialID>
+	<Description>
+      Fedora Account System info as specified in the Fedora Account System.
+	</Description>
+
+	<Id>602</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>firstname</Name>
+			<Description></Description>
+		</Attribute>
+		<Attribute>
+			<Name>lastname</Name>
+			<Description></Description>
+		</Attribute>
+        <Attribute>
+            <Name>email</Name>
+            <Description></Description>
+        </Attribute>
+        <Attribute>
+            <Name>timezone</Name>
+            <Description></Description>
+        </Attribute>
+	</Attributes>
+</IssueSpecification>
