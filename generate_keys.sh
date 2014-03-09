@@ -3,8 +3,13 @@
 # Set this if you want seperate keys per credential
 CREDENTIAL_KEYS=
 
+# Set this to the names of the issuers for which you want to generate new keys
+ISSUERS="Bar"
+
 # Set this if you want to archive and encrypt the keys
 SECURE=true
+# Set this if you want to encrypt for a GPG key
+#GPG_KEYID=
 
 CLEANUP=true
 
@@ -23,15 +28,21 @@ function archive_keys {
   cd ${1}
 
   local NOW=`date`
-  local PASSPHRASE=`mkpasswd "${1} ${2} ${3} ${NOW}"`
   local TMP_FILE=`mktemp`
   local KEY_FILE="${CONF_DIR}/irma_key_${2}_${3}.gpg"
 
   ${ARCHIVE_CMD} ${ARCHIVE_OPT} ${TMP_FILE} ${PRIVATE_PATH} &> /dev/null
 
-  gpg --batch --passphrase ${PASSPHRASE} --output ${KEY_FILE} \
-    --cipher-algo AES --symmetric ${TMP_FILE}
-  echo "Result: ${KEY_FILE} using passphrase: ${PASSPHRASE}"
+  if [[ ! ${GPG_KEYID} ]]
+  then
+    local PASSPHRASE=`mkpasswd "${1} ${2} ${3} ${NOW}"`
+    gpg --batch --armor --passphrase ${PASSPHRASE} --output ${KEY_FILE} \
+        --cipher-algo AES --symmetric ${TMP_FILE}
+    echo "Result: ${KEY_FILE} using passphrase: ${PASSPHRASE}"
+  else
+    gpg --encrypt -r $GPG_KEYID --batch --armor --output ${KEY_FILE} ${TMP_FILE}
+    echo "Result: ${KEY_FILE} using GPG Key: ${GPG_KEYID}"
+  fi
   echo ""
 
   rm -rf ${1} ${TMP_FILE}
@@ -100,7 +111,7 @@ function parse_dir {
 
 CONF_DIR=`pwd`
 
-for dir in `ls`; do 
+for dir in ${ISSUERS}; do 
   [[ -d ${dir} ]] && (parse_dir ${dir})
 done
 
