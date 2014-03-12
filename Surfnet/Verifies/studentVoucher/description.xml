@@ -17,6 +17,6 @@
 	  <AttributeMode id="university" mode="revealed" />
 	  <AttributeMode id="studentCardNumber" mode="unrevealed" />
 	  <AttributeMode id="studentID" mode="revealed" />
-	  <AttributeMode id="level" mode="unrevealed" />
+	  <AttributeMode id="level" mode="revealed" />
 	</AttributeModes>
 </VerifySpecification>
