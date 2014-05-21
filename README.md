@@ -31,6 +31,15 @@ Finally, there is the special directory _android_ that contains a list of issuer
 ## Some notes on adding a new organization
 
  1. Make sure you add a description for your organization, and a logo.png file.
- 2. Generate key material and put the public files into the tree (more information on this later)
+ 2. Generate key material and put the public files into the tree. 
+
+	This can be performed using [silvia](https://github.com/credentials/silvia). In the case of
+	IRMA we rely on credentials of 6 attributes and keys of 1,024 bits:
+	```
+	$ ./silvia_keygen -a 6 -n 1024 -p ipk.xml -P isk.xml
+	Writing public key to ipk.xml
+	Writing private key to isk.xml
+	Generating 1024-bit issuer key pair for 6 attributes ... OK
+	```
  3. For every credential this organization issues, make sure you use a unique id.
  4. Remember to add your verifier/issuer to the appropriate lists in the android directory.
