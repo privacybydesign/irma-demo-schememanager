@@ -6,10 +6,10 @@ This repository contains all the configuration files for the irma project. It de
 
 ## Picking the right branch
 
-The master branch contains only configuration files and dummy puplic keys. To use irma_configuration in your own project, you want to use the correct set of keys. To this end you should pick one of the following two branches:
+The master branch contains only configuration files and dummy puplic keys (from the demo branch). To use irma_configuration in your own project, you want to use the correct set of keys. To this end you should pick one of the following two branches:
 
  * The *demo* branch contains public and private keys for all the issuers. It is **highly recommended** to use this branch when developing.
- * The *pilot* branch contains the public keys for all the issuers in the pilot. It does **not** contain the private keys. Use this branch when testing issuers (you'll have to have the corresponding private key) and verifiers for the pilot.
+ * The *pilot* branch contains the public keys for all the issuers in the pilot. It does **not** contain the private keys. Use this branch when testing issuers (you'll have to add the corresponding private key yourself) and verifiers for the pilot.
 
 ## Directory structure
 Stores configuration files per issuer/relying party. Typical directory structure:
