@@ -1,0 +1,18 @@
+<IssueSpecification>
+	<Name>Age proofs</Name>
+	<ShortName>Age</ShortName>
+	<IssuerID>Thalia</IssuerID>
+	<CredentialID>age</CredentialID>
+	<Description>
+	  Your age attributes issued by Thalia by checking id card
+	</Description>
+
+	<Id>1339</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>over18</Name>
+			<Description>True if you are over 18</Description>
+		</Attribute>
+</Attributes>
+</IssueSpecification>

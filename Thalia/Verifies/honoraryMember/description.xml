@@ -1,0 +1,21 @@
+<VerifySpecification>
+	<Name>Thalia honorary member</Name>
+
+	<IssuerID>Thalia</IssuerID>
+	<CredentialID>member</CredentialID>
+
+	<VerifierID>Thalia</VerifierID>
+	<VerificationID>honoraryMember</VerificationID>
+
+	<Id>1441</Id>
+
+    <Description>
+        Shows if someone is a honorary member of Thalia
+    </Description>
+
+	<AttributeModes>
+        <AttributeMode id="isMember" mode="unrevealed" />
+        <AttributeMode id="isHonoraryMember" mode="revealed" />
+        <AttributeMode id="isBegunstiger" mode="unrevealed" />
+	</AttributeModes>
+</VerifySpecification>

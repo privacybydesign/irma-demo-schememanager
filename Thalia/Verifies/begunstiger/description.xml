@@ -1,0 +1,21 @@
+<VerifySpecification>
+	<Name>Thalia Begunstiger</Name>
+
+	<IssuerID>Thalia</IssuerID>
+	<CredentialID>member</CredentialID>
+
+	<VerifierID>Thalia</VerifierID>
+	<VerificationID>begunstiger</VerificationID>
+
+	<Id>1442</Id>
+
+    <Description>
+        Shows if someone is a begunstiger of Thalia
+    </Description>
+
+	<AttributeModes>
+        <AttributeMode id="isMember" mode="unrevealed" />
+        <AttributeMode id="isHonoraryMember" mode="unrevealed" />
+        <AttributeMode id="isBegunstiger" mode="revealed" />
+	</AttributeModes>
+</VerifySpecification>
