@@ -4,3 +4,4 @@ IRMAWiki
 MijnOverheid
 RU
 Surfnet
+Thalia

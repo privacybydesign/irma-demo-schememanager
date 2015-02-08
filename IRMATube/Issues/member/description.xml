@@ -11,6 +11,10 @@ Your IRMATube membership.
 
 	<Attributes>
 		<Attribute>
+			<Name>name</Name>
+			<Description>Your name</Description>
+		</Attribute>
+		<Attribute>
 			<Name>type</Name>
 			<Description>Your membership type</Description>
 		</Attribute>

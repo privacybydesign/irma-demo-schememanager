@@ -1,0 +1,19 @@
+<VerifySpecification>
+	<Name>Age: 18+</Name>
+
+	<IssuerID>Thalia</IssuerID>
+	<CredentialID>age</CredentialID>
+
+	<VerifierID>Thalia</VerifierID>
+	<VerificationID>over18</VerificationID>
+
+	<Id>1437</Id>
+
+	<Description>
+	  Gets the over18 attribute from the ageLower credential.
+	</Description>
+
+	<AttributeModes>
+	  <AttributeMode id="over18" mode="revealed" />
+	</AttributeModes>
+</VerifySpecification>

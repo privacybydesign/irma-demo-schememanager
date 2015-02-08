@@ -9,4 +9,5 @@ RU
 Sodexo
 Stadspas
 Surfnet
+Thalia
 UitzendingGemist
