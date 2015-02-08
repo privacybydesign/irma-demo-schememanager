@@ -1,0 +1,21 @@
+<VerifySpecification>
+	<Name>Thalia membership</Name>
+
+	<IssuerID>Thalia</IssuerID>
+	<CredentialID>membership</CredentialID>
+
+	<VerifierID>Thalia</VerifierID>
+	<VerificationID>membership</VerificationID>
+
+	<Id>1439</Id>
+
+	<Description>
+      Does someone have a valid Thalia membership credential
+	</Description>
+
+	<AttributeModes>
+        <AttributeMode id="isMember" mode="unrevealed" />
+        <AttributeMode id="isHonoraryMember" mode="unrevealed" />
+        <AttributeMode id="isBegunstiger" mode="unrevealed" />
+	</AttributeModes>
+</VerifySpecification>

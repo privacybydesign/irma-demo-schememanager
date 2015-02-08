@@ -1,0 +1,9 @@
+<Issuer>
+  <ID>Thalia</ID>
+  <Name>Studievereniging Thalia</Name>
+  <ContactAddress>Heyendaalseweg 135
+  6525 AJ, Nijmegen</ContactAddress>
+  <ContactEMail>identificaatcie@thalia.nu</ContactEMail>
+
+  <baseURL>http://www.thalia.nu/irma/</baseURL>
+</Issuer>

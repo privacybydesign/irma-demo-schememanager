@@ -1,0 +1,26 @@
+<IssueSpecification>
+	<Name>Thalia year membership</Name>
+	<IssuerID>Thalia</IssuerID>
+	<ShortName>Thalia membership</ShortName>
+	<CredentialID>membership</CredentialID>
+    <Description>
+        Yearly issued attribute indicating membership for that year
+	</Description>
+
+	<Id>1338</Id>
+
+	<Attributes>
+        <Attribute>
+            <Name>isMember</Name>
+            <Description>Is user a full member</Description>
+        </Attribute>
+        <Attribute>
+            <Name>isHonoraryMember</Name>
+            <Description>Is user a honorary member</Description>
+        </Attribute>
+        <Attribute>
+            <Name>isBegunstiger</Name>
+            <Description>Is user a donating member</Description>
+        </Attribute>
+	</Attributes>
+</IssueSpecification>
