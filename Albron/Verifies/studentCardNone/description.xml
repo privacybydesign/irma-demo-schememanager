@@ -7,7 +7,7 @@
 	<VerifierID>Albron</VerifierID>
 	<VerificationID>studentCardNone</VerificationID>
 
-	<Id>601</Id>
+	<Id>1201</Id>
 
 	<Description>
 	  Only check if a student card credential is present.

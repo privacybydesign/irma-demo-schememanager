@@ -7,7 +7,7 @@
 	<VerifierID>Albron</VerifierID>
 	<VerificationID>studentCardAll</VerificationID>
 
-	<Id>602</Id>
+	<Id>1202</Id>
 
 	<Description>
 	  Reads all attributes from Student Card for administrative purposes.
