@@ -1,0 +1,20 @@
+<VerifySpecification>
+	<Name>ID Document: All Attributes</Name>
+
+	<IssuerID>MijnOverheid</IssuerID>
+	<CredentialID>idDocument</CredentialID>
+
+	<VerifierID>MijnOverheid</VerifierID>
+	<VerificationID>idDocumentAll</VerificationID>
+
+	<Id>608</Id>
+
+	<Description>
+	  Gets the entire id document credential.
+	</Description>
+
+	<AttributeModes>
+	  <AttributeMode id="type" mode="revealed" />
+	  <AttributeMode id="number" mode="revealed" />
+	</AttributeModes>
+</VerifySpecification>

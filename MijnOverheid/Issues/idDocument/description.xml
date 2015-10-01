@@ -1,0 +1,22 @@
+<IssueSpecification>
+	<Name>ID Document</Name>
+	<ShortName>ID Document</ShortName>
+	<IssuerID>MijnOverheid</IssuerID>
+	<CredentialID>idDocument</CredentialID>
+	<Description>
+An identity document issued by the government.
+	</Description>
+
+	<Id>16</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>type</Name>
+			<Description>The type of identity document</Description>
+		</Attribute>
+		<Attribute>
+			<Name>number</Name>
+			<Description>The document number</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
