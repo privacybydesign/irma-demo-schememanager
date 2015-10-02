@@ -18,5 +18,13 @@ An identity document issued by the government.
 			<Name>number</Name>
 			<Description>The document number</Description>
 		</Attribute>
+		<Attribute>
+			<Name>expires</Name>
+			<Description>The expiry date of the document</Description>
+		</Attribute>
+		<Attribute>
+			<Name>nationality</Name>
+			<Description>The nationality of the owner</Description>
+		</Attribute>
 	</Attributes>
 </IssueSpecification>

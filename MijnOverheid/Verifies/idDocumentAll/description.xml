@@ -16,5 +16,7 @@
 	<AttributeModes>
 	  <AttributeMode id="type" mode="revealed" />
 	  <AttributeMode id="number" mode="revealed" />
+	  <AttributeMode id="expires" mode="revealed" />
+	  <AttributeMode id="nationality" mode="revealed" />
 	</AttributeModes>
 </VerifySpecification>
