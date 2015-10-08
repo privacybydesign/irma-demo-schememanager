@@ -1,0 +1,22 @@
+<VerifySpecification>
+	<Name>Full Name</Name>
+
+	<IssuerID>MijnOverheid</IssuerID>
+	<CredentialID>fullName</CredentialID>
+
+	<VerifierID>Surfnet</VerifierID>
+	<VerificationID>registerName</VerificationID>
+
+	<Id>703</Id>
+
+	<Description>
+	  Read the full name to register a participant for a Surfnet event.
+	</Description>
+
+	<AttributeModes>
+	  <AttributeMode id="firstnames" mode="unrevealed" />
+	  <AttributeMode id="firstname" mode="revealed" />
+	  <AttributeMode id="familyname" mode="revealed" />
+	  <AttributeMode id="prefix" mode="revealed" />
+	</AttributeModes>
+</VerifySpecification>
