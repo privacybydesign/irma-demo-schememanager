@@ -1,0 +1,22 @@
+<IssueSpecification>
+	<Name>Event Registration</Name>
+	<IssuerID>Surfnet</IssuerID>
+	<ShortName>Event</ShortName>
+	<CredentialID>eventRegistration</CredentialID>
+	<Description>
+       Event registration credential issued by Surfnet. 
+	</Description>
+
+	<Id>2</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>event</Name>
+			<Description>The name of the event</Description>
+		</Attribute>
+		<Attribute>
+			<Name>date</Name>
+			<Description>The date of the event</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
