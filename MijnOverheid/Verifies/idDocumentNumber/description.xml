@@ -1,0 +1,22 @@
+<VerifySpecification>
+	<Name>ID Document: Number</Name>
+
+	<IssuerID>MijnOverheid</IssuerID>
+	<CredentialID>idDocument</CredentialID>
+
+	<VerifierID>MijnOverheid</VerifierID>
+	<VerificationID>idDocumentNumber</VerificationID>
+
+	<Id>609</Id>
+
+	<Description>
+	  Retrieves the ID Document number.
+	</Description>
+
+	<AttributeModes>
+	  <AttributeMode id="type" mode="unrevealed" />
+	  <AttributeMode id="number" mode="revealed" />
+	  <AttributeMode id="expires" mode="unrevealed" />
+	  <AttributeMode id="nationality" mode="unrevealed" />
+	</AttributeModes>
+</VerifySpecification>
