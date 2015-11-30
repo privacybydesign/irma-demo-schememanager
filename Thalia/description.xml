@@ -5,5 +5,5 @@
   6525 AJ, Nijmegen</ContactAddress>
   <ContactEMail>identificaatcie@thalia.nu</ContactEMail>
 
-  <baseURL>http://www.thalia.nu/irma/</baseURL>
+  <baseURL>http://www.thalia.nu/irma/Thalia/</baseURL>
 </Issuer>
