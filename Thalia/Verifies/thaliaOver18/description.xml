@@ -1,0 +1,21 @@
+<VerifySpecification>
+	<Name>Thalia: over18</Name>
+
+	<IssuerID>Thalia</IssuerID>
+	<CredentialID>thalia</CredentialID>
+
+	<VerifierID>Thalia</VerifierID>
+	<VerificationID>thaliaOver18</VerificationID>
+
+	<Id>1539</Id>
+
+	<Description>
+		Read the over18 credential
+	</Description>
+
+	<AttributeModes>
+		<AttributeMode id="userID" mode="unrevealed" />
+        <AttributeMode id="over18" mode="revealed" />
+        <AttributeMode id="memberType" mode="unrevealed" />
+	</AttributeModes>
+</VerifySpecification>
