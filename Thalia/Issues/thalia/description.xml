@@ -1,0 +1,29 @@
+<IssueSpecification>
+	<Name>Thalia credential</Name>
+	<IssuerID>Thalia</IssuerID>
+	<ShortName>Thalia</ShortName>
+	<CredentialID>thalia</CredentialID>
+	<Description>
+		Credential issued by Student association Thalia. The UserID is the
+        same as the userid on http://thalia.nu.
+
+        Contains the kind of member you are and if you are over 18.
+	</Description>
+
+	<Id>31337</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>userID</Name>
+			<Description>Username on http://thalia.nu</Description>
+		</Attribute>
+        <Attribute>
+            <Name>over18</Name>
+            <Description>If you are over 18</Description>
+        </Attribute>
+        <Attribute>
+            <Name>memberType</Name>
+            <Description>The kind of member</Description>
+        </Attribute>
+	</Attributes>
+</IssueSpecification>

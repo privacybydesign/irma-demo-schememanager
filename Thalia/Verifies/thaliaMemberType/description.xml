@@ -1,0 +1,21 @@
+<VerifySpecification>
+    <Name>Thalia: type of member</Name>
+
+	<IssuerID>Thalia</IssuerID>
+	<CredentialID>thalia</CredentialID>
+
+	<VerifierID>Thalia</VerifierID>
+	<VerificationID>thaliaMemberType</VerificationID>
+
+	<Id>1540</Id>
+
+	<Description>
+		Read the member type from the Thalia credential.
+	</Description>
+
+	<AttributeModes>
+		<AttributeMode id="userID" mode="unrevealed" />
+        <AttributeMode id="over18" mode="unrevealed" />
+        <AttributeMode id="memberType" mode="revealed" />
+	</AttributeModes>
+</VerifySpecification>

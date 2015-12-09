@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <GroupParameters xmlns="http://www.zurich.ibm.com/security/idemix" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix GroupParameters.xsd">
   <References>
-      <SystemParameters>http://www.thalia.nu/irma/sp.xml</SystemParameters>
+      <SystemParameters>http://www.thalia.nu/irma/Thalia/sp.xml</SystemParameters>
   </References>
   <Elements>
     <Gamma>916529013323708810925262285853943751412716639260948397315456236828060646877579669766886172962907248783979898033796091062325584064802287728294468642896625540973839483206710301877044439993929928642627540845322563879925233590363456951</Gamma>
