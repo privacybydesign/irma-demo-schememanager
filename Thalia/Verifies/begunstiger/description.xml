@@ -2,7 +2,7 @@
 	<Name>Thalia Begunstiger</Name>
 
 	<IssuerID>Thalia</IssuerID>
-	<CredentialID>member</CredentialID>
+	<CredentialID>membership</CredentialID>
 
 	<VerifierID>Thalia</VerifierID>
 	<VerificationID>begunstiger</VerificationID>

@@ -1,0 +1,21 @@
+<VerifySpecification>
+	<Name>Thalia: All Attributes</Name>
+
+	<IssuerID>Thalia</IssuerID>
+	<CredentialID>thalia</CredentialID>
+
+	<VerifierID>Thalia</VerifierID>
+	<VerificationID>thaliaAll</VerificationID>
+
+	<Id>1538</Id>
+
+	<Description>
+		Read entire Thalia root credential for administrative purposes.
+	</Description>
+
+	<AttributeModes>
+		<AttributeMode id="userID" mode="revealed" />
+        <AttributeMode id="over18" mode="revealed" />
+        <AttributeMode id="memberType" mode="revealed" />
+	</AttributeModes>
+</VerifySpecification>
