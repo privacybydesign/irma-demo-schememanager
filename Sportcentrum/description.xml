@@ -1,0 +1,13 @@
+<Issuer>
+  <ID>RadboudSportsCentre</ID>
+  <Name>Radboud Sports Centre</Name>
+  <ContactAddress>Radboud Sports Centre
+Heyendaalseweg 141
+6525 AJ Nijmegen
+Telefoon: (024) 361 23 92
+Comeniuslaan 4
+6525 HP Nijmegen</ContactAddress>
+  <ContactEMail>inschrijving@rsc.ru.nl</ContactEMail>
+
+  <baseURL>http://www.irmacard.org/credentials/phase1/IRMATube/</baseURL>
+</Issuer>

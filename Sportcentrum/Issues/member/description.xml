@@ -1,0 +1,26 @@
+<IssueSpecification>
+	<Name>Radboud Sports Centre member</Name>
+	<ShortName>RSC</ShortName>
+	<IssuerID>RadboudSportsCentre</IssuerID>
+	<CredentialID>member</CredentialID>
+	<Description>
+Your Radboud Sports Centre membership.
+	</Description>
+
+	<Id>1600</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>id</Name>
+			<Description>The membership id</Description>
+		</Attribute>
+		<Attribute>
+			<Name>name</Name>
+			<Description>The member's full name</Description>
+		</Attribute>
+		<Attribute>
+			<Name>type</Name>
+			<Description>Your membership type</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
