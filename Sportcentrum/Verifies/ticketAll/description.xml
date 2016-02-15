@@ -1,0 +1,23 @@
+<VerifySpecification>
+        <Name>Radboud Sports centre member: All</Name>
+        <ShortName>RSC</ShortName>
+        <IssuerID>RadboudSportsCentre</IssuerID>
+        <CredentialID>member</CredentialID>
+
+
+        <VerifierID>RadboudSportsCentre</IssuerID>
+	<VerificationID>memberAll</VerificationID>
+
+	<Id>1611</Id>
+
+	<Description>
+	  Reveal the course to which the member is enrolled.
+	</Description>
+
+	<AttributeModes>
+	  <AttributeMode id="name" mode="unrevealed" />
+	  <AttributeMode id="date" mode="unrevealed" />
+	  <AttributeMode id="type" mode="revealed" />
+	  <AttributeMode id="location" mode="revealed" />
+	</AttributeModes>
+</VerifySpecification>

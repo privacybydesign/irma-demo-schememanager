@@ -1,0 +1,30 @@
+<IssueSpecification>
+	<Name>Radboud Sports Centre Ticket</Name>
+	<ShortName>RSC</ShortName>
+	<IssuerID>RadboudSportsCentre</IssuerID>
+	<CredentialID>ticket</CredentialID>
+	<Description>
+Your Radboud Sports Centre ticket.
+	</Description>
+
+	<Id>1601</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>name</Name>
+			<Description>The activity name</Description>
+		</Attribute>
+		<Attribute>
+			<Name>date</Name>
+			<Description>The date of the activity</Description>
+		</Attribute>
+		<Attribute>
+			<Name>type</Name>
+			<Description>The time of the activity</Description>
+		</Attribute>
+		<Attribute>
+			<Name>location</Name>
+			<Description>The location of the activity</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
