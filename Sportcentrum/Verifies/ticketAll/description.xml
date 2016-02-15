@@ -1,11 +1,11 @@
 <VerifySpecification>
-        <Name>Radboud Sports centre member: All</Name>
-        <ShortName>RSC</ShortName>
-        <IssuerID>RadboudSportsCentre</IssuerID>
-        <CredentialID>member</CredentialID>
+    <Name>Radboud Sports centre member: All</Name>
+    <ShortName>RSC</ShortName>
+    <IssuerID>RadboudSportsCentre</IssuerID>
+    <CredentialID>member</CredentialID>
 
 
-        <VerifierID>RadboudSportsCentre</IssuerID>
+    <VerifierID>RadboudSportsCentre</VerifierID>
 	<VerificationID>memberAll</VerificationID>
 
 	<Id>1611</Id>
