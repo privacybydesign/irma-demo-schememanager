@@ -1,7 +1,7 @@
 <IssueSpecification>
 	<Name>Radboud Sports Centre member</Name>
-	<ShortName>RSC</ShortName>
-	<IssuerID>RadboudSportsCentre</IssuerID>
+	<ShortName>RSC member</ShortName>
+	<IssuerID>Sportcentrum</IssuerID>
 	<CredentialID>member</CredentialID>
 	<Description>
 Your Radboud Sports Centre membership.

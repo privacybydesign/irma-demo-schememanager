@@ -1,7 +1,7 @@
 <IssueSpecification>
 	<Name>Radboud Sports Centre Ticket</Name>
-	<ShortName>RSC</ShortName>
-	<IssuerID>RadboudSportsCentre</IssuerID>
+	<ShortName>RSC Ticket</ShortName>
+	<IssuerID>Sportcentrum</IssuerID>
 	<CredentialID>ticket</CredentialID>
 	<Description>
 Your Radboud Sports Centre ticket.
