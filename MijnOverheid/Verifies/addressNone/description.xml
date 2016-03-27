@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Address: No Attributes</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>address</CredentialID>
 

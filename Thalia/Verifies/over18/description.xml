@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Age: 18+</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Thalia</IssuerID>
 	<CredentialID>age</CredentialID>
 

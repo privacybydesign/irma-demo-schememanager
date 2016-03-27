@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Fedora</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Fedora</IssuerID>
 	<CredentialID>fasRoot</CredentialID>
 

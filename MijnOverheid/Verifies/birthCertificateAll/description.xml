@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Birth Certificate: All Attributes</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>birthCertificate</CredentialID>
 

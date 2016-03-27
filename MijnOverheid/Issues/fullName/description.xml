@@ -1,6 +1,7 @@
 <IssueSpecification>
 	<Name>MijnOverheid Name</Name>
 	<ShortName>Name</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>fullName</CredentialID>
 	<Description>

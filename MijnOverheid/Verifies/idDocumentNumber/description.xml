@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>ID Document: Number</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>idDocument</CredentialID>
 

@@ -1,6 +1,7 @@
 <IssueSpecification>
 	<Name>IRMATube member</Name>
 	<ShortName>IRMATube</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>IRMATube</IssuerID>
 	<CredentialID>member</CredentialID>
 	<Description>

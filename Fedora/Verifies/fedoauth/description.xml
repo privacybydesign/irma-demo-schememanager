@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>FedOAuth</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Fedora</IssuerID>
 	<CredentialID>fasAccount</CredentialID>
 

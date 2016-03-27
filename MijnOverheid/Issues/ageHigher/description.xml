@@ -1,6 +1,7 @@
 <IssueSpecification>
 	<Name>MijnOverheid Senior Age limits</Name>
 	<ShortName>Age (Senior)</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>ageHigher</CredentialID>
 	<Description>

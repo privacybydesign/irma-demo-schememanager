@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>IRMATube member: Type</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>IRMATube</IssuerID>
 	<CredentialID>member</CredentialID>
 

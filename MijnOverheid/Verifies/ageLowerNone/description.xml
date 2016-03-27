@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Age Lower: No Attributes</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>ageLower</CredentialID>
 

@@ -1,6 +1,7 @@
 <IssueSpecification>
 	<Name>Radboud University Student Card</Name>
 	<ShortName>Student Card</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>RU</IssuerID>
 	<CredentialID>studentCard</CredentialID>
 	<Description>

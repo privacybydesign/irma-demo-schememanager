@@ -1,6 +1,7 @@
 <VerifySpecification>
     <Name>Radboud Sports centre member: All</Name>
     <ShortName>RSC</ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>Sportcentrum</IssuerID>
     <CredentialID>member</CredentialID>
 

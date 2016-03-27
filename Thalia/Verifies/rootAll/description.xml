@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Thalia Root: All Attributes</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Thalia</IssuerID>
 	<CredentialID>root</CredentialID>
 

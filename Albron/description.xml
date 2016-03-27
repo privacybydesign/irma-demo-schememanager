@@ -1,6 +1,7 @@
 <Issuer>
   <ID>Albron</ID>
   <Name>Albron</Name>
+  <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Comeniuslaan 4
 6525 HP Nijmegen</ContactAddress>
   <ContactEMail>info@ru.nl</ContactEMail>

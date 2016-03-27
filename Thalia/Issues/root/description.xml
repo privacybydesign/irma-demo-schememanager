@@ -1,5 +1,6 @@
 <IssueSpecification>
 	<Name>Thalia Root credential</Name>
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Thalia</IssuerID>
 	<ShortName>Thalia Root</ShortName>
 	<CredentialID>root</CredentialID>

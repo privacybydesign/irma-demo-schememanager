@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Full Name</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>fullName</CredentialID>
 

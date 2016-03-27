@@ -1,6 +1,7 @@
 <IssueSpecification>
 	<Name>Fedora Account System account</Name>
 	<ShortName>FAS Account</ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Fedora</IssuerID>
 	<CredentialID>fasAccount</CredentialID>
 	<Description>

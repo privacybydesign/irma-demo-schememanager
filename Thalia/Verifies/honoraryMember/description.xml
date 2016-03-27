@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Thalia honorary member</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Thalia</IssuerID>
 	<CredentialID>membership</CredentialID>
 

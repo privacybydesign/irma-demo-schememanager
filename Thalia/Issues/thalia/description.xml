@@ -1,5 +1,6 @@
 <IssueSpecification>
 	<Name>Thalia credential</Name>
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Thalia</IssuerID>
 	<ShortName>Thalia</ShortName>
 	<CredentialID>thalia</CredentialID>

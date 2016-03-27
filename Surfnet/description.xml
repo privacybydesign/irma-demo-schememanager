@@ -1,6 +1,7 @@
 <Issuer>
   <ID>Surfnet</ID>
   <Name>Surfnet BV</Name>
+  <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Postbus 19035
 3501 DA Utrecht</ContactAddress>
   <ContactEMail>admin@surfnet.nl</ContactEMail>

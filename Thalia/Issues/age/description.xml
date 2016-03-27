@@ -1,5 +1,6 @@
 <IssueSpecification>
 	<Name>Thalia age</Name>
+	<SchemeManager>irma-demo</SchemeManager>
 	<ShortName>Age</ShortName>
 	<IssuerID>Thalia</IssuerID>
 	<CredentialID>age</CredentialID>

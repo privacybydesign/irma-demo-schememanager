@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Age Senior: All Attributes</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>ageHigher</CredentialID>
 

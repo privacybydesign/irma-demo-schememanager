@@ -1,6 +1,7 @@
 <VerifySpecification>
     <Name>Thalia: type of member</Name>
 
+    <SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Thalia</IssuerID>
 	<CredentialID>thalia</CredentialID>
 

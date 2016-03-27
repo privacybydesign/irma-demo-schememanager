@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>FedOAuth Groups</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Fedora</IssuerID>
 	<CredentialID>fasGroups</CredentialID>
 

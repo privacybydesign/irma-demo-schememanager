@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Root: All Attributes</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>root</CredentialID>
 

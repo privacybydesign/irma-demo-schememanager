@@ -1,6 +1,7 @@
 <Issuer>
   <ID>Stadspas</ID>
   <Name>Stadspas</Name>
+  <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress></ContactAddress>
   <ContactEMail>info@stadspas.nl</ContactEMail>
 

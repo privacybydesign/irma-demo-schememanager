@@ -1,6 +1,7 @@
 <Issuer>
   <ID>Sportcentrum</ID>
   <Name>Radboud Sports Centre</Name>
+  <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Radboud Sports Centre
 Heyendaalseweg 141
 6525 AJ Nijmegen

@@ -1,6 +1,7 @@
 <IssueSpecification>
 	<Name>Fedora Account System groups</Name>
 	<ShortName>FAS Groups</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Fedora</IssuerID>
 	<CredentialID>fasGroups</CredentialID>
 	<Description>

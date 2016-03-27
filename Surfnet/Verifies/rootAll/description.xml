@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Surfnet Root: All Attributes</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Surfnet</IssuerID>
 	<CredentialID>root</CredentialID>
 

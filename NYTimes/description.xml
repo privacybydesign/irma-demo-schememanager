@@ -1,6 +1,7 @@
 <Issuer>
   <ID>NYTimes</ID>
   <Name>The New York Times</Name>
+  <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>The New York Times
   620 Eighth Avenue
 New York, NY 10018</ContactAddress>

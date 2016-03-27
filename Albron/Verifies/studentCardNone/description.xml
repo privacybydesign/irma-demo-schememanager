@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Student Credential</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>RU</IssuerID>
 	<CredentialID>studentCard</CredentialID>
 

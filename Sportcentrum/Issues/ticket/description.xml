@@ -1,6 +1,7 @@
 <IssueSpecification>
 	<Name>Radboud Sports Centre Ticket</Name>
 	<ShortName>RSC Ticket</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Sportcentrum</IssuerID>
 	<CredentialID>ticket</CredentialID>
 	<Description>

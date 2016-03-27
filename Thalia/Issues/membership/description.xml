@@ -1,5 +1,6 @@
 <IssueSpecification>
 	<Name>Thalia year membership</Name>
+    <SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Thalia</IssuerID>
 	<ShortName>Thalia membership</ShortName>
 	<CredentialID>membership</CredentialID>

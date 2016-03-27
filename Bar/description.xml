@@ -1,6 +1,7 @@
 <Issuer>
   <ID>Bar</ID>
   <Name>Bar</Name>
+  <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress></ContactAddress>
   <ContactEMail>foo@bar.com</ContactEMail>
 

@@ -1,6 +1,7 @@
 <Issuer>
   <ID>UitzendingGemist</ID>
   <Name>UitzendingGemist.nl</Name>
+  <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>NPO
 Sumatralaan 45
 1217GP Hilversum</ContactAddress>

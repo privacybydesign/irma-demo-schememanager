@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>IRMAWiki member: All</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>IRMAWiki</IssuerID>
 	<CredentialID>member</CredentialID>
 

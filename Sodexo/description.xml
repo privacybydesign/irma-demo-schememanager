@@ -1,6 +1,7 @@
 <Issuer>
   <ID>Sodexo</ID>
   <Name>Sodexo Nederland</Name>
+  <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Rivium Boulevard 2 
 2909 LK  Capelle aan den IJssel</ContactAddress>
   <ContactEMail>info@sodexo.com</ContactEMail>

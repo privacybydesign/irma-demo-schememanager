@@ -1,6 +1,7 @@
 <VerifySpecification>
 	<Name>Age (junior): Over 18</Name>
 
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>ageLower</CredentialID>
 

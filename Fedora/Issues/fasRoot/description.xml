@@ -1,6 +1,7 @@
 <IssueSpecification>
 	<Name>Fedora Account System Root</Name>
 	<ShortName>FAS Root</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Fedora</IssuerID>
 	<CredentialID>fasRoot</CredentialID>
 	<Description>

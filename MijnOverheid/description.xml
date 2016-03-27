@@ -1,6 +1,7 @@
 <Issuer>
   <ID>MijnOverheid</ID>
   <Name>MijnOverheid.nl</Name>
+  <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Ministerie van BZK
 Turfmarkt 147
 2511 DP DEN HAAG</ContactAddress>

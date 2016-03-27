@@ -1,6 +1,7 @@
 <IssueSpecification>
 	<Name>IRMAWiki member</Name>
 	<ShortName>IRMAWiki</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>IRMAWiki</IssuerID>
 	<CredentialID>member</CredentialID>
 	<Description>
