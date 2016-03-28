@@ -1,4 +1,4 @@
-<Issuer>
+<Issuer version="2">
   <ID>NYTimes</ID>
   <Name>The New York Times</Name>
   <SchemeManager>irma-demo</SchemeManager>

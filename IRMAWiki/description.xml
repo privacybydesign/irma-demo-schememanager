@@ -1,4 +1,4 @@
-<Issuer>
+<Issuer version="2">
   <ID>IRMAWiki</ID>
   <Name>IRMAWiki</Name>
   <SchemeManager>irma-demo</SchemeManager>

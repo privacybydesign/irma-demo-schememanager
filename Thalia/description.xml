@@ -1,4 +1,4 @@
-<Issuer>
+<Issuer version="2">
   <ID>Thalia</ID>
   <Name>Studievereniging Thalia</Name>
   <SchemeManager>irma-demo</SchemeManager>

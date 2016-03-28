@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>Surfnet Root</Name>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Surfnet</IssuerID>

@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>Radboud Sports Centre Ticket</Name>
 	<ShortName>RSC Ticket</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>

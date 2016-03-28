@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>ID Document</Name>
 	<ShortName>ID Document</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>

@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>IRMATube member</Name>
 	<ShortName>IRMATube</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>

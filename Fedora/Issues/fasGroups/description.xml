@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>Fedora Account System groups</Name>
 	<ShortName>FAS Groups</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>

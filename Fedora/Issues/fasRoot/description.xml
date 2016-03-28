@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>Fedora Account System Root</Name>
 	<ShortName>FAS Root</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>

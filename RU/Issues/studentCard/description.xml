@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>Radboud University Student Card</Name>
 	<ShortName>Student Card</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>

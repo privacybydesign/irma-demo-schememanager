@@ -1,4 +1,4 @@
-<VerifySpecification>
+<VerifySpecification version="2">
 	<Name>Student Credential</Name>
 
 	<SchemeManager>irma-demo</SchemeManager>

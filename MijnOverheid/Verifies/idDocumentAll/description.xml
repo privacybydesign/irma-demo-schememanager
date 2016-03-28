@@ -1,4 +1,4 @@
-<VerifySpecification>
+<VerifySpecification version="2">
 	<Name>ID Document: All Attributes</Name>
 
 	<SchemeManager>irma-demo</SchemeManager>

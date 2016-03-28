@@ -1,4 +1,4 @@
-<Issuer>
+<Issuer version="2">
   <ID>Bar</ID>
   <Name>Bar</Name>
   <SchemeManager>irma-demo</SchemeManager>

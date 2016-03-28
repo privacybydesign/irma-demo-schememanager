@@ -1,4 +1,4 @@
-<Issuer>
+<Issuer version="2">
   <ID>UitzendingGemist</ID>
   <Name>UitzendingGemist.nl</Name>
   <SchemeManager>irma-demo</SchemeManager>

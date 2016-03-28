@@ -1,4 +1,4 @@
-<VerifySpecification>
+<VerifySpecification version="2">
 	<Name>Fedora</Name>
 
 	<SchemeManager>irma-demo</SchemeManager>

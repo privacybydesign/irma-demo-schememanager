@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>Thalia Root credential</Name>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Thalia</IssuerID>

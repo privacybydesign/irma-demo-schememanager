@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>MijnOverheid Name</Name>
 	<ShortName>Name</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>

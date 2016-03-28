@@ -1,4 +1,4 @@
-<Issuer>
+<Issuer version="2">
   <ID>Stadspas</ID>
   <Name>Stadspas</Name>
   <SchemeManager>irma-demo</SchemeManager>

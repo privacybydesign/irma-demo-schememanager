@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>IRMAWiki member</Name>
 	<ShortName>IRMAWiki</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>

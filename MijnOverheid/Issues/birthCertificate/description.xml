@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>MijnOverheid Birth Certificate</Name>
 	<ShortName>Birth Certificate</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>

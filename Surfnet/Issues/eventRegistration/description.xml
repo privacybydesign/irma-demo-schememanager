@@ -1,4 +1,4 @@
-<IssueSpecification>
+<IssueSpecification version="2">
 	<Name>Event Registration</Name>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Surfnet</IssuerID>

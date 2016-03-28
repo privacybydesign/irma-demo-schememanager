@@ -1,4 +1,4 @@
-<VerifySpecification>
+<VerifySpecification version="2">
 	<Name>Age Lower: All Attributes</Name>
 
 	<SchemeManager>irma-demo</SchemeManager>

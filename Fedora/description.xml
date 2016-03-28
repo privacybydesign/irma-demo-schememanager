@@ -1,4 +1,4 @@
-<Issuer>
+<Issuer version="2">
   <ID>Fedora</ID>
   <Name>Fedora Project</Name>
   <SchemeManager>irma-demo</SchemeManager>
