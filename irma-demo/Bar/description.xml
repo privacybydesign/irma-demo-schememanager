@@ -1,9 +1,0 @@
-<Issuer version="2">
-  <ID>Bar</ID>
-  <Name>Bar</Name>
-  <SchemeManager>irma-demo</SchemeManager>
-  <ContactAddress></ContactAddress>
-  <ContactEMail>foo@bar.com</ContactEMail>
-
-  <baseURL>http://www.irmacard.org/credentials/phase1/Bar/</baseURL>
-</Issuer>

@@ -1,9 +1,0 @@
-<Issuer version="2">
-  <ID>Stadspas</ID>
-  <Name>Stadspas</Name>
-  <SchemeManager>irma-demo</SchemeManager>
-  <ContactAddress></ContactAddress>
-  <ContactEMail>info@stadspas.nl</ContactEMail>
-
-  <baseURL>http://www.irmacard.org/credentials/phase1/Stadspas/</baseURL>
-</Issuer>
