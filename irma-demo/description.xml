@@ -1,4 +1,4 @@
 <SchemeManager version="2">
 	<Id>irma-demo</Id>
-	<Url>http://192.168.2.13:8082/irma-demo</Url>
+	<Url>https://credentials.github.io/irma_configuration/irma-demo</Url>
 </SchemeManager>
