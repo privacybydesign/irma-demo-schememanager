@@ -1,5 +1,5 @@
 <IssueSpecification version="2">
-	<Name>MijnOverheid Root</Name>
+	<Name>Root</Name>
 	<ShortName>Root</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>

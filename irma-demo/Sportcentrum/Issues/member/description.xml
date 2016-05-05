@@ -1,5 +1,5 @@
 <IssueSpecification version="2">
-	<Name>Radboud Sports Centre member</Name>
+	<Name>Member</Name>
 	<ShortName>RSC member</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Sportcentrum</IssuerID>

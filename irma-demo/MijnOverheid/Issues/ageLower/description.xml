@@ -1,5 +1,5 @@
 <IssueSpecification version="2">
-	<Name>MijnOverheid Lower Age limits</Name>
+	<Name>Lower Age limits</Name>
 	<ShortName>Age (lower)</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>

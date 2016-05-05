@@ -1,5 +1,5 @@
 <IssueSpecification version="2">
-	<Name>MijnOverheid Name</Name>
+	<Name>Name</Name>
 	<ShortName>Name</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
