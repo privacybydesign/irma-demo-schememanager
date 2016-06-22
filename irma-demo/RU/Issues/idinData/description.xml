@@ -1,0 +1,43 @@
+<IssueSpecification version="2">
+	<Name>iDIN data</Name>
+	<ShortName>iDIN data</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>RU</IssuerID>
+	<CredentialID>idinData</CredentialID>
+	<Description>
+	  iDIN personal data, issued by the Radboud University Nijmegen.
+	</Description>
+
+	<Id>82357</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>initials</Name>
+			<Description>First letters of your name(s)</Description>
+		</Attribute>
+		<Attribute>
+			<Name>familyName</Name>
+			<Description>Your family name</Description>
+		</Attribute>
+		<Attribute>
+			<Name>dateOfBirth</Name>
+			<Description>Your date of birth</Description>
+		</Attribute>
+		<Attribute>
+			<Name>sex</Name>
+			<Description>Your sex</Description>
+		</Attribute>
+		<Attribute>
+			<Name>address</Name>
+			<Description>The address at which you live</Description>
+		</Attribute>
+		<Attribute>
+			<Name>zipcode</Name>
+			<Description>Your zipcode</Description>
+		</Attribute>
+		<Attribute>
+			<Name>city</Name>
+			<Description>The city at which you live</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
