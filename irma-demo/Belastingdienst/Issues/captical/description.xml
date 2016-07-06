@@ -1,0 +1,31 @@
+<IssueSpecification version="2">
+	<Name>Capital</Name>
+	<ShortName>Capital</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>Belastingdienst</IssuerID>
+	<CredentialID>capital</CredentialID>
+	<Description>
+	  Capital credential issued by the Belastingdienst. It describes your capital as well as upper and lower bounds of your capital for a given year. You can have several of these credentials with different bounds.
+	</Description>
+
+	<Id>82357</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>year</Name>
+			<Description>The year this capital credential describes</Description>
+		</Attribute>
+		<Attribute>
+			<Name>capital</Name>
+			<Description>Your capital in the given year</Description>
+		</Attribute>
+		<Attribute>
+			<Name>below</Name>
+			<Description>Upper bound of your capital</Description>
+		</Attribute>
+		<Attribute>
+			<Name>above</Name>
+			<Description>Lower bound of your capital</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

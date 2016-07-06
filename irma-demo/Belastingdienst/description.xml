@@ -1,0 +1,10 @@
+<Issuer version="2">
+  <ID>RU</ID>
+  <Name>Belastingdienst</Name>
+  <SchemeManager>irma-demo</SchemeManager>
+  <ContactAddress>Groningensingel 21
+      6835 EA Arnhem</ContactAddress>
+  <ContactEMail>info@belastingdienst.nl</ContactEMail>
+
+  <baseURL>http://www.irmacard.org/credentials/phase1/Belastingdienst/</baseURL>
+</Issuer>
