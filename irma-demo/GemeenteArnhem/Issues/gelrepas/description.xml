@@ -1,0 +1,19 @@
+<IssueSpecification version="2">
+	<Name>GelrePas</Name>
+	<ShortName>GelrePas</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>GemeenteArnhem</IssuerID>
+	<CredentialID>gelrepas</CredentialID>
+	<Description>
+	  The GelrePas entitles the holder to rebates for cultural and sport activities.
+	</Description>
+
+	<Id>71662</Id>
+
+	<Attributes>
+		<Attribute>
+			<Name>extraRebates</Name>
+			<Description>Whether you receive extra rebates.</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

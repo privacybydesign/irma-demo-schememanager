@@ -1,0 +1,10 @@
+<Issuer version="2">
+  <ID>GemeenteArnhem</ID>
+  <Name>Gemeente Arnhem</Name>
+  <SchemeManager>irma-demo</SchemeManager>
+  <ContactAddress>Koningstraat 38
+        6811 DG  Arnhem</ContactAddress>
+  <ContactEMail>info@arnhem.nl</ContactEMail>
+
+  <baseURL>http://www.irmacard.org/credentials/phase1/GemeenteArnhem/</baseURL>
+</Issuer>
