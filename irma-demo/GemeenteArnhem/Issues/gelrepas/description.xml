@@ -1,4 +1,4 @@
-<IssueSpecification version="2">
+<IssueSpecification version="3">
 	<Name>GelrePas</Name>
 	<ShortName>GelrePas</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
@@ -7,6 +7,7 @@
 	<Description>
 	  The GelrePas entitles the holder to rebates for cultural and sport activities.
 	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Id>71662</Id>
 

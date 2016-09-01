@@ -1,4 +1,4 @@
-<IssueSpecification version="2">
+<IssueSpecification version="3">
 	<Name>Senior Age limits</Name>
 	<ShortName>Age (Senior)</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
@@ -7,6 +7,7 @@
 	<Description>
 	  Your age attributes issued by MijnOverheid based on GBA data.
 	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Id>15</Id>
 

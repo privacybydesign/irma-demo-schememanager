@@ -1,4 +1,4 @@
-<IssueSpecification version="2">
+<IssueSpecification version="3">
 	<Name>Name</Name>
 	<ShortName>Name</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
@@ -7,6 +7,7 @@
 	<Description>
 Your full name, as it is known to the government.
 	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Id>13</Id>
 
