@@ -1,4 +1,4 @@
-<IssueSpecification version="2">
+<IssueSpecification version="3">
 	<Name>Birth Certificate</Name>
 	<ShortName>Birth Certificate</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
@@ -7,6 +7,7 @@
 	<Description>
 Your birth certificate.
 	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Id>14</Id>
 
