@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <IssuerPublicKey xmlns="http://www.zurich.ibm.com/security/idemix" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.zurich.ibm.com/security/idemix IssuerPublicKey.xsd">
   <Counter>0</Counter>
-  <ExpiryDate>1491436800</ExpiryDate>
+  <ExpiryDate>1893456000</ExpiryDate>
   <References>
-    <GroupParameters>http://www.irmacard.org/credentials/phase1/Sportcentrum/gp.xml</GroupParameters>
+    <GroupParameters>http://www.irmacard.org/credentials/phase1/MijnOverheid/gp.xml</GroupParameters>
   </References>
   <Elements>
     <S>68460510129747727135744503403370273952956360997532594630007762045745171031173231339034881007977792852962667675924510408558639859602742661846943843432940752427075903037429735029814040501385798095836297700111333573975220392538916785564158079116348699773855815825029476864341585033111676283214405517983188761136</S>
