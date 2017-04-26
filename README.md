@@ -28,13 +28,11 @@ Stores configuration files per issuer/relying party. Typical directory structure
 
 First setup up the descriptions of the organization, the credentials it issues and the credentials it verifies. Make sure you add a description for your organization, and a logo.png file.
 
-Keys can be generated using [silvia](https://github.com/credentials/silvia). In the case of IRMA we rely on credentials of 6 attributes and keys of 1,024 bits:
+Keys can be generated using [irmatool](https://github.com/mhe/irmatool) or [silvia](https://github.com/credentials/silvia). It is safest to use keys of 4096 bits, for example (this will probably take a few minutes):
 
 ```
-$ ./silvia_keygen -a 6 -n 1024 -p ipk.xml -P isk.xml
-Writing public key to ipk.xml
-Writing private key to isk.xml
-Generating 1024-bit issuer key pair for 6 attributes ... OK
+$ irmatool genkeypair -a 6 -l 4096 -c 0 -p ipk.xml -k isk.xml
+$ silvia_keygen -a 6 -n 4096 -c 0 -p ipk.xml -P isk.xml
 ```
 
-You will need to place these keys at the correct place in the directory tree.
+You will need to place these keys at the correct place in the directory tree. Alternatively, the `generate_keys.sh` script can generate keys (with counter 0) for you at the correct place.

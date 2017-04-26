@@ -1,7 +1,18 @@
 #!/bin/bash
 
-# Set this if you want seperate keys per credential
-CREDENTIAL_KEYS=
+# This script will iterate over each issuers specified in ${ISSUERS},
+# and generates IRMA public/private keys for them, placing them at the
+# expected place in the folder structure (assuming ${SECURE} is not set;
+# if it is, the private keys are encrypted instead).
+
+# NOTES:
+# - This script will overwrite any existing keys if present!
+# - It is assumed that each of the specified issuers has an identically
+#   named directory in the current working directory.
+# - The resulting keys will always have counter 0.
+# - The script assumes you have silvia_keygen installed and compiled.
+#   https://github.com/mhe/irmatool may be easier to get up and running
+#   (although it uses different flags than silvia_keygen)
 
 # Set this to the names of the issuers for which you want to generate new keys
 ISSUERS="Bar"
@@ -20,22 +31,24 @@ ENCRYPT_OPT="--cipher-algo AES --symmetric"
 
 PRIVATE_PATH=irma_private_keys
 
-BASE_URI=http://www.irmacard.org/credentials/phase1
+# Amount of attributes each key will support
+ATTRS=6
 
-LOG=""
+# Unix timestamp of the expiry date for the keys. 1 year from now if left empty
+#EXPIRY=
 
 function archive_keys {
   cd ${1}
 
   local NOW=`date`
   local TMP_FILE=`mktemp`
-  local KEY_FILE="${CONF_DIR}/irma_key_${2}_${3}.gpg"
+  local KEY_FILE="${CONF_DIR}/irma_key_${2}.gpg"
 
   ${ARCHIVE_CMD} ${ARCHIVE_OPT} ${TMP_FILE} ${PRIVATE_PATH} &> /dev/null
 
   if [[ ! ${GPG_KEYID} ]]
   then
-    local PASSPHRASE=`mkpasswd "${1} ${2} ${3} ${NOW}"`
+    local PASSPHRASE=`mkpasswd "${1} ${2} ${NOW}"`
     gpg --batch --armor --passphrase ${PASSPHRASE} --output ${KEY_FILE} \
         --cipher-algo AES --symmetric ${TMP_FILE}
     echo "Result: ${KEY_FILE} using passphrase: ${PASSPHRASE}"
@@ -54,8 +67,14 @@ function generate_keys {
   touch ${1} ${2}
   chmod +w ${1} ${2}
 
+  local EXPIRY_OPTS=
+  if [[ ${EXPIRY} ]]
+  then
+    EXPIRY_OPTS="-d ${EXPIRY}"
+  fi
+
   # Generate the keys
-  silvia_keygen -a 6 -n 1024 -p ${1} -P ${2} -u "${BASE_URI}/${3}/" &> /dev/null
+  silvia_keygen -a ${ATTRS} -n 4096 -p ${1} -P ${2} ${EXPIRY_OPTS} &> /dev/null
 
   # Make the keys readonly
   chmod 440 ${1}
@@ -69,44 +88,20 @@ function generate_issuer_keys {
   if [[ ${SECURE} ]]
   then
     local WORK_DIR=`mktemp -d`
-    local KEY_DIR=${WORK_DIR}/${PRIVATE_PATH}/${1}/private
+    local KEY_DIR=${WORK_DIR}/${PRIVATE_PATH}/${1}/PrivateKeys
   else
-    local KEY_DIR=${WORK_DIR}/private
+    local KEY_DIR=${WORK_DIR}/PrivateKeys
   fi
   mkdir -p ${KEY_DIR}
+  mkdir PublicKeys &> /dev/null
 
-  generate_keys ipk.xml ${KEY_DIR}/isk.xml ${1}
+  generate_keys "PublicKeys/0.xml" ${KEY_DIR}/0.xml
   [[ ${SECURE} ]] && (archive_keys ${WORK_DIR} ${1})
-}
-
-function generate_credential_keys {
-  cd ${2}
-  echo "Generating keys for ${1}: ${2} @ " `pwd`
-
-  local WORK_DIR=`mktemp -d`
-  local KEY_DIR=${WORK_DIR}/${PRIVATE_PATH}/${1}/Issues/${2}/private
-  mkdir -p ${KEY_DIR}
-
-  generate_keys ipk.xml ${KEY_DIR}/isk.xml ${1}/${2}
-
-  (archive_keys ${WORK_DIR} ${1} ${2})
-}
-
-function parse_issuer {
-  if [[ ! ${CREDENTIAL_KEYS} ]]
-  then
-    (generate_issuer_keys ${1})
-  else
-    cd Issues
-    for cred in `ls`; do
-      (generate_credential_keys ${1} ${cred})
-    done
-  fi
 }
 
 function parse_dir {
   cd $1
-  [[ -d Issues ]] && (parse_issuer $1)
+  [[ -d Issues ]] && (generate_issuer_keys ${1})
 }
 
 CONF_DIR=`pwd`
@@ -117,6 +112,3 @@ done
 
 # Cleanup
 [[ ${CLEANUP} ]] && rm -rf ${WORK_DIR}
-
-echo ""
-echo ${LOG}
