@@ -1,27 +1,52 @@
-<IssueSpecification version="2">
-	<Name>Living Situation</Name>
-	<ShortName>Living Situation</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>Living Situation</en>
+		<nl></nl>
+	</Name>
+	<ShortName>
+		<en>Living Situation</en>
+		<nl></nl>
+	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Belastingdienst</IssuerID>
 	<CredentialID>livingSituation</CredentialID>
 	<Description>
-        Situation credential issued by the Belastingdienst. It describes some aspects of your living situation. (Note! This credential will most likely change in the future!).
+		<en>Situation credential issued by the Belastingdienst. It describes some aspects of your living situation. (Note! This credential will most likely change in the future!).</en>
+		<nl></nl>
 	</Description>
 
-	<Id>82358</Id>
+
 
 	<Attributes>
 		<Attribute>
-			<Name>livingTogether</Name>
-			<Description>Whether you live together with a partner</Description>
+			<Name id="livingTogether">
+				<en>livingTogether</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Whether you live together with a partner</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>children</Name>
-			<Description>Whether you have children</Description>
+			<Name id="children">
+				<en>children</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Whether you have children</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>married</Name>
-			<Description>Whether you are married</Description>
+			<Name id="married">
+				<en>married</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Whether you are married</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 	</Attributes>
 </IssueSpecification>

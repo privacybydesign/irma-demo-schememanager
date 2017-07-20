@@ -1,31 +1,62 @@
-<IssueSpecification version="2">
-	<Name>ID Document</Name>
-	<ShortName>ID Document</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>ID Document</en>
+		<nl></nl>
+	</Name>
+	<ShortName>
+		<en>ID Document</en>
+		<nl></nl>
+	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>idDocument</CredentialID>
 	<Description>
-An identity document issued by the government.
+		<en>An identity document issued by the government.</en>
+		<nl></nl>
 	</Description>
 
-	<Id>16</Id>
+
 
 	<Attributes>
 		<Attribute>
-			<Name>type</Name>
-			<Description>The type of identity document</Description>
+			<Name id="type">
+				<en>type</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The type of identity document</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>number</Name>
-			<Description>The document number</Description>
+			<Name id="number">
+				<en>number</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The document number</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>expires</Name>
-			<Description>The expiry date of the document</Description>
+			<Name id="expires">
+				<en>expires</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The expiry date of the document</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>nationality</Name>
-			<Description>The nationality of the owner</Description>
+			<Name id="nationality">
+				<en>nationality</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The nationality of the owner</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 	</Attributes>
 </IssueSpecification>

@@ -1,43 +1,92 @@
-<IssueSpecification version="2">
-	<Name>iDIN data</Name>
-	<ShortName>iDIN data</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>iDIN data</en>
+		<nl></nl>
+	</Name>
+	<ShortName>
+		<en>iDIN data</en>
+		<nl></nl>
+	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>RU</IssuerID>
 	<CredentialID>idinData</CredentialID>
 	<Description>
-	  iDIN personal data, issued by the Radboud University Nijmegen.
+		<en>iDIN personal data, issued by the Radboud University Nijmegen.</en>
+		<nl></nl>
 	</Description>
 
-	<Id>82357</Id>
+
 
 	<Attributes>
 		<Attribute>
-			<Name>initials</Name>
-			<Description>First letters of your name(s)</Description>
+			<Name id="initials">
+				<en>initials</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>First letters of your name(s)</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>familyName</Name>
-			<Description>Your family name</Description>
+			<Name id="familyName">
+				<en>familyName</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your family name</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>dateOfBirth</Name>
-			<Description>Your date of birth</Description>
+			<Name id="dateOfBirth">
+				<en>dateOfBirth</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your date of birth</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>sex</Name>
-			<Description>Your sex</Description>
+			<Name id="sex">
+				<en>sex</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your sex</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>address</Name>
-			<Description>The address at which you live</Description>
+			<Name id="address">
+				<en>address</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The address at which you live</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>zipcode</Name>
-			<Description>Your zipcode</Description>
+			<Name id="zipcode">
+				<en>zipcode</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your zipcode</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>city</Name>
-			<Description>The city at which you live</Description>
+			<Name id="city">
+				<en>city</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The city at which you live</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 	</Attributes>
 </IssueSpecification>

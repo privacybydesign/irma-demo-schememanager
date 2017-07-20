@@ -1,31 +1,62 @@
-<IssueSpecification version="2">
-	<Name>Ticket</Name>
-	<ShortName>RSC Ticket</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>Ticket</en>
+		<nl></nl>
+	</Name>
+	<ShortName>
+		<en>RSC Ticket</en>
+		<nl></nl>
+	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Sportcentrum</IssuerID>
 	<CredentialID>ticket</CredentialID>
 	<Description>
-Your Radboud Sports Centre ticket.
+		<en>Your Radboud Sports Centre ticket.</en>
+		<nl></nl>
 	</Description>
 
-	<Id>1601</Id>
+
 
 	<Attributes>
 		<Attribute>
-			<Name>name</Name>
-			<Description>The activity name</Description>
+			<Name id="name">
+				<en>name</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The activity name</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>date</Name>
-			<Description>The date of the activity</Description>
+			<Name id="date">
+				<en>date</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The date of the activity</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>type</Name>
-			<Description>The time of the activity</Description>
+			<Name id="type">
+				<en>type</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The time of the activity</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>location</Name>
-			<Description>The location of the activity</Description>
+			<Name id="location">
+				<en>location</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The location of the activity</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 	</Attributes>
 </IssueSpecification>

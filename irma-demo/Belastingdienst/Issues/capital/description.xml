@@ -1,31 +1,62 @@
-<IssueSpecification version="2">
-	<Name>Capital</Name>
-	<ShortName>Capital</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>Capital</en>
+		<nl></nl>
+	</Name>
+	<ShortName>
+		<en>Capital</en>
+		<nl></nl>
+	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Belastingdienst</IssuerID>
 	<CredentialID>capital</CredentialID>
 	<Description>
-	  Capital credential issued by the Belastingdienst. It describes your capital as well as upper and lower bounds of your capital for a given year. You can have several of these credentials with different bounds.
+		<en>Capital credential issued by the Belastingdienst. It describes your capital as well as upper and lower bounds of your capital for a given year. You can have several of these credentials with different bounds.</en>
+		<nl></nl>
 	</Description>
 
-	<Id>82357</Id>
+
 
 	<Attributes>
 		<Attribute>
-			<Name>year</Name>
-			<Description>The year this capital credential describes</Description>
+			<Name id="year">
+				<en>year</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The year this capital credential describes</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>capital</Name>
-			<Description>Your capital in the given year</Description>
+			<Name id="capital">
+				<en>capital</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your capital in the given year</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>below</Name>
-			<Description>Upper bound of your capital</Description>
+			<Name id="below">
+				<en>below</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Upper bound of your capital</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>above</Name>
-			<Description>Lower bound of your capital</Description>
+			<Name id="above">
+				<en>above</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Lower bound of your capital</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 	</Attributes>
 </IssueSpecification>

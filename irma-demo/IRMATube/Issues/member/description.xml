@@ -1,23 +1,42 @@
-<IssueSpecification version="2">
-	<Name>Member</Name>
-	<ShortName>IRMATube</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>Member</en>
+		<nl></nl>
+	</Name>
+	<ShortName>
+		<en>IRMATube</en>
+		<nl></nl>
+	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>IRMATube</IssuerID>
 	<CredentialID>member</CredentialID>
 	<Description>
-Your IRMATube membership.
+		<en>Your IRMATube membership.</en>
+		<nl></nl>
 	</Description>
 
-	<Id>200</Id>
+
 
 	<Attributes>
 		<Attribute>
-			<Name>type</Name>
-			<Description>Your membership type</Description>
+			<Name id="type">
+				<en>type</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your membership type</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>id</Name>
-			<Description>The membership id</Description>
+			<Name id="id">
+				<en>id</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The membership id</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 	</Attributes>
 </IssueSpecification>

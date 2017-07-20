@@ -1,6 +1,9 @@
-<Issuer version="2">
+<Issuer version="4">
   <ID>Belastingdienst</ID>
-  <Name>Belastingdienst</Name>
+  <Name>
+	  <en>Belastingdienst</en>
+	  <nl></nl>
+  </Name>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Groningensingel 21
       6835 EA Arnhem</ContactAddress>

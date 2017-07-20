@@ -1,6 +1,9 @@
-<Issuer version="2">
+<Issuer version="4">
   <ID>GemeenteArnhem</ID>
-  <Name>Gemeente Arnhem</Name>
+  <Name>
+	  <en>Gemeente Arnhem</en>
+	  <nl></nl>
+  </Name>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Koningstraat 38
         6811 DG  Arnhem</ContactAddress>

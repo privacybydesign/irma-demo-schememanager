@@ -1,32 +1,63 @@
-<IssueSpecification version="3">
-	<Name>Senior Age limits</Name>
-	<ShortName>Age (Senior)</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>Senior Age limits</en>
+		<nl></nl>
+	</Name>
+	<ShortName>
+		<en>Age (Senior)</en>
+		<nl></nl>
+	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>ageHigher</CredentialID>
 	<Description>
-	  Your age attributes issued by MijnOverheid based on GBA data.
+		<en>Your age attributes issued by MijnOverheid based on GBA data.</en>
+		<nl></nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
-	<Id>15</Id>
+
 
 	<Attributes>
 		<Attribute>
-			<Name>over50</Name>
-			<Description>True if you are over 50</Description>
+			<Name id="over50">
+				<en>over50</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>True if you are over 50</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>over60</Name>
-			<Description>True if you are over 60</Description>
+			<Name id="over60">
+				<en>over60</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>True if you are over 60</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>over65</Name>
-			<Description>True if you are over 65</Description>
+			<Name id="over65">
+				<en>over65</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>True if you are over 65</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>over75</Name>
-			<Description>True if you are over 75</Description>
+			<Name id="over75">
+				<en>over75</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>True if you are over 75</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 
 	</Attributes>

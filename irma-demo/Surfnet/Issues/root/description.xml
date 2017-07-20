@@ -1,23 +1,42 @@
-<IssueSpecification version="2">
-	<Name>Root</Name>
+<IssueSpecification version="4">
+	<Name>
+		<en>Root</en>
+		<nl></nl>
+	</Name>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>Surfnet</IssuerID>
-	<ShortName>Surfnet Root</ShortName>
+	<ShortName>
+		<en>Surfnet Root</en>
+		<nl></nl>
+	</ShortName>
 	<CredentialID>root</CredentialID>
 	<Description>
-	  Root credential issued by Surfnet. The userID is the same identifier that is used within the SurfFederation.
+		<en>Root credential issued by Surfnet. The userID is the same identifier that is used within the SurfFederation.</en>
+		<nl></nl>
 	</Description>
 
-	<Id>1</Id>
+
 
 	<Attributes>
 		<Attribute>
-			<Name>userID</Name>
-			<Description>The SurfFederation user ID</Description>
+			<Name id="userID">
+				<en>userID</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The SurfFederation user ID</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>securityHash</Name>
-			<Description>Derivative used to verify your identity</Description>
+			<Name id="securityHash">
+				<en>securityHash</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Derivative used to verify your identity</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 	</Attributes>
 </IssueSpecification>

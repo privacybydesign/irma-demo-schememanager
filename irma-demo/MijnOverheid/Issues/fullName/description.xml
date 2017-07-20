@@ -1,32 +1,63 @@
-<IssueSpecification version="3">
-	<Name>Name</Name>
-	<ShortName>Name</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>Name</en>
+		<nl></nl>
+	</Name>
+	<ShortName>
+		<en>Name</en>
+		<nl></nl>
+	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>fullName</CredentialID>
 	<Description>
-Your full name, as it is known to the government.
+		<en>Your full name, as it is known to the government.</en>
+		<nl></nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
-	<Id>13</Id>
+
 
 	<Attributes>
 		<Attribute>
-			<Name>firstnames</Name>
-			<Description>All of your first names</Description>
+			<Name id="firstnames">
+				<en>firstnames</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>All of your first names</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>firstname</Name>
-			<Description>Your first name</Description>
+			<Name id="firstname">
+				<en>firstname</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your first name</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>familyname</Name>
-			<Description>Your family name</Description>
+			<Name id="familyname">
+				<en>familyname</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your family name</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>prefix</Name>
-			<Description>Family name prefix</Description>
+			<Name id="prefix">
+				<en>prefix</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Family name prefix</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 
 	</Attributes>

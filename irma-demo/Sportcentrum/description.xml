@@ -1,6 +1,9 @@
-<Issuer version="2">
+<Issuer version="4">
   <ID>Sportcentrum</ID>
-  <Name>Radboud Sports Centre</Name>
+  <Name>
+	  <en>Radboud Sports Centre</en>
+	  <nl></nl>
+  </Name>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Radboud Sports Centre
 Heyendaalseweg 141

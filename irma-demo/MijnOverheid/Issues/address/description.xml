@@ -1,31 +1,62 @@
-<IssueSpecification version="2">
-	<Name>Address</Name>
-	<ShortName>Address</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>Address</en>
+		<nl></nl>
+	</Name>
+	<ShortName>
+		<en>Address</en>
+		<nl></nl>
+	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>address</CredentialID>
 	<Description>
-Address description issued by MijnOverheid based on GBA data.
+		<en>Address description issued by MijnOverheid based on GBA data.</en>
+		<nl></nl>
 	</Description>
 
-	<Id>11</Id>
+
 
 	<Attributes>
 		<Attribute>
-			<Name>country</Name>
-			<Description>The country you live in</Description>
+			<Name id="country">
+				<en>country</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The country you live in</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>city</Name>
-			<Description>The city you live in</Description>
+			<Name id="city">
+				<en>city</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>The city you live in</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>street</Name>
-			<Description>Your street and house number</Description>
+			<Name id="street">
+				<en>street</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your street and house number</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>zipcode</Name>
-			<Description>Your zipcode</Description>
+			<Name id="zipcode">
+				<en>zipcode</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your zipcode</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 
 	</Attributes>

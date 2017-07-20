@@ -1,32 +1,63 @@
-<IssueSpecification version="3">
-	<Name>Birth Certificate</Name>
-	<ShortName>Birth Certificate</ShortName>
+<IssueSpecification version="4">
+	<Name>
+		<en>Birth Certificate</en>
+		<nl></nl>
+	</Name>
+	<ShortName>
+		<en>Birth Certificate</en>
+		<nl></nl>
+	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>birthCertificate</CredentialID>
 	<Description>
-Your birth certificate.
+		<en>Your birth certificate.</en>
+		<nl></nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
-	<Id>14</Id>
+
 
 	<Attributes>
 		<Attribute>
-			<Name>dateofbirth</Name>
-			<Description>Your birth date</Description>
+			<Name id="dateofbirth">
+				<en>dateofbirth</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your birth date</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>placeofbirth</Name>
-			<Description>Your place of birth</Description>
+			<Name id="placeofbirth">
+				<en>placeofbirth</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your place of birth</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>countryofbirth</Name>
-			<Description>Your birth country</Description>
+			<Name id="countryofbirth">
+				<en>countryofbirth</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your birth country</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 		<Attribute>
-			<Name>gender</Name>
-			<Description>Your gender</Description>
+			<Name id="gender">
+				<en>gender</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>Your gender</en>
+				<nl></nl>
+			</Description>
 		</Attribute>
 
 	</Attributes>

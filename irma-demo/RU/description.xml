@@ -1,6 +1,9 @@
-<Issuer version="2">
+<Issuer version="4">
   <ID>RU</ID>
-  <Name>Radboud Universiteit Nijmegen</Name>
+  <Name>
+	  <en>Radboud Universiteit Nijmegen</en>
+	  <nl></nl>
+  </Name>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Comeniuslaan 4
 6525 HP Nijmegen</ContactAddress>
