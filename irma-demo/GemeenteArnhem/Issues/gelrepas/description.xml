@@ -19,8 +19,8 @@
 
 
 	<Attributes>
-		<Attribute>
-			<Name id="extraRebates">
+		<Attribute id="extraRebates">
+			<Name>
 				<en>extraRebates</en>
 				<nl></nl>
 			</Name>

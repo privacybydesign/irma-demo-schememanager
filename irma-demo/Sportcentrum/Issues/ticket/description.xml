@@ -18,8 +18,8 @@
 
 
 	<Attributes>
-		<Attribute>
-			<Name id="name">
+		<Attribute id="name">
+			<Name>
 				<en>name</en>
 				<nl></nl>
 			</Name>
@@ -28,8 +28,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="date">
+		<Attribute id="date">
+			<Name>
 				<en>date</en>
 				<nl></nl>
 			</Name>
@@ -38,8 +38,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="type">
+		<Attribute id="type">
+			<Name>
 				<en>type</en>
 				<nl></nl>
 			</Name>
@@ -48,8 +48,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="location">
+		<Attribute id="location">
+			<Name>
 				<en>location</en>
 				<nl></nl>
 			</Name>

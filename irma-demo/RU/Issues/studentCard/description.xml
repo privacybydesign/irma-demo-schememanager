@@ -19,8 +19,8 @@
 
 
 	<Attributes>
-		<Attribute>
-			<Name id="university">
+		<Attribute id="university">
+			<Name>
 				<en>university</en>
 				<nl></nl>
 			</Name>
@@ -29,8 +29,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="studentCardNumber">
+		<Attribute id="studentCardNumber">
+			<Name>
 				<en>studentCardNumber</en>
 				<nl></nl>
 			</Name>
@@ -39,8 +39,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="studentID">
+		<Attribute id="studentID">
+			<Name>
 				<en>studentID</en>
 				<nl></nl>
 			</Name>
@@ -49,8 +49,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="level">
+		<Attribute id="level">
+			<Name>
 				<en>level</en>
 				<nl></nl>
 			</Name>

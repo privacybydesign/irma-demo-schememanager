@@ -19,8 +19,8 @@
 
 
 	<Attributes>
-		<Attribute>
-			<Name id="over12">
+		<Attribute id="over12">
+			<Name>
 				<en>over12</en>
 				<nl></nl>
 			</Name>
@@ -29,8 +29,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="over16">
+		<Attribute id="over16">
+			<Name>
 				<en>over16</en>
 				<nl></nl>
 			</Name>
@@ -39,8 +39,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="over18">
+		<Attribute id="over18">
+			<Name>
 				<en>over18</en>
 				<nl></nl>
 			</Name>
@@ -49,8 +49,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="over21">
+		<Attribute id="over21">
+			<Name>
 				<en>over21</en>
 				<nl></nl>
 			</Name>

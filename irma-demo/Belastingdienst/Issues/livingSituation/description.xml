@@ -18,8 +18,8 @@
 
 
 	<Attributes>
-		<Attribute>
-			<Name id="livingTogether">
+		<Attribute id="livingTogether">
+			<Name>
 				<en>livingTogether</en>
 				<nl></nl>
 			</Name>
@@ -28,8 +28,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="children">
+		<Attribute id="children">
+			<Name>
 				<en>children</en>
 				<nl></nl>
 			</Name>
@@ -38,8 +38,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="married">
+		<Attribute id="married">
+			<Name>
 				<en>married</en>
 				<nl></nl>
 			</Name>

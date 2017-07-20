@@ -19,8 +19,8 @@
 
 
 	<Attributes>
-		<Attribute>
-			<Name id="BSN">
+		<Attribute id="BSN">
+			<Name>
 				<en>BSN</en>
 				<nl></nl>
 			</Name>

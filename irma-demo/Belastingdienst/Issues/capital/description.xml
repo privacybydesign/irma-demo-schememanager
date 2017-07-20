@@ -18,8 +18,8 @@
 
 
 	<Attributes>
-		<Attribute>
-			<Name id="year">
+		<Attribute id="year">
+			<Name>
 				<en>year</en>
 				<nl></nl>
 			</Name>
@@ -28,8 +28,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="capital">
+		<Attribute id="capital">
+			<Name>
 				<en>capital</en>
 				<nl></nl>
 			</Name>
@@ -38,8 +38,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="below">
+		<Attribute id="below">
+			<Name>
 				<en>below</en>
 				<nl></nl>
 			</Name>
@@ -48,8 +48,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="above">
+		<Attribute id="above">
+			<Name>
 				<en>above</en>
 				<nl></nl>
 			</Name>

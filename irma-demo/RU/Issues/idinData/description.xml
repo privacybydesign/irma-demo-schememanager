@@ -18,8 +18,8 @@
 
 
 	<Attributes>
-		<Attribute>
-			<Name id="initials">
+		<Attribute id="initials">
+			<Name>
 				<en>initials</en>
 				<nl></nl>
 			</Name>
@@ -28,8 +28,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="familyName">
+		<Attribute id="familyName">
+			<Name>
 				<en>familyName</en>
 				<nl></nl>
 			</Name>
@@ -38,8 +38,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="dateOfBirth">
+		<Attribute id="dateOfBirth">
+			<Name>
 				<en>dateOfBirth</en>
 				<nl></nl>
 			</Name>
@@ -48,8 +48,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="sex">
+		<Attribute id="sex">
+			<Name>
 				<en>sex</en>
 				<nl></nl>
 			</Name>
@@ -58,8 +58,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="address">
+		<Attribute id="address">
+			<Name>
 				<en>address</en>
 				<nl></nl>
 			</Name>
@@ -68,8 +68,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="zipcode">
+		<Attribute id="zipcode">
+			<Name>
 				<en>zipcode</en>
 				<nl></nl>
 			</Name>
@@ -78,8 +78,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="city">
+		<Attribute id="city">
+			<Name>
 				<en>city</en>
 				<nl></nl>
 			</Name>

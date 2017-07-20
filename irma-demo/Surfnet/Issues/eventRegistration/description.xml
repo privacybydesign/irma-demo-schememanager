@@ -18,8 +18,8 @@
 
 
 	<Attributes>
-		<Attribute>
-			<Name id="event">
+		<Attribute id="event">
+			<Name>
 				<en>event</en>
 				<nl></nl>
 			</Name>
@@ -28,8 +28,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="date">
+		<Attribute id="date">
+			<Name>
 				<en>date</en>
 				<nl></nl>
 			</Name>

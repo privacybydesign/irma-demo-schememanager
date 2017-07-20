@@ -19,8 +19,8 @@
 
 
 	<Attributes>
-		<Attribute>
-			<Name id="firstnames">
+		<Attribute id="firstnames">
+			<Name>
 				<en>firstnames</en>
 				<nl></nl>
 			</Name>
@@ -29,8 +29,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="firstname">
+		<Attribute id="firstname">
+			<Name>
 				<en>firstname</en>
 				<nl></nl>
 			</Name>
@@ -39,8 +39,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="familyname">
+		<Attribute id="familyname">
+			<Name>
 				<en>familyname</en>
 				<nl></nl>
 			</Name>
@@ -49,8 +49,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="prefix">
+		<Attribute id="prefix">
+			<Name>
 				<en>prefix</en>
 				<nl></nl>
 			</Name>

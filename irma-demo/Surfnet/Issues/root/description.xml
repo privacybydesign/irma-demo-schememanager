@@ -18,8 +18,8 @@
 
 
 	<Attributes>
-		<Attribute>
-			<Name id="userID">
+		<Attribute id="userID">
+			<Name>
 				<en>userID</en>
 				<nl></nl>
 			</Name>
@@ -28,8 +28,8 @@
 				<nl></nl>
 			</Description>
 		</Attribute>
-		<Attribute>
-			<Name id="securityHash">
+		<Attribute id="securityHash">
+			<Name>
 				<en>securityHash</en>
 				<nl></nl>
 			</Name>
