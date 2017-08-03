@@ -4,6 +4,10 @@
 	  <en>Belastingdienst</en>
 	  <nl></nl>
   </Name>
+  <ShortName>
+	  <en>Belastingdienst</en>
+	  <nl></nl>
+  </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Groningensingel 21
       6835 EA Arnhem</ContactAddress>

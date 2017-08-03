@@ -4,6 +4,10 @@
 	  <en>Radboud Sports Centre</en>
 	  <nl></nl>
   </Name>
+  <ShortName>
+	  <en>Radboud Sports Centre</en>
+	  <nl></nl>
+  </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Radboud Sports Centre
 Heyendaalseweg 141

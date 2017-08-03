@@ -4,6 +4,10 @@
 	  <en>Surfnet BV</en>
 	  <nl></nl>
   </Name>
+  <ShortName>
+	  <en>Surfnet BV</en>
+	  <nl></nl>
+  </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Postbus 19035
 3501 DA Utrecht</ContactAddress>

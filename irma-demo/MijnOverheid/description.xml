@@ -4,6 +4,10 @@
 	  <en>MijnOverheid.nl</en>
 	  <nl></nl>
   </Name>
+  <ShortName>
+	  <en>MijnOverheid.nl</en>
+	  <nl></nl>
+  </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Ministerie van BZK
 Turfmarkt 147

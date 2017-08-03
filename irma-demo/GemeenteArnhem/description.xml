@@ -4,6 +4,10 @@
 	  <en>Gemeente Arnhem</en>
 	  <nl></nl>
   </Name>
+  <ShortName>
+	  <en>Gemeente Arnhem</en>
+	  <nl></nl>
+  </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Koningstraat 38
         6811 DG  Arnhem</ContactAddress>
