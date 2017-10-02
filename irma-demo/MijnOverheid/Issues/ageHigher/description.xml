@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
 	<Name>
 		<en>Senior Age limits</en>
-		<nl></nl>
+		<nl>Senior-leeftijdslimieten</nl>
 	</Name>
 	<ShortName>
 		<en>Age (Senior)</en>
-		<nl></nl>
+		<nl>Leeftijd (senior)</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>ageHigher</CredentialID>
 	<Description>
-		<en>Your age attributes issued by MijnOverheid based on GBA data.</en>
-		<nl></nl>
+		<en>Your senior age limits issued by MijnOverheid based on GBA data</en>
+		<nl>Uw senior-leeftijdslimieten uitgegeven door MijnOverheid gebaseeerd op GBA-data</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
@@ -21,42 +21,42 @@
 	<Attributes>
 		<Attribute id="over50">
 			<Name>
-				<en>over50</en>
-				<nl></nl>
+				<en>Over 50</en>
+				<nl>Ouder dan 50</nl>
 			</Name>
 			<Description>
-				<en>True if you are over 50</en>
-				<nl></nl>
+				<en>If you are over 50</en>
+				<nl>Of u ouder bent dan 50</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over60">
 			<Name>
-				<en>over60</en>
-				<nl></nl>
+				<en>Over 60</en>
+				<nl>Ouder dan 60</nl>
 			</Name>
 			<Description>
-				<en>True if you are over 60</en>
-				<nl></nl>
+				<en>If you are over 60</en>
+				<nl>>Of u ouder bent dan 60</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over65">
 			<Name>
-				<en>over65</en>
-				<nl></nl>
+				<en>Over 65</en>
+				<nl>Ouder dan 65</nl>
 			</Name>
 			<Description>
-				<en>True if you are over 65</en>
-				<nl></nl>
+				<en>If you are over 65</en>
+				<nl>>Of u ouder bent dan 65</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over75">
 			<Name>
-				<en>over75</en>
-				<nl></nl>
+				<en>Over 75</en>
+				<nl>Ouder dan 75</nl>
 			</Name>
 			<Description>
-				<en>True if you are over 75</en>
-				<nl></nl>
+				<en>If you are over 75</en>
+				<nl>>Of u ouder bent dan 75</nl>
 			</Description>
 		</Attribute>
 

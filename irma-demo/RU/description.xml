@@ -1,12 +1,12 @@
 <Issuer version="4">
   <ID>RU</ID>
   <Name>
-	  <en>Radboud Universiteit Nijmegen</en>
-	  <nl></nl>
+	  <en>Radboud University Nijmegen</en>
+	  <nl>Radboud Universiteit Nijmegen</nl>
   </Name>
   <ShortName>
-	  <en>Radboud Universiteit Nijmegen</en>
-	  <nl></nl>
+	  <en>Radboud University</en>
+	  <nl>Radboud Universiteit</nl>
   </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Comeniuslaan 4
