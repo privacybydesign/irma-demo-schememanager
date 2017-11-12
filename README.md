@@ -27,6 +27,9 @@ A scheme manager, issuer, or credential type (call it an *entity*) is always sto
     |   +-- description.xml
     |   +-- logo.png
     +-- description.xml
+    +-- index
+    +-- index.sig
+    +-- pk.pem
 
 ## Some notes on adding a new organization
 
