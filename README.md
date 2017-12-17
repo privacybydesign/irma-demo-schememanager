@@ -35,11 +35,10 @@ A scheme manager, issuer, or credential type (call it an *entity*) is always sto
 
 First setup up the `description.xml` files of the scheme manager, issuers, and the credentials types that fall under your scheme manager, laying out the files as above. Make sure you add logos for your issuers and credential types.
 
-Idemix public-private keypairs can be generated using [irmatool](https://github.com/mhe/irmatool) or [silvia](https://github.com/credentials/silvia); be sure to put them in the correct place in the directory tree. Keys of 2048 bits currently offer the best compromise between security and performance. For example:
+Idemix public-private keypairs can be generated using [irmatool](https://github.com/mhe/irmatool); be sure to put the program in the correct place in the directory tree. Keys of 2048 bits currently offer the best compromise between security and performance. For example:
 
 ```
 $ irmatool genkeypair -a 6 -l 2048 -c 0 -p ipk.xml -k isk.xml
-$ silvia_keygen -a 6 -n 2048 -c 0 -p ipk.xml -P isk.xml
 ```
 
 The `index` file must contain the SHA256-hash of each file along with its location in the directory tree; the `index.sig` file must contain an ECDSA signature over this file (which thus effectively signs the entire directory tree), and the public key of this signature must be in `pk.pem`. The [IRMA app](https://github.com/privacybydesign/irma_mobile) verifies this signature when starting and when downloading new scheme manager files, and will refuse to use the entire scheme manager when this signature verification fails. You can use the [schememgr tool](https://github.com/privacybydesign/irmago/tree/master/schememgr) from the [irmago](https://github.com/privacybydesign/irmago) repository to generate an ECDSA private-public keypair, the `index` file, and the `index.sig` signature file. 
