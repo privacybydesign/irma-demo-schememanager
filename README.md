@@ -2,11 +2,11 @@
 
 This repository contains the credential definitions, issuer information, and their public *and* private keys of the `irma-demo` scheme manager.
 
-***CAREFUL!*** This scheme manager is only ever meant to be used for development, demoing and experimenting! Because the issuer private keys are included in this repository everyone can issue any credential from this scheme manager, choosing the attributes freely. Thus their authenticity cannot be trusted. (For an actual scheme manager, see the [Privacy by Design Foundation scheme manager](https://github.com/credentials/pbdf-schememanager).)
+***CAREFUL!*** This scheme manager is only ever meant to be used for development, demoing and experimenting! Because the issuer private keys are included in this repository everyone can issue any credential from this scheme manager, choosing the attributes freely. Thus their authenticity cannot be trusted. (For an actual scheme manager, see the [Privacy by Design Foundation scheme manager](https://github.com/privacybydesign/pbdf-schememanager).)
 
-Use this repository by putting it in the `irma_configuration` folder of your project (for example, [the IRMA mobile app](https://github.com/credentials/irma_mobile/tree/rctevents/ios/irma_configuration) or the [IRMA API server](https://github.com/credentials/irma_api_server/tree/master/src/main/resources)). Be sure to call the folder `irma-demo`! E.g.,
+Use this repository by putting it in the `irma_configuration` folder of your project (for example, [the IRMA mobile app](https://github.com/privacybydesign/irma_mobile/tree/master/ios/irma_configuration) or the [IRMA API server](https://github.com/privacybydesign/irma_api_server/tree/master/src/main/resources)). Be sure to call the folder `irma-demo`! E.g.,
 
-    git clone https://github.com/credentials/irma-demo-schememanager irma-demo
+    git clone https://github.com/privacybydesign/irma-demo-schememanager irma-demo
 
 ## Directory structure
 
@@ -42,7 +42,7 @@ $ irmatool genkeypair -a 6 -l 2048 -c 0 -p ipk.xml -k isk.xml
 $ silvia_keygen -a 6 -n 2048 -c 0 -p ipk.xml -P isk.xml
 ```
 
-The `index` file must contain the SHA256-hash of each file along with its location in the directory tree; the `index.sig` file must contain an ECDSA signature over this file (which thus effectively signs the entire directory tree), and the public key of this signature must be in `pk.pem`. The [IRMA app](https://github.com/credentials/irma_mobile) verifies this signature when starting and when downloading new scheme manager files, and will refuse to use the entire scheme manager when this signature verification fails. You can use the [schememgr tool](https://github.com/credentials/irmago/tree/master/schememgr) from the [irmago](https://github.com/credentials/irmago) repository to generate an ECDSA private-public keypair, the `index` file, and the `index.sig` signature file. 
+The `index` file must contain the SHA256-hash of each file along with its location in the directory tree; the `index.sig` file must contain an ECDSA signature over this file (which thus effectively signs the entire directory tree), and the public key of this signature must be in `pk.pem`. The [IRMA app](https://github.com/privacybydesign/irma_mobile) verifies this signature when starting and when downloading new scheme manager files, and will refuse to use the entire scheme manager when this signature verification fails. You can use the [schememgr tool](https://github.com/privacybydesign/irmago/tree/master/schememgr) from the [irmago](https://github.com/privacybydesign/irmago) repository to generate an ECDSA private-public keypair, the `index` file, and the `index.sig` signature file. 
 
 # Note
 
