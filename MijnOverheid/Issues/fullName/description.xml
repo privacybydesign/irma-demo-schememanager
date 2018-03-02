@@ -47,7 +47,7 @@
 				<nl>Uw achternaam</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="prefix">
+		<Attribute id="prefix" optional="true">
 			<Name>
 				<en>Prefix</en>
 				<nl>Tussenvoegsel</nl>
