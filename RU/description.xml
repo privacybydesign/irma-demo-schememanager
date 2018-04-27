@@ -1,17 +1,15 @@
 <Issuer version="4">
   <ID>RU</ID>
   <Name>
-	  <en>Radboud University Nijmegen</en>
-	  <nl>Radboud Universiteit Nijmegen</nl>
+	  <en>Demo University</en>
+	  <nl>Demo Universiteit</nl>
   </Name>
   <ShortName>
-	  <en>Radboud University</en>
-	  <nl>Radboud Universiteit</nl>
+	  <en>Demo University</en>
+	  <nl>Demo Universiteit</nl>
   </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
-  <ContactAddress>Comeniuslaan 4
-6525 HP Nijmegen</ContactAddress>
-  <ContactEMail>info@ru.nl</ContactEMail>
-
-  <baseURL>http://www.irmacard.org/credentials/phase1/RU/</baseURL>
+  <ContactAddress></ContactAddress>
+  <ContactEMail></ContactEMail>
+  <baseURL></baseURL>
 </Issuer>
