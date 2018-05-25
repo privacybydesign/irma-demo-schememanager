@@ -11,4 +11,5 @@
 	<SchemeManager>irma-demo</SchemeManager>
 	<ContactAddress>https://example.org</ContactAddress>
 	<ContactEMail>example@example.org</ContactEMail>
+	<baseURL></baseURL>
 </Issuer>
