@@ -1,0 +1,50 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Electricity/Gas connection</en>
+		<nl>Demo Aansluiting</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Connection</en>
+		<nl>Demo Aansluiting</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>alliander</IssuerID>
+	<CredentialID>connection</CredentialID>
+	<Description>
+		<en>Identification numbers (EAN) for your electricity and gas connection. See https://www.eancodeboek.nl/</en>
+		<nl>Identificatienummers (EAN) voor uw electriciteits- en gasaansluiting. See https://www.eancodeboek.nl/</nl>
+	</Description>
+
+	<Attributes>
+		<Attribute id="ean-gas">
+			<Name>
+				<en>EAN Gas</en>
+				<nl>EAN Gas</nl>
+			</Name>
+			<Description>
+				<en>ean code of your gas connection</en>
+				<nl>eancode van uw electriciteitsaansluiting</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="ean-elec">
+			<Name>
+				<en>EAN Electricity</en>
+				<nl>EAN Electriciteit</nl>
+			</Name>
+			<Description>
+				<en>ean code of your electricity connection</en>
+				<nl>eancode van uw gasaansluiting</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="pseudonym">
+			<Name>
+				<en>Pseudonym</en>
+				<nl>Pseudoniem</nl>
+			</Name>
+			<Description>
+				<en>Pseudonym for pseudonymous communication</en>
+				<nl>Pseudoniem voor pseudonieme communicatie</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
