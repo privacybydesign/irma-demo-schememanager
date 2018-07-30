@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Vektis agb by Nuts</en>
-		<nl>Vektis agb by Nuts</nl>
+		<en>Demo Vektis agb by Nuts</en>
+		<nl>Demo Vektis agb by Nuts</nl>
 	</Name>
 	<ShortName>
-		<en>agb</en>
-		<nl>agb</nl>
+		<en>Demo agb</en>
+		<nl>Demo agb</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>nuts</IssuerID>
