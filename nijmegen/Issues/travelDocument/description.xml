@@ -14,7 +14,7 @@
 		<en>Your Dutch passport or identity card, from the Dutch population register</en>
 		<nl>Uw Nederlandse paspoort of identiteitskaart, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
-	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
 
 	<Attributes>
 		<Attribute id="kind">
