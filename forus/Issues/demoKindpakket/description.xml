@@ -1,0 +1,42 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo kindpakket</en>
+		<nl>Demo kindpakket</nl>
+	</Name>
+	<ShortName>
+		<en>Demo kindpakket</en>
+		<nl>Demo kindpakket</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>forus</IssuerID>
+	<CredentialID>demoKindpakket</CredentialID>
+	<Description>
+		<en>Demo kindpakket</en>
+		<nl>Demo kindpakket</nl>
+	</Description>
+
+
+
+	<Attributes>
+		<Attribute id="kindpakketEligible">
+			<Name>
+				<en>Eligible for kindpakket</en>
+				<nl>Recht op kindpakket</nl>
+			</Name>
+			<Description>
+				<en>Eligible for kindpakket</en>
+				<nl>Recht op kindpakket</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="numChildren">
+			<Name>
+				<en>Number of children</en>
+				<nl>Aantal kinderen</nl>
+			</Name>
+			<Description>
+				<en>Number of children</en>
+				<nl>Aantal kinderen</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

@@ -1,0 +1,17 @@
+<Issuer version="4">
+  <ID>forus</ID>
+  <Name>
+	  <en>Forus - demo</en>
+	  <nl>Forus - demo</nl>
+  </Name>
+  <ShortName>
+	  <en>Forus - demo</en>
+	  <nl>Forus - demo</nl>
+  </ShortName>
+  <SchemeManager>irma-demo</SchemeManager>
+  <ContactAddress>Stichting Forus
+https://www.forus.io/</ContactAddress>
+  <ContactEMail>info@forus.nl</ContactEMail>
+
+  <baseURL>https://www.forus.io/</baseURL>
+</Issuer>
