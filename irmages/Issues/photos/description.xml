@@ -1,0 +1,32 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Photos</en>
+		<nl>Pasfoto's</nl>
+	</Name>
+	<ShortName>
+		<en>Photos</en>
+		<nl>Pasfoto's</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>irmages</IssuerID>
+	<CredentialID>photos</CredentialID>
+	<Description>
+		<en>Your photos from your passport.</en>
+		<nl>De foto's uit uw paspoort.</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="photo">
+			<Name>
+				<en>Photo</en>
+				<nl>Foto</nl>
+			</Name>
+			<Description>
+				<en>Your high quality face photo</en>
+				<nl>Uw pasfoto in hoge kwaliteit</nl>
+			</Description>
+			<type>image</type>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

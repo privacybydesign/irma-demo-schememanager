@@ -1,0 +1,16 @@
+<Issuer version="4">
+  <ID>irmages</ID>
+  <Name>
+	  <en>Irmages</en>
+	  <nl>Irmages</nl>
+  </Name>
+  <ShortName>
+	  <en>Irmages</en>
+	  <nl>Irmages</nl>
+  </ShortName>
+  <SchemeManager>irma-demo</SchemeManager>
+  <ContactAddress>Test</ContactAddress>
+  <ContactEMail>test@test.nl</ContactEMail>
+
+  <baseURL>http://www.irmacard.org/credentials/phase1/Irmages/</baseURL>
+</Issuer>
