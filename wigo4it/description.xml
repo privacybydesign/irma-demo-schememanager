@@ -1,5 +1,4 @@
 <Issuer version="4">
-<<<<<<< HEAD
   <ID>wigo4it</ID>
   <Name>
 	  <en>Demo WIGO4IT</en>
@@ -12,20 +11,6 @@
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>https://wigo4it.nl/</ContactAddress>
   <ContactEMail>sjef.van.leeuwen@wigo4it.nl</ContactEMail>
-=======
-  <ID>vngrealisatie</ID>
-  <Name>
-	  <en>Demo VNG Realisatie</en>
-	  <nl>Demo VNG Realisatie</nl>
-  </Name>
-  <ShortName>
-	  <en>Demo VNG Realisatie</en>
-	  <nl>Demo VNG Realisatie</nl>
-  </ShortName>
-  <SchemeManager>irma-demo</SchemeManager>
-  <ContactAddress>https://commonground.pleio.nl/</ContactAddress>
-  <ContactEMail>realisatie@vng.nl</ContactEMail>
->>>>>>> b4adab78272dad4eae2057d8ab4e6cc942c04bb3
 
   <baseURL></baseURL>
 </Issuer>
