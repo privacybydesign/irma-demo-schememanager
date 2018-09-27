@@ -1,0 +1,30 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>vehicle registration demo</en>
+		<nl>kentekennummer demo</nl>
+	</Name>
+	<ShortName>
+		<en>vehicle registration demo</en>
+		<nl>kentekennummer demo</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>rdw</IssuerID>
+	<CredentialID>vrn</CredentialID>
+	<Description>
+		<en>Your vehicle registration number.</en>
+		<nl>Uw kentekennummer</nl>
+	</Description>
+
+	<Attributes>
+		<Attribute id="initials">
+			<Name>
+				<en>Initials</en>
+				<nl>Initialen</nl>
+			</Name>
+			<Description>
+				<en>The identifying numbers on the license plate of your vehicle.</en>
+				<nl>Het nummer op de kentekenplaat van uw voertuig.</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
