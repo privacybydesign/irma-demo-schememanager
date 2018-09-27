@@ -16,10 +16,10 @@
 	</Description>
 
 	<Attributes>
-		<Attribute id="initials">
+		<Attribute id="vrn">
 			<Name>
-				<en>Initials</en>
-				<nl>Initialen</nl>
+				<en>Vehicle registration number</en>
+				<nl>Kentekennummer</nl>
 			</Name>
 			<Description>
 				<en>The identifying numbers on the license plate of your vehicle.</en>
