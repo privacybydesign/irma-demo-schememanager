@@ -1,0 +1,61 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Mandate</en>
+		<nl>Demo Mandaat</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Mandate</en>
+		<nl>Demo Mandaat</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>cvgz</IssuerID>
+	<CredentialID>mandaat</CredentialID>
+	<Description>
+		<en>A mandate for you, useable to access the MijnVGZ environment, on behalf of the person who mandated you</en>
+		<nl>Een mandaat voor u, om toegang te verkrijgen tot de MijnVGZ omgeving van diegene die u gemandateerd heeft</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="id">
+			<Name>
+				<en>Id</en>
+				<nl>Id</nl>
+			</Name>
+			<Description>
+				<en>A unique ID for this mandate</en>
+				<nl>Een uniek Id voor dit mandaat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="clientnumber">
+			<Name>
+				<en>Client number</en>
+				<nl>Relatienummer</nl>
+			</Name>
+			<Description>
+				<en>The client number of the client who mandated you</en>
+				<nl>Het relatienummer van de klant die u gemandateerd heeft</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="mandatefamilyname">
+			<Name>
+				<en>Family name</en>
+				<nl>Geslachtsnaam</nl>
+			</Name>
+			<Description>
+				<en>The family name, as given at birth, of the client who mandated you</en>
+				<nl>De achternaam, zoals toegekend bij geboorte, van de klant die u gemandateerd heeft</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="mandatefirstnames">
+			<Name>
+				<en>First names</en>
+				<nl>Voornamen</nl>
+			</Name>
+			<Description>
+				<en>The first names of the client who mandated you</en>
+				<nl>De voornamen van de klant die u gemandateerd heeft</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
