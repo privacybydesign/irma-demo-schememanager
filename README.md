@@ -35,7 +35,7 @@ A scheme manager, issuer, or credential type (call it an *entity*) is always sto
 
 First setup up the `description.xml` files of the scheme manager, issuers, and the credentials types that fall under your scheme manager, laying out the files as above. Make sure you add logos for your issuers and credential types.
 
-Idemix public-private keypairs can be generated using [irmatool](https://github.com/mhe/irmatool); be sure to put the program in the correct place in the directory tree. Keys of 2048 bits currently offer the best compromise between security and performance. For example:
+Idemix public-private keypairs can be generated using [irmatool](https://github.com/mhe/irmatool); be sure to put the keys in the correct place in the directory tree. Keys of 2048 bits currently offer the best compromise between security and performance. For example:
 
 ```
 $ irmatool genkeypair -a 6 -l 2048 -c 0 -p ipk.xml -k isk.xml
