@@ -1,15 +1,15 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo Mandate</en>
-		<nl>Demo Mandaat</nl>
+		<en>Demo CVZG Login Mandate</en>
+		<nl>Demo CVGZ inlogmandaat</nl>
 	</Name>
 	<ShortName>
-		<en>Demo Mandate</en>
-		<nl>Demo Mandaat</nl>
+		<en>Demo CVGZ Mandate</en>
+		<nl>Demo CVGZ Mandaat</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>cvgz</IssuerID>
-	<CredentialID>mandaat</CredentialID>
+	<CredentialID>loginMandate</CredentialID>
 	<Description>
 		<en>A mandate for you, useable to access the MijnVGZ environment, on behalf of the person who mandated you</en>
 		<nl>Een mandaat voor u, om toegang te verkrijgen tot de MijnVGZ omgeving van diegene die u gemandateerd heeft</nl>
@@ -29,8 +29,8 @@
 		</Attribute>
 		<Attribute id="clientnumber">
 			<Name>
-				<en>Client number</en>
-				<nl>Relatienummer</nl>
+				<en>Mandator client number</en>
+				<nl>Relatienummer mandaatgever</nl>
 			</Name>
 			<Description>
 				<en>The client number of the client who mandated you</en>
@@ -39,8 +39,8 @@
 		</Attribute>
 		<Attribute id="mandatefamilyname">
 			<Name>
-				<en>Family name</en>
-				<nl>Geslachtsnaam</nl>
+				<en>Mandator family name</en>
+				<nl>Geslachtsnaam mandaatgever</nl>
 			</Name>
 			<Description>
 				<en>The family name, as given at birth, of the client who mandated you</en>
@@ -49,8 +49,8 @@
 		</Attribute>
 		<Attribute id="mandatefirstnames">
 			<Name>
-				<en>First names</en>
-				<nl>Voornamen</nl>
+				<en>Mandator first names</en>
+				<nl>Voornamen mandaatgever</nl>
 			</Name>
 			<Description>
 				<en>The first names of the client who mandated you</en>
