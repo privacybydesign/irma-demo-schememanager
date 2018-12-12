@@ -1,15 +1,15 @@
-<Issuer version="4">
-	<ID>cvgz</ID>
+<Issuer version="5">
+	<ID>vgz</ID>
 	<ShortName>
-		<en>Demo CVGZ</en>
-		<nl>Demo CVGZ</nl>
+		<en>Demo VGZ</en>
+		<nl>Demo VGZ</nl>
 	</ShortName>
 	<Name>
-		<en>Demo Cooperatie VGZ</en>
-		<nl>Demo Cooperatie VGZ</nl>
+		<en>Demo VGZ</en>
+		<nl>Demo VGZ</nl>
 	</Name>
 	<SchemeManager>irma-demo</SchemeManager>
-	<ContactAddress>https://example.org</ContactAddress>
-	<ContactEMail>example@example.org</ContactEMail>
+	<ContactAddress>https://www.vgz.nl</ContactAddress>
+	<ContactEMail>digitalcooperation@vgz.nl</ContactEMail>
 	<baseURL></baseURL>
 </Issuer>
