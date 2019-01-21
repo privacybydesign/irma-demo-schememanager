@@ -8,7 +8,7 @@
 		<nl>Demo Persoonsgegevens</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
-	<IssuerID>gemeentes</IssuerID>
+	<IssuerID>gemeenten</IssuerID>
 	<CredentialID>personalData</CredentialID>
 	<Description>
 		<en>Your personal data, from the Dutch population register</en>
