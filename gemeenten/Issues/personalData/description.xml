@@ -169,5 +169,16 @@
 				<nl>Uw Burgerservicenummer (BSN)</nl>
 			</Description>
 		</Attribute>
+
+		<Attribute id="level">
+			<Name>
+				<en>Betrouwbaarheidsniveau</en>
+				<nl>Assurance level</nl>
+			</Name>
+			<Description>
+				<en>Het DigiD betrouwbaarheidsniveau waarmee uw identiteit is vastgesteld</en>
+				<nl>The DigiD assurance level with which your identity was verified</nl>
+			</Description>
+		</Attribute>
 	</Attributes>
 </IssueSpecification>
