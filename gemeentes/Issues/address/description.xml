@@ -8,7 +8,7 @@
 		<nl>Demo Adres</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
-	<IssuerID>nijmegen</IssuerID>
+	<IssuerID>gemeentes</IssuerID>
 	<CredentialID>address</CredentialID>
 	<Description>
 		<en>Your address, from the Dutch population register</en>

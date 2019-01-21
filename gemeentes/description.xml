@@ -1,12 +1,12 @@
 <Issuer version="4">
-	<ID>nijmegen</ID>
+	<ID>gemeentes</ID>
 	<ShortName>
-		<en>Demo Gemeente Nijmegen</en>
-		<nl>Demo Gemeente Nijmegen</nl>
+		<en>Demo City</en>
+		<nl>Demo Gemeente</nl>
 	</ShortName>
 	<Name>
-		<en>Demo Gemeente Nijmegen</en>
-		<nl>Demo Gemeente Nijmegen</nl>
+		<en>Demo City</en>
+		<nl>Demo Gemeente</nl>
 	</Name>
 	<SchemeManager>irma-demo</SchemeManager>
 	<ContactAddress>https://example.org</ContactAddress>
