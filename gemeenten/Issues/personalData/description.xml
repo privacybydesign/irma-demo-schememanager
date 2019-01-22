@@ -170,10 +170,10 @@
 			</Description>
 		</Attribute>
 
-		<Attribute id="level">
+		<Attribute id="digidlevel">
 			<Name>
-				<en>Betrouwbaarheidsniveau</en>
-				<nl>Assurance level</nl>
+				<en>DigiD assurance level</en>
+				<nl>DigiD betrouwbaarheidsniveau</nl>
 			</Name>
 			<Description>
 				<en>Het DigiD betrouwbaarheidsniveau waarmee uw identiteit is vastgesteld</en>
