@@ -27,7 +27,7 @@
 				<nl>Het belastingjaar</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="totalIncome">
+		<Attribute id="totalincome">
 			<Name>
 				<en>Total year income</en>
 				<nl>Totale verzamelinkomen</nl>
@@ -67,25 +67,15 @@
                                 <nl>Box 3: Opbrengsten uit sparen en beleggen</nl>
                         </Description>
 		</Attribute>
-		<Attribute id="under38035">
+		<Attribute id="incomelevel">
                         <Name>
-                                <en>Under 38035.-</en>
-                                <nl>Onder 38035,-</nl>
+				<en>level of income</en>
+                                <nl>Inkomensniveau</nl>
                         </Name>
                         <Description>
-                                <en>Is your total year income below 38,035.-?</en>
-                                <nl>Valt uw totale jaarinkomen onder de 38.035,-?</nl>
+                                <en>Your level of income relative to the general population.</en>
+                                <nl>Uw inkomensniveau, relatief aan het gemiddelde inkomen.</nl>
                         </Description>
 		</Attribute>
-		<Attribute id="under48655">
-                        <Name>
-                                <en>Under 48655.-</en>
-                                <nl>Onder 48655,-</nl>
-                        </Name>
-                        <Description>
-                                <en>Is your total year income below 48,655.-</en>
-                                <nl>Valt uw totale jaarinkomen onder de 48655,-</nl>
-                        </Description>
-                </Attribute>
 	</Attributes>
 </IssueSpecification>
