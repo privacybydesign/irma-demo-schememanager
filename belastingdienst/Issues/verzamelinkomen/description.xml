@@ -67,24 +67,24 @@
                                 <nl>Box 3: Opbrengsten uit sparen en beleggen</nl>
                         </Description>
 		</Attribute>
-		<Attribute id="underSocialHousingGrens">
+		<Attribute id="under38035">
                         <Name>
-                                <en>Under social housing threshold</en>
-                                <nl>Onder sociale huur grens</nl>
+                                <en>Under 38035.-</en>
+                                <nl>Onder 38035,-</nl>
                         </Name>
                         <Description>
-                                <en>Is your total year income below the social housing threshold?</en>
-                                <nl>Valt uw totale jaarinkomen onder de sociale huurgrens</nl>
+                                <en>Is your total year income below 38,035.-?</en>
+                                <nl>Valt uw totale jaarinkomen onder de 38.035,-?</nl>
                         </Description>
 		</Attribute>
-		<Attribute id="inkomensgrens2">
+		<Attribute id="under48655">
                         <Name>
-                                <en></en>
-                                <nl></nl>
+                                <en>Under 48655.-</en>
+                                <nl>Onder 48655,-</nl>
                         </Name>
                         <Description>
-                                <en></en>
-                                <nl></nl>
+                                <en>Is your total year income below 48,655.-</en>
+                                <nl>Valt uw totale jaarinkomen onder de 48655,-</nl>
                         </Description>
                 </Attribute>
 	</Attributes>
