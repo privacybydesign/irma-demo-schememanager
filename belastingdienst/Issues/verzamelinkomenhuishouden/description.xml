@@ -44,7 +44,7 @@
                         </Name>
                         <Description>
 				<en>Is your household's total year income below the social housing threshold?</en>
-                                <nl>Valt het totale jaarinkomen van uw huishouden onder de uitzonderingsgrens Sociale Huurwoning?</nl>
+                                <nl>Valt het totale jaarinkomen van uw huishouden onder de inkomensgrens Sociale Huurwoning?</nl>
                         </Description>
 		</Attribute>
 		<Attribute id="belowexceptionsocialhousing">
