@@ -1,12 +1,12 @@
 <Issuer version="4">
-	<ID>cvgz</ID>
+	<ID>gemeenten</ID>
 	<ShortName>
-		<en>Demo CVGZ</en>
-		<nl>Demo CVGZ</nl>
+		<en>Demo Municipalities</en>
+		<nl>Demo Gemeenten</nl>
 	</ShortName>
 	<Name>
-		<en>Demo Cooperatie VGZ</en>
-		<nl>Demo Cooperatie VGZ</nl>
+		<en>Demo Municipalities</en>
+		<nl>Demo Gemeenten</nl>
 	</Name>
 	<SchemeManager>irma-demo</SchemeManager>
 	<ContactAddress>https://example.org</ContactAddress>
