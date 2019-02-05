@@ -1,0 +1,29 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Bijstand - Aanvaarden Werk</en>
+		<nl>Bijstand - Aanvaarden Werk</nl>
+	</Name>
+	<ShortName>
+		<en>Bijstand - Aanvaarden Werk</en>
+		<nl>Bijstand - Aanvaarden Werk</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>enschede</IssuerID>
+	<CredentialID>bijstandsgerechtigd</CredentialID>
+	<Description>
+		<en>Attributen voor Pilot Bijstand Aanvaarden Werk</en>
+		<nl>Attributen voor Pilot Bijstand Aanvaarden Werk</nl>
+	</Description>
+	<Attributes>
+		<Attribute id="bijstandsgerechtigd">
+			<Name>
+				<en>Bijstandsgerechtigd</en>
+				<nl>Bijstandsgerechtigd</nl>
+			</Name>
+			<Description>
+				<en>Indicatie dat een inwoner bijstandsgerechtigd is</en>
+				<nl>Indicatie dat een inwoner bijstandsgerechtigd is</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
