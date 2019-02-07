@@ -1,15 +1,15 @@
 <Issuer version="4">
-  <ID>enschede</ID>
+  <ID>asito</ID>
   <Name>
-	  <en>Bijstand - aanvaarden Werk</en>
-	  <nl>Bijstand - aanvaarden Werk</nl>
+	  <en>Cleaning company Asito </en>
+	  <nl>Schoonmaakbedrijf Asito</nl>
   </Name>
   <ShortName>
-	  <en>Bijstand - aanvaarden Werk</en>
-	  <nl>Bijstand - aanvaarden Werk</nl>
+	  <en>Asito</en>
+	  <nl>Asito</nl>
   </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
-  <ContactAddress>https://enschede.nl/</ContactAddress>
+  <ContactAddress>https://asito.nl/</ContactAddress>
   <ContactEMail>k.masselink@enschede.nl</ContactEMail>
   <baseURL></baseURL>
 </Issuer>

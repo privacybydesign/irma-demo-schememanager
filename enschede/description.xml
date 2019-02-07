@@ -1,12 +1,12 @@
 <Issuer version="4">
   <ID>enschede</ID>
   <Name>
-	  <en>Bijstand - aanvaarden Werk</en>
-	  <nl>Bijstand - aanvaarden Werk</nl>
+	  <en>Pilot Bijstand - aanvaarden Werk</en>
+	  <nl>Pilot Bijstand - aanvaarden Werk</nl>
   </Name>
   <ShortName>
-	  <en>Bijstand - aanvaarden Werk</en>
-	  <nl>Bijstand - aanvaarden Werk</nl>
+	  <en>Pilot BtW</en>
+	  <nl>Pilot BtW</nl>
   </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>https://enschede.nl/</ContactAddress>
