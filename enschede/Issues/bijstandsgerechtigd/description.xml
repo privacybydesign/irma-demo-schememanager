@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Bijstand - Aanvaarden Werk</en>
-		<nl>Bijstand - Aanvaarden Werk</nl>
+		<en>Demo Bijstand - Aanvaarden Werk</en>
+		<nl>Demo Bijstand - Aanvaarden Werk</nl>
 	</Name>
 	<ShortName>
-		<en>Bijstand - Aanvaarden Werk</en>
-		<nl>Bijstand - Aanvaarden Werk</nl>
+		<en>Demo Bijstand - Aanvaarden Werk</en>
+		<nl>Demo Bijstand - Aanvaarden Werk</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>enschede</IssuerID>
