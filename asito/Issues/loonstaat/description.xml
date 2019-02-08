@@ -1,0 +1,189 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Payroll Asito</en>
+		<nl>Loonstaat Asito</nl>
+	</Name>
+	<ShortName>
+		<en>Payroll</en>
+		<nl>Loonstaat</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>asito</IssuerID>
+	<CredentialID>loonstaat</CredentialID>
+	<Description>
+		<en>Payroll attributes for i4Sociaal Pilot Bijstand Aanvaarden Werk - Enschede</en>
+		<nl>Loonstaat attributen voor i4Sociaal Pilot Bijstand Aanvaarden Werk - Enschede</nl>
+	</Description>
+	<Attributes>
+		<Attribute id="werkgever">
+			<Name>
+				<en>Asito</en>
+				<nl>Asito</nl>
+			</Name>
+			<Description>
+				<en>The employer issuing this payroll</en>
+				<nl>De werkgever die de loonstaat verstrekt</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loonheffingkorting">
+			<Name>
+				<en>Loonheffingkorting</en>
+				<nl>Loonheffingkorting</nl>
+			</Name>
+			<Description>
+				<en>Payroll tax discount applied</en>
+				<nl>Loonheffingkorting toegepast</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="jonggehandicaptenkorting">
+			<Name>
+				<en>Jonggehandicaptenkorting</en>
+				<nl>Jonggehandicaptenkorting</nl>
+			</Name>
+			<Description>
+				<en>Disabled person discount applied</en>
+				<nl>Jonggehandicaptenkorting toegepast</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loontijdvak">
+			<Name>
+				<en>Timeframe</en>
+				<nl>Loontijdvak</nl>
+			</Name>
+			<Description>
+				<en>column 1: Timeframe of this payroll</en>
+				<nl>kolom 1: Tijdvak van de loonstaat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="nummer_inkomstenverhouding">
+			<Name>
+				<en>Number Income contract</en>
+				<nl>Nummer Inkomstenverhouding</nl>
+			</Name>
+			<Description>
+				<en>column 2: Number Income contract</en>
+				<nl>kolom 2: Nummer Inkomstenverhouding</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loon_in_geld">
+			<Name>
+				<en>Pay in money</en>
+				<nl>Loon in geld</nl>
+			</Name>
+			<Description>
+				<en>column 3: Pay in money</en>
+				<nl>kolom 3: Loon in geld</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loon_anders_dan_in_geld">
+			<Name>
+				<en>Pay not in money</en>
+				<nl>Loon anders dan in geld</nl>
+			</Name>
+			<Description>
+				<en>column 4: Pay not in money</en>
+				<nl>kolom 4: Loon anders dan in geld</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="uitkering_uit_fondsen">
+			<Name>
+				<en>Pay from funds</en>
+				<nl>Uitkeringen uit fondsen</nl>
+			</Name>
+			<Description>
+				<en>column 5: Pay from funds</en>
+				<nl>kolom 5: Fooien en uitkeringen uit fondsen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="aftrekposten">
+			<Name>
+				<en>Rebates before tax</en>
+				<nl>Aftrekposten voor alle heffingen</nl>
+			</Name>
+			<Description>
+				<en>column 7: Rebates before tax</en>
+				<nl>kolom 7: Aftrekposten voor alle heffingen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loon_werknemersverzekeringen">
+			<Name>
+				<en>Pay for Employee Insurance law</en>
+				<nl>Loon voor de werknemersverzekeringen</nl>
+			</Name>
+			<Description>
+				<en>column 8: Pay for Employee Insurance law</en>
+				<nl>kolom 8: Loon voor de werknemersverzekeringen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loon_zorgverzekeringswet">
+			<Name>
+				<en>Pay for Medical Care Insurance law</en>
+				<nl>Loon voor de Zorgverzekeringswet</nl>
+			</Name>
+			<Description>
+				<en>column 12: Pay for Medical Care Insurance law</en>
+				<nl>kolom 12: Loon voor de Zorgverzekeringswet</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loon_loonbelasting_volksverzekeringen">
+			<Name>
+				<en>Pay for payroll tax and people's insurance law</en>
+				<nl>Loon voor de loonbelasting/volksverzekeringen</nl>
+			</Name>
+			<Description>
+				<en>column 12: Pay for payroll tax and people's insurance law</en>
+				<nl>kolom 12: Loon voor de loonbelasting/volksverzekeringen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="ingehouden_loonbelasting_volksverzekeringen">
+			<Name>
+				<en>Payroll tax and people's insurance premium</en>
+				<nl>Ingehouden loonbelasting/premie volksverzekeringen</nl>
+			</Name>
+			<Description>
+				<en>column 15: Payroll tax and people's insurance premium</en>
+				<nl>kolom 15: Ingehouden loonbelasting/premie volksverzekeringen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="ingehouden_bijdrage_zvw">
+			<Name>
+				<en>Payroll tax for Medical Care Insurance law</en>
+				<nl>Ingehouden bijdrage Zvw</nl>
+			</Name>
+			<Description>
+				<en>column 16: Payroll tax for Medical Care Insurance law</en>
+				<nl>kolom 16: Ingehouden bijdrage Zvw</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="uitbetaald_bedrag">
+			<Name>
+				<en>Amount paid</en>
+				<nl>Uitbetaald bedrag</nl>
+			</Name>
+			<Description>
+				<en>column 17: Amount paid (column 3-7-15-16)</en>
+				<nl>kolom 17: Uitbetaald bedrag (kolom 3-7-15-16)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="verrekende_arbeidskorting">
+			<Name>
+				<en>Deducted work discount</en>
+				<nl>Verrekende arbeidskorting</nl>
+			</Name>
+			<Description>
+				<en>column 18: Deducted work discount</en>
+				<nl>kolom 18: Verrekende arbeidskorting</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="levensloop_verlofkorting">
+			<Name>
+				<en>Career savings plan discount</en>
+				<nl>Levensloop_verlofkorting</nl>
+			</Name>
+			<Description>
+				<en>column 19: Career savings plan discount</en>
+				<nl>kolom 19: Levensloop_verlofkorting</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
