@@ -1,0 +1,29 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Suwinet Income</en>
+		<nl>Demo Suwinet Inkomensgegevens</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Suwinet Income</en>
+		<nl>Demo Suwinet Inkomensgegevens</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>suwinet</IssuerID>
+	<CredentialID>income</CredentialID>
+	<Description>
+		<en>Income according to Suwinet</en>
+		<nl>Income volgens Suwinet</nl>
+	</Description>
+	<Attributes>
+		<Attribute id="income">
+			<Name>
+				<en>Income</en>
+				<nl>Inkomen</nl>
+			</Name>
+			<Description>
+				<en>Income according to Suwinet</en>
+				<nl>Inkomen volgens Suwinet</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
