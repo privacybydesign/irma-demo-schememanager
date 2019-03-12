@@ -8,7 +8,7 @@
 		<nl>Demo Suwinet Inkomensgegevens</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
-	<IssuerID>TWI</IssuerID>
+	<IssuerID>twi</IssuerID>
 	<CredentialID>suwinet-income</CredentialID>
 	<Description>
 		<en>Fake Suwinet Income</en>
@@ -17,12 +17,12 @@
 	<Attributes>
 		<Attribute id="income">
 			<Name>
-				<en>Fake income</en>
-				<nl>Fake inkomen</nl>
+				<en>Income</en>
+				<nl>Inkomen</nl>
 			</Name>
 			<Description>
-				<en>Fake income</en>
-				<nl>Fake inkomen</nl>
+				<en>Income according to Suwinet</en>
+				<nl>Inkomen volgens Suwinet</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
