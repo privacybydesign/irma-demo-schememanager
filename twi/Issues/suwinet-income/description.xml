@@ -1,0 +1,29 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Suwinet Income</en>
+		<nl>Demo Suwinet Inkomensgegevens</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Suwinet Income</en>
+		<nl>Demo Suwinet Inkomensgegevens</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>TWI</IssuerID>
+	<CredentialID>suwinet-income</CredentialID>
+	<Description>
+		<en>Fake Suwinet Income</en>
+		<nl>Fake Suwinet Inkomen</nl>
+	</Description>
+	<Attributes>
+		<Attribute id="income">
+			<Name>
+				<en>Fake income</en>
+				<nl>Fake inkomen</nl>
+			</Name>
+			<Description>
+				<en>Fake income</en>
+				<nl>Fake inkomen</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
