@@ -10,11 +10,6 @@
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>TWI</IssuerID>
 	<CredentialID>twi-income</CredentialID>
-	<ShouldBeSingleton>true</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://suwi.test/irma/verzoek-bijstand</en>
-		<nl>https://suwi.test/irma/verzoek-bijstand</nl>
-	</IssueURL>
 	<Description>
 		<en>Demo Income</en>
 		<nl>Demo Inkomen</nl>
