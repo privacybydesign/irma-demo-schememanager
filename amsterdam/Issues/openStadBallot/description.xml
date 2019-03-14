@@ -1,15 +1,15 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>OpenStad ballot</en>
-		<nl>OpenStad stembiljet</nl>
+		<en>Demo OpenStad ballot</en>
+		<nl>Demo OpenStad stembiljet</nl>
 	</Name>
 	<ShortName>
-		<en>Ballot</en>
-		<nl>Stembiljet</nl>
+		<en>Demo Ballot</en>
+		<nl>Demo Stembiljet</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>amsterdam</IssuerID>
-	<CredentialID>openStad</CredentialID>
+	<CredentialID>openStadBallot</CredentialID>
 	<Description>
 		<en>Your right to vote with OpenStad supplied by Gemeente Amsterdam</en>
 		<nl>Uw recht om te stemmen met OpenStad uitgegeven door Gemeente Amsterdam</nl>
