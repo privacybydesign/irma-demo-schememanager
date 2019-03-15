@@ -14,6 +14,10 @@
 		<en>Identification numbers (EAN) for your electricity and gas connection. See https://www.eancodeboek.nl/</en>
 		<nl>Identificatienummers (EAN) voor uw electriciteits- en gasaansluiting. Zie https://www.eancodeboek.nl/</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.alliander.connection.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.alliander.connection.html</nl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="eangas">

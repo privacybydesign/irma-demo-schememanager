@@ -14,6 +14,10 @@
 		<en>Demo Driving license</en>
 		<nl>Demo Rijbewijs</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.MijnOverheid.drivinglicense.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.MijnOverheid.drivinglicense.html</nl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="firstnames">

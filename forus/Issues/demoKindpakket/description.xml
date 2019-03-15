@@ -14,8 +14,10 @@
 		<en>Demo kindpakket</en>
 		<nl>Demo kindpakket</nl>
 	</Description>
-
-
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.forus.demoKindpakket.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.forus.demoKindpakket.html</nl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="kindpakketEligible">

@@ -14,6 +14,10 @@
 		<en>Attributes for participating in a Common Ground fieldlab.</en>
 		<nl>Attributen voor deelname aan een Common Ground fieldlab.</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.vngrealisatie.fieldlabparticipant.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.vngrealisatie.fieldlabparticipant.html</nl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="edition">

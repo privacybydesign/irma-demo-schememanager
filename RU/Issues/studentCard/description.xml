@@ -14,6 +14,10 @@
 		<en>Student Card issued by the Radboud University Nijmegen</en>
 		<nl>Studentenkaart uitgegeven door de Radboud Universiteit Nijmegen</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.RU.studentCard.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.RU.studentCard.html</nl>
+	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 

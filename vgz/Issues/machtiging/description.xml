@@ -14,6 +14,10 @@
 		<en>A mandate for you, useable to access the Mijn VGZ environment, on behalf of the person who mandated you</en>
 		<nl>Met deze machtiging kunt u declaraties indienen bij VGZ namens de verzekerde die u deze machtiging gegeven heeft.</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.vgz.machtiging.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.vgz.machtiging.html</nl>
+	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
 	<Attributes>

@@ -14,8 +14,10 @@
 		<en>Address description issued by MijnOverheid based on GBA data</en>
 		<nl>Adres uitgegeven door MijnOverheid gebaseerd op GBA-gegevens</nl>
 	</Description>
-
-
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.MijnOverheid.address.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.MijnOverheid.address.html</nl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="country">

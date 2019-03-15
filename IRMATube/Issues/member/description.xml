@@ -14,8 +14,10 @@
 		<en>Your IRMATube membership.</en>
 		<nl></nl>
 	</Description>
-
-
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.IRMATube.member.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.IRMATube.member.html</nl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="type">

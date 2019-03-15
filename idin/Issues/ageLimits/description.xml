@@ -14,6 +14,10 @@
 		<en>Your age limits, derived from your birthdate from the iDIN bank credential.</en>
 		<nl>Uw leeftijdsgrenzen, afgeleid uit uw geboortedatum afkomstig uit het iDIN bank credential.</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.idin.ageLimits.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.idin.ageLimits.html</nl>
+	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Attributes>

@@ -14,6 +14,10 @@
 		<en>Root credential issued by MijnOverheid.nl</en>
 		<nl>Root-credential uitgegeven door MijnOverheid.nl</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.MijnOverheid.root.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.MijnOverheid.root.html</nl>
+	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Attributes>
