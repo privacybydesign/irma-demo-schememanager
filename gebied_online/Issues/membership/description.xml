@@ -1,0 +1,36 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Gebied Online</en>
+		<nl>Demo Gebied Online</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Gebied Online</en>
+		<nl>Demo Gebied Online</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>gebied_online</IssuerID>
+	<CredentialID>membership</CredentialID>
+	<Description>
+		<en>Membership of Gebied Online platform</en>
+		<nl>Lidmaatschap van Gebied Online platform</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebied_online.membership.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebied_online.membership.html</nl>
+	</IssueURL>
+
+	<Attributes>
+
+		<Attribute id="membership_no">
+			<Name>
+				<en>Membership number of Gebied Online</en>
+				<nl>Lidnummer van Gebied Online</nl>
+			</Name>
+			<Description>
+				<en>Person is a member of any Gebied Online platform with specified membership number.</en>
+				<nl>Person is lid van een Gebied Online platform met lidmaadschapsnummer.</nl>
+			</Description>
+		</Attribute>
+
+	</Attributes>
+</IssueSpecification>
