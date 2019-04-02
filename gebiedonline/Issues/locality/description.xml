@@ -1,67 +1,67 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo Gebied Online</en>
-		<nl>Demo Gebied Online</nl>
+		<en>Demo Gebiedonline</en>
+		<nl>Demo Gebiedonline</nl>
 	</Name>
 	<ShortName>
-		<en>Demo Gebied Online</en>
-		<nl>Demo Gebied Online</nl>
+		<en>Demo Gebiedonline</en>
+		<nl>Demo Gebiedonline</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>gebiedonline</IssuerID>
-	<CredentialID>membership_locality</CredentialID>
+	<CredentialID>betrokken_bij</CredentialID>
 	<Description>
-		<en>Gebied Online Locality</en>
-		<nl>Gebied Online buurt en plaats</nl>
+		<en>Gebiedonline Locality</en>
+		<nl>Gebiedonline buurt en plaats</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.membership_locality.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.membership_locality.html</nl>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.betrokken_bij.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.betrokken_bij.html</nl>
 	</IssueURL>
 
 	<Attributes>
 
-		<Attribute id="buurt">
+		<Attribute id="betrokken_bij_buurt">
 			<Name>
-				<en>Local neighbourhood</en>
-				<nl>Buurt</nl>
+				<en>Stakeholder local neighbourhood</en>
+				<nl>Betrokken bij buurt</nl>
 			</Name>
 			<Description>
-				<en>Lives in local neighbourhood</en>
-				<nl>Inwoner van buurt</nl>
+				<en>Lives or works in local neighbourhood</en>
+				<nl>Belanghebbende; woont of werkt in de buurt</nl>
 			</Description>
 		</Attribute>
 
-		<Attribute id="wijk">
+		<Attribute id="betrokken_bij_wijk">
 			<Name>
-				<en>Neighbourhood</en>
-				<nl>Wijk</nl>
+				<en>Stakeholder neighbourhood</en>
+				<nl>Betrokken bij wijk</nl>
 			</Name>
 			<Description>
-				<en>Lives in neighbourhood</en>
-				<nl>Inwoner van wijk</nl>
+				<en>Lives or works in neighbourhood</en>
+				<nl>Belanghebbende; woont of werkt in de wijk</nl>
 			</Description>
 		</Attribute>
 
-		<Attribute id="gebied">
+		<Attribute id="betrokken_bij_gebied">
 			<Name>
-				<en>District</en>
-				<nl>Gebied</nl>
+				<en>Stakeholder district</en>
+				<nl>Betrokken bij gebied / stadsdeel</nl>
 			</Name>
 			<Description>
-				<en>Lives in district</en>
-				<nl>Inwoner van gebied</nl>
+				<en>Lives or works in district</en>
+				<nl>Belanghebbende; woont of werkt in gebied of stadsdeel</nl>
 			</Description>
 		</Attribute>
 
-		<Attribute id="plaats">
+		<Attribute id="betrokken_bij_plaats">
 			<Name>
-				<en>Municipality</en>
-				<nl>Plaats</nl>
+				<en>Stakeholder municipality</en>
+				<nl>Betrokken bij stad of plaats</nl>
 			</Name>
 			<Description>
-				<en>Lives in municipality</en>
-				<nl>Inwoner van plaats</nl>
+				<en>Lives or works in municipality</en>
+				<nl>Belanghebbende; woont of werkt in plaats</nl>
 			</Description>
 		</Attribute>
 

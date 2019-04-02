@@ -20,6 +20,7 @@
 	</IssueURL>
 
 	<Attributes>
+  <!-- e.g. 12345 -->
 		<Attribute id="personeelsnummer">
 			<Name>
 				<en>Employee number</en>

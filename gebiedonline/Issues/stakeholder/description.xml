@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo Gebied Online</en>
-		<nl>Demo Gebied Online</nl>
+		<en>Demo Gebiedonline</en>
+		<nl>Demo Gebiedonline</nl>
 	</Name>
 	<ShortName>
-		<en>Demo Gebied Online</en>
-		<nl>Demo Gebied Online</nl>
+		<en>Demo Gebiedonline</en>
+		<nl>Demo Gebiedonline</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>gebiedonline</IssuerID>
-	<CredentialID>membership</CredentialID>
+	<CredentialID>logincode</CredentialID>
 	<Description>
-		<en>Membership of Gebied Online platform</en>
-		<nl>Lidmaatschap van Gebied Online platform</nl>
+		<en>User of Gebiedonline platform</en>
+		<nl>Gebruiker van gebiedonline platform</nl>
 	</Description>
 	<IssueURL>
 		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.logincode.html</en>
@@ -23,12 +23,12 @@
 
 		<Attribute id="logincode">
 			<Name>
-				<en>Login code of Gebied Online</en>
-				<nl>Login code van Gebied Online</nl>
+				<en>Login code of Gebiedonline</en>
+				<nl>Login code van Gebiedonline</nl>
 			</Name>
 			<Description>
-				<en>Person can log into any Gebied Online platform with specified code.</en>
-				<nl>Person kan in een Gebied Online platform inloggen met code.</nl>
+				<en>Person can log into any Gebiedonline platform with specified code.</en>
+				<nl>Person kan in een Gebiedonline platform inloggen met code.</nl>
 			</Description>
 		</Attribute>
 
