@@ -8,15 +8,15 @@
 		<nl>Demo Gebied Online</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
-	<IssuerID>gebied_online</IssuerID>
+	<IssuerID>gebiedonline</IssuerID>
 	<CredentialID>membership_locality</CredentialID>
 	<Description>
 		<en>Gebied Online Locality</en>
 		<nl>Gebied Online buurt en plaats</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebied_online.membership_locality.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebied_online.membership_locality.html</nl>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.membership_locality.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.membership_locality.html</nl>
 	</IssueURL>
 
 	<Attributes>
@@ -39,7 +39,7 @@
 			</Name>
 			<Description>
 				<en>Lives in neighbourhood</en>
-				<nl>Inwoner van buurt</nl>
+				<nl>Inwoner van wijk</nl>
 			</Description>
 		</Attribute>
 
