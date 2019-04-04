@@ -9,14 +9,14 @@
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>gebiedonline</IssuerID>
-	<CredentialID>logincode</CredentialID>
+	<CredentialID>stakeholder</CredentialID>
 	<Description>
 		<en>User of Gebiedonline platform</en>
-		<nl>Gebruiker van gebiedonline platform</nl>
+		<nl>Gebruiker van Gebiedonline platform</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.logincode.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.logincode.html</nl>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.stakeholder.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.stakeholder.html</nl>
 	</IssueURL>
 
 	<Attributes>
@@ -28,7 +28,7 @@
 			</Name>
 			<Description>
 				<en>Person can log into any Gebiedonline platform with specified code.</en>
-				<nl>Person kan in een Gebiedonline platform inloggen met code.</nl>
+				<nl>Persoon kan in een Gebiedonline platform inloggen met code.</nl>
 			</Description>
 		</Attribute>
 

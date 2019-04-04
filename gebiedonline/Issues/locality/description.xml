@@ -9,33 +9,33 @@
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>gebiedonline</IssuerID>
-	<CredentialID>betrokken_bij</CredentialID>
+	<CredentialID>locality</CredentialID>
 	<Description>
 		<en>Gebiedonline Locality</en>
 		<nl>Gebiedonline buurt en plaats</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.betrokken_bij.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.betrokken_bij.html</nl>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.locality.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.locality.html</nl>
 	</IssueURL>
 
 	<Attributes>
 
-		<Attribute id="betrokken_bij_buurt">
+		<Attribute id="locality">
 			<Name>
 				<en>Stakeholder local neighbourhood</en>
-				<nl>Betrokken bij buurt</nl>
+				<nl>Belanghebbende in locale buurt</nl>
 			</Name>
 			<Description>
-				<en>Lives or works in local neighbourhood</en>
+				<en>Lives or works in local (sub-) neighbourhood</en>
 				<nl>Belanghebbende; woont of werkt in de buurt</nl>
 			</Description>
 		</Attribute>
 
-		<Attribute id="betrokken_bij_wijk">
+		<Attribute id="neighbourhood">
 			<Name>
 				<en>Stakeholder neighbourhood</en>
-				<nl>Betrokken bij wijk</nl>
+				<nl>Belanghebbende in wijk</nl>
 			</Name>
 			<Description>
 				<en>Lives or works in neighbourhood</en>
@@ -43,10 +43,10 @@
 			</Description>
 		</Attribute>
 
-		<Attribute id="betrokken_bij_gebied">
+		<Attribute id="district">
 			<Name>
 				<en>Stakeholder district</en>
-				<nl>Betrokken bij gebied / stadsdeel</nl>
+				<nl>Belanghebbende in gebied / stadsdeel</nl>
 			</Name>
 			<Description>
 				<en>Lives or works in district</en>
@@ -54,10 +54,10 @@
 			</Description>
 		</Attribute>
 
-		<Attribute id="betrokken_bij_plaats">
+		<Attribute id="municipality">
 			<Name>
 				<en>Stakeholder municipality</en>
-				<nl>Betrokken bij stad of plaats</nl>
+				<nl>Belanghebbende in de stad of plaats</nl>
 			</Name>
 			<Description>
 				<en>Lives or works in municipality</en>
