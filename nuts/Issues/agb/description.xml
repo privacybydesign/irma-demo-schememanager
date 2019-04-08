@@ -30,5 +30,15 @@
 				<nl>unieke identificerende sleutel van individuele zorgverleners en zorgorganisaties</nl>
 			</Description>
 		</Attribute>
+		<Attribute id="role">
+			<Name>
+				<en>role</en>
+				<nl>rol</nl>
+			</Name>
+			<Description>
+				<en>care provider role related to the uniquely identifying key</en>
+				<nl>zorgverlenersrol met betrekking tot de unieke code</nl>
+			</Description>
+		</Attribute>
 	</Attributes>
 </IssueSpecification>
