@@ -30,7 +30,7 @@
 				<nl>unieke identificerende sleutel van individuele zorgverleners en zorgorganisaties</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="role">
+		<Attribute id="role" optional="true">
 			<Name>
 				<en>role</en>
 				<nl>rol</nl>
