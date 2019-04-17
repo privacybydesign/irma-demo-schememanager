@@ -71,25 +71,5 @@
 				<nl>Uw woonplaats</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="cityofbirth">
-            <Name>
-                <en>City of birth</en>
-                <nl>Geboorteplaats</nl>
-            </Name>
-            <Description>
-                <en>Your city of birth</en>
-                <nl>Uw geboorteplaats</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="countryofbirth">
-            <Name>
-                <en>Country of birth</en>
-                <nl>Geboorteland</nl>
-            </Name>
-            <Description>
-                <en>Your country of birth</en>
-                <nl>Uw geboorteland</nl>
-            </Description>
-        </Attribute>
 	</Attributes>
 </IssueSpecification>
