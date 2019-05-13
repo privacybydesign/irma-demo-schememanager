@@ -20,174 +20,84 @@
 	</IssueURL>
 
 	<Attributes>
-		<Attribute id="employer">
+		<Attribute id="brutoloon">
 			<Name>
-				<en>Werkgever</en>
-				<nl>Werkgever</nl>
+				<en>Gross salary</en>
+				<nl>Brutoloon</nl>
 			</Name>
 			<Description>
-				<en>The employer issuing this payroll</en>
-				<nl>De werkgever die de loonstaat verstrekt</nl>
+				<en>Gross salary</en>
+				<nl>Brutoloon</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="payrollTaxDiscount">
+		<Attribute id="brutocomponenten">
 			<Name>
-				<en>Loonheffingkorting</en>
-				<nl>Loonheffingkorting</nl>
+				<en>Gross salary components</en>
+				<nl>Bruto componenten</nl>
 			</Name>
 			<Description>
-				<en>Payroll tax discount applied</en>
-				<nl>Loonheffingkorting toegepast</nl>
+				<en>Gross salary components</en>
+				<nl>Bruto componenten</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="disabledPersonDiscount">
+		<Attribute id="wnpremie">
 			<Name>
-				<en>Jonggehandicaptenkorting</en>
-				<nl>Jonggehandicaptenkorting</nl>
+				<en>WN premium</en>
+				<nl>WN premie</nl>
 			</Name>
 			<Description>
-				<en>Disabled person discount applied</en>
-				<nl>Jonggehandicaptenkorting toegepast</nl>
+				<en>WN premium</en>
+				<nl>WN premie</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="payrollTimeframe">
+		<Attribute id="werknemerspremie">
 			<Name>
-				<en>Timeframe</en>
-				<nl>Loontijdvak</nl>
+				<en>Employee premium</en>
+				<nl>Werknemers premie</nl>
 			</Name>
 			<Description>
-				<en>Column 1: Timeframe of this payroll</en>
-				<nl>Kolom 1: Tijdvak van de loonstaat</nl>
+				<en>Employee premium</en>
+				<nl>Werknemers premie</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="incomeContractNumber">
+		<Attribute id="nettotoekenningen">
 			<Name>
-				<en>Number Income contract</en>
-				<nl>Nummer Inkomstenverhouding</nl>
+				<en>Net salary allocations</en>
+				<nl>Netto toekenningen</nl>
 			</Name>
 			<Description>
-				<en>Column 2: Number Income contract</en>
-				<nl>Kolom 2: Nummer Inkomstenverhouding</nl>
+				<en>Net salary allocations</en>
+				<nl>Netto toekenningen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="payInMoney">
+		<Attribute id="nettoinhoudingen">
 			<Name>
-				<en>Pay in money</en>
-				<nl>Loon in geld</nl>
+				<en>Net salary deductions</en>
+				<nl>Netto inhoudingen</nl>
 			</Name>
 			<Description>
-				<en>Column 3: Pay in money</en>
-				<nl>Kolom 3: Loon in geld</nl>
+				<en>Net salary deductions</en>
+				<nl>Netto inhoudingen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="payNotInMoney">
+		<Attribute id="vtwerkgever">
 			<Name>
 				<en>Pay not in money</en>
 				<nl>Loon anders dan in geld</nl>
 			</Name>
 			<Description>
-				<en>Column 4: Pay not in money</en>
-				<nl>Kolom 4: Loon anders dan in geld</nl>
+				<en>Vacation allowance werkgever</en>
+				<nl>Vakantie Toeslag werkgever</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="payFromFunds">
+		<Attribute id="solidariteitsbijdrage">
 			<Name>
-				<en>Pay from funds</en>
-				<nl>Uitkeringen uit fondsen</nl>
+				<en>Solidariteitsbijdrage</en>
+				<nl>Solidariteitsbijdrage</nl>
 			</Name>
 			<Description>
-				<en>Column 5: Pay from funds</en>
-				<nl>Kolom 5: Fooien en uitkeringen uit fondsen</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="rebatesBeforeTax">
-			<Name>
-				<en>Rebates before tax</en>
-				<nl>Aftrekposten voor alle heffingen</nl>
-			</Name>
-			<Description>
-				<en>Column 7: Rebates before tax</en>
-				<nl>Kolom 7: Aftrekposten voor alle heffingen</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="employeeInsuranceLawPay">
-			<Name>
-				<en>Pay for Employee Insurance law</en>
-				<nl>Loon voor de werknemersverzekeringen</nl>
-			</Name>
-			<Description>
-				<en>Column 8: Pay for Employee Insurance law</en>
-				<nl>Kolom 8: Loon voor de werknemersverzekeringen</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="healthInsuranceLawPay">
-			<Name>
-				<en>Pay for Health Insurance law</en>
-				<nl>Loon voor de Zorgverzekeringswet</nl>
-			</Name>
-			<Description>
-				<en>Column 12: Pay for Health Insurance law</en>
-				<nl>Kolom 12: Loon voor de Zorgverzekeringswet</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="socialInsurancePay">
-			<Name>
-				<en>Pay for payroll tax and social insurance law</en>
-				<nl>Loon voor de loonbelasting/volksverzekeringen</nl>
-			</Name>
-			<Description>
-				<en>Column 12: Pay for payroll tax and social insurance law</en>
-				<nl>Kolom 12: Loon voor de loonbelasting/volksverzekeringen</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="socialInsurancePremium">
-			<Name>
-				<en>Payroll tax and social insurance premium</en>
-				<nl>Ingehouden loonbelasting/premie volksverzekeringen</nl>
-			</Name>
-			<Description>
-				<en>Column 15: Payroll tax and social insurance premium</en>
-				<nl>Kolom 15: Ingehouden loonbelasting/premie volksverzekeringen</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="withheldZvwPay">
-			<Name>
-				<en>Payroll tax for Medical Care Insurance law</en>
-				<nl>Ingehouden bijdrage Zvw</nl>
-			</Name>
-			<Description>
-				<en>Column 16: Payroll tax for Medical Care Insurance law</en>
-				<nl>Kolom 16: Ingehouden bijdrage Zvw</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="amountPaid">
-			<Name>
-				<en>Amount paid</en>
-				<nl>Uitbetaald bedrag</nl>
-			</Name>
-			<Description>
-				<en>Column 17: Amount paid (column 3-7-15-16)</en>
-				<nl>Kolom 17: Uitbetaald bedrag (kolom 3-7-15-16)</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="deductedWorkInsurance">
-			<Name>
-				<en>Deducted work discount</en>
-				<nl>Verrekende arbeidskorting</nl>
-			</Name>
-			<Description>
-				<en>Column 18: Deducted work discount</en>
-				<nl>Kolom 18: Verrekende arbeidskorting</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="careerSavingsPlanDiscount">
-			<Name>
-				<en>Career savings plan discount</en>
-				<nl>Levensloop_verlofkorting</nl>
-			</Name>
-			<Description>
-				<en>Column 19: Career savings plan discount</en>
-				<nl>Kolom 19: Levensloop_verlofkorting</nl>
+				<en>Solidarity contribution</en>
+				<nl>Solidariteitsbijdrage</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
