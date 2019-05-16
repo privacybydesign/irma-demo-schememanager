@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo BSN for healthcare</en>
-		<nl>Demo BSN voor de zorg</nl>
+		<en>Demo BSN from healthcare</en>
+		<nl>Demo BSN vanuit de zorg</nl>
 	</Name>
 	<ShortName>
 		<en>Demo BSN healthcare</en>
@@ -14,18 +14,21 @@
 		<en>Your Dutch Citizen service number (BSN), from the Dutch population register, verified face to face</en>
 		<nl>Uw Burgerservicenummer (BSN), afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens, fysiek geverifieerd</nl>
 	</Description>
-	<IssueURL><en></en><nl></nl></IssueURL>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.chipsoft.bsn.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/en/irma-demo.chipsoft.bsn.html</nl>
+	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Attributes>
 		<Attribute id="bsn">
 			<Name>
-				<en>BSN for healthcare</en>
-				<nl>BSN voor de zorg</nl>
+				<en>BSN from healthcare</en>
+				<nl>BSN vanuit de zorg</nl>
 			</Name>
 			<Description>
-				<en>Your Dutch Citizen service number (BSN) for healthcare</en>
-				<nl>Uw Burgerservicenummer (BSN) voor de zorg</nl>
+				<en>Your Dutch Citizen service number (BSN) from healthcare</en>
+				<nl>Uw Burgerservicenummer (BSN) vanuit de zorg</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
