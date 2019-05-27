@@ -21,7 +21,7 @@
   <ShouldBeSingleton>true</ShouldBeSingleton>
 
   <Attributes>
-    <Attribute id="bsn">
+    <Attribute id="bsn" displayIndex="0">
       <Name>
         <en>BSN from healthcare</en>
         <nl>BSN vanuit de zorg</nl>
