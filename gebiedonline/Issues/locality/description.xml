@@ -21,28 +21,49 @@
 
 	<Attributes>
 
-		<Attribute id="lives_in">
+		<Attribute id="locality">
 			<Name>
-				<en>4 digits of postcode of residential address</en>
-				<nl>4 cijfers van de postcode van het woonadres</nl>
+				<en>Stakeholder local neighbourhood</en>
+				<nl>Belanghebbende in locale buurt</nl>
 			</Name>
 			<Description>
-				<en>Lives in the city/neightborhood with the given 4 digits of the postal code</en>
-				<nl>Woont in het gebied aangeduid met deze 4 cijfers van de postcode</nl>
+				<en>Lives or works in local (sub-) neighbourhood</en>
+				<nl>Belanghebbende; woont of werkt in de buurt</nl>
 			</Description>
 		</Attribute>
 
-		<Attribute id="works_in">
+		<Attribute id="neighbourhood">
 			<Name>
-				<en>4 digits of postcode of work address</en>
-				<nl>4 cijfers van de postcode van het werkadres</nl>
+				<en>Stakeholder neighbourhood</en>
+				<nl>Belanghebbende in wijk</nl>
 			</Name>
 			<Description>
-				<nl>Works or has economic ties with the area denoted ny the four postcode digits</nl>
-				<nl>Werkt of heeft economische binding met het gebied aangeduid met de 4 cijfers van de postcode</nl>
+				<en>Lives or works in neighbourhood</en>
+				<nl>Belanghebbende; woont of werkt in de wijk</nl>
 			</Description>
 		</Attribute>
 
+		<Attribute id="district">
+			<Name>
+				<en>Stakeholder district</en>
+				<nl>Belanghebbende in gebied / stadsdeel</nl>
+			</Name>
+			<Description>
+				<en>Lives or works in district</en>
+				<nl>Belanghebbende; woont of werkt in gebied of stadsdeel</nl>
+			</Description>
+		</Attribute>
+
+		<Attribute id="municipality">
+			<Name>
+				<en>Stakeholder municipality</en>
+				<nl>Belanghebbende in de stad of plaats</nl>
+			</Name>
+			<Description>
+				<en>Lives or works in municipality</en>
+				<nl>Belanghebbende; woont of werkt in plaats</nl>
+			</Description>
+		</Attribute>
 
 	</Attributes>
 </IssueSpecification>
