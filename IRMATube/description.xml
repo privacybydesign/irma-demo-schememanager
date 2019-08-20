@@ -2,11 +2,11 @@
   <ID>IRMATube</ID>
   <Name>
 	  <en>IRMATube</en>
-	  <nl></nl>
+	  <nl>IRMATube</nl>
   </Name>
   <ShortName>
 	  <en>IRMATube</en>
-	  <nl></nl>
+	  <nl>IRMATube</nl>
   </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Radboud Universiteit Nijmegen
