@@ -1,22 +1,22 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo healthcare identifier</en>
-		<nl>Demo zorg identifier</nl>
+		<en>Demo healthcare identity</en>
+		<nl>Demo zorgidentiteit</nl>
 	</Name>
 	<ShortName>
-		<en>Demo healthcare identifier</en>
-		<nl>Demo zorg identifier</nl>
+		<en>Demo healthcare identity</en>
+		<nl>Demo zorgidentiteit</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>vzvz</IssuerID>
-	<CredentialID>healthcareidentifier</CredentialID>
+	<CredentialID>healthcareidentity</CredentialID>
 	<Description>
-		<en>Your Dutch healthcare identifier, verified face to face</en>
-		<nl>Uw zorg-identifier, fysiek geverifieerd</nl>
+		<en>Your Dutch healthcare identity, verified face to face</en>
+		<nl>Uw zorgidentiteit, fysiek geverifieerd</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.vzvz.healthcareidentifier.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.vzvz.healthcareidentifier.html</nl>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.vzvz.healthcareidentity.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.vzvz.healthcareidentity.html</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
@@ -27,8 +27,8 @@
 				<nl>Zorgcode</nl>
 			</Name>
 			<Description>
-				<en>Your Dutch healthcare code</en>
-				<nl>Uw zorgcode</nl>
+				<en>Your Dutch healthcare code, with which you can login online at Dutch healthcare institutions</en>
+				<nl>Uw zorgcode, waarmee u online bij zorginstellingen in kunt loggen</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="initials">
