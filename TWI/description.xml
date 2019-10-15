@@ -1,0 +1,15 @@
+<Issuer version="4">
+  <ID>TWI</ID>
+  <Name>
+	  <en>Demo Toekomst Gegevensuitwisseling Werk en Inkomen</en>
+	  <nl>Demo Toekomst Gegevensuitwisseling Werk en Inkomen</nl>
+  </Name>
+  <ShortName>
+	  <en>Demo TWI</en>
+	  <nl>Demo TWI</nl>
+  </ShortName>
+  <SchemeManager>irma-demo</SchemeManager>
+  <ContactAddress>https://www.vngrealisatie.nl/producten/toekomst-gegevensuitwisseling-werk-en-inkomen-twi-op-weg-naar-inzage-inzicht-en</ContactAddress>
+  <ContactEMail>christoph@ovrhd.nl</ContactEMail>
+  <baseURL></baseURL>
+</Issuer>
