@@ -18,7 +18,6 @@
 		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.ideal.ideal.html</en>
 		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.ideal.ideal.html</nl>
 	</IssueURL>
-	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Attributes>
 		<Attribute id="fullname">
