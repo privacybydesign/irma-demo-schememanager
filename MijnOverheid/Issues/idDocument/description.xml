@@ -14,6 +14,10 @@
 		<en>An identity document issued by the government.</en>
 		<nl>Een identiteitsbewijs uitgegeven door de overheid.</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.MijnOverheid.idDocument.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.MijnOverheid.idDocument.html</nl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="type">

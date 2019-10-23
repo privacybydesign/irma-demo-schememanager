@@ -14,6 +14,11 @@
 		<en>Attributes for Haarlem employees</en>
 		<nl>Attributen werknemers van Haarlem</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.haarlem.medewerker.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.haarlem.medewerker.html</nl>
+	</IssueURL>
+
 	<Attributes>
 		<Attribute id="personeelsnummer">
 			<Name>

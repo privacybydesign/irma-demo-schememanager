@@ -14,6 +14,10 @@
 		<en>The total year income of your household, as known by the Dutch tax office</en>
 		<nl>Het verzamelinkomen van uw huishouden, zoals bekend bij de Belastingdienst</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.belastingdienst.verzamelinkomenhuishouden.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.belastingdienst.verzamelinkomenhuishouden.html</nl>
+	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
 	<Attributes>

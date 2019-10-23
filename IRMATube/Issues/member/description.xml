@@ -1,41 +1,43 @@
 <IssueSpecification version="4">
 	<Name>
 		<en>Member</en>
-		<nl></nl>
+		<nl>Member</nl>
 	</Name>
 	<ShortName>
 		<en>IRMATube</en>
-		<nl></nl>
+		<nl>IRMATube</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>IRMATube</IssuerID>
 	<CredentialID>member</CredentialID>
 	<Description>
 		<en>Your IRMATube membership.</en>
-		<nl></nl>
+		<nl>Uw IRMATube lidmaatschapsattributen</nl>
 	</Description>
-
-
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.IRMATube.member.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.IRMATube.member.html</nl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="type">
 			<Name>
 				<en>type</en>
-				<nl></nl>
+				<nl>type</nl>
 			</Name>
 			<Description>
 				<en>Your membership type</en>
-				<nl></nl>
+				<nl>Uw lidmaatschapstype</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="id">
 			<Name>
 				<en>id</en>
-				<nl></nl>
+				<nl>id</nl>
 			</Name>
 			<Description>
 				<en>The membership id</en>
-				<nl></nl>
+				<nl>Uw lidmaatschapsnummer</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

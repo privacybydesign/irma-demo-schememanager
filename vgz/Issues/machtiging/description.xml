@@ -11,12 +11,36 @@
 	<IssuerID>vgz</IssuerID>
 	<CredentialID>machtiging</CredentialID>
 	<Description>
-		<en>A mandate for you, useable to access the Mijn VGZ environment, on behalf of the person who mandated you</en>
-		<nl>Met deze machtiging kunt u declaraties indienen bij VGZ namens de verzekerde die u deze machtiging gegeven heeft.</nl>
+		<en>With this mandate you can submit claims to VGZ on behalf of the person who mandated you</en>
+		<nl>Met deze machtiging kunt u declaraties indienen bij VGZ namens de verzekerde die u deze machtiging gegeven heeft</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.vgz.machtiging.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.vgz.machtiging.html</nl>
+	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
 	<Attributes>
+		<Attribute id="clientnumber">
+			<Name>
+				<en>VGZ Customer number</en>
+				<nl>VGZ Klantnummer</nl>
+			</Name>
+			<Description>
+				<en>The VGZ customer number of the VGZ client who mandated you</en>
+				<nl>Het VGZ klantnummer van de VGZ verzekerde die deze machtiging aan u gegeven heeft</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="clientfullname">
+			<Name>
+				<en>Insured person</en>
+				<nl>Verzekerde</nl>
+			</Name>
+			<Description>
+				<en>The name of the VGZ customer who mandated you</en>
+				<nl>De naam van de VGZ verzekerde die deze machtiging aan u gegevens heeft</nl>
+			</Description>
+		</Attribute>
 		<Attribute id="mandateid">
 			<Name>
 				<en>MandateID</en>
@@ -25,36 +49,6 @@
 			<Description>
 				<en>A unique ID for this mandate</en>
 				<nl>Een uniek ID voor deze machtiging</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="clientnumber">
-			<Name>
-				<en>Client number</en>
-				<nl>Klantnummer</nl>
-			</Name>
-			<Description>
-				<en>The VGZ client number of the client who mandated you</en>
-				<nl>Het VGZ klantnummer van de VGZ verzekerde die deze machtiging aan u gegeven heeft</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="mandatefamilyname">
-			<Name>
-				<en>Family name</en>
-				<nl>Achternaam</nl>
-			</Name>
-			<Description>
-				<en>The family name of the client who mandated you</en>
-				<nl>De achternaam van de VGZ verzekerde die deze machtiging aan u gegevens heeft</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="mandateinitials">
-			<Name>
-				<en>Initials</en>
-				<nl>Voorletters</nl>
-			</Name>
-			<Description>
-				<en>The initials of the client who mandated you</en>
-				<nl>De voorletters van de VGZ verzekerde die deze machtiging aan u gegeven heeft</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

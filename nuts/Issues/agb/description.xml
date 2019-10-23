@@ -14,6 +14,10 @@
 		<en>Vektis agb attributes issued by Nuts.</en>
 		<nl>Vektis agb attributen uitgegeven door Nuts.</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.nuts.agb.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.nuts.agb.html</nl>
+	</IssueURL>
 
 	<Attributes>
 		<Attribute id="agbcode">
@@ -24,6 +28,16 @@
 			<Description>
 				<en>uniquely identifying key for individual care providers and care organisations</en>
 				<nl>unieke identificerende sleutel van individuele zorgverleners en zorgorganisaties</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="role" optional="true">
+			<Name>
+				<en>role</en>
+				<nl>rol</nl>
+			</Name>
+			<Description>
+				<en>care provider role related to the uniquely identifying key</en>
+				<nl>zorgverlenersrol met betrekking tot de unieke code</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

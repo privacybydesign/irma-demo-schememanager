@@ -1,0 +1,15 @@
+<Issuer version="4">
+  <ID>DemoDuo</ID>
+  <Name>
+	  <en>DemoDUO</en>
+	  <nl>DemoDUO</nl>
+  </Name>
+  <ShortName>
+	  <en>DemoDUO</en>
+	  <nl>DemoDUO</nl>
+  </ShortName>
+  <SchemeManager>irma-demo</SchemeManager>
+  <ContactAddress>Een demoDUO adres</ContactAddress>
+  <ContactEMail>demoduo@example.com</ContactEMail>
+  <baseURL>http://www.duo.nl</baseURL>
+</Issuer>

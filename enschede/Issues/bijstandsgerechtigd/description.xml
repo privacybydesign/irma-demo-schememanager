@@ -14,6 +14,11 @@
 		<en>Attributen voor Pilot Bijstand Aanvaarden Werk</en>
 		<nl>Attributen voor Pilot Bijstand Aanvaarden Werk</nl>
 	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.enschede.bijstandsgerechtigd.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.enschede.bijstandsgerechtigd.html</nl>
+	</IssueURL>
+
 	<Attributes>
 		<Attribute id="bijstandsgerechtigd">
 			<Name>
