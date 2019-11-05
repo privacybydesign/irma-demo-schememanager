@@ -11,8 +11,8 @@
 	<IssuerID>vzvz</IssuerID>
 	<CredentialID>healthcareidentity</CredentialID>
 	<Description>
-		<en>Your Dutch healthcare identity, verified face to face</en>
-		<nl>Uw zorgidentiteit, fysiek geverifieerd</nl>
+		<en>Your Dutch healthcare identity</en>
+		<nl>Uw zorgidentiteit</nl>
 	</Description>
 	<IssueURL>
 		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.vzvz.healthcareidentity.html</en>
@@ -79,6 +79,16 @@
 			<Description>
 				<en>Your date of birth</en>
 				<nl>Uw geboortedatum</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="issuancemethod">
+			<Name>
+				<en>Issuance method</en>
+				<nl>Uitgiftemethode</nl>
+			</Name>
+			<Description>
+				<en>The way in which your healthcare identity was issued</en>
+				<nl>De wijze waarop uw zorgidentiteit is uitgegeven</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
