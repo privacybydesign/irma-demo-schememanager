@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>iDIN data</en>
-		<nl></nl>
+		<en>Demo iDIN data</en>
+		<nl>Demo iDIN data</nl>
 	</Name>
 	<ShortName>
-		<en>iDIN data</en>
-		<nl></nl>
+		<en>Demo iDIN data</en>
+		<nl>Demo iDIN data</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>RU</IssuerID>

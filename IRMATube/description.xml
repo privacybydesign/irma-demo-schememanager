@@ -1,12 +1,12 @@
 <Issuer version="4">
   <ID>IRMATube</ID>
   <Name>
-	  <en>IRMATube</en>
-	  <nl>IRMATube</nl>
+	  <en>Demo IRMATube</en>
+	  <nl>Demo IRMATube</nl>
   </Name>
   <ShortName>
-	  <en>IRMATube</en>
-	  <nl>IRMATube</nl>
+	  <en>Demo IRMATube</en>
+	  <nl>Demo IRMATube</nl>
   </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Radboud Universiteit Nijmegen

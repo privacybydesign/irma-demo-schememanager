@@ -4,8 +4,8 @@
 		<nl>Demo Rijbewijs</nl>
 	</Name>
 	<ShortName>
-		<en>Driving license</en>
-		<nl>Rijbewijs</nl>
+		<en>Demo Driving license</en>
+		<nl>Demo Rijbewijs</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>

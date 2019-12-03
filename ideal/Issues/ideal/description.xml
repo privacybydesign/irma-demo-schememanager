@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>iDeal demo</en>
-		<nl>iDeal demo</nl>
+		<en>Demo iDEAL</en>
+		<nl>Demo iDEAL</nl>
 	</Name>
 	<ShortName>
-		<en>iDeal demo</en>
-		<nl>iDeal demo</nl>
+		<en>Demo iDEAL</en>
+		<nl>Demo iDEAL</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>ideal</IssuerID>

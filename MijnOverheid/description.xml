@@ -1,12 +1,12 @@
 <Issuer version="4">
   <ID>MijnOverheid</ID>
   <Name>
-	  <en>DemoVerheid.nl</en>
-	  <nl>DemoVerheid.nl</nl>
+	  <en>Demo MijnOverheid.nl</en>
+	  <nl>Demo MijnOverheid.nl</nl>
   </Name>
   <ShortName>
-	  <en>DemoVerheid.nl</en>
-	  <nl>DemoVerheid.nl</nl>
+	  <en>Demo MijnOverheid.nl</en>
+	  <nl>Demo MijnOverheid.nl</nl>
   </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Een demo-overheid</ContactAddress>

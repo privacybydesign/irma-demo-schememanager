@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Student Card</en>
-		<nl>Studentenkaart</nl>
+		<en>Demo Student Card</en>
+		<nl>Demo Studentenkaart</nl>
 	</Name>
 	<ShortName>
-		<en>Student Card</en>
-		<nl>Studentenkaart</nl>
+		<en>Demo Student Card</en>
+		<nl>Demo Studentenkaart</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>RU</IssuerID>

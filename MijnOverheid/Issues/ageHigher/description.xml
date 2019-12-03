@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Senior Age limits</en>
-		<nl>Senior-leeftijdslimieten</nl>
+		<en>Demo Senior Age limits</en>
+		<nl>Demo Senior-leeftijdslimieten</nl>
 	</Name>
 	<ShortName>
-		<en>Age (Senior)</en>
-		<nl>Leeftijd (senior)</nl>
+		<en>Demo Age (Senior)</en>
+		<nl>Demo Leeftijd (senior)</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>

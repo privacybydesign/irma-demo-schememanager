@@ -3,8 +3,8 @@
 	<Url>https://privacybydesign.foundation/schememanager/irma-demo</Url>
 	<Demo>true</Demo>
 	<Name>
-		<en>Irma Demo</en>
-		<nl>Irma Demo</nl>
+		<en>IRMA Demo</en>
+		<nl>IRMA Demo</nl>
 	</Name>
 	<Description>
 		<en>Demo credentials within the IRMA domain</en>
