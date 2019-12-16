@@ -31,16 +31,6 @@
 				<nl>Uw voornamen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="prefix">
-			<Name>
-				<en>Prefix</en>
-				<nl>Voorvoegsel</nl>
-			</Name>
-			<Description>
-				<en>Prefix of your family name</en>
-				<nl>Voorvoegsel van uw achternaam</nl>
-			</Description>
-		</Attribute>
 		<Attribute id="surname">
 			<Name>
 				<en>Surname</en>
@@ -61,7 +51,7 @@
 				<nl>Uw geslacht</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="nationality" optional="true">
+		<Attribute id="nationality">
 			<Name>
 				<en>Dutch nationality</en>
 				<nl>Nederlandse nationaliteit</nl>
@@ -139,6 +129,16 @@
 			<Description>
 				<en>Your Dutch Citizen service number (BSN)</en>
 				<nl>Uw Burgerservicenummer (BSN)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="photo">
+			<Name>
+				<en>Photo</en>
+				<nl>Foto</nl>
+			</Name>
+			<Description>
+				<en></en>
+				<nl></nl>
 			</Description>
 		</Attribute>
 	</Attributes>
