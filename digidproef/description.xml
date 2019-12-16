@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>digidproef</ID>
+	<ShortName>
+		<en>Demo DigiD Proef Pilot</en>
+		<nl>Demo DigiD Proef Pilot</nl>
+	</ShortName>
+	<Name>
+		<en>Demo DigiD Proef Pilot</en>
+		<nl>Demo DigiD Proef Pilot</nl>
+	</Name>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ContactAddress>https://example.org</ContactAddress>
+	<ContactEMail>example@example.org</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>
