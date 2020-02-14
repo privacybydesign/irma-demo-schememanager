@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Citizen data</en>
-		<nl>Persoonsgegevens</nl>
+		<en>Demo Citizen data</en>
+		<nl>Demo Persoonsgegevens</nl>
 	</Name>
 	<ShortName>
-		<en>Citizen data</en>
-		<nl>Persoonsgegevens</nl>
+		<en>Demo Citizen data</en>
+		<nl>Demo Persoonsgegevens</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>digidproef</IssuerID>
