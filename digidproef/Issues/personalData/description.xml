@@ -68,7 +68,7 @@
 				<nl>Uw voornamen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="prefix" displayIndex="4">
+		<Attribute id="prefix" optional="true" displayIndex="4">
 			<Name>
 				<en>Prefix</en>
 				<nl>Voorvoegsel</nl>
@@ -78,7 +78,7 @@
 				<nl>Voorvoegsel van uw achternaam</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="familyname" displayIndex="6">
+		<Attribute id="familyname" displayIndex="5">
 			<Name>
 				<en>Family name</en>
 				<nl>Geslachtsnaam</nl>
@@ -98,7 +98,7 @@
 				<nl>Uw volledige naam</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="gender" displayIndex="7">
+		<Attribute id="gender" displayIndex="6">
 			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
@@ -108,7 +108,7 @@
 				<nl>Uw geslacht</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="nationality" optional="true" displayIndex="14">
+		<Attribute id="nationality" optional="true" displayIndex="13">
 			<Name>
 				<en>Dutch nationality</en>
 				<nl>Nederlandse nationaliteit</nl>
@@ -118,7 +118,7 @@
 				<nl>Of u de Nederlandse nationaliteit bezit</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="dateofbirth" displayIndex="8">
+		<Attribute id="dateofbirth" displayIndex="7">
 			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
@@ -128,7 +128,7 @@
 				<nl>Uw geboortedatum</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="countryofbirth" displayIndex="16">
+		<Attribute id="countryofbirth" displayIndex="14">
 			<Name>
 				<en>Country of birth</en>
 				<nl>Geboorteland</nl>
@@ -138,7 +138,7 @@
 				<nl>Uw geboorteland</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over12" displayIndex="9">
+		<Attribute id="over12" displayIndex="8">
 			<Name>
 				<en>Over 12</en>
 				<nl>Ouder dan 12</nl>
@@ -148,7 +148,7 @@
 				<nl>Of u ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over16" displayIndex="10">
+		<Attribute id="over16" displayIndex="9">
 			<Name>
 				<en>Over 16</en>
 				<nl>Ouder dan 16</nl>
@@ -158,7 +158,7 @@
 				<nl>Of u ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over18" displayIndex="11">
+		<Attribute id="over18" displayIndex="10">
 			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
@@ -168,7 +168,7 @@
 				<nl>Of u ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over21" displayIndex="12">
+		<Attribute id="over21" displayIndex="11">
 			<Name>
 				<en>Over 21</en>
 				<nl>Ouder dan 21</nl>
@@ -178,7 +178,7 @@
 				<nl>Of u ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over65" displayIndex="13">
+		<Attribute id="over65" displayIndex="12">
 			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
@@ -188,7 +188,7 @@
 				<nl>Of u ouder dan 65 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="bsn"displayIndex="17">
+		<Attribute id="bsn"displayIndex="15">
 			<Name>
 				<en>BSN</en>
 				<nl>BSN</nl>
@@ -198,7 +198,7 @@
 				<nl>Uw Burgerservicenummer (BSN)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="photo" displayIndex="19" displayHint="portraitPhoto">
+		<Attribute id="photo" displayIndex="16" displayHint="portraitPhoto">
 			<Name>
 				<en>Photo</en>
 				<nl>Foto</nl>
