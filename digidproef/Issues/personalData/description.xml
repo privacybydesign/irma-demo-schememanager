@@ -81,7 +81,7 @@
 		<Attribute id="familyname" displayIndex="5">
 			<Name>
 				<en>Family name</en>
-				<nl>Geslachtsnaam</nl>
+				<nl>Achternaam</nl>
 			</Name>
 			<Description>
 				<en>Your family name, as given to you at birth</en>
