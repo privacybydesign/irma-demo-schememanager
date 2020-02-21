@@ -48,7 +48,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="street" displayIndex="1">
+		<Attribute id="street" displayIndex="0">
 			<Name>
 				<en>Street</en>
 				<nl>Straat</nl>
@@ -58,7 +58,7 @@
 				<nl>Uw straat</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="houseNumber" optional="true" displayIndex="2">
+		<Attribute id="houseNumber" optional="true" displayIndex="1">
 			<Name>
 				<en>House number</en>
 				<nl>Huisnummer</nl>
@@ -68,7 +68,7 @@
 				<nl>Uw huisnummer, letter en/of toevoeging</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="zipcode" displayIndex="3">
+		<Attribute id="zipcode" displayIndex="2">
 			<Name>
 				<en>Zip code</en>
 				<nl>Postcode</nl>
@@ -78,7 +78,7 @@
 				<nl>Uw postcode</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="municipality" displayIndex="5">
+		<Attribute id="municipality" displayIndex="4">
 			<Name>
 				<en>Municipality</en>
 				<nl>Gemeente</nl>
@@ -88,7 +88,7 @@
 				<nl>Uw gemeente</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="city" displayIndex="4">
+		<Attribute id="city" displayIndex="3">
 			<Name>
 				<en>City</en>
 				<nl>Plaats</nl>

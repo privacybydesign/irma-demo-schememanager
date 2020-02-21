@@ -48,7 +48,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="initials" displayIndex="2">
+		<Attribute id="initials" displayIndex="1">
 			<Name>
 				<en>Initials</en>
 				<nl>Voorletters</nl>
@@ -58,7 +58,7 @@
 				<nl>Uw voorletters, een afkorting van uw voornamen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="firstnames" displayIndex="3">
+		<Attribute id="firstnames" displayIndex="2">
 			<Name>
 				<en>First names</en>
 				<nl>Voornamen</nl>
@@ -68,7 +68,7 @@
 				<nl>Uw voornamen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="prefix" optional="true" displayIndex="4">
+		<Attribute id="prefix" optional="true" displayIndex="3">
 			<Name>
 				<en>Prefix</en>
 				<nl>Voorvoegsel</nl>
@@ -78,7 +78,7 @@
 				<nl>Voorvoegsel van uw achternaam</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="familyname" displayIndex="5">
+		<Attribute id="familyname" displayIndex="4">
 			<Name>
 				<en>Family name</en>
 				<nl>Achternaam</nl>
@@ -88,7 +88,7 @@
 				<nl>Uw achternaam, zoals aan u toegekend bij uw geboorte</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="fullname" optional="true" displayIndex="1">
+		<Attribute id="fullname" optional="true" displayIndex="0">
 			<Name>
 				<en>Full name</en>
 				<nl>Volledige naam</nl>
@@ -98,7 +98,7 @@
 				<nl>Uw volledige naam</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="gender" displayIndex="6">
+		<Attribute id="gender" displayIndex="5">
 			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
@@ -108,7 +108,7 @@
 				<nl>Uw geslacht</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="nationality" optional="true" displayIndex="13">
+		<Attribute id="nationality" optional="true" displayIndex="12">
 			<Name>
 				<en>Dutch nationality</en>
 				<nl>Nederlandse nationaliteit</nl>
@@ -118,7 +118,7 @@
 				<nl>Of u de Nederlandse nationaliteit bezit</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="dateofbirth" displayIndex="7">
+		<Attribute id="dateofbirth" displayIndex="6">
 			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
@@ -138,7 +138,7 @@
 				<nl>Uw geboorteland</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over12" displayIndex="8">
+		<Attribute id="over12" displayIndex="7" displayHint="yesno">
 			<Name>
 				<en>Over 12</en>
 				<nl>Ouder dan 12</nl>
@@ -148,7 +148,7 @@
 				<nl>Of u ouder dan 12 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over16" displayIndex="9">
+		<Attribute id="over16" displayIndex="8" displayHint="yesno">
 			<Name>
 				<en>Over 16</en>
 				<nl>Ouder dan 16</nl>
@@ -158,7 +158,7 @@
 				<nl>Of u ouder dan 16 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over18" displayIndex="10">
+		<Attribute id="over18" displayIndex="9" displayHint="yesno">
 			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
@@ -168,7 +168,7 @@
 				<nl>Of u ouder dan 18 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over21" displayIndex="11">
+		<Attribute id="over21" displayIndex="10" displayHint="yesno">
 			<Name>
 				<en>Over 21</en>
 				<nl>Ouder dan 21</nl>
@@ -178,7 +178,7 @@
 				<nl>Of u ouder dan 21 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="over65" displayIndex="12">
+		<Attribute id="over65" displayIndex="11" displayHint="yesno">
 			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
@@ -188,7 +188,7 @@
 				<nl>Of u ouder dan 65 bent</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="bsn"displayIndex="15">
+		<Attribute id="bsn" displayIndex="15" displayHint="sensitive">
 			<Name>
 				<en>BSN</en>
 				<nl>BSN</nl>
@@ -206,6 +206,16 @@
 			<Description>
 				<en></en>
 				<nl></nl>
+			</Description>
+		</Attribute>
+		<Attribute id="cityofbirth" optional="true" displayIndex="13">
+			<Name>
+				<en>City of birth</en>
+				<nl>Geboortestad</nl>
+			</Name>
+			<Description>
+				<en>Your city of birth</en>
+				<nl>Uw geboortestad</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
