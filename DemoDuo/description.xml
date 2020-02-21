@@ -1,12 +1,12 @@
 <Issuer version="4">
   <ID>DemoDuo</ID>
   <Name>
-	  <en>DemoDUO</en>
-	  <nl>DemoDUO</nl>
+	  <en>Demo DUO</en>
+	  <nl>Demo DUO</nl>
   </Name>
   <ShortName>
-	  <en>DemoDUO</en>
-	  <nl>DemoDUO</nl>
+	  <en>Demo DUO</en>
+	  <nl>Demo DUO</nl>
   </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Een demoDUO adres</ContactAddress>

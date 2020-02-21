@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Name</en>
-		<nl>Naam</nl>
+		<en>Demo Name</en>
+		<nl>Demo Naam</nl>
 	</Name>
 	<ShortName>
-		<en>Name</en>
-		<nl>Naam</nl>
+		<en>Demo Name</en>
+		<nl>Demo Naam</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>

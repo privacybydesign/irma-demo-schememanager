@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Lower Age limits</en>
-		<nl>Junior-leeftijdslimieten</nl>
+		<en>Demo Lower Age limits</en>
+		<nl>Demo Junior-leeftijdslimieten</nl>
 	</Name>
 	<ShortName>
-		<en>Age (lower)</en>
-		<nl>Leeftijd (junior)</nl>
+		<en>Demo Age (lower)</en>
+		<nl>Demo Leeftijd (junior)</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>

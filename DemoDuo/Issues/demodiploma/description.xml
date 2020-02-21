@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>DemoDiploma</en>
-		<nl>DemoDiploma</nl>
+		<en>Demo Diploma</en>
+		<nl>Demo Diploma</nl>
 	</Name>
 	<ShortName>
-		<en>DemoDiploma</en>
-		<nl>DemoDiploma</nl>
+		<en>Demo Diploma</en>
+		<nl>Demo Diploma</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>DemoDuo</IssuerID>

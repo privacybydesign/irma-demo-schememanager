@@ -1,12 +1,12 @@
 <Issuer version="4">
   <ID>irmages</ID>
   <Name>
-	  <en>Irmages</en>
-	  <nl>Irmages</nl>
+	  <en>Demo Irmages</en>
+	  <nl>Demo Irmages</nl>
   </Name>
   <ShortName>
-	  <en>Irmages</en>
-	  <nl>Irmages</nl>
+	  <en>Demo Irmages</en>
+	  <nl>Demo Irmages</nl>
   </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Test</ContactAddress>

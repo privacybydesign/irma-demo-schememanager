@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Photos</en>
-		<nl>Pasfoto's</nl>
+		<en>Demo Photos</en>
+		<nl>Demo Pasfoto's</nl>
 	</Name>
 	<ShortName>
-		<en>Photos</en>
-		<nl>Pasfoto's</nl>
+		<en>Demo Photos</en>
+		<nl>Demo Pasfoto's</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>irmages</IssuerID>

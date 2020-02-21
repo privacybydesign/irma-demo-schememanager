@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Birth Certificate</en>
-		<nl>geboorteakte</nl>
+		<en>Demo Birth Certificate</en>
+		<nl>Demo geboorteakte</nl>
 	</Name>
 	<ShortName>
-		<en>Birth Certificate</en>
-		<nl>geboorteakte</nl>
+		<en>Demo Birth Certificate</en>
+		<nl>Demo geboorteakte</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>

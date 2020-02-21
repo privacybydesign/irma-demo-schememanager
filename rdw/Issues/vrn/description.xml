@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>vehicle registration demo</en>
-		<nl>kentekennummer demo</nl>
+		<en>Demo vehicle registration</en>
+		<nl>Demo kentekennummer</nl>
 	</Name>
 	<ShortName>
-		<en>vehicle registration demo</en>
-		<nl>kentekennummer demo</nl>
+		<en>Demo vehicle registration</en>
+		<nl>Demo kentekennummer</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>rdw</IssuerID>

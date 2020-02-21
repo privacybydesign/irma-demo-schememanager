@@ -1,12 +1,12 @@
 <Issuer version="4">
   <ID>forus</ID>
   <Name>
-	  <en>Forus - demo</en>
-	  <nl>Forus - demo</nl>
+	  <en>Demo Forus</en>
+	  <nl>Demo Forus</nl>
   </Name>
   <ShortName>
-	  <en>Forus - demo</en>
-	  <nl>Forus - demo</nl>
+	  <en>Demo Forus</en>
+	  <nl>Demo Forus</nl>
   </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>Stichting Forus

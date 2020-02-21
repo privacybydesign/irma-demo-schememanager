@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>ID Document</en>
-		<nl>Identiteitsbewijs</nl>
+		<en>Demo ID Document</en>
+		<nl>Demo Identiteitsbewijs</nl>
 	</Name>
 	<ShortName>
-		<en>ID Document</en>
-		<nl>Identiteitsbewijs</nl>
+		<en>Demo ID Document</en>
+		<nl>Demo Identiteitsbewijs</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
