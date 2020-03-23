@@ -1,0 +1,15 @@
+<Issuer version="4">
+  <ID>freedomnet</ID>
+  <Name>
+    <en>Demo FreedomNet</en>
+    <nl>Demo FreedomNet</nl>
+  </Name>
+  <ShortName>
+    <en>Demo FreedomNet</en>
+    <nl>Demo FreedomNet</nl>
+  </ShortName>
+  <SchemeManager>irma-demo</SchemeManager>
+  <ContactAddress>https://www.freedom.nl/</ContactAddress>
+  <ContactEMail>info@freedomnet.nl</ContactEMail>
+  <baseURL></baseURL>
+</Issuer>
