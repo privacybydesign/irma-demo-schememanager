@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>irvn</ID>
+	<ShortName>
+		<en>Demo ICT Rijk van Nijmegen</en>
+		<nl>Demo ICT Rijk van Nijmegen</nl>
+	</ShortName>
+	<Name>
+		<en>Demo ICT Rijk van Nijmegen</en>
+		<nl>Demo ICT Rijk van Nijmegen</nl>
+	</Name>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ContactAddress>https://www.irvn.nl/</ContactAddress>
+	<ContactEMail>b.withaar@nijmegen.nl</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>
