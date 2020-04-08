@@ -4,8 +4,8 @@
 		<nl>Demo Account</nl>
 	</Name>
 	<ShortName>
-		<en>Demo Account data</en>
-		<nl>Demo Account gegevens</nl>
+		<en>Demo Accountdata</en>
+		<nl>Demo Accountgegevens</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>irvn</IssuerID>
