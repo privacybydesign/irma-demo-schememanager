@@ -1,0 +1,34 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Basic Income Registration</en>
+		<nl>Demo Basisregistratie Inkomen</nl>
+	</Name>
+	<ShortName>
+		<en>Demo BRI</en>
+		<nl>Demo BRI</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>discipl</IssuerID>
+	<CredentialID>demoBRI</CredentialID>
+	<Description>
+		<en>Demo Basic Income Registration (BRI) using API's</en>
+		<nl>Demo Basisregistratie Inkomen (BRI) using API's</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.discipl.demoBRI.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl.demoBRI.html</nl>
+	</IssueURL>
+
+	<Attributes>
+		<Attribute id="registeredIncome">
+			<Name>
+				<en>Registered income</en>
+				<nl>Het geregistreerde inkomen</nl>
+			</Name>
+			<Description>
+				<en>Het geregistreerde inkomen is het inkomen dat de belastingdienst registreert in de basisregistratie inkomen (BRI).</en>
+				<nl>The registered income is the income that the tax authorities register in the basic income registration (BRI).</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
