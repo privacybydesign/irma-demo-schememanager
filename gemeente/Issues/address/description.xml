@@ -15,8 +15,8 @@
 		<nl>Uw adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gemeenten.address.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.gemeenten.address.html</nl>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gemeente.address.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.gemeente.address.html</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
