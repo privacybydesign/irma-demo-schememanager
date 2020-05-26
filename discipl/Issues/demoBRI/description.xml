@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo Basic Income Registration</en>
-		<nl>Demo Basisregistratie Inkomen</nl>
+		<en>Demo Yearly Basic Income Registration</en>
+		<nl>Demo Jaarlijks Basisregistratie Inkomen</nl>
 	</Name>
 	<ShortName>
 		<en>Demo BRI</en>
@@ -20,14 +20,24 @@
 	</IssueURL>
 
 	<Attributes>
+		<Attribute id="taxYear">
+			<Name>
+				<en>Year</en>
+				<nl>Jaar</nl>
+			</Name>
+			<Description>
+				<en>Calender year concerning the registerd income.</en>
+				<nl>Het kalenderjaar waarover het geregistreerde inomen is bepaald.</nl>
+			</Description>
+		</Attribute>
 		<Attribute id="registeredIncome">
 			<Name>
 				<en>Registered income</en>
 				<nl>Het geregistreerde inkomen</nl>
 			</Name>
 			<Description>
-				<en>Het geregistreerde inkomen is het inkomen dat de belastingdienst registreert in de basisregistratie inkomen (BRI).</en>
-				<nl>The registered income is the income that the tax authorities register in the basic income registration (BRI).</nl>
+				<en>The registered income is the income that the tax authorities register in the basic income registration (BRI).</en>
+				<nl>Het geregistreerde inkomen is het inkomen dat de belastingdienst registreert in de basisregistratie inkomen (BRI).</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
