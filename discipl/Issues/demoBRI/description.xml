@@ -20,17 +20,7 @@
 	</IssueURL>
 
 	<Attributes>
-		<Attribute id="taxYear">
-			<Name>
-				<en>Year</en>
-				<nl>Jaar</nl>
-			</Name>
-			<Description>
-				<en>Calender year concerning the registerd income.</en>
-				<nl>Het kalenderjaar waarover het geregistreerde inomen is bepaald.</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="registeredIncome">
+		<Attribute id="registeredIncome" displayIndex="1">
 			<Name>
 				<en>Registered income</en>
 				<nl>Het geregistreerde inkomen</nl>
@@ -38,6 +28,16 @@
 			<Description>
 				<en>The registered income is the income that the tax authorities register in the basic income registration (BRI).</en>
 				<nl>Het geregistreerde inkomen is het inkomen dat de belastingdienst registreert in de basisregistratie inkomen (BRI).</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="taxYear" optional="true" displayIndex="0">
+			<Name>
+				<en>Year</en>
+				<nl>Jaar</nl>
+			</Name>
+			<Description>
+				<en>Calender year concerning the registerd income.</en>
+				<nl>Het kalenderjaar waarover het geregistreerde inomen is bepaald.</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
