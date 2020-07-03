@@ -23,7 +23,7 @@
 	<ForegroundColor>#15222E</ForegroundColor>
 	<BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
 	<BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
-	<IsInCredentialStore>true</IsInCredentialStore>
+	<IsInCredentialStore>false</IsInCredentialStore>
 	<Category>
 		<en>Education / research</en>
 		<nl>Onderwijs / onderzoek</nl>
