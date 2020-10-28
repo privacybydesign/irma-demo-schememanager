@@ -41,5 +41,35 @@
         <nl>Stemnummer</nl>
       </Description>
     </Attribute>
+    <Attribute id="voteURL">
+      <Name>
+        <en>Vote URL</en>
+        <nl>Stem URL</nl>
+      </Name>
+      <Description>
+        <en>The URL on which votes can be registered</en>
+        <nl>De URL waarop u uw stem uit kan brengen</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="start">
+      <Name>
+        <en>Start date</en>
+        <nl>Startdatum</nl>
+      </Name>
+      <Description>
+        <en>The date after which votes can be registered</en>
+        <nl>De datum vanaf wanneer u uw stem uit kan brengen</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="end">
+      <Name>
+        <en>End date</en>
+        <nl>Einddatum</nl>
+      </Name>
+      <Description>
+        <en>The date after which votes can no longer be registered</en>
+        <nl>De datum vanaf wanneer u uw stem niet meer uit kan brengen</nl>
+      </Description>
+    </Attribute>
   </Attributes>
 </IssueSpecification>
