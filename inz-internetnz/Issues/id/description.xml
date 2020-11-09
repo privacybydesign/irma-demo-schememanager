@@ -1,0 +1,35 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo INZ id</en>
+		<nl>Demo INZ id</nl>
+	</Name>
+	<ShortName>
+		<en>Demo INZ id</en>
+		<nl>Demo INZ id</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>inz-internetnz</IssuerID>
+	<CredentialID>id</CredentialID>
+	<Description>
+		<en>INZ demo data</en>
+		<nl></nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<DisallowDelete>true</DisallowDelete>
+	<IssueURL>
+		<en></en>
+		<nl></nl>
+	</IssueURL>
+	<Attributes>
+		<Attribute id="number">
+			<Name>
+				<en>number</en>
+				<nl></nl>
+			</Name>
+			<Description>
+				<en>ID number</en>
+				<nl></nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

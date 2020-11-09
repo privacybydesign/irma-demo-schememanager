@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>inz-internetnz</ID>
+	<Name>
+		<en>Demo INZ Pilot</en>
+		<nl>Demo INZ Pilot</nl>
+	</Name>
+	<ShortName>
+		<en>InternetNZ</en>
+		<nl>InternetNZ</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ContactAddress>https://internetnz.nz</ContactAddress>
+	<ContactEMail>commercial@internetnz.net.nz</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>

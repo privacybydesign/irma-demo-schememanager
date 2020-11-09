@@ -1,0 +1,15 @@
+<Issuer version="4">
+    <ID>inz-personal-data</ID>
+    <Name>
+        <en>Demo Personal Data Issuer</en>
+        <nl>Demo Personal Data Issuer</nl>
+    </Name>
+    <ShortName>
+        <en>Demo Personal Data</en>
+        <nl>Demo Personal Data</nl>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <ContactAddress>https://demo.irma.nz</ContactAddress>
+    <ContactEMail>commercial@internetnz.net.nz</ContactEMail>
+    <baseURL></baseURL>
+</Issuer>
