@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
     <Name>
-        <en>Demo Personal Data Birthdate</en>
-        <nl>Demo Personal Data Birthdate</nl>
+        <en>Demo INZ Personal Data Birthdate</en>
+        <nl>Demo INZ Personal Data Birthdate</nl>
     </Name>
     <ShortName>
         <en>Birthdate</en>

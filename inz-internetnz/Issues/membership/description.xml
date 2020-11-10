@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
     <Name>
-        <en>Demo InternetNZ membership</en>
-        <nl>Demo InternetNZ membership</nl>
+        <en>Demo INZ InternetNZ membership</en>
+        <nl>Demo INZ InternetNZ membership</nl>
     </Name>
     <ShortName>
         <en>InternetNZ membership</en>
@@ -16,8 +16,8 @@
     </Description>
     <ShouldBeSingleton>true</ShouldBeSingleton>
     <IssueURL>
-        <en>https://fake-website.internetnz.nz/demo/membership/</en>
-        <nl>https://fake-website.internetnz.nz/demo/membership/</nl>
+        <en>https://demo.irma.nz</en>
+        <nl>https://demo.irma.nz</nl>
     </IssueURL>
 
     <ForegroundColor>#15222E</ForegroundColor>

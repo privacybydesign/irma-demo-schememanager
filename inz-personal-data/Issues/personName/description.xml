@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
     <Name>
-        <en>Demo Personal Data Person Name</en>
-        <nl>Demo Personal Data Person Name</nl>
+        <en>Demo INZ Personal Data Person Name</en>
+        <nl>Demo INZ Personal Data Person Name</nl>
     </Name>
     <ShortName>
         <en>Person name</en>
-        <nl>Name</nl>
+        <nl>Person name</nl>
     </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>inz-personal-data</IssuerID>
