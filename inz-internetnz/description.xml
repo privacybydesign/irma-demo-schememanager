@@ -5,8 +5,8 @@
 		<nl>Demo INZ InternetNZ</nl>
 	</Name>
 	<ShortName>
-		<en>InternetNZ</en>
-		<nl>InternetNZ</nl>
+		<en>INZ InternetNZ</en>
+		<nl>INZ InternetNZ</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<ContactAddress>https://demo.irma.nz</ContactAddress>

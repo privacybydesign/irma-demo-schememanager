@@ -16,8 +16,8 @@
     </Description>
     <ShouldBeSingleton>true</ShouldBeSingleton>
     <IssueURL>
-        <en></en>
-        <nl></nl>
+        <en>https://demo.irma.nz</en>
+        <nl>https://demo.irma.nz</nl>
     </IssueURL>
     <Attributes>
         <Attribute id="fullAddress">

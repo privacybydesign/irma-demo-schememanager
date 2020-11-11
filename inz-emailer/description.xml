@@ -5,8 +5,8 @@
         <nl>Demo INZ Emailer Issuer</nl>
     </Name>
     <ShortName>
-        <en>Demo INZ Emailer</en>
-        <nl>Demo INZ Emailer</nl>
+        <en>INZ Emailer</en>
+        <nl>INZ Emailer</nl>
     </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <ContactAddress>https://demo.irma.nz</ContactAddress>

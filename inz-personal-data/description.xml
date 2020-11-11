@@ -5,8 +5,8 @@
         <nl>Demo INZ Personal Data Issuer</nl>
     </Name>
     <ShortName>
-        <en>Personal Data</en>
-        <nl>Personal Data</nl>
+        <en>INZ Personal Data</en>
+        <nl>INZ Personal Data</nl>
     </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <ContactAddress>https://demo.irma.nz</ContactAddress>

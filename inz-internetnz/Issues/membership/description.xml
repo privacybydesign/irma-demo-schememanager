@@ -11,13 +11,13 @@
     <IssuerID>inz-internetnz</IssuerID>
     <CredentialID>membership</CredentialID>
     <Description>
-        <en>Your InternetNZ membership attributes</en>
-        <nl>Your InternetNZ membership attributes</nl>
+        <en>InternetNZ membership attributes</en>
+        <nl>InternetNZ membership attributes</nl>
     </Description>
     <ShouldBeSingleton>true</ShouldBeSingleton>
     <IssueURL>
-        <en>https://demo.irma.nz</en>
-        <nl>https://demo.irma.nz</nl>
+        <en>https://demo.irma.nz/membership.html</en>
+        <nl>https://demo.irma.nz/membership.html</nl>
     </IssueURL>
 
     <ForegroundColor>#15222E</ForegroundColor>

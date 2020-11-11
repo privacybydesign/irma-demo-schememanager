@@ -11,8 +11,8 @@
     <IssuerID>inz-personal-data</IssuerID>
     <CredentialID>ageLimits</CredentialID>
     <Description>
-        <en>Over 18</en>
-        <nl>Over 18</nl>
+        <en>Age Limits - Over 18 and Over 65 years</en>
+        <nl>Age Limits - Over 18 and Over 65 years</nl>
     </Description>
     <ShouldBeSingleton>true</ShouldBeSingleton>
     <IssueURL>

@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
     <Name>
-        <en>Demo INZ Emailer User e-mail</en>
-        <nl>Demo INZ Emailer User e-mail</nl>
+        <en>Demo INZ Emailer e-mail</en>
+        <nl>Demo INZ Emailer e-mail</nl>
     </Name>
     <ShortName>
         <en>E-mail</en>
@@ -16,8 +16,8 @@
     </Description>
     <ShouldBeSingleton>false</ShouldBeSingleton>
     <IssueURL>
-        <en></en>
-        <nl></nl>
+        <en>https://demo.irma.nz</en>
+        <nl>https://demo.irma.nz</nl>
     </IssueURL>
     <Category>
         <en>Personal</en>
