@@ -12,7 +12,7 @@
     <CredentialID>personName</CredentialID>
     <Description>
         <en>Person name</en>
-        <nl>Person name</nl>
+        <nl></nl>
     </Description>
     <ShouldBeSingleton>true</ShouldBeSingleton>
     <IssueURL>
@@ -27,11 +27,11 @@
         <Attribute id="fullName">
             <Name>
                 <en>Person full name</en>
-                <nl>Person full name</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Person full name</en>
-                <nl>Person full name</nl>
+                <nl></nl>
             </Description>
         </Attribute>
     </Attributes>

@@ -11,8 +11,8 @@
     <IssuerID>inz-internetnz</IssuerID>
     <CredentialID>id</CredentialID>
     <Description>
-        <en>InternetNZ Single ID</en>
-        <nl>InternetNZ Single ID</nl>
+        <en>InternetNZ ID</en>
+        <nl>InternetNZ ID</nl>
     </Description>
     <ShouldBeSingleton>true</ShouldBeSingleton>
     <IssueURL>
@@ -23,11 +23,11 @@
         <Attribute id="number">
             <Name>
                 <en>number</en>
-                <nl>number</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>ID number</en>
-                <nl>ID number</nl>
+                <nl></nl>
             </Description>
         </Attribute>
     </Attributes>

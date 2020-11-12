@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
     <Name>
-        <en>Demo INZ InternetNZ membership</en>
-        <nl>Demo INZ InternetNZ membership</nl>
+        <en>Demo INZ InternetNZ Membership</en>
+        <nl>Demo INZ InternetNZ Membership</nl>
     </Name>
     <ShortName>
         <en>InternetNZ membership</en>
@@ -12,7 +12,7 @@
     <CredentialID>membership</CredentialID>
     <Description>
         <en>InternetNZ membership attributes</en>
-        <nl>InternetNZ membership attributes</nl>
+        <nl></nl>
     </Description>
     <ShouldBeSingleton>true</ShouldBeSingleton>
     <IssueURL>
@@ -28,51 +28,51 @@
         <Attribute id="id">
             <Name>
                 <en>Membership ID</en>
-                <nl>Membership ID</nl>
+                <nl></nl>
             </Name>
             <Description>
-                <en>Your membership identification</en>
-                <nl>Your membership number</nl>
+                <en>Your membership ID</en>
+                <nl></nl>
             </Description>
         </Attribute>
         <Attribute id="type">
             <Name>
                 <en>Membership Type</en>
-                <nl>Membership Type</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>The selected type of membership</en>
-                <nl>Je lidmaatschapstype</nl>
+                <nl></nl>
             </Description>
         </Attribute>
         <Attribute id="purchaseDate">
             <Name>
                 <en>Membership since</en>
-                <nl>Membership since</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Date of the first membership purchase</en>
-                <nl>Date of the first membership purchase</nl>
+                <nl></nl>
             </Description>
         </Attribute>
         <Attribute id="renewalDate">
             <Name>
                 <en>Membership last renewal at</en>
-                <nl>Membership last renewal at</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Date of the latest renewal</en>
-                <nl>Date of the latest renewal</nl>
+                <nl></nl>
             </Description>
         </Attribute>
         <Attribute id="validUntil">
             <Name>
                 <en>Membership expiration date</en>
-                <nl>Membership expiration date</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Membership last renewal expiration date</en>
-                <nl>Membership last renewal expiration date</nl>
+                <nl></nl>
             </Description>
         </Attribute>
     </Attributes>

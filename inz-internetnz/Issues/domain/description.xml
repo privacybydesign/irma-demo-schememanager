@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
     <Name>
-        <en>Demo INZ InternetNZ domain</en>
-        <nl>Demo INZ InternetNZ domain</nl>
+        <en>Demo INZ InternetNZ Domain</en>
+        <nl>Demo INZ InternetNZ Domain</nl>
     </Name>
     <ShortName>
         <en>InternetNZ domain</en>
@@ -12,7 +12,7 @@
     <CredentialID>domain</CredentialID>
     <Description>
         <en>Domain name</en>
-        <nl>Domain name</nl>
+        <nl></nl>
     </Description>
     <IssueURL>
         <en>https://demo.irma.nz</en>
@@ -27,7 +27,7 @@
             </Name>
             <Description>
                 <en>Domain name</en>
-                <nl>Domain name</nl>
+                <nl></nl>
             </Description>
         </Attribute>
     </Attributes>

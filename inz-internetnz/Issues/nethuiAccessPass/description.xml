@@ -12,7 +12,7 @@
     <CredentialID>nethuiAccessPass</CredentialID>
     <Description>
         <en>Nethui Access Pass</en>
-        <nl>Nethui Access Pass</nl>
+        <nl></nl>
     </Description>
     <IssueURL>
         <en>https://demo.irma.nz/event-access-pass.html</en>
@@ -22,61 +22,61 @@
         <Attribute id="id">
             <Name>
                 <en>Access Pass ID</en>
-                <nl>Access Pass ID</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Access Pass ID number</en>
-                <nl>Access Pass ID number</nl>
+                <nl></nl>
             </Description>
         </Attribute>
         <Attribute id="event">
             <Name>
                 <en>Event</en>
-                <nl>Event</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Event</en>
-                <nl>Event</nl>
+                <nl></nl>
             </Description>
         </Attribute>
         <Attribute id="eventDate">
             <Name>
                 <en>Event date</en>
-                <nl>Event dat</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Event date</en>
-                <nl>Event date</nl>
+                <nl></nl>
             </Description>
         </Attribute>
         <Attribute id="accessPassType">
             <Name>
                 <en>Access Pass type</en>
-                <nl>Access Pass type</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Access Pass type</en>
-                <nl>Access Pass type</nl>
+                <nl></nl>
             </Description>
         </Attribute>
         <Attribute id="purchaseDate">
             <Name>
                 <en>Purchase date</en>
-                <nl>Purchase date</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Date of purchase</en>
-                <nl>Date of purchase</nl>
+                <nl></nl>
             </Description>
         </Attribute>
         <Attribute id="price">
             <Name>
                 <en>Price</en>
-                <nl>Price</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Price</en>
-                <nl>Price</nl>
+                <nl></nl>
             </Description>
         </Attribute>
     </Attributes>

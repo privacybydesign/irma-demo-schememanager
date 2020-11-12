@@ -12,7 +12,7 @@
     <CredentialID>ageLimits</CredentialID>
     <Description>
         <en>Age Limits - Over 18 and Over 65 years</en>
-        <nl>Age Limits - Over 18 and Over 65 years</nl>
+        <nl></nl>
     </Description>
     <ShouldBeSingleton>true</ShouldBeSingleton>
     <IssueURL>
@@ -27,21 +27,21 @@
         <Attribute id="over18">
             <Name>
                 <en>Over 18</en>
-                <nl>Over 18</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Over 18</en>
-                <nl>Over 18</nl>
+                <nl></nl>
             </Description>
         </Attribute>
         <Attribute id="over65" optional="true">
             <Name>
                 <en>Over 65</en>
-                <nl>Over 65</nl>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Over 65</en>
-                <nl>Over 65</nl>
+                <nl></nl>
             </Description>
         </Attribute>
     </Attributes>
