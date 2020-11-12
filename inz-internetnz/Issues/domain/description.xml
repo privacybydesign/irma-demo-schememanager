@@ -22,8 +22,8 @@
     <Attributes>
         <Attribute id="name">
             <Name>
-                <en>name</en>
-                <nl>name</nl>
+                <en>Domain name</en>
+                <nl></nl>
             </Name>
             <Description>
                 <en>Domain name</en>

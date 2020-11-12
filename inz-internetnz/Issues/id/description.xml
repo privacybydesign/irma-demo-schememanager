@@ -22,7 +22,7 @@
     <Attributes>
         <Attribute id="number">
             <Name>
-                <en>number</en>
+                <en>ID number</en>
                 <nl></nl>
             </Name>
             <Description>
