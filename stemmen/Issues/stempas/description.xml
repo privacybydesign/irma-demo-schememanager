@@ -18,10 +18,10 @@
     <en></en>
     <nl></nl>
   </IssueURL>
-  <ShouldBeSingleton>true</ShouldBeSingleton>
+  <ShouldBeSingleton>false</ShouldBeSingleton>
 
   <Attributes>
-    <Attribute id="election">
+    <Attribute id="election" displayIndex="0">
       <Name>
         <en>Election</en>
         <nl>Verkiezing</nl>
@@ -31,27 +31,27 @@
         <nl>Verkiezing</nl>
       </Description>
     </Attribute>
-    <Attribute id="votingnumber" randomblind="true">
+    <Attribute id="votingnumber" randomblind="true" displayIndex="4">
       <Name>
-        <en>Voting number</en>
-        <nl>Stemnummer</nl>
+        <en>Anonymous voting number</en>
+        <nl>Anonieme stemcode</nl>
       </Name>
       <Description>
-        <en>Voting number</en>
-        <nl>Stemnummer</nl>
+        <en>Anonymous voting number</en>
+        <nl>Anonieme stemcode</nl>
       </Description>
     </Attribute>
-    <Attribute id="voteURL">
+    <Attribute id="voteURL" displayIndex="1">
       <Name>
-        <en>Vote URL</en>
-        <nl>Stem URL</nl>
+        <en>Election website</en>
+        <nl>Verkiezingswebsite</nl>
       </Name>
       <Description>
         <en>The URL on which votes can be registered</en>
         <nl>De URL waarop u uw stem uit kan brengen</nl>
       </Description>
     </Attribute>
-    <Attribute id="start">
+    <Attribute id="start" displayIndex="2">
       <Name>
         <en>Start date</en>
         <nl>Startdatum</nl>
@@ -61,7 +61,7 @@
         <nl>De datum vanaf wanneer u uw stem uit kan brengen</nl>
       </Description>
     </Attribute>
-    <Attribute id="end">
+    <Attribute id="end" displayIndex="3">
       <Name>
         <en>End date</en>
         <nl>Einddatum</nl>
