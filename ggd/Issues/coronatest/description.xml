@@ -21,14 +21,14 @@
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Attributes>
-		<Attribute id="result">
+		<Attribute id="negativetestresult" displayHint="yesno">
 			<Name>
-				<en>Test result</en>
-				<nl>Testuitslag</nl>
+				<en>Negative test result</en>
+				<nl>Negatieve testuitslag</nl>
 			</Name>
 			<Description>
-				<en>Your test result (negative or positive) for the corona virus (SARS-CoV-2)</en>
-				<nl>Uw testuitslag (negatief of positief) voor het coronavirus (SARS-CoV-2)</nl>
+				<en>Whether your test result was negative for the corona virus (SARS-CoV-2)</en>
+				<nl>Of uw testuitslag negatief was voor het coronavirus (SARS-CoV-2)</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="kind">
