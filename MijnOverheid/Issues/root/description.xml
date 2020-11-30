@@ -19,6 +19,9 @@
 		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.MijnOverheid.root.html</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<RevocationServers>
+		<RevocationServer>https://demo.privacybydesign.foundation/backend/irma</RevocationServer>
+	</RevocationServers>
 
 	<Attributes>
 		<Attribute id="BSN">
@@ -31,6 +34,7 @@
 				<nl>Uw BSN-nummer</nl>
 			</Description>
 		</Attribute>
+		<Attribute revocation="true" />
 	</Attributes>
 
 </IssueSpecification>
