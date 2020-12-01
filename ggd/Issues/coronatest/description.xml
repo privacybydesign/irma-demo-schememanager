@@ -21,7 +21,7 @@
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Attributes>
-		<Attribute id="negativetestresult" displayHint="yesno" optional="true" displayIndex="1">
+		<Attribute id="negativetestresult" optional="true" displayIndex="1">
 			<Name>
 				<en>Negative test result</en>
 				<nl>Negatieve testuitslag</nl>
