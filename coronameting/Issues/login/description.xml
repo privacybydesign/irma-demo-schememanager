@@ -3,10 +3,6 @@
     <en>Demo Login coronameting.nl</en>
     <nl>Demo Login coronameting.nl</nl>
   </Name>
-  <ShortName>
-    <en>Demo Login coronameting.nl</en>
-    <nl>Demo Login coronameting.nl</nl>
-  </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <IssuerID>coronameting</IssuerID>
   <CredentialID>login</CredentialID>

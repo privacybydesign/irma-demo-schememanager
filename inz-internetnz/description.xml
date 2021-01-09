@@ -4,12 +4,7 @@
 		<en>Demo INZ InternetNZ</en>
 		<nl>Demo INZ InternetNZ</nl>
 	</Name>
-	<ShortName>
-		<en>INZ InternetNZ</en>
-		<nl>INZ InternetNZ</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<ContactAddress>https://demo.irma.nz</ContactAddress>
 	<ContactEMail>commercial@internetnz.net.nz</ContactEMail>
-	<baseURL></baseURL>
 </Issuer>

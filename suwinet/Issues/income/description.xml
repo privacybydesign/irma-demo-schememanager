@@ -3,10 +3,6 @@
 		<en>Demo Suwinet Income</en>
 		<nl>Demo Suwinet Inkomensgegevens</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Suwinet Income</en>
-		<nl>Demo Suwinet Inkomensgegevens</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>suwinet</IssuerID>
 	<CredentialID>income</CredentialID>

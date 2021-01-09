@@ -3,10 +3,6 @@
 		<en>Demo SURFdrive license</en>
 		<nl>Demo SURFdrive licentie</nl>
 	</Name>
-	<ShortName>
-		<en>Demo SURFdrive license</en>
-		<nl>Demo SURFdrive licentie</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>surf</IssuerID>
 	<CredentialID>surfdrive</CredentialID>

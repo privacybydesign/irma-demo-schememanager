@@ -3,10 +3,6 @@
 		<en>Demo City Pass</en>
 		<nl>Demo Stadspas</nl>
 	</Name>
-	<ShortName>
-		<en>Demo City Pass</en>
-		<nl>Demo Stadspas</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>wigo4it</IssuerID>
 	<CredentialID>stadspas</CredentialID>

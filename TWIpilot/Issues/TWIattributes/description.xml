@@ -3,10 +3,6 @@
 		<en>Demo TWIpilot attributen</en>
 		<nl>Demo TWIpilot attributes</nl>
 	</Name>
-	<ShortName>
-		<en>Demo TWIpilot</en>
-		<nl>Demo TWIpilot</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>TWIpilot</IssuerID>
 	<CredentialID>TWIattributes</CredentialID>

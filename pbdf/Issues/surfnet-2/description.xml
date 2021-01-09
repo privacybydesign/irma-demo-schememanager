@@ -3,10 +3,6 @@
 		<en>Demo Education and research</en>
 		<nl>Demo Onderwijs en onderzoek</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Education and research</en>
-		<nl>Demo Onderwijs en onderzoek</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>surfnet-2</CredentialID>

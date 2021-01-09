@@ -3,10 +3,6 @@
 		<en>Demo Yearly income houshold</en>
 		<nl>Demo Verzamelinkomen huishouden</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Yearly income household</en>
-		<nl>Demo Verzamelinkomen huishouden</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>belastingdienst</IssuerID>
 	<CredentialID>verzamelinkomenhuishouden</CredentialID>

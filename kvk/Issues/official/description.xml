@@ -3,10 +3,6 @@
 		<en>Demo Official of a legal entity</en>
 		<nl>Demo Functionaris voor een rechtspersoon</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Official</en>
-		<nl>Demo Functionaris</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>kvk</IssuerID>
 	<CredentialID>official</CredentialID>

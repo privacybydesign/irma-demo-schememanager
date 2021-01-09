@@ -3,10 +3,6 @@
         <en>Demo INZ InternetNZ ID</en>
         <nl>Demo INZ InternetNZ ID</nl>
     </Name>
-    <ShortName>
-        <en>InternetNZ ID</en>
-        <nl>InternetNZ ID</nl>
-    </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>inz-internetnz</IssuerID>
     <CredentialID>id</CredentialID>

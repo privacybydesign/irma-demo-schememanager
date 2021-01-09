@@ -3,10 +3,6 @@
 		<en>Demo kindpakket</en>
 		<nl>Demo kindpakket</nl>
 	</Name>
-	<ShortName>
-		<en>Demo kindpakket</en>
-		<nl>Demo kindpakket</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>forus</IssuerID>
 	<CredentialID>demoKindpakket</CredentialID>

@@ -3,10 +3,6 @@
 		<en>Demo Travel Document</en>
 		<nl>Demo Reisdocument</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Travel Document</en>
-		<nl>Demo Reisdocument</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>nijmegen</IssuerID>
 	<CredentialID>travelDocument</CredentialID>

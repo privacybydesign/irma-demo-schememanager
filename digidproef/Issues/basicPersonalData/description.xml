@@ -3,10 +3,6 @@
 		<en>Demo Citizen data</en>
 		<nl>Demo Persoonsgegevens</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Citizen data</en>
-		<nl>Demo Persoonsgegevens</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>digidproef</IssuerID>
 	<CredentialID>basicPersonalData</CredentialID>

@@ -3,10 +3,6 @@
     <en>Demo BSN from healthcare</en>
     <nl>Demo BSN vanuit de zorg</nl>
   </Name>
-  <ShortName>
-    <en>Demo BSN healthcare</en>
-    <nl>Demo BSN zorg</nl>
-  </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <IssuerID>chipsoft</IssuerID>
   <CredentialID>bsn</CredentialID>

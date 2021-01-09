@@ -3,10 +3,6 @@
 		<en>Demo Energy connection</en>
 		<nl>Demo Energieaansluiting</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Energy connection</en>
-		<nl>Demo Energieaansluiting</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>alliander</IssuerID>
 	<CredentialID>connection</CredentialID>

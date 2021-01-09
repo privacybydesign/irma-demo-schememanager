@@ -1,9 +1,5 @@
 <Issuer version="4">
 	<ID>gemeenten</ID>
-	<ShortName>
-		<en>Demo Municipalities</en>
-		<nl>Demo Gemeenten</nl>
-	</ShortName>
 	<Name>
 		<en>Demo Municipalities</en>
 		<nl>Demo Gemeenten</nl>
@@ -11,5 +7,4 @@
 	<SchemeManager>irma-demo</SchemeManager>
 	<ContactAddress>https://example.org</ContactAddress>
 	<ContactEMail>example@example.org</ContactEMail>
-	<baseURL></baseURL>
 </Issuer>

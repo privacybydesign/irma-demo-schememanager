@@ -3,10 +3,6 @@
 		<en>Demo iDIN data</en>
 		<nl>Demo iDIN data</nl>
 	</Name>
-	<ShortName>
-		<en>Demo iDIN data</en>
-		<nl>Demo iDIN data</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>RU</IssuerID>
 	<CredentialID>idinData</CredentialID>

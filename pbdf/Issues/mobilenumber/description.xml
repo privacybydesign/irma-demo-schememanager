@@ -3,10 +3,6 @@
 		<en>Demo Mobile phone number</en>
 		<nl>Demo Mobiel telefoonnummer</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Mobile number</en>
-		<nl>Demo Mobiel nummer</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>mobilenumber</CredentialID>

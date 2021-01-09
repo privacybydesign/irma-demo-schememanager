@@ -3,10 +3,6 @@
 		<en>Demo IRMATube Member</en>
 		<nl>Demo IRMATube Member</nl>
 	</Name>
-	<ShortName>
-		<en>IRMATube</en>
-		<nl>IRMATube</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>IRMATube</IssuerID>
 	<CredentialID>member</CredentialID>

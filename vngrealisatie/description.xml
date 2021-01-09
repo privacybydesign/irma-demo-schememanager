@@ -4,13 +4,7 @@
 	  <en>Demo VNG Realisatie</en>
 	  <nl>Demo VNG Realisatie</nl>
   </Name>
-  <ShortName>
-	  <en>Demo VNG Realisatie</en>
-	  <nl>Demo VNG Realisatie</nl>
-  </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress>https://commonground.pleio.nl/</ContactAddress>
   <ContactEMail>realisatie@vng.nl</ContactEMail>
-
-  <baseURL></baseURL>
 </Issuer>

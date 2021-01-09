@@ -3,10 +3,6 @@
         <en>Demo INZ Postal Service Address</en>
         <nl>Demo INZ Postal Service Address</nl>
     </Name>
-    <ShortName>
-        <en>Address</en>
-        <nl>Address</nl>
-    </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>inz-postal-service</IssuerID>
     <CredentialID>address</CredentialID>

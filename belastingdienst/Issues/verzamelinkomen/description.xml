@@ -3,10 +3,6 @@
 		<en>Demo Total year income</en>
 		<nl>Demo Verzamelinkomen</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Total year income</en>
-		<nl>Demo Verzamelinkomen</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>belastingdienst</IssuerID>
 	<CredentialID>verzamelinkomen</CredentialID>

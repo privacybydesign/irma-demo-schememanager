@@ -3,10 +3,6 @@
         <en>Demo INZ Personal Data Person Name</en>
         <nl>Demo INZ Personal Data Person Name</nl>
     </Name>
-    <ShortName>
-        <en>Person name</en>
-        <nl>Person name</nl>
-    </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>inz-personal-data</IssuerID>
     <CredentialID>personName</CredentialID>

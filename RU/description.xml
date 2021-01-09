@@ -4,12 +4,7 @@
 	  <en>Demo University</en>
 	  <nl>Demo Universiteit</nl>
   </Name>
-  <ShortName>
-	  <en>Demo University</en>
-	  <nl>Demo Universiteit</nl>
-  </ShortName>
   <SchemeManager>irma-demo</SchemeManager>
   <ContactAddress></ContactAddress>
   <ContactEMail></ContactEMail>
-  <baseURL></baseURL>
 </Issuer>

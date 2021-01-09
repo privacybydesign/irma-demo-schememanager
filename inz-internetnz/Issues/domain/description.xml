@@ -3,10 +3,6 @@
         <en>Demo INZ InternetNZ Domain</en>
         <nl>Demo INZ InternetNZ Domain</nl>
     </Name>
-    <ShortName>
-        <en>InternetNZ domain</en>
-        <nl>InternetNZ domain</nl>
-    </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>inz-internetnz</IssuerID>
     <CredentialID>domain</CredentialID>

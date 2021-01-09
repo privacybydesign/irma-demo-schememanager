@@ -3,10 +3,6 @@
 		<en>Demo Address</en>
 		<nl>Demo Adres</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Address</en>
-		<nl>Demo Adres</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>address</CredentialID>

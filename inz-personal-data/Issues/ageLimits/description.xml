@@ -3,10 +3,6 @@
         <en>Demo INZ Personal Data Age Limits</en>
         <nl>Demo INZ Personal Data Age Limits</nl>
     </Name>
-    <ShortName>
-        <en>Age Limits</en>
-        <nl>Age Limits</nl>
-    </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>inz-personal-data</IssuerID>
     <CredentialID>ageLimits</CredentialID>

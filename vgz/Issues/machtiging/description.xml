@@ -3,10 +3,6 @@
 		<en>Demo Mandate</en>
 		<nl>Demo Machtiging</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Mandate</en>
-		<nl>Demo Machtiging</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>vgz</IssuerID>
 	<CredentialID>machtiging</CredentialID>

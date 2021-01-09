@@ -3,10 +3,6 @@
 		<en>Demo Photos</en>
 		<nl>Demo Pasfoto's</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Photos</en>
-		<nl>Demo Pasfoto's</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>irmages</IssuerID>
 	<CredentialID>photos</CredentialID>

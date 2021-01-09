@@ -3,10 +3,6 @@
 		<en>Demo corona test result</en>
 		<nl>Demo corona testuitslag</nl>
 	</Name>
-	<ShortName>
-		<en>Demo corona test result</en>
-		<nl>Demo corona testuitslag</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>ggd</IssuerID>
 	<CredentialID>coronatest</CredentialID>

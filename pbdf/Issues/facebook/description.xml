@@ -3,10 +3,6 @@
 		<en>Demo Facebook</en>
 		<nl>Demo Facebook</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Facebook</en>
-		<nl>Demo Facebook</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>facebook</CredentialID>

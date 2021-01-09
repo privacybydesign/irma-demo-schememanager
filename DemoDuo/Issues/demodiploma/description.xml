@@ -3,10 +3,6 @@
 		<en>Demo Diploma</en>
 		<nl>Demo Diploma</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Diploma</en>
-		<nl>Demo Diploma</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>DemoDuo</IssuerID>
 	<CredentialID>demodiploma</CredentialID>

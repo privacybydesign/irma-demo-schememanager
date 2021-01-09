@@ -3,10 +3,6 @@
 		<en>Demo iDEAL</en>
 		<nl>Demo iDEAL</nl>
 	</Name>
-	<ShortName>
-		<en>Demo iDEAL</en>
-		<nl>Demo iDEAL</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>ideal</IssuerID>
 	<CredentialID>ideal</CredentialID>

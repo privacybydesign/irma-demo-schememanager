@@ -3,10 +3,6 @@
         <en>Demo INZ InternetNZ Nethui Access Pass</en>
         <nl>Demo INZ InternetNZ Nethui Access Pass</nl>
     </Name>
-    <ShortName>
-        <en>Nethui Access Pass</en>
-        <nl>Nethui Access Pass</nl>
-    </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>inz-internetnz</IssuerID>
     <CredentialID>nethuiAccessPass</CredentialID>

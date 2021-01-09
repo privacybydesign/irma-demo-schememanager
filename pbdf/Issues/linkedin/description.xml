@@ -3,10 +3,6 @@
 		<en>Demo LinkedIn</en>
 		<nl>Demo LinkedIn</nl>
 	</Name>
-	<ShortName>
-		<en>Demo LinkedIn</en>
-		<nl>Demo LinkedIn</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
 	<CredentialID>linkedin</CredentialID>

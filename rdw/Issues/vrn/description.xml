@@ -3,10 +3,6 @@
 		<en>Demo vehicle registration</en>
 		<nl>Demo kentekennummer</nl>
 	</Name>
-	<ShortName>
-		<en>Demo vehicle registration</en>
-		<nl>Demo kentekennummer</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>rdw</IssuerID>
 	<CredentialID>vrn</CredentialID>

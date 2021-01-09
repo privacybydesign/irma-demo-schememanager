@@ -3,10 +3,6 @@
 		<en>Demo Lower Age limits</en>
 		<nl>Demo Junior-leeftijdslimieten</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Age (lower)</en>
-		<nl>Demo Leeftijd (junior)</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>MijnOverheid</IssuerID>
 	<CredentialID>ageLower</CredentialID>

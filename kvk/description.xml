@@ -1,9 +1,5 @@
 <Issuer version="4">
 	<ID>kvk</ID>
-	<ShortName>
-		<en>Demo KVK</en>
-		<nl>Demo KVK</nl>
-	</ShortName>
 	<Name>
 		<en>Demo Netherlands Chamber of Commerce</en>
 		<nl>Demo Kamer van Koophandel</nl>

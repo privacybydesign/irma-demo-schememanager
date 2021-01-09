@@ -3,10 +3,6 @@
 		<en>Demo healthcare identity</en>
 		<nl>Demo zorgidentiteit</nl>
 	</Name>
-	<ShortName>
-		<en>Demo healthcare identity</en>
-		<nl>Demo zorgidentiteit</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>vzvz</IssuerID>
 	<CredentialID>healthcareidentity</CredentialID>

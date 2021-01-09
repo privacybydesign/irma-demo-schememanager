@@ -3,10 +3,6 @@
 		<en>Demo Bijstand - Aanvaarden Werk</en>
 		<nl>Demo Bijstand - Aanvaarden Werk</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Bijstand - Aanvaarden Werk</en>
-		<nl>Demo Bijstand - Aanvaarden Werk</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>enschede</IssuerID>
 	<CredentialID>bijstandsgerechtigd</CredentialID>

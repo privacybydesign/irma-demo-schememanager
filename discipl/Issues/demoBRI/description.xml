@@ -3,10 +3,6 @@
 		<en>Demo Yearly Basic Income Registration</en>
 		<nl>Demo Jaarlijks Basisregistratie Inkomen</nl>
 	</Name>
-	<ShortName>
-		<en>Demo BRI</en>
-		<nl>Demo BRI</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>discipl</IssuerID>
 	<CredentialID>demoBRI</CredentialID>

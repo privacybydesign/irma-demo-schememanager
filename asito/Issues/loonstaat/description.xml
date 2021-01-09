@@ -3,10 +3,6 @@
 		<en>Demo Payroll Asito</en>
 		<nl>Demo Loonstaat Asito</nl>
 	</Name>
-	<ShortName>
-		<en>Demo Payroll Asito</en>
-		<nl>Demo Loonstaat Asito</nl>
-	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>asito</IssuerID>
 	<CredentialID>loonstaat</CredentialID>

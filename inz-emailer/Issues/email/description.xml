@@ -3,10 +3,6 @@
         <en>Demo INZ Emailer E-mail</en>
         <nl>Demo INZ Emailer E-mail</nl>
     </Name>
-    <ShortName>
-        <en>E-mail</en>
-        <nl>E-mail</nl>
-    </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>inz-emailer</IssuerID>
     <CredentialID>email</CredentialID>
