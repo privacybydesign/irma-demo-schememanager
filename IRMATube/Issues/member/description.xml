@@ -40,5 +40,15 @@
 				<nl>Uw lidmaatschapsnummer</nl>
 			</Description>
 		</Attribute>
+		<Attribute id="fullname" optional="true">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Your full name</en>
+				<nl>Uw volledige naam</nl>
+			</Description>
+		</Attribute>
 	</Attributes>
 </IssueSpecification>
