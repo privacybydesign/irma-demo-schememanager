@@ -3,6 +3,10 @@
         <en>Demo INZ Address</en>
         <nl>Demo INZ Address</nl>
     </Name>
+    <ShortName>
+        <en>Address</en>
+        <nl></nl>
+    </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>inz-id-card</IssuerID>
     <CredentialID>address</CredentialID>
