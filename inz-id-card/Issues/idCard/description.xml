@@ -3,10 +3,6 @@
         <en>Demo INZ ID Card</en>
         <nl>Demo INZ ID Card</nl>
     </Name>
-    <ShortName>
-        <en>ID Card</en>
-        <nl></nl>
-    </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>inz-id-card</IssuerID>
     <CredentialID>idCard</CredentialID>
