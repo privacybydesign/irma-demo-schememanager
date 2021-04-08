@@ -4,12 +4,7 @@
         <en>Demo INZ ID Card</en>
         <nl>Demo INZ ID Card</nl>
     </Name>
-    <ShortName>
-        <en>Demo ID Card</en>
-        <nl></nl>
-    </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <ContactAddress>https://demo.irma.nz/id-card/</ContactAddress>
     <ContactEMail>commercial@internetnz.net.nz</ContactEMail>
-    <baseURL></baseURL>
 </Issuer>
