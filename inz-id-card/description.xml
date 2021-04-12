@@ -9,7 +9,7 @@
         <nl></nl>
     </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
-    <ContactAddress>https://demo.irma.nz/id-card/</ContactAddress>
+    <ContactAddress>https://demo.irma.nz/id-card/index.html</ContactAddress>
     <ContactEMail>commercial@internetnz.net.nz</ContactEMail>
     <baseURL></baseURL>
 </Issuer>
