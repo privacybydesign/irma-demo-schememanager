@@ -15,8 +15,8 @@
         <nl></nl>
     </Description>
     <IssueURL>
-        <en>https://demo.irma.nz/id-card/</en>
-        <nl>https://demo.irma.nz/id-card/</nl>
+        <en>https://demo.irma.nz/id-card/index.html</en>
+        <nl>https://demo.irma.nz/id-card/index.html</nl>
     </IssueURL>
     <Attributes>
         <Attribute id="fullAddress">
