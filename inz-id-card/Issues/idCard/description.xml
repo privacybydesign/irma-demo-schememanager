@@ -23,6 +23,11 @@
         <en>Personal</en>
         <nl></nl>
     </Category>
+
+    <RevocationServers>
+        <RevocationServer>https://pnonvsmdy9.execute-api.ap-southeast-2.amazonaws.com/dev</RevocationServer>
+    </RevocationServers>
+
     <Attributes>
         <Attribute id="firstName">
             <Name>
@@ -124,5 +129,6 @@
                 <nl></nl>
             </Description>
         </Attribute>
+        <Attribute revocation="true" />
     </Attributes>
 </IssueSpecification>
