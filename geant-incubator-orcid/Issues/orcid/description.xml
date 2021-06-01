@@ -1,0 +1,49 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo ORCID DI4R IRMA demo of the GÉANT Trust and Identity Incubator</en>
+        <nl>Demo ORCID DI4R IRMA demo of the GÉANT Trust and Identity Incubator</nl>
+	</Name>
+	<ShortName>
+        di4r
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>geant-incubator-orcid</IssuerID>
+	<CredentialID>orcid</CredentialID>
+	<Description>
+		<en>The Distributed Identity for Research IRMA demo, part of the the GÉANT Trust and Identity Incubator</en>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.incubator.geant-incubator-orcid.di4r.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.incubator.geant-incubator-orcid.di4r.html</nl>
+	</IssueURL>
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
+	<BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
+	<IsInCredentialStore>false</IsInCredentialStore>
+	<Category>
+		<en>Education / research</en>
+	</Category>
+	<FAQIntro>
+		<en>Add your credentials from your research collaboration(s) to your IRMA app.</en>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>By adding credentials from from your research collaboration(s) to your IRMA Wallet, you may gain access to services provided by your research collaboration.</en>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You may add the following data.\n•first name\n• last name\n• e-mail address\n• institutional affiliation\n• local registration number\n• roles and rights in the context of your collaboration\n• identifiers issued in the context of your collaboration</en>
+	</FAQContent>
+	<FAQHowto>
+		<en>If you are a member of a research collaboration that has is using DI4R-TTS to manage access to it services, you may add personal data from this collaboration to your IRMA app.\n\n Complete the following steps.\n1. Select your own research collaboration\n2. Log in at SRAM in the usual manner.\n3. Confirm that you wish to add your data to IRMA. \n\nYou now receive a card with your Research community attributes.</en>
+	</FAQHowto>
+    <Attributes>
+       <Attribute id="ORCID" optional="true">
+          <Name>
+             <en>ORCID</en>
+          </Name>
+          <Description>
+             <en>Specifies the person's ORCID identifier.</en>
+          </Description>
+       </Attribute>
+    </Attributes>
+</IssueSpecification>
