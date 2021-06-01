@@ -1,0 +1,161 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo SRAM DI4R IRMA demo of the GÉANT Trust and Identity Incubator</en>
+        <nl>Demo SRAM DI4R IRMA demo of the GÉANT Trust and Identity Incubator</nl>
+	</Name>
+	<ShortName>
+        di4r
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>geant-incubator-sram</IssuerID>
+	<CredentialID>di4r</CredentialID>
+	<Description>
+		<en>The Distributed Identity for Research IRMA demo, part of the the GÉANT Trust and Identity Incubator</en>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.incubator.geant-incubator-sram.di4r.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.incubator.geant-incubator-sram.di4r.html</nl>
+	</IssueURL>
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
+	<BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
+	<IsInCredentialStore>false</IsInCredentialStore>
+	<Category>
+		<en>Education / research</en>
+	</Category>
+	<FAQIntro>
+		<en>Add your credentials from your research collaboration(s) to your IRMA app.</en>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>By adding credentials from from your research collaboration(s) to your IRMA Wallet, you may gain access to services provided by your research collaboration.</en>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You may add the following data.\n•first name\n• last name\n• e-mail address\n• institutional affiliation\n• local registration number\n• roles and rights in the context of your collaboration\n• identifiers issued in the context of your collaboration</en>
+	</FAQContent>
+	<FAQHowto>
+		<en>If you are a member of a research collaboration that has is using DI4R-TTS to manage access to it services, you may add personal data from this collaboration to your IRMA app.\n\n Complete the following steps.\n1. Select your own research collaboration\n2. Log in at SRAM in the usual manner.\n3. Confirm that you wish to add your data to IRMA. \n\nYou now receive a card with your Research community attributes.</en>
+	</FAQHowto>
+    <Attributes>
+       <Attribute id="eduPersonAffiliation" optional="true">
+          <Name>
+             <en>Affiliation</en>
+          </Name>
+          <Description>
+             <en>Specifies the person's relationship(s) to the institution in broad categories such as student, faculty, staff, alum.</en>
+          </Description>
+       </Attribute>
+       <Attribute id="eduPersonEntitlement" optional="true">
+          <Name>
+             <en>Entitlements</en>
+          </Name>
+          <Description>
+             <en>URI (either URN or URL) that indicates a set of rights to specific resources.</en>
+          </Description>
+       </Attribute>
+       <Attribute id="eduPersonPrincipalName" optional="true">
+          <Name>
+             <en>Principal Name</en>
+          </Name>
+          <Description>
+             <en>A scoped identifier for a person.</en>
+          </Description>
+       </Attribute>
+       <Attribute id="eduPersonScopedAffiliation" optional="true">
+          <Name>
+             <en>Scoped Affiliation</en>
+          </Name>
+          <Description>
+             <en>Specifies the person's affiliation within a particular security domain in broad categories such as student, faculty, staff, alum, etc.</en>
+          </Description>
+       </Attribute>
+       <Attribute id="eduPersonOrcid" optional="true">
+          <Name>
+             <en>Orcid</en>
+          </Name>
+          <Description>
+             <en>ORCID iDs are persistent digital identifiers for individual researchers. Their primary purpose is to unambiguously and definitively link them with their scholarly work products. ORCID iDs are assigned, managed and maintained by the ORCID organization.</en>
+          </Description>
+       </Attribute>
+       <Attribute id="cn" optional="true">
+          <Name>
+             <en>Common name</en>
+          </Name>
+          <Description>
+             <en>names of an object</en>
+          </Description>
+       </Attribute>
+       <Attribute id="displayName" optional="true">
+          <Name>
+             <en>Display Name</en>
+          </Name>
+          <Description>
+             <en>Preferred name of a person to be used when displaying entries.</en>
+          </Description>
+       </Attribute>
+       <Attribute id="givenName" optional="true">
+          <Name>
+             <en>Given Name</en>
+          </Name>
+          <Description>
+             <en>Name strings that are the part of a person's name that is not their surname</en>
+          </Description>
+       </Attribute>
+       <Attribute id="mail" optional="true">
+          <Name>
+             <en>Email</en>
+          </Name>
+          <Description>
+             <en>Internet mail addresses</en>
+          </Description>
+       </Attribute>
+       <Attribute id="sn" optional="true">
+          <Name>
+             <en>Surname</en>
+          </Name>
+          <Description>
+             <en>Surname or family name.</en>
+          </Description>
+       </Attribute>
+       <Attribute id="ssh_public_key" optional="true">
+          <Name>
+             <en>Ssh public key</en>
+          </Name>
+          <Description>
+             <en>Public ssh key which the user has configured to log into backend systems</en>
+          </Description>
+       </Attribute>
+       <Attribute id="eduperson_unique_id" optional="true">
+          <Name>
+             <en>Unique ID</en>
+          </Name>
+          <Description>
+             <en>Unique persistent identifier for the user</en>
+          </Description>
+       </Attribute>
+       <Attribute id="UID" optional="true">
+          <Name>
+             <en>UID</en>
+          </Name>
+          <Description>
+             <en>Short, human-readably username for login to a backend systems</en>
+          </Description>
+       </Attribute>
+       <Attribute id="voperson_external_id" optional="true">
+          <Name>
+             <en>External ID</en>
+          </Name>
+          <Description>
+             <en>Identifier from the user's home organization</en>
+          </Description>
+       </Attribute>
+       <Attribute id="voperson_external_affiliation" optional="true">
+          <Name>
+             <en>External Affiliation</en>
+          </Name>
+          <Description>
+             <en>User's role(s) in their home organization. Only present if supplied by the user's home institution.</en>
+          </Description>
+       </Attribute>
+    </Attributes>
+</IssueSpecification>
