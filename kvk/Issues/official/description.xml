@@ -15,8 +15,8 @@
 		<nl>The persoonlijke informatie van een functionaris voor een rechtspersoon</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.kvk.official.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.kvk.official.html</nl>
+		<en>https://kvk-irma.mayersoftwaredevelopment.nl/</en>
+		<nl>https://kvk-irma.mayersoftwaredevelopment.nl/</nl>
 	</IssueURL>
 	<Attributes>
 		<Attribute id="legalEntity">
