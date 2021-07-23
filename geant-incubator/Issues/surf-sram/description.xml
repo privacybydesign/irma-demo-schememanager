@@ -90,10 +90,10 @@
        </Attribute>
        <Attribute id="ssh_public_key" optional="true">
           <Name>
-             <en>Ssh public key</en>
+             <en>SSH public key</en>
           </Name>
           <Description>
-             <en>Public ssh key which the user has configured to log into backend systems</en>
+             <en>Public SSH key which the user has configured to log into backend systems</en>
           </Description>
        </Attribute>
        <!-- organization(s) -->
