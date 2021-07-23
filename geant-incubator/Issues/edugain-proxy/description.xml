@@ -1,43 +1,43 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>Demo GEANT Incubator eduGAIN proxy</en>
-        <nl>Demo GEANT Incubator eduGAIN proxy</nl>
-	</Name>
-	<ShortName>
+    <Name>
+        <en>Demo GÉANT Incubator eduGAIN proxy</en>
+        <nl>Demo GÉANT Incubator eduGAIN proxy</nl>
+    </Name>
+    <ShortName>
         edugain-proxy
-	</ShortName>
-	<SchemeManager>irma-demo</SchemeManager>
-	<IssuerID>geant-incubator</IssuerID>
-	<CredentialID>edugain-proxy</CredentialID>
-	<Description>
-		<en>This issuer is part of the Distributed Identity for Research (DI4R) IRMA demo, part of the the GÉANT Trust and Identity Incubator.\nThis issuer is a proxy between Identity Providers in eduGAIN and the DI4R IRMA ecosystem. It allows users to load credetials from their home institution into an IRMA wallet for login to services lateron.</en>
-   	    <nl>Deze issuer is onderdeel van de Distributed Identity for Research (DI4R) IRMA demo, wat onderdeel is van de GÉANT Trust and Identity Incubator.\nDeze issuer is een proxy tussen de Identity provders in eduGAIN en het DI4R IRMA ecosysteem. Middels deze proxy kunnen gebruikers credentials van hun instelling inladen in een IRMA wallet om later bij diensten te gebruiken om in te loggen.</nl>
-	</Description>
-	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.incubator.geant-incubator.edugain-proxy.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.incubator.geant-incubator.edugain-proxy.html</nl>
-	</IssueURL>
-	<ForegroundColor>#15222E</ForegroundColor>
-	<BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
-	<BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
-	<IsInCredentialStore>false</IsInCredentialStore>
-	<Category>
-		<en>Education / research</en>
-	</Category>
-	<FAQIntro>
-		<en>Add your credentials from your education or research institution to your IRMA app.</en>
-		<nl>Voeg credentials van je onderwijs of onderzoeksinstelling toe aan je IRMA app.</nl>
-	</FAQIntro>
-	<FAQPurpose>
-		<en>By adding credentials to your your IRMA Wallet, you may gain access to services provided by your research collaboration.</en>
-	</FAQPurpose>
-	<FAQContent>
-		<en>You may add the following data:\n•home organization domain name\n•shared user identifier\n•person name\n•email address\n•affiliation\n•assurance information</en>
-	</FAQContent>
-	<FAQHowto>
-		<en>To add credentials to your wallet please scan the QR code with your IRMA wallet app.</en>
-	</FAQHowto>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>geant-incubator</IssuerID>
+    <CredentialID>edugain-proxy</CredentialID>
+    <Description>
+        <en>This issuer is part of the Distributed Identity for Research (DI4R) IRMA demo, part of the the GÉANT Trust and Identity Incubator.\nThis issuer is a proxy between Identity Providers in eduGAIN and the DI4R IRMA ecosystem. It allows users to load credetials from their home institution into an IRMA wallet for login to services lateron.</en>
+           <nl>Deze issuer is onderdeel van de Distributed Identity for Research (DI4R) IRMA demo, wat onderdeel is van de GÉANT Trust and Identity Incubator.\nDeze issuer is een proxy tussen de Identity provders in eduGAIN en het DI4R IRMA ecosysteem. Middels deze proxy kunnen gebruikers credentials van hun instelling inladen in een IRMA wallet om later bij diensten te gebruiken om in te loggen.</nl>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+    <IssueURL>
+        <en>https://privacybydesign.foundation/attribute-index/en/irma-demo.incubator.geant-incubator.edugain-proxy.html</en>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.incubator.geant-incubator.edugain-proxy.html</nl>
+    </IssueURL>
+    <ForegroundColor>#15222E</ForegroundColor>
+    <BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
+    <BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
+    <IsInCredentialStore>false</IsInCredentialStore>
+    <Category>
+        <en>Education / research</en>
+    </Category>
+    <FAQIntro>
+        <en>Add your credentials from your education or research institution to your IRMA app.</en>
+        <nl>Voeg credentials van je onderwijs of onderzoeksinstelling toe aan je IRMA app.</nl>
+    </FAQIntro>
+    <FAQPurpose>
+        <en>By adding credentials to your your IRMA Wallet, you may gain access to services provided by your research collaboration.</en>
+    </FAQPurpose>
+    <FAQContent>
+        <en>You may add the following data:\n•home organization domain name\n•shared user identifier\n•person name\n•email address\n•affiliation\n•assurance information</en>
+    </FAQContent>
+    <FAQHowto>
+        <en>To add credentials to your wallet please scan the QR code with your IRMA wallet app.</en>
+    </FAQHowto>
     <Attributes>
        <!-- organization -->
        <Attribute id="schacHomeOrganization" optional="true">
@@ -57,8 +57,8 @@
              <en>Specifies the person's affiliation within a particular security domain in broad categories such as student, faculty, staff, alum, etc.</en>
           </Description>
        </Attribute>
-	   <!-- shared user identifier -->
-	   <Attribute id="subject-id" optional="true">
+       <!-- shared user identifier -->
+       <Attribute id="subject-id" optional="true">
           <Name>
              <en>Identifier</en>
           </Name>
@@ -66,7 +66,7 @@
              <en>A unique identification of subjects. May be either a globally-unique identifier, or a pairwise identifier suitable for more specialized uses.</en>
           </Description>
        </Attribute>
-	   <!-- person name -->
+       <!-- person name -->
        <Attribute id="displayName" optional="true">
           <Name>
              <en>Display Name</en>

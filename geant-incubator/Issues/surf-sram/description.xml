@@ -1,45 +1,45 @@
 <IssueSpecification version="4">
-	<Name>
-		<en>Demo SURF SRAM</en>
+    <Name>
+        <en>Demo SURF SRAM</en>
         <nl>Demo SURF SRAM</nl>
-	</Name>
-	<ShortName>
+    </Name>
+    <ShortName>
         surf-sram
-	</ShortName>
-	<SchemeManager>irma-demo</SchemeManager>
-	<IssuerID>geant-incubator</IssuerID>
-	<CredentialID>surf-sram</CredentialID>
-	<Description>
-		<en>This issuer is part of the Distributed Identity for Research (DI4R) IRMA demo, part of the the GÉANT Trust and Identity Incubator.\nThe SURF SRAM platform allows collaborations to register memberships, roles and rights of users in a research collaboration. With this issuer you may load such credentials into an IRMA wallet for login to services lateron.</en>
-   	    <nl>Deze issuer is onderdeel van de Distributed Identity for Research (DI4R) IRMA demo, wat onderdeel is van de GÉANT Trust and Identity Incubator.\nHet SURF SRAM platform stelt onderzoeks samenwerkingen in staat lidmaatschap, rollen en rechten van de gebruikers in een samenwerking te registreren.  Middels deze issuer kunnen gebruikers credentials van hun samenwerking inladen in een IRMA wallet om later bij diensten te gebruiken om in te loggen.</nl>
-	</Description>
-	<ShouldBeSingleton>false</ShouldBeSingleton>
-	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.incubator.geant-incubator.surf-sram.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.incubator.geant-incubator.surf-sram.html</nl>
-	</IssueURL>
-	<ForegroundColor>#15222E</ForegroundColor>
-	<BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
-	<BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
-	<IsInCredentialStore>false</IsInCredentialStore>
-	<Category>
-		<en>Education / research</en>
-	</Category>
-	<FAQIntro>
-		<en>Add your credentials from your education or research institution to your IRMA app.</en>
-		<nl>Voeg credentials van je onderwijs of onderzoeksinstelling toe aan je IRMA app.</nl>
-	</FAQIntro>
-	<FAQPurpose>
-		<en>By adding credentials from from your research collaboration(s) to your IRMA Wallet, you may gain access to services provided by your research collaboration.</en>
-	</FAQPurpose>
-	<FAQContent>
-		<en>You may add the following data:\n•name(s)\n• e-mail addres(s)\n• affiliation\n• identifier(s)\n• your roles and rights in the context of your collaboration\n• assurance information</en>
-	</FAQContent>
-	<FAQHowto>
-		<en>If you are a member of a research collaboration that has is using SURF SRAM to manage access to it services, you may add personal data from this collaboration to your IRMA app.\n\n Complete the following steps.\n1. Select your own research collaboration\n2. Log in at SRAM in the usual manner.\n3. Confirm that you wish to add your data to IRMA. \n\nYou now receive a card with your Research community attributes.</en>
-	</FAQHowto>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>geant-incubator</IssuerID>
+    <CredentialID>surf-sram</CredentialID>
+    <Description>
+        <en>This issuer is part of the Distributed Identity for Research (DI4R) IRMA demo, part of the the GÉANT Trust and Identity Incubator.\nThe SURF SRAM platform allows collaborations to register memberships, roles and rights of users in a research collaboration. With this issuer you may load such credentials into an IRMA wallet for login to services lateron.</en>
+           <nl>Deze issuer is onderdeel van de Distributed Identity for Research (DI4R) IRMA demo, wat onderdeel is van de GÉANT Trust and Identity Incubator.\nHet SURF SRAM platform stelt onderzoeks samenwerkingen in staat lidmaatschap, rollen en rechten van de gebruikers in een samenwerking te registreren.  Middels deze issuer kunnen gebruikers credentials van hun samenwerking inladen in een IRMA wallet om later bij diensten te gebruiken om in te loggen.</nl>
+    </Description>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+    <IssueURL>
+        <en>https://privacybydesign.foundation/attribute-index/en/irma-demo.incubator.geant-incubator.surf-sram.html</en>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.incubator.geant-incubator.surf-sram.html</nl>
+    </IssueURL>
+    <ForegroundColor>#15222E</ForegroundColor>
+    <BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
+    <BackgroundGradientEnd>#FFFFFF</BackgroundGradientEnd>
+    <IsInCredentialStore>false</IsInCredentialStore>
+    <Category>
+        <en>Education / research</en>
+    </Category>
+    <FAQIntro>
+        <en>Add your credentials from your education or research institution to your IRMA app.</en>
+        <nl>Voeg credentials van je onderwijs of onderzoeksinstelling toe aan je IRMA app.</nl>
+    </FAQIntro>
+    <FAQPurpose>
+        <en>By adding credentials from from your research collaboration(s) to your IRMA Wallet, you may gain access to services provided by your research collaboration.</en>
+    </FAQPurpose>
+    <FAQContent>
+        <en>You may add the following data:\n•name(s)\n• e-mail addres(s)\n• affiliation\n• identifier(s)\n• your roles and rights in the context of your collaboration\n• assurance information</en>
+    </FAQContent>
+    <FAQHowto>
+        <en>If you are a member of a research collaboration that has is using SURF SRAM to manage access to it services, you may add personal data from this collaboration to your IRMA app.\n\n Complete the following steps.\n1. Select your own research collaboration\n2. Log in at SRAM in the usual manner.\n3. Confirm that you wish to add your data to IRMA. \n\nYou now receive a card with your Research community attributes.</en>
+    </FAQHowto>
     <Attributes>
-	   <!-- user identifier(s)  -->
+       <!-- user identifier(s)  -->
        <Attribute id="subject-id" optional="true">
           <Name>
              <en>subject Identifier</en>
@@ -96,7 +96,7 @@
              <en>Public ssh key which the user has configured to log into backend systems</en>
           </Description>
        </Attribute>
-	   <!-- organization(s) -->
+       <!-- organization(s) -->
        <Attribute id="schacHomeOrganization" optional="true">
           <Name>
              <en>Home organization</en>
@@ -104,9 +104,9 @@
           <Description>
              <en>Specifies a person's home organization using the domain name of the organization</en>
           </Description>
-       </Attribute>	   
-	   <!-- person name  -->
-	   <Attribute id="displayName" optional="true">
+       </Attribute>       
+       <!-- person name  -->
+       <Attribute id="displayName" optional="true">
           <Name>
              <en>Display Name</en>
           </Name>
@@ -138,9 +138,9 @@
           <Description>
              <en>Internet mail addresses</en>
           </Description>
-       </Attribute>		
-	   <!-- affiliation(s)  -->
-	   <Attribute id="eduPersonAffiliation" optional="true">
+       </Attribute>        
+       <!-- affiliation(s)  -->
+       <Attribute id="eduPersonAffiliation" optional="true">
           <Name>
              <en>Affiliation</en>
           </Name>
@@ -164,7 +164,7 @@
              <en>User's role(s) in their home organization. Only present if supplied by the user's home institution.</en>
           </Description>
        </Attribute>
-	   <!-- membership(s) and entitlement(s)  -->
+       <!-- membership(s) and entitlement(s)  -->
        <Attribute id="eduPersonEntitlement" optional="true">
           <Name>
              <en>Entitlements</en>
@@ -172,8 +172,8 @@
           <Description>
              <en>URI (either URN or URL) that indicates a set of rights to specific resources.</en>
           </Description>
-       </Attribute>		
-	   <!-- assurance -->
+       </Attribute>        
+       <!-- assurance -->
        <Attribute id="eduPersonAssurance" optional="true">
           <Name>
              <en>Assurance</en>
