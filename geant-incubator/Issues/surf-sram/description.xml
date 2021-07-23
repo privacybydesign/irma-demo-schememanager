@@ -10,8 +10,8 @@
     <IssuerID>geant-incubator</IssuerID>
     <CredentialID>surf-sram</CredentialID>
     <Description>
-        <en>This issuer is part of the Distributed Identity for Research (DI4R) IRMA demo, part of the the GÉANT Trust and Identity Incubator.\nThe SURF SRAM platform allows collaborations to register memberships, roles and rights of users in a research collaboration. With this issuer you may load such credentials into an IRMA wallet for login to services lateron.</en>
-           <nl>Deze issuer is onderdeel van de Distributed Identity for Research (DI4R) IRMA demo, wat onderdeel is van de GÉANT Trust and Identity Incubator.\nHet SURF SRAM platform stelt onderzoeks samenwerkingen in staat lidmaatschap, rollen en rechten van de gebruikers in een samenwerking te registreren.  Middels deze issuer kunnen gebruikers credentials van hun samenwerking inladen in een IRMA wallet om later bij diensten te gebruiken om in te loggen.</nl>
+        <en>This credential is used as part of the Distributed Identity for Research (DI4R) IRMA demo in the GÉANT Trust and Identity Incubator.\nThis credential allows users to load profile information as provided by SURF Reserach Access Management (SRAM) into an IRMA wallet for login to your research community services.</en>
+        <nl>Deze credential wordt gebruikt als onderdeel van de Distributed Identity for Research (DI4R) IRMA demo, wat onderdeel is van de GÉANT Trust and Identity Incubator.\nMiddels deze credential kunnen gebruikers profiel informatie van hun onderzoekssamenwerking zoals deze is vastgelegd in SURF Reserach Access Management (SRAM) inladen in een IRMA wallet om deze later bij hun onderzoeksdiensten te kunnen gebruiken om in te loggen.</nl>
     </Description>
     <ShouldBeSingleton>false</ShouldBeSingleton>
     <IssueURL>
