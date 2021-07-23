@@ -10,8 +10,8 @@
     <IssuerID>geant-incubator</IssuerID>
     <CredentialID>edugain-proxy</CredentialID>
     <Description>
-        <en>This issuer is part of the Distributed Identity for Research (DI4R) IRMA demo, part of the the GÉANT Trust and Identity Incubator.\nThis issuer is a proxy between Identity Providers in eduGAIN and the DI4R IRMA ecosystem. It allows users to load credetials from their home institution into an IRMA wallet for login to services lateron.</en>
-           <nl>Deze issuer is onderdeel van de Distributed Identity for Research (DI4R) IRMA demo, wat onderdeel is van de GÉANT Trust and Identity Incubator.\nDeze issuer is een proxy tussen de Identity provders in eduGAIN en het DI4R IRMA ecosysteem. Middels deze proxy kunnen gebruikers credentials van hun instelling inladen in een IRMA wallet om later bij diensten te gebruiken om in te loggen.</nl>
+        <en>This credential is used as part of the Distributed Identity for Research (DI4R) IRMA demo in the GÉANT Trust and Identity Incubator.\nThis credential allows users to load profile information as provided by their home institution into an IRMA wallet for login to services lateron.</en>
+        <nl>Deze credential wordt gebruikt als onderdeel van de Distributed Identity for Research (DI4R) IRMA demo, wat onderdeel is van de GÉANT Trust and Identity Incubator.\nMiddels deze credential kunnen gebruikers profiel informatie van hun instelling inladen in een IRMA wallet om later bij diensten te gebruiken om in te loggen.</nl>
     </Description>
     <ShouldBeSingleton>false</ShouldBeSingleton>
     <IssueURL>
