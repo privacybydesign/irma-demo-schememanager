@@ -1,22 +1,22 @@
 <IssueSpecification version="4">
     <Name>
-        <en>Demo SURF SRAM</en>
-        <nl>Demo SURF SRAM</nl>
+        <en>Demo SRAM</en>
+        <nl>Demo SRAM</nl>
     </Name>
     <ShortName>
         surf-sram
     </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>geant-incubator</IssuerID>
-    <CredentialID>surf-sram</CredentialID>
+    <CredentialID>sram</CredentialID>
     <Description>
         <en>This credential is used as part of the Distributed Identity for Research (DI4R) IRMA demo in the GÉANT Trust and Identity Incubator.\nThis credential allows users to load profile information as provided by SURF Reserach Access Management (SRAM) into an IRMA wallet for login to your research community services.</en>
         <nl>Deze credential wordt gebruikt als onderdeel van de Distributed Identity for Research (DI4R) IRMA demo, wat onderdeel is van de GÉANT Trust and Identity Incubator.\nMiddels deze credential kunnen gebruikers profiel informatie van hun onderzoekssamenwerking zoals deze is vastgelegd in SURF Reserach Access Management (SRAM) inladen in een IRMA wallet om deze later bij hun onderzoeksdiensten te kunnen gebruiken om in te loggen.</nl>
     </Description>
     <ShouldBeSingleton>false</ShouldBeSingleton>
     <IssueURL>
-        <en>https://privacybydesign.foundation/attribute-index/en/irma-demo.incubator.geant-incubator.surf-sram.html</en>
-        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.incubator.geant-incubator.surf-sram.html</nl>
+        <en>https://privacybydesign.foundation/attribute-index/en/irma-demo.incubator.geant-incubator.sram.html</en>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.incubator.geant-incubator.sram.html</nl>
     </IssueURL>
     <ForegroundColor>#15222E</ForegroundColor>
     <BackgroundGradientStart>#EBEBEB</BackgroundGradientStart>
