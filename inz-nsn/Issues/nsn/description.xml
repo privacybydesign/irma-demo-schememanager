@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
     <Name>
-        <en>Demo INZ NHI</en>
-        <nl>Demo INZ NHI</nl>
+        <en>Demo INZ NSN</en>
+        <nl>Demo INZ NSN</nl>
     </Name>
     <ShortName>
-        <en>NHI</en>
-        <nl>NHI</nl>
+        <en>NSN</en>
+        <nl>NSN</nl>
     </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
-    <IssuerID>inz-nhi</IssuerID>
-    <CredentialID>nhi</CredentialID>
+    <IssuerID>inz-nsn</IssuerID>
+    <CredentialID>nsn</CredentialID>
     <Description>
-        <en>Demo New Zealand National Health Index</en>
-        <nl>Demo New Zealand National Health Index</nl>
+        <en>Demo New Zealand National Student Number</en>
+        <nl>Demo New Zealand National Student Number</nl>
     </Description>
     <ShouldBeSingleton>false</ShouldBeSingleton>
     <IssueURL>
@@ -22,11 +22,11 @@
     <Attributes>
         <Attribute id="number">
             <Name>
-                <en>NHI number</en>
+                <en>national student number</en>
                 <nl></nl>
             </Name>
             <Description>
-                <en>NHI number</en>
+                <en>national student number</en>
                 <nl></nl>
             </Description>
         </Attribute>
