@@ -1,0 +1,74 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Uzi data</en>
+		<nl>Uzi data</nl>
+	</Name>
+	<ShortName>
+		<en>Uzi data</en>
+		<nl>Uzi data</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>uzipoc-cibg</IssuerID>
+	<CredentialID>snellehulp</CredentialID>
+	<Description>
+		<en>Demo zorgaanbieder SEH snellehulp</en>
+		<nl>Demo zorgaanbieder SEH snellehulp</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.uzipoc-cibg.snellehulp.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.uzipoc-cibg.snellehulp.html</nl>
+	</IssueURL>
+
+	<Attributes>
+		<Attribute id="uziNumber">
+			<Name>
+				<en>Uzi Number</en>
+				<nl>uzinummer</nl>
+			</Name>
+			<Description>
+				<en>Your uzi number</en>
+				<nl>Uw uzinummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="hasRole01.041" displayHint="yesno">
+			<Name>
+				<en>Doctor Rheumatology</en>
+				<nl>Dokter Reumatoloog</nl>
+			</Name>
+			<Description>
+				<en>Whether you have the Doctor Rheumatology role</en>
+				<nl>Of u de Dokter Reumatoloog role hebt</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="hasRole30.000" displayHint="yesno">
+			<Name>
+				<en>Nurse</en>
+				<nl>Verpleegkundige</nl>
+			</Name>
+			<Description>
+				<en>Whether you have the nurse role</en>
+				<nl>Of u de verpleegkundige role hebt</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="hasRole01.010" displayHint="yesno">
+			<Name>
+				<en>Doctor Cardiology</en>
+				<nl>Dokter Cardioloog</nl>
+			</Name>
+			<Description>
+				<en>Whether you have the Doctor Cardiology role</en>
+				<nl>Of u de Dokter Cardioloog role hebt</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="hasRole01.011" displayHint="yesno">
+			<Name>
+				<en>Doctor Cardio-thoracic surgery</en>
+				<nl>Dokter thoraxchirurgie</nl>
+			</Name>
+			<Description>
+				<en>Whether you have the Doctor Cardio-thoracic surgery role</en>
+				<nl>Of u de Dokter thoraxchirurgie role hebt</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
