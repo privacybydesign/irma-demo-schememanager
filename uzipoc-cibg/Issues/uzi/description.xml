@@ -50,7 +50,7 @@
 				<nl>Uw uzinummer</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="hasRole01.041" displayHint="yesno">
+		<Attribute id="hasRole01-041" displayHint="yesno">
 			<Name>
 				<en>Doctor Rheumatology</en>
 				<nl>Dokter Reumatoloog</nl>
@@ -60,7 +60,7 @@
 				<nl>Of u de Dokter Reumatoloog role hebt</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="hasRole30.000" displayHint="yesno">
+		<Attribute id="hasRole30-000" displayHint="yesno">
 			<Name>
 				<en>Nurse</en>
 				<nl>Verpleegkundige</nl>
@@ -70,7 +70,7 @@
 				<nl>Of u de verpleegkundige role hebt</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="hasRole01.010" displayHint="yesno">
+		<Attribute id="hasRole01-010" displayHint="yesno">
 			<Name>
 				<en>Doctor Cardiology</en>
 				<nl>Dokter Cardioloog</nl>
@@ -80,7 +80,7 @@
 				<nl>Of u de Dokter Cardioloog role hebt</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="hasRole01.011" displayHint="yesno">
+		<Attribute id="hasRole01-011" displayHint="yesno">
 			<Name>
 				<en>Doctor Cardio-thoracic surgery</en>
 				<nl>Dokter thoraxchirurgie</nl>
