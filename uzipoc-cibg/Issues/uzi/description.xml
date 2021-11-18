@@ -1,7 +1,7 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Uzi data</en>
-		<nl>Uzi data</nl>
+		<en>Demo Uzi data</en>
+		<nl>Demo Uzi data</nl>
 	</Name>
 	<ShortName>
 		<en>Uzi data</en>
@@ -9,21 +9,41 @@
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>uzipoc-cibg</IssuerID>
-	<CredentialID>snellehulp</CredentialID>
+	<CredentialID>uzi</CredentialID>
 	<Description>
-		<en>Demo zorgaanbieder SEH snellehulp</en>
-		<nl>Demo zorgaanbieder SEH snellehulp</nl>
+		<en>Demo uzipas attributen</en>
+		<nl>Demo uzipas gegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.uzipoc-cibg.snellehulp.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.uzipoc-cibg.snellehulp.html</nl>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.uzipoc-cibg.uzi.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.uzipoc-cibg.uzi.html</nl>
 	</IssueURL>
 
 	<Attributes>
+		<Attribute id="uraName">
+			<Name>
+				<en>Ura name</en>
+				<nl>Ura naam</nl>
+			</Name>
+			<Description>
+				<en>The name of a ura healthcare organisation</en>
+				<nl>De naam van een ura zorgaanbieder</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="uraNumber">
+			<Name>
+				<en>Ura number</en>
+				<nl>Uranummer</nl>
+			</Name>
+			<Description>
+				<en>The ura number of a ura healthcare organisation</en>
+				<nl>Het ura nummer van een ura zorgaanbieder</nl>
+			</Description>
+		</Attribute>
 		<Attribute id="uziNumber">
 			<Name>
 				<en>Uzi Number</en>
-				<nl>uzinummer</nl>
+				<nl>Uzinummer</nl>
 			</Name>
 			<Description>
 				<en>Your uzi number</en>
