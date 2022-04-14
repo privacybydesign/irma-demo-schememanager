@@ -20,7 +20,7 @@
 	</IssueURL>
 
 	<Attributes>
-		<Attribute id="Woonplaats">
+		<Attribute id="woonplaats">
 			<Name>
 				<en>Residence</en>
 				<nl>Woonplaats</nl>
@@ -32,8 +32,8 @@
 		</Attribute>
 		<Attribute id="aowLeeftijdBehaald">
 			<Name>
-				<en>Retirement_age</en>
-				<nl>AOW_leeftijd_behaald</nl>
+				<en>Retirement age</en>
+				<nl>AOW leeftijd behaald</nl>
 			</Name>
 			<Description>
 				<en>Retirement age</en>
@@ -42,8 +42,8 @@
 		</Attribute>
 		<Attribute id="ouderDan21">
 			<Name>
-				<en>Older_than_21</en>
-				<nl>Ouder_dan_21</nl>
+				<en>Older than 21</en>
+				<nl>Ouder dan 21</nl>
 			</Name>
 			<Description>
 				<en>Older than 21</en>
@@ -62,8 +62,8 @@
 		</Attribute>
 		<Attribute id="thuiswonendeKinderen">
 			<Name>
-				<en>Children_living_at_home</en>
-				<nl>Thuiswonende_kinderen</nl>
+				<en>Children living at home</en>
+				<nl>Thuiswonende kinderen</nl>
 			</Name>
 			<Description>
 				<en>Children living at home</en>
@@ -72,8 +72,8 @@
 		</Attribute>
 		<Attribute id="inkomenPerMaand">
 			<Name>
-				<en>Income_per_month</en>
-				<nl>Inkomen_per_maand</nl>
+				<en>Income per month</en>
+				<nl>Inkomen per maand</nl>
 			</Name>
 			<Description>
 				<en>Income per month</en>
