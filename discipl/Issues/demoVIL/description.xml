@@ -30,6 +30,17 @@
 				<nl>Woonplaats</nl>
 			</Description>
 		</Attribute>
+		<Attribute id="geboortedatum">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Description>
+		</Attribute>
+		</Attribute>
 		<Attribute id="aowLeeftijdBehaald">
 			<Name>
 				<en>Retirement age</en>
