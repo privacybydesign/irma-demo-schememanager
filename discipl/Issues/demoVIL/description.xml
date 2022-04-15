@@ -40,7 +40,6 @@
 				<nl>Geboortedatum</nl>
 			</Description>
 		</Attribute>
-		</Attribute>
 		<Attribute id="aowLeeftijdBehaald">
 			<Name>
 				<en>Retirement age</en>
