@@ -9,7 +9,7 @@
     </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>amsterdam</IssuerID>
-    <CredentialID>taxizoneOntheffing</CredentialID>
+    <CredentialID>taxiZoneExemption</CredentialID>
     <Description>
         <en>Taxi zone exemption Amsterdam</en>
         <nl>Taxizone-ontheffing Amsterdam</nl>
@@ -26,7 +26,7 @@
 
     <Attributes>
         <Attribute revocation="true" />
-        <Attribute id="ontheffingsnummer">
+        <Attribute id="exemptionNumber">
             <Name>
                 <en>Exemption number</en>
                 <nl>Ontheffingsnummer</nl>
@@ -36,7 +36,7 @@
                 <nl>Ontheffingsnummer</nl>
             </Description>
         </Attribute>
-        <Attribute id="geldigVanaf" optional="true">
+        <Attribute id="validFrom" optional="true">
             <Name>
                 <en>Exemption valid from</en>
                 <nl>Ontheffing geldig vanaf</nl>
@@ -46,7 +46,7 @@
                 <nl>Je taxizone-ontheffing is geldig vanaf deze datum</nl>
             </Description>
         </Attribute>
-        <Attribute id="geldigTotEnMet" optional="true">
+        <Attribute id="validUntil" optional="true">
             <Name>
                 <en>Exemption valid until</en>
                 <nl>Ontheffing geldig tot en met</nl>
