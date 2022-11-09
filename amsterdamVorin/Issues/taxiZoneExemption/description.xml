@@ -8,7 +8,7 @@
         <nl>Demo Taxizone-ontheffing Amsterdam</nl>
     </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
-    <IssuerID>amsterdam</IssuerID>
+    <IssuerID>amsterdamVorin</IssuerID>
     <CredentialID>taxiZoneExemption</CredentialID>
     <Description>
         <en>Taxi zone exemption Amsterdam</en>
