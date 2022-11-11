@@ -46,13 +46,13 @@
                 <nl>Je taxizone-ontheffing is geldig vanaf deze datum</nl>
             </Description>
         </Attribute>
-        <Attribute id="validUntil" optional="true">
+        <Attribute id="validTo" optional="true">
             <Name>
-                <en>Exemption valid until</en>
+                <en>Exemption valid to</en>
                 <nl>Ontheffing geldig tot en met</nl>
             </Name>
             <Description>
-                <en>Your taxi zone exemption is valid until this date</en>
+                <en>Your taxi zone exemption is valid to this date</en>
                 <nl>Je taxizone-ontheffing is geldig tot en met deze datum</nl>
             </Description>
         </Attribute>
