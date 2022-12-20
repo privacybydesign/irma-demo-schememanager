@@ -1,0 +1,60 @@
+<IssueSpecification version="4">
+    <Name>
+        <en>Demo Taxi zone exemption Amsterdam</en>
+        <nl>Demo Taxizone-ontheffing Amsterdam</nl>
+    </Name>
+    <ShortName>
+        <en>Demo Taxi zone exemption Amsterdam</en>
+        <nl>Demo Taxizone-ontheffing Amsterdam</nl>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>amsterdamVorin</IssuerID>
+    <CredentialID>taxiZoneExemption</CredentialID>
+    <Description>
+        <en>Taxi zone exemption Amsterdam</en>
+        <nl>Taxizone-ontheffing Amsterdam</nl>
+    </Description>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
+    <IssueURL>
+        <en>https://ontheffingen-acc.amsterdam.nl/taxizone/</en>
+        <nl>https://ontheffingen-acc.amsterdam.nl/taxizone/</nl>
+    </IssueURL>
+
+    <RevocationServers>
+        <RevocationServer>https://ontheffingen-acc.amsterdam.nl/irma-api/irma</RevocationServer>
+    </RevocationServers>
+
+    <Attributes>
+        <Attribute revocation="true" />
+        <Attribute id="exemptionNumber">
+            <Name>
+                <en>Exemption number</en>
+                <nl>Ontheffingsnummer</nl>
+            </Name>
+            <Description>
+                <en>Exemption number</en>
+                <nl>Ontheffingsnummer</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="validFrom" optional="true">
+            <Name>
+                <en>Exemption valid from</en>
+                <nl>Ontheffing geldig vanaf</nl>
+            </Name>
+            <Description>
+                <en>Your taxi zone exemption is valid from this date</en>
+                <nl>Je taxizone-ontheffing is geldig vanaf deze datum</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="validTo" optional="true">
+            <Name>
+                <en>Exemption valid to</en>
+                <nl>Ontheffing geldig tot en met</nl>
+            </Name>
+            <Description>
+                <en>Your taxi zone exemption is valid to this date</en>
+                <nl>Je taxizone-ontheffing is geldig tot en met deze datum</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>

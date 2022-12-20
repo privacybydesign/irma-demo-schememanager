@@ -12,7 +12,7 @@
 	<CredentialID>address</CredentialID>
 	<Description>
 		<en>Your address, from the Dutch population register</en>
-		<nl>Uw adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
+		<nl>Je adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<IssueURL>
 		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gemeente.address.html</en>
@@ -21,54 +21,54 @@
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Attributes>
-		<Attribute id="street">
+		<Attribute id="street" displayIndex="0">
 			<Name>
 				<en>Street</en>
 				<nl>Straat</nl>
 			</Name>
 			<Description>
 				<en>Your street</en>
-				<nl>Uw straat</nl>
+				<nl>Je straat</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="houseNumber" optional="true">
+		<Attribute id="houseNumber" optional="true" displayIndex="1">
 			<Name>
 				<en>House number</en>
 				<nl>Huisnummer</nl>
 			</Name>
 			<Description>
-				<en>Your house number, letter and/or addition</en>
-				<nl>Uw huisnummer, letter en/of toevoeging</nl>
+				<en>Your house number, with possible extension</en>
+				<nl>Je huisnummer, met eventuele toevoeging</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="zipcode">
+		<Attribute id="zipcode" displayIndex="2">
 			<Name>
-				<en>Zip code</en>
+				<en>Postal code</en>
 				<nl>Postcode</nl>
 			</Name>
 			<Description>
-				<en>Your zip code</en>
-				<nl>Uw postcode</nl>
+				<en>Your postal code</en>
+				<nl>Je postcode</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="municipality">
+		<Attribute id="municipality" displayIndex="4">
 			<Name>
 				<en>Municipality</en>
 				<nl>Gemeente</nl>
 			</Name>
 			<Description>
 				<en>Your municipality</en>
-				<nl>Uw gemeente</nl>
+				<nl>Je gemeente</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="city">
+		<Attribute id="city" displayIndex="3">
 			<Name>
 				<en>City</en>
 				<nl>Woonplaats</nl>
 			</Name>
 			<Description>
 				<en>Your city of residence</en>
-				<nl>Uw woonplaats</nl>
+				<nl>Je woonplaats</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
