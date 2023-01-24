@@ -129,6 +129,16 @@
 				<nl>De naam van de maatschappelijke activiteit</nl>
 			</Description>
 		</Attribute>
+		<Attribute id="tradeNames" optional="true">
+			<Name>
+				<en>Trade names</en>
+				<nl>Handelsnamen</nl>
+			</Name>
+			<Description>
+				<en>The trade names under which the company trades</en>
+				<nl>De handelsnamen waar de onderneming onder handelt</nl>
+			</Description>
+		</Attribute>
 		<Attribute id="typeOwner" optional="true">
 			<Name>
 				<en>Type of owner</en>
@@ -436,7 +446,7 @@
 			</Name>
 			<Description>
 				<en>Emancipation of a minor</en>
-				<nl>Handlichting</nl>
+				<nl>Handlichting houdt in dat een minderjarige door toewijzing van een rechter dezelfde bevoegdheden toegekend krijgt als een meerderjarige.</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="hasRestriction" optional="true">
@@ -445,8 +455,8 @@
 				<nl>Heeft beperking</nl>
 			</Name>
 			<Description>
-				<en>Indication of whether there is some kind of restriction that affects the determination of an authorization</en>
-				<nl>Indicatie of er sprake is van enige vorm van beperking, die van invloed is op het bepalen van een bevoegdheid</nl>
+				<en>Indication of whether there is some kind of restriction that affects the determination of an authorization (true, false)</en>
+				<nl>Indicatie of er sprake is van enige vorm van beperking, die van invloed is op het bepalen van een bevoegdheid (true, false)</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="isAuthorized" optional="true">
@@ -456,7 +466,7 @@
 			</Name>
 			<Description>
 				<en>Indication of whether someone is authorized</en>
-				<nl>Indicatie of iemand bevoegd is</nl>
+				<nl>Indicatie of iemand bevoegd is ('Ja', 'Nee' of 'Niet vastgesteld')</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="reason" optional="true">
