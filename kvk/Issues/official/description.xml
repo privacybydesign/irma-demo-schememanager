@@ -129,16 +129,6 @@
 				<nl>De naam van de maatschappelijke activiteit</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="tradeNames" optional="true">
-			<Name>
-				<en>Trade names</en>
-				<nl>Handelsnamen</nl>
-			</Name>
-			<Description>
-				<en>The trade names under which the company trades</en>
-				<nl>De handelsnamen waar de onderneming onder handelt</nl>
-			</Description>
-		</Attribute>
 		<Attribute id="typeOwner" optional="true">
 			<Name>
 				<en>Type of owner</en>
@@ -477,6 +467,16 @@
 			<Description>
 				<en>The reason for (not) being authorized or not being able to determine someone's authorization</en>
 				<nl>De reden voor het niet/wel bevoegd zijn of niet kunnen vastellen van iemands bevoegdheid</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="tradeNames" optional="true">
+			<Name>
+				<en>Trade names</en>
+				<nl>Handelsnamen</nl>
+			</Name>
+			<Description>
+				<en>The trade names under which the company trades</en>
+				<nl>De handelsnamen waar de onderneming onder handelt</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
