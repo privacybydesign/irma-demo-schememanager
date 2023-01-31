@@ -40,17 +40,7 @@
 				<nl>Je voornamen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="prefix" displayIndex="3">
-			<Name>
-				<en>Prefix</en>
-				<nl>Voorvoegsel</nl>
-			</Name>
-			<Description>
-				<en>Prefix of your family name</en>
-				<nl>Voorvoegsel van je achternaam</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="familyname" displayIndex="4">
+		<Attribute id="familyname" displayIndex="3">
 			<Name>
 				<en>Family name</en>
 				<nl>Geslachtsnaam</nl>
@@ -60,7 +50,7 @@
 				<nl>Je achternaam, zoals bij je geboorte toegekend</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="surname" displayIndex="5">
+		<Attribute id="surname" displayIndex="4">
 			<Name>
 				<en>Surname</en>
 				<nl>Achternaam</nl>
@@ -70,17 +60,7 @@
 				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) die van je partner</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="fullname"  displayIndex="6">
-			<Name>
-				<en>Full name</en>
-				<nl>Volledige naam</nl>
-			</Name>
-			<Description>
-				<en>Your full name</en>
-				<nl>Je volledige naam</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="dateofbirth"  displayIndex="7">
+		<Attribute id="dateofbirth"  displayIndex="5">
 			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
@@ -90,7 +70,7 @@
 				<nl>Je geboortedatum</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="gender" displayIndex="8">
+		<Attribute id="gender" displayIndex="6">
 			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
@@ -100,17 +80,7 @@
 				<nl>Je geslacht</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="nationality" displayIndex="9">
-			<Name>
-				<en>Dutch nationality</en>
-				<nl>Nederlandse nationaliteit</nl>
-			</Name>
-			<Description>
-				<en>Whether you have the dutch nationality</en>
-				<nl>Of je de Nederlandse nationaliteit bezit</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="sanctionCheck" displayIndex="10">
+		<Attribute id="sanctionCheck" displayIndex="7">
 			<Name>
 				<en>Legal Insurance Checks</en>
 				<nl>Wettelijke Checks Verzekeringen</nl>
