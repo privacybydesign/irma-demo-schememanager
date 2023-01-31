@@ -1,0 +1,14 @@
+<Issuer version="4">
+	<ID>cis</ID>
+	<ShortName>
+		<en>Demo CIS</en>
+		<nl>Demo CIS</nl>
+	</ShortName>
+	<Name>
+		<en>Demo Stichting Centraal Informatie Systeem</en>
+		<nl>Demo Stichting Centraal Informatie Systeem</nl>
+	</Name>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ContactAddress>https://stichtingcis.nl/</ContactAddress>
+	<ContactEMail>info@stichtingcis.nl</ContactEMail>
+</Issuer>
