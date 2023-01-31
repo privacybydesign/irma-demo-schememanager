@@ -9,7 +9,7 @@
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>cis</IssuerID>
-	<CredentialID>digitaalPaspoortVerzekeren</CredentialID>
+	<CredentialID>complianceCheck</CredentialID>
 	<Description>
 		<en>Digitaal Paspoort Verzekeren</en>
 		<nl>Digitaal Paspoort Verzekeren</nl>
@@ -20,7 +20,7 @@
 		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.cis.official.html</nl>
 	</IssueURL>
 	<Attributes>
-		<Attribute id="initials" displayIndex="1">
+		<Attribute id="initials" displayIndex="0">
 			<Name>
 				<en>Initials</en>
 				<nl>Voorletters</nl>
@@ -30,7 +30,7 @@
 				<nl>Je voorletters, als afkorting van je voornamen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="firstnames" displayIndex="2">
+		<Attribute id="firstnames" displayIndex="1">
 			<Name>
 				<en>First names</en>
 				<nl>Voornamen</nl>
@@ -40,7 +40,7 @@
 				<nl>Je voornamen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="familyname" displayIndex="3">
+		<Attribute id="familyname" displayIndex="2">
 			<Name>
 				<en>Family name</en>
 				<nl>Geslachtsnaam</nl>
@@ -50,7 +50,7 @@
 				<nl>Je achternaam, zoals bij je geboorte toegekend</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="surname" displayIndex="4">
+		<Attribute id="surname" displayIndex="3">
 			<Name>
 				<en>Surname</en>
 				<nl>Achternaam</nl>
@@ -60,7 +60,7 @@
 				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) die van je partner</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="dateofbirth"  displayIndex="5">
+		<Attribute id="dateofbirth"  displayIndex="4">
 			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
@@ -70,7 +70,7 @@
 				<nl>Je geboortedatum</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="gender" displayIndex="6">
+		<Attribute id="gender" displayIndex="5">
 			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
@@ -80,7 +80,7 @@
 				<nl>Je geslacht</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="sanctionCheck" displayIndex="7">
+		<Attribute id="sanctionCheck" displayIndex="6">
 			<Name>
 				<en>Legal Insurance Checks</en>
 				<nl>Wettelijke Checks Verzekeringen</nl>
