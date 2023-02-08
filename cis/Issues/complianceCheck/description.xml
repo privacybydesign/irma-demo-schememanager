@@ -103,7 +103,7 @@
 				<nl>Of je de Nederlandse nationaliteit bezit</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="digidlevel" displayIndex="5">
+		<Attribute id="digidlevel" optional="true" displayIndex="5">
 			<Name>
 				<en>Assurance level</en>
 				<nl>Betrouwbaarheidsniveau</nl>
