@@ -30,27 +30,7 @@
 				<nl>Je voorletters, als afkorting van je voornamen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="firstnames" displayIndex="1">
-			<Name>
-				<en>First names</en>
-				<nl>Voornamen</nl>
-			</Name>
-			<Description>
-				<en>Your first names</en>
-				<nl>Je voornamen</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="familyname" displayIndex="2">
-			<Name>
-				<en>Family name</en>
-				<nl>Geslachtsnaam</nl>
-			</Name>
-			<Description>
-				<en>Your family name, as given to you at birth</en>
-				<nl>Je achternaam, zoals bij je geboorte toegekend</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="surname" displayIndex="3">
+		<Attribute id="surname" displayIndex="1">
 			<Name>
 				<en>Surname</en>
 				<nl>Achternaam</nl>
@@ -60,7 +40,7 @@
 				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) die van je partner</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="dateofbirth"  displayIndex="4">
+		<Attribute id="dateofbirth"  displayIndex="2">
 			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
@@ -70,7 +50,7 @@
 				<nl>Je geboortedatum</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="gender" displayIndex="5">
+		<Attribute id="gender" displayIndex="3">
 			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
@@ -78,6 +58,26 @@
 			<Description>
 				<en>Your gender</en>
 				<nl>Je geslacht</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="nationality" optional="true" displayIndex="4" displayHint="yesno">
+			<Name>
+				<en>Dutch nationality</en>
+				<nl>Nederlandse nationaliteit</nl>
+			</Name>
+			<Description>
+				<en>Whether you have the dutch nationality</en>
+				<nl>Of je de Nederlandse nationaliteit bezit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="digidlevel" displayIndex="5">
+			<Name>
+				<en>Assurance level</en>
+				<nl>Betrouwbaarheidsniveau</nl>
+			</Name>
+			<Description>
+				<en>The assurance level with which your identity was verified</en>
+				<nl>Het betrouwbaarheidsniveau waarmee je identiteit is vastgesteld</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="sanctionCheck" displayIndex="6">
