@@ -30,6 +30,26 @@
 				<nl>Je voorletters, als afkorting van je voornamen</nl>
 			</Description>
 		</Attribute>
+		<Attribute id="firstnames" optional="true" displayIndex="7">
+			<Name>
+				<en>First names</en>
+				<nl>Voornamen</nl>
+			</Name>
+			<Description>
+				<en>Your first names</en>
+				<nl>Je voornamen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="familyname" optional="true" displayIndex="8">
+			<Name>
+				<en>Family name</en>
+				<nl>Geslachtsnaam</nl>
+			</Name>
+			<Description>
+				<en>Your family name, as given to you at birth</en>
+				<nl>Je achternaam, zoals bij je geboorte toegekend</nl>
+			</Description>
+		</Attribute>
 		<Attribute id="surname" displayIndex="1">
 			<Name>
 				<en>Surname</en>
@@ -60,26 +80,6 @@
 				<nl>Je geslacht</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="nationality" optional="true" displayIndex="4" displayHint="yesno">
-			<Name>
-				<en>Dutch nationality</en>
-				<nl>Nederlandse nationaliteit</nl>
-			</Name>
-			<Description>
-				<en>Whether you have the dutch nationality</en>
-				<nl>Of je de Nederlandse nationaliteit bezit</nl>
-			</Description>
-		</Attribute>
-		<Attribute id="digidlevel" displayIndex="5">
-			<Name>
-				<en>Assurance level</en>
-				<nl>Betrouwbaarheidsniveau</nl>
-			</Name>
-			<Description>
-				<en>The assurance level with which your identity was verified</en>
-				<nl>Het betrouwbaarheidsniveau waarmee je identiteit is vastgesteld</nl>
-			</Description>
-		</Attribute>
 		<Attribute id="sanctionCheck" displayIndex="6">
 			<Name>
 				<en>Legal Insurance Checks</en>
@@ -91,6 +91,26 @@
 				<nl>Vanuit de wetten WWFT en Sanctiewet moeten verzekeraars controleren of hun
 					klanten niet op internationale lijsten staan van mensen waarmee geen zaken mag
 					worden gedaan.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="nationality" optional="true" displayIndex="4" displayHint="yesno">
+			<Name>
+				<en>Dutch nationality</en>
+				<nl>Nederlandse nationaliteit</nl>
+			</Name>
+			<Description>
+				<en>Whether you have the Dutch nationality</en>
+				<nl>Of je de Nederlandse nationaliteit bezit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="digidlevel" displayIndex="5">
+			<Name>
+				<en>Assurance level</en>
+				<nl>Betrouwbaarheidsniveau</nl>
+			</Name>
+			<Description>
+				<en>The assurance level with which your identity was verified</en>
+				<nl>Het betrouwbaarheidsniveau waarmee je identiteit was vastgesteld</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
