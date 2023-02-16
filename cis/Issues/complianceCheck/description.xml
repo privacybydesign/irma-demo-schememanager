@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo Stichting Centraal Informatie Systeem</en>
-		<nl>Demo Stichting Centraal Informatie Systeem</nl>
+		<en>Demo Digital Insurance Passport</en>
+		<nl>Demo Digitaal Paspoort Verzekeren</nl>
 	</Name>
 	<ShortName>
-		<en>Demo CIS</en>
-		<nl>Demo CIS</nl>
+		<en>Demo Digital Insurance Passport</en>
+		<nl>Demo Digitaal Paspoort Verzekeren</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>cis</IssuerID>

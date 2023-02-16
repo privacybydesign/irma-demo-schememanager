@@ -1,11 +1,11 @@
 <Issuer version="4">
 	<ID>cis</ID>
 	<ShortName>
-		<en>Demo CIS</en>
-		<nl>Demo CIS</nl>
+		<en>Demo CIS Foundation</en>
+		<nl>Demo Stichting CIS</nl>
 	</ShortName>
 	<Name>
-		<en>Demo Stichting Centraal Informatie Systeem</en>
+		<en>Demo Central Infomation System Foundation</en>
 		<nl>Demo Stichting Centraal Informatie Systeem</nl>
 	</Name>
 	<SchemeManager>irma-demo</SchemeManager>
