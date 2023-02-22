@@ -1,0 +1,117 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Stichting Centraal Informatie Systeem</en>
+		<nl>Demo Stichting Centraal Informatie Systeem</nl>
+	</Name>
+	<ShortName>
+		<en>Demo CIS</en>
+		<nl>Demo CIS</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>cis</IssuerID>
+	<CredentialID>complianceCheck</CredentialID>
+	<Description>
+		<en>Digitaal Paspoort Verzekeren</en>
+		<nl>Digitaal Paspoort Verzekeren</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.cis.official.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.cis.official.html</nl>
+	</IssueURL>
+	<Attributes>
+		<Attribute id="initials" displayIndex="0">
+			<Name>
+				<en>Initials</en>
+				<nl>Voorletters</nl>
+			</Name>
+			<Description>
+				<en>Your initials, abbreviating your first names</en>
+				<nl>Je voorletters, als afkorting van je voornamen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="firstnames" optional="true" displayIndex="7">
+			<Name>
+				<en>First names</en>
+				<nl>Voornamen</nl>
+			</Name>
+			<Description>
+				<en>Your first names</en>
+				<nl>Je voornamen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="familyname" optional="true" displayIndex="8">
+			<Name>
+				<en>Family name</en>
+				<nl>Geslachtsnaam</nl>
+			</Name>
+			<Description>
+				<en>Your family name, as given to you at birth</en>
+				<nl>Je achternaam, zoals bij je geboorte toegekend</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="surname" displayIndex="1">
+			<Name>
+				<en>Surname</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Your full family name: your family name or (a combination with) that of your partner</en>
+				<nl>Je volledige achternaam: je geslachtsnaam of (een combinatie met) die van je partner</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateofbirth"  displayIndex="2">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Your date of birth</en>
+				<nl>Je geboortedatum</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="gender" displayIndex="3">
+			<Name>
+				<en>Gender</en>
+				<nl>Geslacht</nl>
+			</Name>
+			<Description>
+				<en>Your gender</en>
+				<nl>Je geslacht</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="sanctionCheck" displayIndex="6">
+			<Name>
+				<en>Legal Insurance Checks</en>
+				<nl>Wettelijke Checks Verzekeringen</nl>
+			</Name>
+			<Description>
+				<en>Legal checks required for the insurance industry to comply with the Dutch
+					Sanctions Act and Wwft. </en>
+				<nl>Vanuit de wetten WWFT en Sanctiewet moeten verzekeraars controleren of hun
+					klanten niet op internationale lijsten staan van mensen waarmee geen zaken mag
+					worden gedaan.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="nationality" optional="true" displayIndex="4" displayHint="yesno">
+			<Name>
+				<en>Dutch nationality</en>
+				<nl>Nederlandse nationaliteit</nl>
+			</Name>
+			<Description>
+				<en>Whether you have the Dutch nationality</en>
+				<nl>Of je de Nederlandse nationaliteit bezit</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="digidlevel" optional="true" displayIndex="5">
+			<Name>
+				<en>Assurance level</en>
+				<nl>Betrouwbaarheidsniveau</nl>
+			</Name>
+			<Description>
+				<en>The assurance level with which your identity was verified</en>
+				<nl>Het betrouwbaarheidsniveau waarmee je identiteit was vastgesteld</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
