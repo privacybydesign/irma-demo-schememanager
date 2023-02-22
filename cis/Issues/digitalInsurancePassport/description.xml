@@ -12,7 +12,7 @@
 	<CredentialID>digitalInsurancePassport</CredentialID>
 	<Description>
 		<en>With your Digital Insurance Passport, insurers can see who you are and determine you do not appear in national and international sanctions, investigation and incident registers. This check is mandatory by law and insurers do these together to prevent costs and extra work for customers and insurers.</en>
-		<nl>Met jouw Digitaal Paspoort Verzekeren kunnen verzekeraars zien wie je bent en dat je niet voorkomt in nationale en internationale sanctie-, opsporings- en incidentregisters. Deze controle is wettelijk verplicht en doen verzekeraars samen om kosten en extra werk te voorkomen voor klanten en verzekeraars.</nl>
+		<nl>Met jouw Digitaal Paspoort Verzekeren kunnen verzekeraars zien wie je bent en kunnen zo vaststellen dat je niet voorkomt in nationale en internationale sanctie-, opsporings- en incidentregisters. Deze controle is wettelijk verplicht en doen verzekeraars samen om kosten en extra werk te voorkomen voor klanten en verzekeraars.</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
@@ -30,11 +30,11 @@
 	</Category>
 	<FAQIntro>
 		<en>Create a Digital Insurance Passport to easily and securely share data with your insurer.</en>
-		<nl>Maak een Digitaal Paspoort Verzekeren aan om makkelijk en vertrouwd gegevens te delen je verzekeraar.</nl>
+		<nl>Maak een Digitaal Paspoort Verzekeren aan om makkelijk en vertrouwd gegevens met je verzekeraar te delen.</nl>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>With your Digital Insurance Passport, insurers can see who you are and determine you do not appear in national and international sanctions, investigation and incident registers. This check is mandatory by law and insurers do these together to prevent costs and extra work for customers and insurers.</en>
-		<nl>Met jouw Digitaal Paspoort Verzekeren kunnen verzekeraars zien wie je bent en dat je niet voorkomt in nationale en internationale sanctie-, opsporings- en incidentregisters. Deze controle is wettelijk verplicht en doen verzekeraars samen om kosten en extra werk te voorkomen voor klanten en verzekeraars.</nl>
+		<nl>Met jouw Digitaal Paspoort Verzekeren kunnen verzekeraars zien wie je bent en kunnen zo vaststellen dat je niet voorkomt in nationale en internationale sanctie-, opsporings- en incidentregisters. Deze controle is wettelijk verplicht en doen verzekeraars samen om kosten en extra werk te voorkomen voor klanten en verzekeraars.</nl>
 	</FAQPurpose>
 	<FAQContent>
 		<en>We screen your name, date of birth and nationality against national and international sanctions, investigation and incident registers and do not use this data for other purposes. \n• Initials,\n• Prefix,\n• Surname,\n• Gender,\n• Date of birth,\n• Country of birth,\n• Assurance level</en>
