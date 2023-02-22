@@ -23,7 +23,7 @@
 	<!-- <ForegroundColor>default</ForegroundColor>
 	<BackgroundGradientStart>default</BackgroundGradientStart>
 	<BackgroundGradientEnd>default</BackgroundGradientEnd> -->
-	<IsInCredentialStore>true</IsInCredentialStore>
+	<IsInCredentialStore>false</IsInCredentialStore>
 	<Category>
 		<en>Finance</en>
 		<nl>Financieel</nl>
