@@ -11,8 +11,8 @@
 	<IssuerID>cis</IssuerID>
 	<CredentialID>digitalInsurancePassport</CredentialID>
 	<Description>
-		<en>With your Digital Insurance Passport, insurers can see who you are and determine you do not appear in national and international sanctions, investigation and incident registers. This check is mandatory by law and insurers do these together to prevent costs and extra work for customers and insurers.</en>
-		<nl>Met jouw Digitaal Paspoort Verzekeren kunnen verzekeraars zien wie je bent en kunnen zo vaststellen dat je niet voorkomt in nationale en internationale sanctie-, opsporings- en incidentregisters. Deze controle is wettelijk verplicht en doen verzekeraars samen om kosten en extra werk te voorkomen voor klanten en verzekeraars.</nl>
+		<en>With your Digital Insurance Passport, insurers can see who you are and determine if you do not appear in national and international sanctions, investigation and incident registers. This check is mandatory by law and insurers do these together to prevent costs and extra work for customers and insurers.</en>
+		<nl>Met jouw Digitaal Paspoort Verzekeren kunnen verzekeraars zien wie je bent en vaststellen dat je niet voorkomt in nationale en internationale sanctie-, opsporings- en incidentregisters. Deze controle is wettelijk verplicht en doen verzekeraars samen om kosten en extra werk te voorkomen voor klanten en verzekeraars.</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
@@ -41,8 +41,8 @@
 		<nl>We screenen je naam, geboortedatum en nationaliteit tegen nationale en internationale sanctie-, opsporings- en incidentregisters en gebruiken deze gegevens niet voor andere doeleinden. \n• Voorletters,\n• Voorvoegsel,\n• Achternaam,\n• Geslacht,\n• Geboortedatum,\n• Geboorteland,\n• Betrouwbaarheidsniveau</nl>
 	</FAQContent>
 	<FAQHowto>
-		<en>You can load your Digital Insurance Passport in your IRMA app if you follow the steps provided. You will then receive a separate card in your IRMA app with your data and the results of the screening against national and international sanctions, investigation and incident registers. Normally that outcome is negative and you receive the card in the app. In the unlikely event that an extra check is necessary, you will be notified and later informed about whether or not the Digital Insurance Passport has been granted.</en>
-		<nl>Je kunt je Digitaal Paspoort Verzekeren in je IRMA app ladenals je de gevraagde stappen doorlopt. Je ontvangt daarna een apart kaartje in je IRMA app met je gegevens en de uitkomsten van de screening tegen nationale en internationale sanctie-, opsporings- en incidentregisters. Normaal gesproken is die uitkomst negatief en ontvang je het kaartje in de app. Mocht er onverhoopt een extra controle nodig zijn dan krijg je daarover een melding en later bericht over het al dan niet toekennen van het Digitaal Paspoort Verzekeren. </nl>
+		<en>You can add your Digital Insurance Passport to your IRMA app if you follow the steps provided. You will receive a separate card in your IRMA app with your data and the results of the screening against national and international sanctions, investigation and incident registers. Normally that outcome is negative and you receive the card in the app. In the unlikely event that an extra check is necessary, you will be notified and later informed about whether or not the Digital Insurance Passport has been granted.</en>
+		<nl>Je kunt je Digitaal Paspoort Verzekeren aan je IRMA app toevoegen met het doorlopen van de gevraagde stappen. Je ontvangt daarna een apart kaartje in je IRMA app met je gegevens en de uitkomst van de screening tegen nationale en internationale sanctie-, opsporings- en incidentregisters.</nl>
 	</FAQHowto>
 
 	<Attributes>
@@ -123,7 +123,7 @@
 			</Name>
 			<Description>
 				<en>The assurance level with which your identity was verified</en>
-				<nl>Het betrouwbaarheidsniveau waarmee je identiteit is vastgesteld</nl>
+				<nl>Het betrouwbaarheidsniveau waarmee je identiteit was vastgesteld</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
