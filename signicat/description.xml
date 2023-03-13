@@ -1,0 +1,14 @@
+<Issuer version="4">
+	<ID>signicat</ID>
+	<ShortName>
+		<en>Demo Signicat</en>
+		<nl>Demo Signicat</nl>
+	</ShortName>
+	<Name>
+		<en>Demo Signicat</en>
+		<nl>Demo Signicat</nl>
+	</Name>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ContactAddress>https://www.signicat.com</ContactAddress>
+	<ContactEMail>technicalsupport@signicat.com</ContactEMail>
+</Issuer>
