@@ -1,0 +1,60 @@
+<IssueSpecification version="4">
+    <Name>
+        <nl>Demo AOW Totaal</nl>
+    </Name>
+    <ShortName>
+        <nl>DemoAOWTotaal</nl>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>discipl-pra</IssuerID>
+    <CredentialID>demoAOWTotaal</CredentialID>
+    <Description>
+        <nl>Demo AOW Totaal</nl>
+    </Description>
+    <IssueURL>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demoAOWTotaal.html</nl>
+    </IssueURL>
+
+    <Attributes>
+        <Attribute id="van">
+            <Name>
+                <nl>Van</nl>
+            </Name>
+            <Description>
+                <nl>Van</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tot">
+            <Name>
+                <nl>Tot</nl>
+            </Name>
+            <Description>
+                <nl>Tot</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aowSamenwonend">
+            <Name>
+                <nl>AOW Samenwonend</nl>
+            </Name>
+            <Description>
+                <nl>AOW Samenwonend<nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aowAlleenstaand">
+            <Name>
+                <nl>AOW Alleenstaand</nl>
+            </Name>
+            <Description>
+                <nl>AOW Alleenstaand</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="pensioen">
+            <Name>
+                <nl>Pensioen</nl>
+            </Name>
+            <Description>
+                <nl>Pensioen</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>

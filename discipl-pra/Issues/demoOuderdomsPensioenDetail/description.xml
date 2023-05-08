@@ -1,0 +1,84 @@
+<IssueSpecification version="4">
+    <Name>
+        <nl>Demo Ouderdomspensioen Detail</nl>
+    </Name>
+    <ShortName>
+        <nl>DemoOuderdomsPensioenDetail</nl>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>discipl-pra</IssuerID>
+    <CredentialID>demoOuderdomsPensioenDetail</CredentialID>
+    <Description>
+        <nl>Demo Ouderdomspensioen Detail</nl>
+    </Description>
+    <IssueURL>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demoOuderdomsPensioenDetail.html</nl>
+    </IssueURL>
+
+    <Attributes>
+        <Attribute id="van">
+            <Name>
+                <nl>Van</nl>
+            </Name>
+            <Description>
+                <nl>Van</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tot">
+            <Name>
+                <nl>Tot</nl>
+            </Name>
+            <Description>
+                <nl>Tot</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="teBereiken">
+            <Name>
+                <nl>Te Bereiken</nl>
+            </Name>
+            <Description>
+                <nl>Te Bereiken</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="opgebouwd">
+            <Name>
+                <nl>Opgebouwd</nl>
+            </Name>
+            <Description>
+                <nl>Opgebouwd</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="ahandelingVerevening">
+            <Name>
+                <nl>Afhandeling Verevening (Optioneel)</nl>
+            </Name>
+            <Description>
+                <nl>Afhandeling Verevening (Optioneel)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="pensioenUitvoerder">
+            <Name>
+                <nl>Pensioen Uitvoerder</nl>
+            </Name>
+            <Description>
+                <nl>Pensioen Uitvoerder</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="herkenningsnummer">
+            <Name>
+                <nl>Herkenningsnummer</nl>
+            </Name>
+            <Description>
+                <nl>Herkenningsnummer</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="standPer">
+            <Name>
+                <nl>Stand Per</nl>
+            </Name>
+            <Description>
+                <nl>Stand Per</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>

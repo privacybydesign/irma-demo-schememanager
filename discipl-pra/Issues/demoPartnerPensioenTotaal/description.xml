@@ -1,0 +1,76 @@
+<IssueSpecification version="4">
+    <Name>
+        <nl>Demo Partnerpensioen Totaal</nl>
+    </Name>
+    <ShortName>
+        <nl>DemoPartnerPensioenTotaal</nl>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>discipl-pra</IssuerID>
+    <CredentialID>demoPartnerPensioenTotaal</CredentialID>
+    <Description>
+        <nl>Demo Partnerpensioen Totaal</nl>
+    </Description>
+    <IssueURL>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demoPartnerPensioenTotaal.html</nl>
+    </IssueURL>
+
+    <Attributes>
+        <Attribute id="van">
+            <Name>
+                <nl>Van</nl>
+            </Name>
+            <Description>
+                <nl>Van</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tot">
+            <Name>
+                <nl>Tot</nl>
+            </Name>
+            <Description>
+                <nl>Tot</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="verzekerdBedrag">
+            <Name>
+                <nl>Verzekerd Bedrag</nl>
+            </Name>
+            <Description>
+                <nl>Verzekerd Bedrag</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="opgebouwdBedrag">
+            <Name>
+                <nl>Opgebouwd Bedrag</nl>
+            </Name>
+            <Description>
+                <nl>Opgebouwd Bedrag</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="verzekerdBedragNaPens">
+            <Name>
+                <nl>Verzekerd Bedrag Na Pensioen</nl>
+            </Name>
+            <Description>
+                <nl>Verzekerd Bedrag Na Pensioen</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="opgebouwdBedragNaPens">
+            <Name>
+                <nl>Opgebouwd Bedrag Na Pensioen</nl>
+            </Name>
+            <Description>
+                <nl>Opgebouwd Bedrag Na Pensioen</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aantal">
+            <Name>
+                <nl>Aantal</nl>
+            </Name>
+            <Description>
+                <nl>Aantal</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>
