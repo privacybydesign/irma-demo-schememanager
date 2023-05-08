@@ -1,19 +1,20 @@
 <IssueSpecification version="4">
     <Name>
-        <nl>Demo Partnerpensioen Totaal</nl>
+        <nl>Demo1 AOW Detail</nl>
     </Name>
     <ShortName>
-        <nl>DemoPartnerPensioenTotaal</nl>
+        <nl>Demo1AOWDetail</nl>
     </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>discipl-pra</IssuerID>
-    <CredentialID>demoPartnerPensioenTotaal</CredentialID>
+    <CredentialID>demo1AOWDetail</CredentialID>
     <Description>
-        <nl>Demo Partnerpensioen Totaal</nl>
+        <nl>Demo1 AOW Detail</nl>
     </Description>
     <IssueURL>
-        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demoPartnerPensioenTotaal.html</nl>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demo1AOWDetail.html</nl>
     </IssueURL>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
 
     <Attributes>
         <Attribute id="van">
@@ -32,44 +33,44 @@
                 <nl>Tot</nl>
             </Description>
         </Attribute>
-        <Attribute id="verzekerdBedrag">
+        <Attribute id="standPer">
             <Name>
-                <nl>Verzekerd Bedrag</nl>
+                <nl>Stand Per</nl>
             </Name>
             <Description>
-                <nl>Verzekerd Bedrag</nl>
+                <nl>Stand Per</nl>
             </Description>
         </Attribute>
-        <Attribute id="opgebouwdBedrag">
+        <Attribute id="teBereikenSamenwonend">
             <Name>
-                <nl>Opgebouwd Bedrag</nl>
+                <nl>Te Bereiken Samenwonend</nl>
             </Name>
             <Description>
-                <nl>Opgebouwd Bedrag</nl>
+                <nl>Te Bereiken Samenwonend</nl>
             </Description>
         </Attribute>
-        <Attribute id="verzekerdBedragNaPens">
+        <Attribute id="opgebouwdSamenwonend">
             <Name>
-                <nl>Verzekerd Bedrag Na Pensioen</nl>
+                <nl>Opgebouwd Samenwonend</nl>
             </Name>
             <Description>
-                <nl>Verzekerd Bedrag Na Pensioen</nl>
+                <nl>Opgebouwd Samenwonend</nl>
             </Description>
         </Attribute>
-        <Attribute id="opgebouwdBedragNaPens">
+        <Attribute id="teBereikenAlleenstaand">
             <Name>
-                <nl>Opgebouwd Bedrag Na Pensioen</nl>
+                <nl>Te Bereiken Alleenstaand</nl>
             </Name>
             <Description>
-                <nl>Opgebouwd Bedrag Na Pensioen</nl>
+                <nl>Te Bereiken Alleenstaand</nl>
             </Description>
         </Attribute>
-        <Attribute id="aantal">
+        <Attribute id="opgebouwdAlleenstaand">
             <Name>
-                <nl>Aantal</nl>
+                <nl>Opgebouwd Alleenstaand</nl>
             </Name>
             <Description>
-                <nl>Aantal</nl>
+                <nl>Opgebouwd Alleenstaand</nl>
             </Description>
         </Attribute>
     </Attributes>

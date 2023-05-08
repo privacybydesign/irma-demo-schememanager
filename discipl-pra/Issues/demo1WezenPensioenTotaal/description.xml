@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
     <Name>
-        <nl>Demo Ouderdomspensioen Detail</nl>
+        <nl>Demo1 Wezenpensioen Totaal</nl>
     </Name>
     <ShortName>
-        <nl>DemoOuderdomsPensioenDetail</nl>
+        <nl>Demo1WezenPensioenTotaal</nl>
     </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>discipl-pra</IssuerID>
-    <CredentialID>demoOuderdomsPensioenDetail</CredentialID>
+    <CredentialID>demo1WezenPensioenTotaal</CredentialID>
     <Description>
-        <nl>Demo Ouderdomspensioen Detail</nl>
+        <nl>Demo1 Wezen Pensioen Totaal</nl>
     </Description>
     <IssueURL>
-        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demoOuderdomsPensioenDetail.html</nl>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demo1WezenPensioenTotaal.html</nl>
     </IssueURL>
 
     <Attributes>
@@ -32,52 +32,44 @@
                 <nl>Tot</nl>
             </Description>
         </Attribute>
-        <Attribute id="teBereiken">
+        <Attribute id="verzekerdBedragPerKind">
             <Name>
-                <nl>Te Bereiken</nl>
+                <nl>Verzekerd Bedrag Per Kind</nl>
             </Name>
             <Description>
-                <nl>Te Bereiken</nl>
+                <nl>Verzekerd Bedrag Per Kind</nl>
             </Description>
         </Attribute>
-        <Attribute id="opgebouwd">
+        <Attribute id="opgebouwdBedragPerKind">
             <Name>
-                <nl>Opgebouwd</nl>
+                <nl>Opgebouwd Bedrag Per Kind</nl>
             </Name>
             <Description>
-                <nl>Opgebouwd</nl>
+                <nl>Opgebouwd Bedrag Per Kind</nl>
             </Description>
         </Attribute>
-        <Attribute id="ahandelingVerevening">
+        <Attribute id="verzekerdBedragNaPensPerKind">
             <Name>
-                <nl>Afhandeling Verevening (Optioneel)</nl>
+                <nl>Verzekerd Bedrag Na Pensioen Per Kind</nl>
             </Name>
             <Description>
-                <nl>Afhandeling Verevening (Optioneel)</nl>
+                <nl>Verzekerd Bedrag Na Pensioen Per Kind</nl>
             </Description>
         </Attribute>
-        <Attribute id="pensioenUitvoerder">
+        <Attribute id="opgebouwdBedragNaPensPerKind">
             <Name>
-                <nl>Pensioen Uitvoerder</nl>
+                <nl>Opgebouwd Bedrag Na Pensioen Per Kind</nl>
             </Name>
             <Description>
-                <nl>Pensioen Uitvoerder</nl>
+                <nl>Opgebouwd Bedrag Na Pensioen Per Kind</nl>
             </Description>
         </Attribute>
-        <Attribute id="herkenningsnummer">
+        <Attribute id="aantalPerKind">
             <Name>
-                <nl>Herkenningsnummer</nl>
+                <nl>Aantal Per Kind</nl>
             </Name>
             <Description>
-                <nl>Herkenningsnummer</nl>
-            </Description>
-        </Attribute>
-        <Attribute id="standPer">
-            <Name>
-                <nl>Stand Per</nl>
-            </Name>
-            <Description>
-                <nl>Stand Per</nl>
+                <nl>Aantal Per Kind</nl>
             </Description>
         </Attribute>
     </Attributes>

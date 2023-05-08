@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
     <Name>
-        <nl>Demo Ouderdomspensioen Totaal</nl>
+        <nl>Demo1 Ouderdomspensioen Totaal</nl>
     </Name>
     <ShortName>
-        <nl>DemoOuderdomsPensioenTotaal</nl>
+        <nl>Demo1OuderdomsPensioenTotaal</nl>
     </ShortName>
     <SchemeManager>irma-demo</SchemeManager>
     <IssuerID>discipl-pra</IssuerID>
-    <CredentialID>demoOuderdomsPensioenTotaal</CredentialID>
+    <CredentialID>demo1OuderdomsPensioenTotaal</CredentialID>
     <Description>
-        <nl>Demo Ouderdomspensioen Totaal</nl>
+        <nl>Demo1 Ouderdomspensioen Totaal</nl>
     </Description>
     <IssueURL>
-        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demoOuderdomsPensioenTotaal.html</nl>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demo1OuderdomsPensioenTotaal.html</nl>
     </IssueURL>
 
     <Attributes>

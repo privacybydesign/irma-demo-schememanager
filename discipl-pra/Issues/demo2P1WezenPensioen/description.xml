@@ -1,0 +1,109 @@
+<IssueSpecification version="4">
+1    <Name>
+        <nl>Demo2 Periode 1 Wezenpensioen</nl>
+    </Name>
+    <ShortName>
+        <nl>Demo2P1WezenPensioen</nl>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>discipl-pra</IssuerID>
+    <CredentialID>demo2P1WezenPensioen</CredentialID>
+    <Description>
+        <nl>Demo2 Periode 1 Wezenpensioen</nl>
+    </Description>
+    <IssueURL>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demo2P1WezenPensioen.html</nl>
+    </IssueURL>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
+
+    <Attributes>
+        <Attribute id="van">
+            <Name>
+                <nl>Van</nl>
+            </Name>
+            <Description>
+                <nl>Van</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tot">
+            <Name>
+                <nl>Tot</nl>
+            </Name>
+            <Description>
+                <nl>Tot</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="aantal">
+            <Name>
+                <nl>Aantal</nl>
+            </Name>
+            <Description>
+                <nl>Aantal</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="verzekerdBedragLijst">
+            <Name>
+                <nl>Verzekerd Bedrag Lijst</nl>
+            </Name>
+            <Description>
+                <nl>Verzekerd Bedrag Lijst</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="opgebouwdBedragLijst">
+            <Name>
+                <nl>Opgebouwd Bedrag Lijst</nl>
+            </Name>
+            <Description>
+                <nl>Opgebouwd Bedrag Lijst</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="verzekerdBedragNaPensLijst">
+            <Name>
+                <nl>Verzekerd Bedrag Na Pensioen Lijst</nl>
+            </Name>
+            <Description>
+                <nl>Verzekerd Bedrag Na Pensioen Lijst</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="opgebouwdBedragNaPensLijst">
+            <Name>
+                <nl>Opgebouwd Bedrag Na Pensioen Lijst</nl>
+            </Name>
+            <Description>
+                <nl>Opgebouwd Bedrag Na Pensioen Lijst</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="pensioenUitvoerderLijst">
+            <Name>
+                <nl>Pensioen Uitvoerder Lijst</nl>
+            </Name>
+            <Description>
+                <nl>Pensioen Uitvoerder Lijst</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="perKindLijst">
+            <Name>
+                <nl>Per Kind Lijst</nl>
+            </Name>
+            <Description>
+                <nl>Per Kind Lijst</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="herkenningsnummerLijst">
+            <Name>
+                <nl>Herkenningsnummer Lijst</nl>
+            </Name>
+            <Description>
+                <nl>Herkenningsnummer Lijst</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="standPerLijst">
+            <Name>
+                <nl>Stand Per Lijst</nl>
+            </Name>
+            <Description>
+                <nl>Stand Per Lijst</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>
