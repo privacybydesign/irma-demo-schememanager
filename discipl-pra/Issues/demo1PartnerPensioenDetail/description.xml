@@ -64,12 +64,12 @@
                 <nl>Opgebouwd Bedrag Na Pensioen</nl>
             </Description>
         </Attribute>
-        <Attribute id="afhandelingVerevening">
+        <Attribute id="afhandelingScheiding">
             <Name>
-                <nl>Afhandeling Verevening (Optioneel)</nl>
+                <nl>Afhandeling Scheiding (Optioneel)</nl>
             </Name>
             <Description>
-                <nl>Afhandeling Verevening (Optioneel)</nl>
+                <nl>Afhandeling Scheiding (Optioneel)</nl>
             </Description>
         </Attribute>
         <Attribute id="pensioenUitvoerder">
@@ -80,12 +80,12 @@
                 <nl>Pensioen Uitvoerder</nl>
             </Description>
         </Attribute>
-        <Attribute id="herkenningsnummer">
+        <Attribute id="herkenningsNummer">
             <Name>
-                <nl>Herkenningsnummer</nl>
+                <nl>Herkennings Nummer</nl>
             </Name>
             <Description>
-                <nl>Herkenningsnummer</nl>
+                <nl>Herkennings Nummer</nl>
             </Description>
         </Attribute>
         <Attribute id="standPer">

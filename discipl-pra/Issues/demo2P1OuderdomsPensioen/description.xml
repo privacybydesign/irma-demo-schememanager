@@ -73,12 +73,12 @@
                 <nl>Pensioen UitvoerderLijst</nl>
             </Description>
         </Attribute>
-        <Attribute id="herkenningsnummerLijst">
+        <Attribute id="herkenningsNummerLijst">
             <Name>
-                <nl>Herkenningsnummer Lijst</nl>
+                <nl>Herkennings Nummer Lijst</nl>
             </Name>
             <Description>
-                <nl>Herkenningsnummer Lijst</nl>
+                <nl>Herkennings Nummer Lijst</nl>
             </Description>
         </Attribute>
         <Attribute id="standPerLijst">

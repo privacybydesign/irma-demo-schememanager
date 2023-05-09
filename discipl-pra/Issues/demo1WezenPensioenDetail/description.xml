@@ -80,12 +80,12 @@
                 <nl>Per Kind</nl>
             </Description>
         </Attribute>
-        <Attribute id="herkenningsnummer">
+        <Attribute id="herkenningsNummer">
             <Name>
-                <nl>Herkenningsnummer</nl>
+                <nl>Herkennings Nummer</nl>
             </Name>
             <Description>
-                <nl>Herkenningsnummer</nl>
+                <nl>Herkennings Nummer</nl>
             </Description>
         </Attribute>
         <Attribute id="standPer">
