@@ -1,0 +1,75 @@
+<IssueSpecification version="4">
+  <Name>
+    <en>Demo Ruleregister VIL</en>
+    <nl>Demo Regelregister VIL</nl>
+  </Name>
+  <ShortName>
+    <en>Demo Ruleregister VIL</en>
+    <nl>Demo Regelregister VIL</nl>
+  </ShortName>
+  <SchemeManager>irma-demo</SchemeManager>
+  <IssuerID>tweedegolf</IssuerID>
+  <CredentialID>regelregister</CredentialID>
+  <Description>
+    <en>Your voucher for an allowance</en>
+    <nl>Uw voucher voor een toeslag</nl>
+  </Description>
+  <IssueURL>
+    <en>https://privacybydesign.foundation/attribute-index/en/irma-demo.tweedegolf.regelregister.html</en>
+    <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.tweedegolf.regelregister.html</nl>
+  </IssueURL>
+  <ShouldBeSingleton>false</ShouldBeSingleton>
+
+  <Attributes>
+    <Attribute id="rule" displayIndex="0">
+      <Name>
+        <en>Rule</en>
+        <nl>Regel</nl>
+      </Name>
+      <Description>
+        <en>The rule this allowance is for</en>
+        <nl>De regel waarvoor deze toeslag geldt</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="rule_id" displayIndex="1">
+      <Name>
+        <en>Rule id</en>
+        <nl>Regel ID</nl>
+      </Name>
+      <Description>
+        <en>The identifier of the rule</en>
+        <nl>De identifier van de regel</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="allowancenumber" randomblind="true" displayIndex="4">
+      <Name>
+        <en>Allowance number (anonymous)</en>
+        <nl>Toeslagnummer (anoniem)</nl>
+      </Name>
+      <Description>
+        <en>The anonymous allowance number</en>
+        <nl>Het anonieme toeslagnummer</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="location" displayIndex="2">
+      <Name>
+        <en>Voucher claim locatie</en>
+        <nl>Locatie voucherclaim</nl>
+      </Name>
+      <Description>
+        <en>The location where you can claim your voucher</en>
+        <nl>De locatie waar je je voucher kan claimen</nl>
+      </Description>
+    </Attribute>
+    <Attribute id="amount" displayIndex="3">
+      <Name>
+        <en>Value</en>
+        <nl>Waarde</nl>
+      </Name>
+      <Description>
+        <en>The value of this voucher</en>
+        <nl>De waarde van de voucher</nl>
+      </Description>
+    </Attribute>
+  </Attributes>
+</IssueSpecification>

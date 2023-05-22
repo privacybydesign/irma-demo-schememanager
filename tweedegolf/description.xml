@@ -1,0 +1,14 @@
+<Issuer version="4">
+  <ID>tweedegolf</ID>
+  <ShortName>
+    <en>Demo TG</en>
+    <nl>Demo TG</nl>
+  </ShortName>
+  <Name>
+    <en>Demo Tweede golf</en>
+    <nl>Demo Tweede golf</nl>
+  </Name>
+  <SchemeManager>irma-demo</SchemeManager>
+  <ContactAddress>https://tweedegolf.nl</ContactAddress>
+  <ContactEMail>support@tweedegolf.nl</ContactEMail>
+</Issuer>
