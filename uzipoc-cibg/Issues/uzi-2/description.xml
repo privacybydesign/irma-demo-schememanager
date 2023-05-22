@@ -1,4 +1,7 @@
 <IssueSpecification version="4">
+    <RevocationServers>
+        <RevocationServer>https://irma.uzipoc.nl</RevocationServer>
+    </RevocationServers>
 	<Name>
 		<en>Demo Uzi register</en>
 		<nl>Demo Uzi register</nl>
