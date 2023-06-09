@@ -1,0 +1,45 @@
+<IssueSpecification version="4">
+    <Name>
+        <en>Demo Keys</en>
+        <nl>Demo Keys</nl>
+    </Name>
+    <ShortName>
+        <en>DemoKeys</en>
+        <nl>DemoKeys</nl>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>discipl-pra</IssuerID>
+    <CredentialID>demoKeys</CredentialID>
+    <Description>
+        <en>Demo Keys</en>
+        <nl>Demo Keys</nl>
+    </Description>
+    <IssueURL>
+        <en>https://privacybydesign.foundation/attribute-index/en/irma-demo.discipl-pra.demoKeys.html</en>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demoKeys.html</nl>
+    </IssueURL>
+    <ShouldBeSingleton>true</ShouldBeSingleton>
+
+    <Attributes>
+        <Attribute id="keys">
+            <Name>
+                <en>Keys</en>
+                <nl>Keys</nl>
+            </Name>
+            <Description>
+                <en>Keys</en>
+                <nl>Keys</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="versions">
+            <Name>
+                <en>Versions</en>
+                <nl>Versions</nl>
+            </Name>
+            <Description>
+                <en>Versions</en>
+                <nl>Versions</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>

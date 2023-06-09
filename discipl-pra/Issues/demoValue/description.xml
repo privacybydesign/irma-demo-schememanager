@@ -1,0 +1,65 @@
+<IssueSpecification version="4">
+    <Name>
+        <en>Demo Value</en>
+        <nl>Demo Value</nl>
+    </Name>
+    <ShortName>
+        <en>DemoValue</en>
+        <nl>DemoValue</nl>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>discipl-pra</IssuerID>
+    <CredentialID>demoValue</CredentialID>
+    <Description>
+        <en>Demo Value</en>
+        <nl>Demo Value</nl>
+    </Description>
+    <IssueURL>
+        <en>https://privacybydesign.foundation/attribute-index/en/irma-demo.discipl-pra.demoValue.html</en>
+        <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl-pra.demoValue.html</nl>
+    </IssueURL>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+
+    <Attributes>
+        <Attribute id="key">
+            <Name>
+                <en>Key</en>
+                <nl>Key</nl>
+            </Name>
+            <Description>
+                <en>Key</en>
+                <nl>Key</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="version">
+            <Name>
+                <en>Version</en>
+                <nl>Version</nl>
+            </Name>
+            <Description>
+                <en>Version</en>
+                <nl>Version</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="value">
+            <Name>
+                <en>Value</en>
+                <nl>Value</nl>
+            </Name>
+            <Description>
+                <en>Value</en>
+                <nl>Value</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="type" optional="true">
+            <Name>
+                <en>Type</en>
+                <nl>Type</nl>
+            </Name>
+            <Description>
+                <en>Type</en>
+                <nl>Type</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>
