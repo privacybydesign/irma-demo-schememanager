@@ -33,7 +33,7 @@
     </Attribute>
     <Attribute id="rule_id" displayIndex="1">
       <Name>
-        <en>Rule id</en>
+        <en>Rule ID</en>
         <nl>Regel ID</nl>
       </Name>
       <Description>
@@ -53,7 +53,7 @@
     </Attribute>
     <Attribute id="location" displayIndex="2">
       <Name>
-        <en>Voucher claim locatie</en>
+        <en>Voucher claim location</en>
         <nl>Locatie voucherclaim</nl>
       </Name>
       <Description>
@@ -68,7 +68,7 @@
       </Name>
       <Description>
         <en>The value of this voucher</en>
-        <nl>De waarde van de voucher</nl>
+        <nl>De waarde van deze voucher</nl>
       </Description>
     </Attribute>
   </Attributes>
