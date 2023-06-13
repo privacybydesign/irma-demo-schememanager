@@ -24,31 +24,31 @@
 		<Attribute id="id">
 			<Name>
 				<en>Identification number</en>
-				<nl>Identificatie nummer</nl>
+				<nl>Identificatienummer</nl>
 			</Name>
 			<Description>
 				<en>Your unique identification number</en>
-				<nl>Je unique Identificatie nummer</nl>
+				<nl>Je unique identificatienummer</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="registration_date">
 			<Name>
 				<en>Original registration date</en>
-				<nl>Originele registratie datum</nl>
+				<nl>Oorspronkelijke registratiedatum</nl>
 			</Name>
 			<Description>
 				<en>Your original registration dat at PubHubs</en>
-				<nl>Je originele registratie datum bij PubHubs</nl>
+				<nl>Je oorspronkelijke registratiedatum bij PubHubs</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="registration_source">
 			<Name>
 				<en>Registration source</en>
-				<nl>Registratie bron</nl>
+				<nl>Registratiebron</nl>
 			</Name>
 			<Description>
 				<en>Your registration source</en>
-				<nl>Jouw registratie bron</nl>
+				<nl>Jouw registratiebron</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
