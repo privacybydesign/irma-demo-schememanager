@@ -1,0 +1,15 @@
+<Issuer version="4">
+  <ID>discipl-pra</ID>
+  <Name>
+	  <en>Demo Discipl PRA</en>
+	  <nl>Demo Discipl PRA</nl>
+  </Name>
+  <ShortName>
+	  <en>Demo Discipl PRA</en>
+	  <nl>Demo Discipl PRA</nl>
+  </ShortName>
+  <SchemeManager>irma-demo</SchemeManager>
+  <ContactAddress>https://discipl.org/</ContactAddress>
+  <ContactEMail>stan.vanlier@ictu.nl</ContactEMail>
+  <baseURL>https://discipl.org/</baseURL>
+</Issuer>
