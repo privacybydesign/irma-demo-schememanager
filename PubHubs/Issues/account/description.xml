@@ -1,0 +1,55 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Account</en>
+		<nl>Demo Account</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Account</en>
+		<nl>Demo Account</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>PubHubs</IssuerID>
+	<CredentialID>account</CredentialID>
+	<Description>
+		<en>Your PubHubs account</en>
+		<nl>Je PubHubs account</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.PubHubs.account.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.PubHubs.account.html</nl>
+	</IssueURL>
+
+	<Attributes>
+		<Attribute id="id">
+			<Name>
+				<en>Identification number</en>
+				<nl>Identificatienummer</nl>
+			</Name>
+			<Description>
+				<en>Your unique identification number</en>
+				<nl>Je unique identificatienummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="registration_date">
+			<Name>
+				<en>Original registration date</en>
+				<nl>Oorspronkelijke registratiedatum</nl>
+			</Name>
+			<Description>
+				<en>Your original registration dat at PubHubs</en>
+				<nl>Je oorspronkelijke registratiedatum bij PubHubs</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="registration_source">
+			<Name>
+				<en>Registration source</en>
+				<nl>Registratiebron</nl>
+			</Name>
+			<Description>
+				<en>Your registration source</en>
+				<nl>Jouw registratiebron</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
