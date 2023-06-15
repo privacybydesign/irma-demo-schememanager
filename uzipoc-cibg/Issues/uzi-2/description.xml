@@ -23,7 +23,7 @@
 	</IssueURL>
 
 	<Attributes>
-		<Attribute id="initials" revocation="true">
+		<Attribute id="initials">
 			<Name>
 				<en>Initials</en>
 				<nl>Initialen</nl>
@@ -33,7 +33,7 @@
 				<nl>Uw initialen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="surnamePrefix" revocation="true">
+		<Attribute id="surnamePrefix">
 			<Name>
 				<en>Surname prefix</en>
 				<nl>Tussenvoegsel</nl>
@@ -43,7 +43,7 @@
 				<nl>Uw tussenvoegsel</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="surname" revocation="true">
+		<Attribute id="surname">
 			<Name>
 				<en>Surname</en>
 				<nl>Achternaam</nl>
@@ -53,7 +53,7 @@
 				<nl>Uw achternaam</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="entityName" revocation="true">
+		<Attribute id="entityName">
 			<Name>
 				<en>Ura name</en>
 				<nl>Ura naam</nl>
@@ -63,7 +63,7 @@
 				<nl>De naam van een ura zorgaanbieder</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="ura" revocation="true">
+		<Attribute id="ura">
 			<Name>
 				<en>Ura number</en>
 				<nl>Uranummer</nl>
@@ -73,7 +73,7 @@
 				<nl>Het ura nummer van een ura zorgaanbieder</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="uziId" revocation="true">
+		<Attribute id="uziId">
 			<Name>
 				<en>Uzi Number</en>
 				<nl>Uzinummer</nl>
@@ -83,7 +83,7 @@
 				<nl>Uw uzinummer</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="roles" revocation="true">
+		<Attribute id="roles">
 			<Name>
 				<en>Roles</en>
 				<nl>Rollen</nl>
@@ -93,7 +93,7 @@
 				<nl>Uw rollen zoals gedefineerd in het Uzi Register</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="loaAuthn" revocation="true">
+		<Attribute id="loaAuthn">
 			<Name>
 				<en>Authorization assurance level</en>
 				<nl>Autorisatie zekerheidsniveau</nl>
@@ -103,7 +103,7 @@
 				<nl>Niveau van autorisatie zekerheid</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="loaUzi" revocation="true">
+		<Attribute id="loaUzi">
 			<Name>
 				<en>Uzi assurance level</en>
 				<nl>Uzi zekerheidsniveau</nl>
@@ -113,5 +113,6 @@
 				<nl>Niveau van uzi zekerheid</nl>
 			</Description>
 		</Attribute>
+		<Attribute revocation="true"/>
 	</Attributes>
 </IssueSpecification>
