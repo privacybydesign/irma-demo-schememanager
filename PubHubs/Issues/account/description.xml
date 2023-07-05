@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo Account</en>
-		<nl>Demo Account</nl>
+		<en>Demo PubHubs Registration</en>
+		<nl>Demo PubHubs Registratie</nl>
 	</Name>
 	<ShortName>
-		<en>Demo Account</en>
-		<nl>Demo Account</nl>
+		<en>Demo PubHubs Registration</en>
+		<nl>Demo PubHubs Registratie</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>PubHubs</IssuerID>
 	<CredentialID>account</CredentialID>
 	<Description>
-		<en>Your PubHubs account</en>
-		<nl>Je PubHubs account</nl>
+		<en>Your PubHubs registration</en>
+		<nl>Je PubHubs registratie</nl>
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
@@ -23,32 +23,32 @@
 	<Attributes>
 		<Attribute id="id">
 			<Name>
-				<en>Identification number</en>
-				<nl>Identificatienummer</nl>
+				<en>PubHubs pseudonym</en>
+				<nl>PubHubs pseudoniem</nl>
 			</Name>
 			<Description>
-				<en>Your unique identification number</en>
-				<nl>Je unique identificatienummer</nl>
+				<en>Your unique PubHubs pseudonym</en>
+				<nl>Je unique PubHubs pseudoniem</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="registration_date">
 			<Name>
-				<en>Original registration date</en>
-				<nl>Oorspronkelijke registratiedatum</nl>
+				<en>Date of registration</en>
+				<nl>Datum van registratie</nl>
 			</Name>
 			<Description>
-				<en>Your original registration dat at PubHubs</en>
+				<en>Your original registration date at PubHubs</en>
 				<nl>Je oorspronkelijke registratiedatum bij PubHubs</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="registration_source">
 			<Name>
-				<en>Registration source</en>
-				<nl>Registratiebron</nl>
+				<en>Method of registration</en>
+				<nl>Methode van registratie</nl>
 			</Name>
 			<Description>
-				<en>Your registration source</en>
-				<nl>Jouw registratiebron</nl>
+				<en>Your method of registration</en>
+				<nl>Jouw methode van registratie</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
