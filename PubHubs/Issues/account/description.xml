@@ -28,7 +28,7 @@
 			</Name>
 			<Description>
 				<en>Your unique PubHubs pseudonym</en>
-				<nl>Je unique PubHubs pseudoniem</nl>
+				<nl>Je unieke PubHubs pseudoniem</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="registration_date">
@@ -48,7 +48,7 @@
 			</Name>
 			<Description>
 				<en>Your method of registration</en>
-				<nl>Jouw methode van registratie</nl>
+				<nl>Je methode van registratie</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
