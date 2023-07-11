@@ -152,11 +152,11 @@
 		<Attribute id="referenceMoment">
 			<Name>
 				<en>Reference moment</en>
-				<nl>Peilmoment (opvraagmoment uit handelsregister)</nl>
+				<nl>Peilmoment</nl>
 			</Name>
 			<Description>
-				<en>Reference moment is the moment the data is extracted from the trade register (format yyyymmddhhmmssmmm)</en>
-				<nl>Peilmoment is het moment dat de gegevens uit het handelsregister zijn onttrokken (formaat jjjjmmddhhmmssmmm)</nl>
+				<en>Reference moment is the moment that the data is retrieved from the trade register</en>
+				<nl>Peilmoment is het moment dat de gegevens uit het handelsregister zijn opgevraagd</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="authorizationCode">
