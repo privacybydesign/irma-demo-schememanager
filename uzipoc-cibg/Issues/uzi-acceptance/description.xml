@@ -1,0 +1,118 @@
+<IssueSpecification version="4">
+    <RevocationServers>
+        <RevocationServer>https://irma.uzipoc.nl</RevocationServer>
+    </RevocationServers>
+	<Name>
+		<en>Demo Uzi register</en>
+		<nl>Demo Uzi register</nl>
+	</Name>
+	<ShortName>
+		<en>Uzi register</en>
+		<nl>Uzi register</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>uzipoc-cibg</IssuerID>
+	<CredentialID>uzi-2</CredentialID>
+	<Description>
+		<en>Uzi register attributen</en>
+		<nl>Uzi register gegevens</nl>
+	</Description>
+	<IssueURL>
+		<en>https://yivi.pilot.uzi-online.acc.rdobeheer.nl/</en>
+		<nl>https://yivi.pilot.uzi-online.acc.rdobeheer.nl/</nl>
+	</IssueURL>
+
+	<Attributes>
+		<Attribute id="initials">
+			<Name>
+				<en>Initials</en>
+				<nl>Initialen</nl>
+			</Name>
+			<Description>
+				<en>Your initials</en>
+				<nl>Uw initialen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="surnamePrefix">
+			<Name>
+				<en>Surname prefix</en>
+				<nl>Tussenvoegsel</nl>
+			</Name>
+			<Description>
+				<en>Your surname prefix</en>
+				<nl>Uw tussenvoegsel</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="surname">
+			<Name>
+				<en>Surname</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Your surname</en>
+				<nl>Uw achternaam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="entityName">
+			<Name>
+				<en>Ura name</en>
+				<nl>Ura naam</nl>
+			</Name>
+			<Description>
+				<en>The name of an ura healthcare organisation</en>
+				<nl>De naam van een ura zorgaanbieder</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="ura">
+			<Name>
+				<en>Ura number</en>
+				<nl>Uranummer</nl>
+			</Name>
+			<Description>
+				<en>The ura number of an ura healthcare organisation</en>
+				<nl>Het ura nummer van een ura zorgaanbieder</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="uziId">
+			<Name>
+				<en>Uzi Number</en>
+				<nl>Uzinummer</nl>
+			</Name>
+			<Description>
+				<en>Your uzi number</en>
+				<nl>Uw uzinummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="roles">
+			<Name>
+				<en>Roles</en>
+				<nl>Rollen</nl>
+			</Name>
+			<Description>
+				<en>Your roles as defined in the Uzi Register</en>
+				<nl>Uw rollen zoals gedefineerd in het Uzi Register</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loaAuthn">
+			<Name>
+				<en>Authorization assurance level</en>
+				<nl>Autorisatie zekerheidsniveau</nl>
+			</Name>
+			<Description>
+				<en>Level of authorization assurance</en>
+				<nl>Niveau van autorisatie zekerheid</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loaUzi">
+			<Name>
+				<en>Uzi assurance level</en>
+				<nl>Uzi zekerheidsniveau</nl>
+			</Name>
+			<Description>
+				<en>Level of uzi assurance</en>
+				<nl>Niveau van uzi zekerheid</nl>
+			</Description>
+		</Attribute>
+		<Attribute revocation="true"/>
+	</Attributes>
+</IssueSpecification>
