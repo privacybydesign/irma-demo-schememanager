@@ -12,7 +12,7 @@
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>uzipoc-cibg</IssuerID>
-	<CredentialID>uzi-2</CredentialID>
+	<CredentialID>uzi-acceptance</CredentialID>
 	<Description>
 		<en>Uzi register attributen</en>
 		<nl>Uzi register gegevens</nl>
