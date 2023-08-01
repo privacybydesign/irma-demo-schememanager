@@ -23,8 +23,8 @@
   <Attributes>
     <Attribute id="id">
       <Name>
-        <en>PubHubs pseudonym</en>
-        <nl>PubHubs pseudoniem</nl>
+        <en>Registration pseudonym</en>
+        <nl>Registratie pseudoniem</nl>
       </Name>
       <Description>
         <en>Your unique PubHubs pseudonym</en>
