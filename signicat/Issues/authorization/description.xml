@@ -15,8 +15,8 @@
 		<nl>Machtiging voor een organisatie, uitgegeven door een functionaris die geregistreerd staat in het KVK handelsregister</nl>
 	</Description>
 	<IssueURL>
-		<en>https://kvk-irma-issuer.mayersoftwaredevelopment.nl</en>
-		<nl>https://kvk-irma-issuer.mayersoftwaredevelopment.nl</nl>
+		<en>https://organisatiegegevens.signicat.dev/getauthorization</en>
+		<nl>https://organisatiegegevens.signicat.dev/getauthorization</nl>
 	</IssueURL>
 	<Attributes>
 		<Attribute id="kvkNumber">
@@ -187,6 +187,16 @@
 			<Description>
 				<en>The person who issued the authorization</en>
 				<nl>De persoon die de machtiging heeft afgegeven</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="fullname" optional="true">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Full name of the official</en>
+				<nl>Volledige naam van de functionaris</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
