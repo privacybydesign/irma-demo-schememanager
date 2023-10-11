@@ -3,12 +3,12 @@
         <RevocationServer>https://yivi.proeftuin.uzi.rdobeheer.nl</RevocationServer>
     </RevocationServers>
 	<Name>
-		<en>Demo Uzi register</en>
-		<nl>Demo Uzi register</nl>
+		<en>Proeftuin Uzi register</en>
+		<nl>Proeftuin Uzi register</nl>
 	</Name>
 	<ShortName>
-		<en>Uzi register</en>
-		<nl>Uzi register</nl>
+		<en>Proeftuin Uzi register</en>
+		<nl>Proeftuin Uzi register</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>uzipoc-cibg</IssuerID>
