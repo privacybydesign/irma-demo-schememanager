@@ -18,6 +18,7 @@
 		<en>https://irma-disclosure.uzipoc.nl</en>
 		<nl>https://irma-disclosure.uzipoc.nl</nl>
 	</IssueURL>
+	<IsULIssueURL>true</IsULIssueURL>
 
 	<Attributes>
 		<Attribute id="initials">
