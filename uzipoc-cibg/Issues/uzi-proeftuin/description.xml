@@ -1,6 +1,6 @@
 <IssueSpecification version="4">
     <RevocationServers>
-        <RevocationServer>https://yivi.pilot.uzi-online.acc.rdobeheer.nl</RevocationServer>
+        <RevocationServer>https://yivi.proeftuin.uzi.rdobeheer.nl</RevocationServer>
     </RevocationServers>
 	<Name>
 		<en>Demo Uzi register</en>
@@ -12,14 +12,14 @@
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>uzipoc-cibg</IssuerID>
-	<CredentialID>uzi-acceptance</CredentialID>
+	<CredentialID>uzi-proeftuin</CredentialID>
 	<Description>
 		<en>Uzi register attributen</en>
 		<nl>Uzi register gegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://yivi.pilot.uzi-online.acc.rdobeheer.nl/</en>
-		<nl>https://yivi.pilot.uzi-online.acc.rdobeheer.nl/</nl>
+		<en>https://yivi.proeftuin.uzi.rdobeheer.nl/</en>
+		<nl>https://yivi.proeftuin.uzi.rdobeheer.nl/</nl>
 	</IssueURL>
 	<IsULIssueURL>true</IsULIssueURL>
 
