@@ -3,8 +3,8 @@
         <RevocationServer>https://yivi.proeftuin.uzi.rdobeheer.nl</RevocationServer>
     </RevocationServers>
 	<Name>
-		<en>Proeftuin Uzi register</en>
-		<nl>Proeftuin Uzi register</nl>
+		<en>Demo Proeftuin Uzi register</en>
+		<nl>Demo Proeftuin Uzi register</nl>
 	</Name>
 	<ShortName>
 		<en>Proeftuin Uzi register</en>
