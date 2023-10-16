@@ -1,0 +1,112 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo family composition MijnOverheid</en>
+		<nl>Demo gezinssamenstelling MijnOverheid</nl>
+	</Name>
+	<ShortName>
+		<en>Demo family composition</en>
+		<nl>Demo gezinssamenstelling</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>familyComposition</CredentialID>
+	<Description>
+		<en>Your marital status based on GBA data</en>
+		<nl>Uw burgerlijke staat op basis van GBA-data</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.familyComposition.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.familyComposition.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="partnerName"
+			optional="true">
+			<Name>
+				<en>Name of partner</en>
+				<nl>Naam van partner</nl>
+			</Name>
+			<Description>
+				<en>The name of your partner</en>
+				<nl>De naam van uw partner</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="partnerBirthdate"
+			optional="true">
+			<Name>
+				<en>Birthdate of partner</en>
+				<nl>Geboortedatum partner</nl>
+			</Name>
+			<Description>
+				<en>The birthdate of your partner</en>
+				<nl>De geboortedatum van uw partner</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="child1Name"
+			optional="true">
+			<Name>
+				<en>Name of child</en>
+				<nl>Naam van kind</nl>
+			</Name>
+			<Description>
+				<en>The name of your child</en>
+				<nl>De naam van uw kind</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="child1Birthdate"
+			optional="true">
+			<Name>
+				<en>Birthdate of child</en>
+				<nl>Geboortedatum kind</nl>
+			</Name>
+			<Description>
+				<en>The birthdate of your child</en>
+				<nl>De geboortedatum van uw kind</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="child2Name"
+			optional="true">
+			<Name>
+				<en>Name of child</en>
+				<nl>Naam van kind</nl>
+			</Name>
+			<Description>
+				<en>The name of your child</en>
+				<nl>De naam van uw kind</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="child2Birthdate"
+			optional="true">
+			<Name>
+				<en>Birthdate of child</en>
+				<nl>Geboortedatum kind</nl>
+			</Name>
+			<Description>
+				<en>The birthdate of your child</en>
+				<nl>De geboortedatum van uw kind</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="child3Name"
+			optional="true">
+			<Name>
+				<en>Name of child</en>
+				<nl>Naam van kind</nl>
+			</Name>
+			<Description>
+				<en>The name of your child</en>
+				<nl>De naam van uw kind</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="child3Birthdate"
+			optional="true">
+			<Name>
+				<en>Birthdate of child</en>
+				<nl>Geboortedatum kind</nl>
+			</Name>
+			<Description>
+				<en>The birthdate of your child</en>
+				<nl>De geboortedatum van uw kind</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

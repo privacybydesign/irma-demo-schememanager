@@ -1,0 +1,65 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo marital status MijnOverheid</en>
+		<nl>Demo burgerlijke staat MijnOverheid</nl>
+	</Name>
+	<ShortName>
+		<en>Demo marital status</en>
+		<nl>Demo burgerlijke staat</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>maritalStatus</CredentialID>
+	<Description>
+		<en>Your marital status based on GBA data</en>
+		<nl>Uw burgerlijke staat op basis van GBA-data</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.maritalStatus.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.maritalStatus.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="married">
+			<Name>
+				<en>Married</en>
+				<nl>Gehuwd</nl>
+			</Name>
+			<Description>
+				<en>If you are married</en>
+				<nl>Bent u getrouwd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="registeredPartnershp">
+			<Name>
+				<en>registered partnership</en>
+				<nl>geregistreerd partnerschap</nl>
+			</Name>
+			<Description>
+				<en>registered partnership</en>
+				<nl>geregistreerd partnerschap</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="unmarried">
+			<Name>
+				<en>unmarried</en>
+				<nl>ongehuwd</nl>
+			</Name>
+			<Description>
+				<en>If you are unmarried</en>
+				<nl>Of u ongehuwd bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="divorced">
+			<Name>
+				<en>divorced</en>
+				<nl>Gescheiden</nl>
+			</Name>
+			<Description>
+				<en>If you are divorced</en>
+				<nl>Bent u gescheiden</nl>
+			</Description>
+		</Attribute>
+
+	</Attributes>
+</IssueSpecification>

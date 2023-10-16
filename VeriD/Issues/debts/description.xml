@@ -1,0 +1,104 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo debts (NVB/Tink)</en>
+		<nl>Demo actueel schulden overzicht (NVB/Tink)</nl>
+	</Name>
+	<ShortName>
+		<en>Demo debts (NVB/Tink)</en>
+		<nl>Demo actueel schulden overzicht (NVB/Tink)</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>debts</CredentialID>
+	<Description>
+		<en>Demo debts (NVB/Tink)</en>
+		<nl>Demo actueel schulden (NVB/Tink)</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.debts.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.debts.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="rent">
+			<Name>
+				<en>Rent</en>
+				<nl>Huur</nl>
+			</Name>
+			<Description>
+				<en>Rent</en>
+				<nl>Huur</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="mortgage">
+			<Name>
+				<en>Mortgage</en>
+				<nl>Hypotheek</nl>
+			</Name>
+			<Description>
+				<en>Mortgage</en>
+				<nl>Hypotheek</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="healtcareInsurance">
+			<Name>
+				<en>Healtcare insurance</en>
+				<nl>Zorgverzekering</nl>
+			</Name>
+			<Description>
+				<en>Healtcare insurance</en>
+				<nl>Zorgverzekering</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="taxes">
+			<Name>
+				<en>Taxes</en>
+				<nl>Belastingen</nl>
+			</Name>
+			<Description>
+				<en>Taxes</en>
+				<nl>Belastingen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="loan">
+			<Name>
+				<en>Loan</en>
+				<nl>Lening</nl>
+			</Name>
+			<Description>
+				<en>Loan</en>
+				<nl>Lening</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="cityTaxes">
+			<Name>
+				<en>City taxes</en>
+				<nl>Gemeentelijke heffingen</nl>
+			</Name>
+			<Description>
+				<en>City taxes</en>
+				<nl>Gemeentelijke heffingen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="phone">
+			<Name>
+				<en>Phone</en>
+				<nl>Telefoon</nl>
+			</Name>
+			<Description>
+				<en>Phone</en>
+				<nl>Telefoon</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="other">
+			<Name>
+				<en>Other</en>
+				<nl>Overige</nl>
+			</Name>
+			<Description>
+				<en>Other</en>
+				<nl>Overige</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
