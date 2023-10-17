@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <IssuerPrivateKey xmlns="http://www.zurich.ibm.com/security/idemix">
-   <Counter>1</Counter>
+   <Counter>0</Counter>
    <ExpiryDate>1729090653</ExpiryDate>
    <IssuerPublicKey>http://www.irmacard.org/credentials/phase1/VeriD/ipk.xml</IssuerPublicKey>
    <Elements>
