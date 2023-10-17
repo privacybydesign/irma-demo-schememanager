@@ -18,7 +18,7 @@
 		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.eventTicket.html</en>
 		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.eventTicket.html</nl>
 	</IssueURL>
-	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>
 		<Attribute id="fullname">
 			<Name>
@@ -49,6 +49,16 @@
 			<Description>
 				<en>Whether you are over 18</en>
 				<nl>Of u ouder dan 18 bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="eventName">
+			<Name>
+				<en>Event name</en>
+				<nl>Evenement naam</nl>
+			</Name>
+			<Description>
+				<en>Event name</en>
+				<nl>Evenement naam</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="ticket"
