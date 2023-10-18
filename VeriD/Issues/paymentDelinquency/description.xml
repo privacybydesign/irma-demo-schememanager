@@ -1,18 +1,18 @@
 <IssueSpecification version="4">
 	<Name>
 		<en>Demo payment delinquency (NVB/Tink)</en>
-		<nl>Demo betalings achterstanden (NVB/Tink)</nl>
+		<nl>Demo betalingsachterstanden (NVB/Tink)</nl>
 	</Name>
 	<ShortName>
 		<en>Demo payment delinquency (NVB/Tink)</en>
-		<nl>Demo betalings achterstanden (NVB/Tink)</nl>
+		<nl>Demo betalingsachterstanden (NVB/Tink)</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>VeriD</IssuerID>
 	<CredentialID>paymentDelinquency</CredentialID>
 	<Description>
 		<en>Demo payment delinquency (NVB/Tink)</en>
-		<nl>Demo betalings achterstanden (NVB/Tink)</nl>
+		<nl>Demo betalingsachterstanden (NVB/Tink)</nl>
 	</Description>
 	<IssueURL>
 		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.paymentDelinquency.html</en>
@@ -23,11 +23,11 @@
 		<Attribute id="paymentDelinquency">
 			<Name>
 				<en>Payment delinquency</en>
-				<nl>Betalings achterstanden</nl>
+				<nl>Betalingsachterstanden</nl>
 			</Name>
 			<Description>
 				<en>Payment delinquency</en>
-				<nl>Betalings achterstanden</nl>
+				<nl>Betalingsachterstanden</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

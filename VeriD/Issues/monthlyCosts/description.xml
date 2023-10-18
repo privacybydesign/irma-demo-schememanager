@@ -63,11 +63,11 @@
 		<Attribute id="householdInsurance">
 			<Name>
 				<en>Household insurance</en>
-				<nl>Inboedel verzekering</nl>
+				<nl>Inboedelverzekering</nl>
 			</Name>
 			<Description>
 				<en>Household insurance</en>
-				<nl>Inboedel verzekering</nl>
+				<nl>Inboedelverzekering</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="liabilityInsurance">
@@ -133,20 +133,20 @@
 		<Attribute id="carInsurance">
 			<Name>
 				<en>Car insurance</en>
-				<nl>Auto verzekering</nl>
+				<nl>Autoverzekering</nl>
 			</Name>
 			<Description>
 				<en>Car insurance</en>
-				<nl>Auto verzekering</nl>
+				<nl>Autoverzekering</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="motorTax">
 			<Name>
-				<en>Motor taxes</en>
+				<en>Vehicle tax</en>
 				<nl>Motorrijtuigenbelasting</nl>
 			</Name>
 			<Description>
-				<en>Motor taxes</en>
+				<en>Vehicle tax</en>
 				<nl>Motorrijtuigenbelasting</nl>
 			</Description>
 		</Attribute>

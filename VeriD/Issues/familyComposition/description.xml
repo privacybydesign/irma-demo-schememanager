@@ -23,8 +23,8 @@
 		<Attribute id="partnerName"
 			optional="true">
 			<Name>
-				<en>Name of partner</en>
-				<nl>Naam van partner</nl>
+				<en>Name partner</en>
+				<nl>Naam partner</nl>
 			</Name>
 			<Description>
 				<en>The name of your partner</en>
@@ -34,7 +34,7 @@
 		<Attribute id="partnerBirthdate"
 			optional="true">
 			<Name>
-				<en>Birthdate of partner</en>
+				<en>Birthdate partner</en>
 				<nl>Geboortedatum partner</nl>
 			</Name>
 			<Description>
@@ -45,8 +45,8 @@
 		<Attribute id="child1Name"
 			optional="true">
 			<Name>
-				<en>Name of child</en>
-				<nl>Naam van kind</nl>
+				<en>Name child</en>
+				<nl>Naam kind</nl>
 			</Name>
 			<Description>
 				<en>The name of your child</en>
@@ -56,7 +56,7 @@
 		<Attribute id="child1Birthdate"
 			optional="true">
 			<Name>
-				<en>Birthdate of child</en>
+				<en>Birthdate child</en>
 				<nl>Geboortedatum kind</nl>
 			</Name>
 			<Description>
@@ -67,8 +67,8 @@
 		<Attribute id="child2Name"
 			optional="true">
 			<Name>
-				<en>Name of child</en>
-				<nl>Naam van kind</nl>
+				<en>Name child</en>
+				<nl>Naam kind</nl>
 			</Name>
 			<Description>
 				<en>The name of your child</en>
@@ -78,7 +78,7 @@
 		<Attribute id="child2Birthdate"
 			optional="true">
 			<Name>
-				<en>Birthdate of child</en>
+				<en>Birthdate child</en>
 				<nl>Geboortedatum kind</nl>
 			</Name>
 			<Description>
@@ -89,8 +89,8 @@
 		<Attribute id="child3Name"
 			optional="true">
 			<Name>
-				<en>Name of child</en>
-				<nl>Naam van kind</nl>
+				<en>Name child</en>
+				<nl>Naam kind</nl>
 			</Name>
 			<Description>
 				<en>The name of your child</en>
@@ -100,7 +100,7 @@
 		<Attribute id="child3Birthdate"
 			optional="true">
 			<Name>
-				<en>Birthdate of child</en>
+				<en>Birthdate child</en>
 				<nl>Geboortedatum kind</nl>
 			</Name>
 			<Description>
