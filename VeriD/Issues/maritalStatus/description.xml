@@ -47,7 +47,7 @@
 			</Name>
 			<Description>
 				<en>If you are unmarried</en>
-				<nl>Of u ongehuwd bent</nl>
+				<nl>Bent u ongehuwd</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="divorced">
