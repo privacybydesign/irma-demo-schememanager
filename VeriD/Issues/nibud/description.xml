@@ -1,0 +1,44 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo expenses below of above Nibud (NVB/Tink)</en>
+		<nl>Demo uitgaven boven of onder Nibud (NVB/Tink)</nl>
+	</Name>
+	<ShortName>
+		<en>Demo expenses below of above Nibud (NVB/Tink)</en>
+		<nl>Demo uitgaven boven of onder Nibud (NVB/Tink)</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>nibud</CredentialID>
+	<Description>
+		<en>Demo expenses below of above Nibud (NVB/Tink)</en>
+		<nl>Demo boven of onder Nibud (NVB/Tink)</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.nibud.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.nibud.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="below">
+			<Name>
+				<en>Below Nibud</en>
+				<nl>Onder Nibud</nl>
+			</Name>
+			<Description>
+				<en>Expenses below Nibud</en>
+				<nl>Uitgaven onder Nibud</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="above">
+			<Name>
+				<en>Above Nibud</en>
+				<nl>Boven Nibud</nl>
+			</Name>
+			<Description>
+				<en>Expenses above Nibud</en>
+				<nl>Uitgaven boven Nibud</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

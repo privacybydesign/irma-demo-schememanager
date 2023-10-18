@@ -1,0 +1,76 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Event ticket</en>
+		<nl>Demo Evenement ticket</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Event ticket</en>
+		<nl>Demo Evenement ticket</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>eventTicket</CredentialID>
+	<Description>
+		<en>Demo Event ticket</en>
+		<nl>Demo Evenement ticket</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.eventTicket.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.eventTicket.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="fullname">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Your full name</en>
+				<nl>Uw volledige naam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="age">
+			<Name>
+				<en>Age</en>
+				<nl>Leeftijd</nl>
+			</Name>
+			<Description>
+				<en>Age</en>
+				<nl>Leeftijd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="over18"
+			displayHint="yesno">
+			<Name>
+				<en>Over 18</en>
+				<nl>Ouder dan 18</nl>
+			</Name>
+			<Description>
+				<en>Whether you are over 18</en>
+				<nl>Of u ouder dan 18 bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="eventName">
+			<Name>
+				<en>Event name</en>
+				<nl>Evenement naam</nl>
+			</Name>
+			<Description>
+				<en>Event name</en>
+				<nl>Evenement naam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="ticket"
+			displayHint="portraitPhoto">
+			<Name>
+				<en>Ticket</en>
+				<nl>Kaartje</nl>
+			</Name>
+			<Description>
+				<en></en>
+				<nl></nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

@@ -1,0 +1,194 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo monthly redemption (NVB/Tink)</en>
+		<nl>Demo aflossingen per maand (NVB/Tink)</nl>
+	</Name>
+	<ShortName>
+		<en>Demo monthly redemption (NVB/Tink)</en>
+		<nl>Demo aflossingen per maand (NVB/Tink)</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>monthlyRedemption</CredentialID>
+	<Description>
+		<en>Demo monthly redemption (NVB/Tink)</en>
+		<nl>Demo aflossingen per maand (NVB/Tink)</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.monthlyRedemption.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.monthlyRedemption.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="rent">
+			<Name>
+				<en>Rent</en>
+				<nl>Huur</nl>
+			</Name>
+			<Description>
+				<en>Rent</en>
+				<nl>Huur</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="mortgage">
+			<Name>
+				<en>Mortgage</en>
+				<nl>Hypotheek</nl>
+			</Name>
+			<Description>
+				<en>Mortgage</en>
+				<nl>Hypotheek</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="utilities">
+			<Name>
+				<en>Utilities</en>
+				<nl>Gas, water, Licht</nl>
+			</Name>
+			<Description>
+				<en>Utilities</en>
+				<nl>Gas, water, Licht</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="healtcarehInsurance">
+			<Name>
+				<en>Healthcare insurance</en>
+				<nl>Zorgpremie</nl>
+			</Name>
+			<Description>
+				<en>Healthcare insurance</en>
+				<nl>Zorgpremie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="householdInsurance">
+			<Name>
+				<en>Household insurance</en>
+				<nl>Inboedelverzekering</nl>
+			</Name>
+			<Description>
+				<en>Household insurance</en>
+				<nl>Inboedelverzekering</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="liabilityInsurance">
+			<Name>
+				<en>Liability insurance</en>
+				<nl>Aansprakelijkheidsverzekering</nl>
+			</Name>
+			<Description>
+				<en>Liability insurance</en>
+				<nl>Aansprakelijkheidsverzekering</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="telephone">
+			<Name>
+				<en>Telephone costs</en>
+				<nl>Telefoonkosten (vast en mobiel)</nl>
+			</Name>
+			<Description>
+				<en>Telephone costs</en>
+				<nl>Telefoonkosten (vast en mobiel)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="internet">
+			<Name>
+				<en>Internet costs</en>
+				<nl>Internet</nl>
+			</Name>
+			<Description>
+				<en>Internet costs</en>
+				<nl>Internet</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="television">
+			<Name>
+				<en>Television</en>
+				<nl>TV</nl>
+			</Name>
+			<Description>
+				<en>Television</en>
+				<nl>TV</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="cityTaxes">
+			<Name>
+				<en>City taxes</en>
+				<nl>Gemeentelijke Belastingen</nl>
+			</Name>
+			<Description>
+				<en>City taxes</en>
+				<nl>Gemeentelijke Belastingen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="waterTaxes">
+			<Name>
+				<en>Water taxes</en>
+				<nl>Waterschapsbelasting</nl>
+			</Name>
+			<Description>
+				<en>Water taxes</en>
+				<nl>Waterschapsbelasting</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="carInsurance">
+			<Name>
+				<en>Car insurance</en>
+				<nl>Autoverzekering</nl>
+			</Name>
+			<Description>
+				<en>Car insurance</en>
+				<nl>Autoverzekering</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="motorTax">
+			<Name>
+				<en>Vehicle tax</en>
+				<nl>Motorrijtuigenbelasting</nl>
+			</Name>
+			<Description>
+				<en>Vehicle tax</en>
+				<nl>Motorrijtuigenbelasting</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="studyCosts">
+			<Name>
+				<en>Study costs</en>
+				<nl>Studiekosten</nl>
+			</Name>
+			<Description>
+				<en>Study costs</en>
+				<nl>Studiekosten</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="alimony">
+			<Name>
+				<en>Alimony</en>
+				<nl>Alimentatie</nl>
+			</Name>
+			<Description>
+				<en>Alimony</en>
+				<nl>Alimentatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="childcare">
+			<Name>
+				<en>Childcare</en>
+				<nl>Kinderopvang</nl>
+			</Name>
+			<Description>
+				<en>Childcare</en>
+				<nl>Kinderopvang</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="other">
+			<Name>
+				<en>Other</en>
+				<nl>Overigen</nl>
+			</Name>
+			<Description>
+				<en>Other</en>
+				<nl>Overigen</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

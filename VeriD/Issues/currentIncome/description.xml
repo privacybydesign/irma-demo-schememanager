@@ -1,0 +1,124 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo current income (NVB/Tink)</en>
+		<nl>Demo actueel inkomen (NVB/Tink)</nl>
+	</Name>
+	<ShortName>
+		<en>Demo current income (NVB/Tink)</en>
+		<nl>Demo actueel inkomen (NVB/Tink)</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>currentIncome</CredentialID>
+	<Description>
+		<en>Demo current income (NVB/Tink)</en>
+		<nl>Demo actueel inkomen (NVB/Tink)</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.currentIncome.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.currentIncome.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="employmentIncome">
+			<Name>
+				<en>Employment income</en>
+				<nl>Inkomsten uit loondienst</nl>
+			</Name>
+			<Description>
+				<en>Employment income</en>
+				<nl>Inkomsten uit loondienst</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="benefitIncome">
+			<Name>
+				<en>Benefit income</en>
+				<nl>Inkomsten uit uitkering</nl>
+			</Name>
+			<Description>
+				<en>Benefit income</en>
+				<nl>Inkomsten uit uitkering</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="benefits">
+			<Name>
+				<en>Benefits</en>
+				<nl>Uitkeringen</nl>
+			</Name>
+			<Description>
+				<en>Benefits</en>
+				<nl>Uitkeringen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="entrepeneurIncome">
+			<Name>
+				<en>Entrepeneur income</en>
+				<nl>Inkomsten uit onderneming</nl>
+			</Name>
+			<Description>
+				<en>Entrepeneur income</en>
+				<nl>Inkomsten uit onderneming</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="taxCredits">
+			<Name>
+				<en>Tax credits</en>
+				<nl>Heffingskortingen</nl>
+			</Name>
+			<Description>
+				<en>Tax credits</en>
+				<nl>Heffingskortingen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="rentAllowance">
+			<Name>
+				<en>Rent allowance</en>
+				<nl>Huurtoeslag</nl>
+			</Name>
+			<Description>
+				<en>Rent allowance</en>
+				<nl>Huurtoeslag</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="healtcareAllowance">
+			<Name>
+				<en>Healthcare allowance</en>
+				<nl>Zorgtoeslag</nl>
+			</Name>
+			<Description>
+				<en>Healthcare allowance</en>
+				<nl>Zorgtoeslag</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="childrelatedBudget">
+			<Name>
+				<en>Child-related Budget</en>
+				<nl>Kindgebondenbudget</nl>
+			</Name>
+			<Description>
+				<en>Child-related Budget</en>
+				<nl>Kindgebondenbudget</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="alimony">
+			<Name>
+				<en>Alimony</en>
+				<nl>Alimentatie</nl>
+			</Name>
+			<Description>
+				<en>Alimony</en>
+				<nl>Alimentatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="other">
+			<Name>
+				<en>Other income</en>
+				<nl>Overige inkomsten</nl>
+			</Name>
+			<Description>
+				<en>Other income</en>
+				<nl>Overige inkomsten</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

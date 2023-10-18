@@ -1,0 +1,84 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo seizures (schuldenwijzer)</en>
+		<nl>Demo beslagleggingen (schuldenwijzer)</nl>
+	</Name>
+	<ShortName>
+		<en>Demo seizures (schuldenwijzer)</en>
+		<nl>Demo beslagleggingen (schuldenwijzer)</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>seizures</CredentialID>
+	<Description>
+		<en>Demo seizures (schuldenwijzer)</en>
+		<nl>Demo beslagleggingen(schuldenwijzer)</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.seizures.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.seizures.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="seizure">
+			<Name>
+				<en>Has there been a seizure</en>
+				<nl>Is er beslag gelegd</nl>
+			</Name>
+			<Description>
+				<en>Has there been a seizure</en>
+				<nl>Is er beslag gelegd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="income">
+			<Name>
+				<en>Seizure on income</en>
+				<nl>Beslag gelegd op inkomen</nl>
+			</Name>
+			<Description>
+				<en>Seizure on income</en>
+				<nl>Beslag gelegd op inkomen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="wellfare">
+			<Name>
+				<en>Seizure on wellfare</en>
+				<nl>Beslag gelegd op uitkering</nl>
+			</Name>
+			<Description>
+				<en>Seizure on wellfare</en>
+				<nl>Beslag gelegd op uitkering</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="house">
+			<Name>
+				<en>Seizure on house</en>
+				<nl>Beslag gelegd op woning</nl>
+			</Name>
+			<Description>
+				<en>Seizure on house</en>
+				<nl>Beslag gelegd op woning</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="bank">
+			<Name>
+				<en>Seizure on bank account</en>
+				<nl>Beslag gelegd op banrekening</nl>
+			</Name>
+			<Description>
+				<en>Seizure on bank account</en>
+				<nl>Beslag gelegd op bankrekening</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="amount">
+			<Name>
+				<en>Seizure amount</en>
+				<nl>Beslag voor welk bedrag</nl>
+			</Name>
+			<Description>
+				<en>Seizure amount</en>
+				<nl>Beslag voor welk bedrag</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
