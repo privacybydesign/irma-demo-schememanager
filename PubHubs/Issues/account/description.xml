@@ -15,10 +15,6 @@
     <nl>Je PubHubs registratie</nl>
   </Description>
   <ShouldBeSingleton>false</ShouldBeSingleton>
-  <IssueURL>
-    <en>https://privacybydesign.foundation/attribute-index/en/irma-demo.PubHubs.account.html</en>
-    <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.PubHubs.account.html</nl>
-  </IssueURL>
 
   <Attributes>
     <Attribute id="id">
