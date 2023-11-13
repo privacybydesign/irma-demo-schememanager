@@ -1,6 +1,6 @@
 <IssueSpecification version="4">
     <RevocationServers>
-        <RevocationServer>https://yivi.proeftuin.uzi.rdobeheer.nl</RevocationServer>
+        <RevocationServer>https://yivi.proeftuin.uzi-online.rdobeheer.nl</RevocationServer>
     </RevocationServers>
 	<Name>
 		<en>Demo Labs Uzi register</en>
@@ -18,8 +18,8 @@
 		<nl>Uzi register gegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://yivi.proeftuin.uzi.rdobeheer.nl/</en>
-		<nl>https://yivi.proeftuin.uzi.rdobeheer.nl/</nl>
+		<en>https://yivi.proeftuin.uzi-online.rdobeheer.nl/</en>
+		<nl>https://yivi.proeftuin.uzi-online.rdobeheer.nl/</nl>
 	</IssueURL>
 	<IsULIssueURL>true</IsULIssueURL>
 
