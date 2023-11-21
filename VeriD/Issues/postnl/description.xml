@@ -42,12 +42,12 @@
 		</Attribute>
 		<Attribute id="notAtHomePreference">
 			<Name>
-				<en>Not at home preference</en>
-				<nl>Niet thuis voorkeur</nl>
+				<en>Not-at-home preference</en>
+				<nl>Niet-thuis voorkeur</nl>
 			</Name>
 			<Description>
-				<en>Not at home preference: neigbours, parcel point, agreed place</en>
-				<nl>Niet thuis voorkeur: naar buren of naar pakketpunt, afgesproken plek.</nl>
+				<en>Not-at-home preference: neigbours, parcel point, agreed place</en>
+				<nl>Niet-thuis voorkeur: naar buren of naar pakketpunt, afgesproken plek.</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="shippingMethodPreference">
