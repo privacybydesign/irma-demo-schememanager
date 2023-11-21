@@ -40,7 +40,7 @@
 				<nl>Hypotheek</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="healtcareInsurance">
+		<Attribute id="healthcareInsurance">
 			<Name>
 				<en>Healtcare insurance</en>
 				<nl>Zorgverzekering</nl>

@@ -40,9 +40,9 @@
 				<nl>Beslag gelegd op inkomen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="wellfare">
+		<Attribute id="welfare">
 			<Name>
-				<en>Seizure on wellfare</en>
+				<en>Seizure on welfare</en>
 				<nl>Beslag gelegd op uitkering</nl>
 			</Name>
 			<Description>
@@ -63,7 +63,7 @@
 		<Attribute id="bank">
 			<Name>
 				<en>Seizure on bank account</en>
-				<nl>Beslag gelegd op banrekening</nl>
+				<nl>Beslag gelegd op bankrekening</nl>
 			</Name>
 			<Description>
 				<en>Seizure on bank account</en>
