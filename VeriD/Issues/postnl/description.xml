@@ -40,36 +40,35 @@
 				<nl>Voorkeuren van bezorgen: adres, pakketpunt , parcel locker</nl>
 			</Description>
 		</Attribute>
-	</Attribute>
-	<Attribute id="notAtHomePreference">
-		<Name>
-			<en>Not at home preference</en>
-			<nl>Niet thuis voorkeur</nl>
-		</Name>
-		<Description>
-			<en>Not at home preference: neigbours, parcel point, agreed place</en>
-			<nl>Niet thuis voorkeur: naar buren of naar pakketpunt, afgesproken plek.</nl>
-		</Description>
-	</Attribute>
-	<Attribute id="shippingMethodPreference">
-		<Name>
-			<en>Shipping method preference</en>
-			<nl>Voorkeurs verzendmethode</nl>
-		</Name>
-		<Description>
-			<en>Shipping method preference: parcel, registered, insured</en>
-			<nl>Voorkeurs verzendmethode : pakket, aangetekend, verzekerd</nl>
-		</Description>
-	</Attribute>
-	<Attribute id="over18">
-		<Name>
-			<en>Over 18</en>
-			<nl>Ouder dan 18</nl>
-		</Name>
-		<Description>
-			<en>Whether you are over 18</en>
-			<nl>Of u ouder dan 18 bent</nl>
-		</Description>
-	</Attribute>
-</Attributes>
+		<Attribute id="notAtHomePreference">
+			<Name>
+				<en>Not at home preference</en>
+				<nl>Niet thuis voorkeur</nl>
+			</Name>
+			<Description>
+				<en>Not at home preference: neigbours, parcel point, agreed place</en>
+				<nl>Niet thuis voorkeur: naar buren of naar pakketpunt, afgesproken plek.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="shippingMethodPreference">
+			<Name>
+				<en>Shipping method preference</en>
+				<nl>Voorkeurs verzendmethode</nl>
+			</Name>
+			<Description>
+				<en>Shipping method preference: parcel, registered, insured</en>
+				<nl>Voorkeurs verzendmethode : pakket, aangetekend, verzekerd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="over18">
+			<Name>
+				<en>Over 18</en>
+				<nl>Ouder dan 18</nl>
+			</Name>
+			<Description>
+				<en>Whether you are over 18</en>
+				<nl>Of u ouder dan 18 bent</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
 </IssueSpecification>
