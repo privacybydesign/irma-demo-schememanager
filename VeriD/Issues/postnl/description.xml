@@ -37,7 +37,7 @@
 			</Name>
 			<Description>
 				<en>Delivery preference: address, parcel point, parcel locker </en>
-				<nl>Voorkeuren van bezorgen: adres, pakketpunt , parcel locker</nl>
+				<nl>Voorkeuren van bezorgen: adres, pakketpunt, parcel locker</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="notAtHomePreference">
