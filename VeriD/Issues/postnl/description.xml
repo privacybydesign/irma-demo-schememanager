@@ -22,21 +22,21 @@
 	<Attributes>
 		<Attribute id="customerID">
 			<Name>
-				<en>customer indentification number</en>
-				<nl>klant nummer</nl>
+				<en>Customer indentification number</en>
+				<nl>Klantnummer</nl>
 			</Name>
 			<Description>
 				<en>Customer indentifiation number</en>
-				<nl>Klant nummer</nl>
+				<nl>Klantnummer</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="deliveryPreference">
 			<Name>
 				<en>Delivery preference</en>
-				<nl>Bezorg voorkeur</nl>
+				<nl>Bezorgvoorkeur</nl>
 			</Name>
 			<Description>
-				<en>Delivery preference: address, parcel point , parcel locker </en>
+				<en>Delivery preference: address, parcel point, parcel locker </en>
 				<nl>Voorkeuren van bezorgen: adres, pakketpunt , parcel locker</nl>
 			</Description>
 		</Attribute>
@@ -57,7 +57,7 @@
 			</Name>
 			<Description>
 				<en>Shipping method preference: parcel, registered, insured</en>
-				<nl>Voorkeurs verzendmethode : pakket, aangetekend, verzekerd</nl>
+				<nl>Voorkeurs verzendmethode: pakket, aangetekend, verzekerd</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="over18">
