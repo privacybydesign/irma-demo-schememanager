@@ -1,0 +1,74 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo VeriD PostNL attributes</en>
+		<nl>Demo VeriD PostNL attributes</nl>
+	</Name>
+	<ShortName>
+		<en>Demo VeriD PostNL attributes</en>
+		<nl>Demo VeriD PostNL attributes</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>postnl</CredentialID>
+	<Description>
+		<en>Demo VeriD PostNL attributes</en>
+		<nl>Demo VeriD PostNL attributes</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.postnl.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.postnl.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="customerID">
+			<Name>
+				<en>Customer indentification number</en>
+				<nl>Klantnummer</nl>
+			</Name>
+			<Description>
+				<en>Customer indentifiation number</en>
+				<nl>Klantnummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="deliveryPreference">
+			<Name>
+				<en>Delivery preference</en>
+				<nl>Bezorgvoorkeur</nl>
+			</Name>
+			<Description>
+				<en>Delivery preference: address, parcel point, parcel locker </en>
+				<nl>Voorkeuren van bezorgen: adres, pakketpunt, parcel locker</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="notAtHomePreference">
+			<Name>
+				<en>Not-at-home preference</en>
+				<nl>Niet-thuis voorkeur</nl>
+			</Name>
+			<Description>
+				<en>Not-at-home preference: neigbours, parcel point, agreed place</en>
+				<nl>Niet-thuis voorkeur: naar buren of naar pakketpunt, afgesproken plek.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="shippingMethodPreference">
+			<Name>
+				<en>Shipping method preference</en>
+				<nl>Voorkeurs verzendmethode</nl>
+			</Name>
+			<Description>
+				<en>Shipping method preference: parcel, registered, insured</en>
+				<nl>Voorkeurs verzendmethode: pakket, aangetekend, verzekerd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="over18">
+			<Name>
+				<en>Over 18</en>
+				<nl>Ouder dan 18</nl>
+			</Name>
+			<Description>
+				<en>Whether you are over 18</en>
+				<nl>Of u ouder dan 18 bent</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

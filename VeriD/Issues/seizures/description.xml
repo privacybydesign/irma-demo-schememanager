@@ -33,41 +33,41 @@
 		<Attribute id="income">
 			<Name>
 				<en>Seizure on income</en>
-				<nl>Beslag gelegd op inkomen</nl>
+				<nl>Beslaggelegd op inkomen</nl>
 			</Name>
 			<Description>
 				<en>Seizure on income</en>
-				<nl>Beslag gelegd op inkomen</nl>
+				<nl>Beslaggelegd op inkomen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="wellfare">
+		<Attribute id="welfare">
 			<Name>
-				<en>Seizure on wellfare</en>
-				<nl>Beslag gelegd op uitkering</nl>
+				<en>Seizure on welfare</en>
+				<nl>Beslaggelegd op uitkering</nl>
 			</Name>
 			<Description>
 				<en>Seizure on wellfare</en>
-				<nl>Beslag gelegd op uitkering</nl>
+				<nl>Beslaggelegd op uitkering</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="house">
 			<Name>
 				<en>Seizure on house</en>
-				<nl>Beslag gelegd op woning</nl>
+				<nl>Beslaggelegd op woning</nl>
 			</Name>
 			<Description>
 				<en>Seizure on house</en>
-				<nl>Beslag gelegd op woning</nl>
+				<nl>Beslaggelegd op woning</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="bank">
 			<Name>
 				<en>Seizure on bank account</en>
-				<nl>Beslag gelegd op banrekening</nl>
+				<nl>Beslaggelegd op bankrekening</nl>
 			</Name>
 			<Description>
 				<en>Seizure on bank account</en>
-				<nl>Beslag gelegd op bankrekening</nl>
+				<nl>Beslaggelegd op bankrekening</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="amount">
