@@ -1,0 +1,134 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo box1 income (Belastingdienst)</en>
+		<nl>Demo box1 inkomen (Belastingdienst)</nl>
+	</Name>
+	<ShortName>
+		<en>Demo box1 income (Belastingdienst)</en>
+		<nl>Demo box1 inkomen (Belastingdienst)</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>belastingdienstmiddeling</CredentialID>
+	<Description>
+		<en>Demo box1 income (Belastingdienst)</en>
+		<nl>Demo box1 inkomen (Belastingdienst)</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.belastingdienstmiddeling.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.belastingdienstmiddeling.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="box1Income2012">
+			<Name>
+				<en>Box 1 2012</en>
+				<nl>Box 1 2012</nl>
+			</Name>
+			<Description>
+				<en>Box 1: Income from work, or social security benefits and owned house (2012)</en>
+				<nl>Box 1: Inkomsten uit werk, of een uitkering, en de eigen woning (2012)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="box1Income2013">
+			<Name>
+				<en>Box 1 2013</en>
+				<nl>Box 1 2013</nl>
+			</Name>
+			<Description>
+				<en>Box 1: Income from work, or social security benefits and owned house (2013)</en>
+				<nl>Box 1: Inkomsten uit werk, of een uitkering, en de eigen woning (2013)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="box1Income2014">
+			<Name>
+				<en>Box 1 2014</en>
+				<nl>Box 1 2014</nl>
+			</Name>
+			<Description>
+				<en>Box 1: Income from work, or social security benefits and owned house (2014)</en>
+				<nl>Box 1: Inkomsten uit werk, of een uitkering, en de eigen woning (2014)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="box1Income2015">
+			<Name>
+				<en>Box 1 2015</en>
+				<nl>Box 1 2015</nl>
+			</Name>
+			<Description>
+				<en>Box 1: Income from work, or social security benefits and owned house (2015)</en>
+				<nl>Box 1: Inkomsten uit werk, of een uitkering, en de eigen woning (2015)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="box1Income2016">
+			<Name>
+				<en>Box 1 2016</en>
+				<nl>Box 1 2016</nl>
+			</Name>
+			<Description>
+				<en>Box 1: Income from work, or social security benefits and owned house (2016)</en>
+				<nl>Box 1: Inkomsten uit werk, of een uitkering, en de eigen woning (2016)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="box1Income2017">
+			<Name>
+				<en>Box 1 2017</en>
+				<nl>Box 1 2017</nl>
+			</Name>
+			<Description>
+				<en>Box 1: Income from work, or social security benefits and owned house (2017)</en>
+				<nl>Box 1: Inkomsten uit werk, of een uitkering, en de eigen woning (2017)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="box1Income2018">
+			<Name>
+				<en>Box 1 2018</en>
+				<nl>Box 1 2018</nl>
+			</Name>
+			<Description>
+				<en>Box 1: Income from work, or social security benefits and owned house (2018)</en>
+				<nl>Box 1: Inkomsten uit werk, of een uitkering, en de eigen woning (2018)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="box1Income2019">
+			<Name>
+				<en>Box 1 2019</en>
+				<nl>Box 1 2019</nl>
+			</Name>
+			<Description>
+				<en>Box 1: Income from work, or social security benefits and owned house (2019)</en>
+				<nl>Box 1: Inkomsten uit werk, of een uitkering, en de eigen woning (2019)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="box1Income2020">
+			<Name>
+				<en>Box 1 2020</en>
+				<nl>Box 1 2020</nl>
+			</Name>
+			<Description>
+				<en>Box 1: Income from work, or social security benefits and owned house (2020)</en>
+				<nl>Box 1: Inkomsten uit werk, of een uitkering, en de eigen woning (2020)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="box1Income2021">
+			<Name>
+				<en>Box 1 2021</en>
+				<nl>Box 1 2021</nl>
+			</Name>
+			<Description>
+				<en>Box 1: Income from work, or social security benefits and owned house (2021)</en>
+				<nl>Box 1: Inkomsten uit werk, of een uitkering, en de eigen woning (2021)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="box1Income2022">
+			<Name>
+				<en>Box 1 2022</en>
+				<nl>Box 1 2022</nl>
+			</Name>
+			<Description>
+				<en>Box 1: Income from work, or social security benefits and owned house (2022)</en>
+				<nl>Box 1: Inkomsten uit werk, of een uitkering, en de eigen woning (2022)</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
