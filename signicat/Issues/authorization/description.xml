@@ -199,5 +199,15 @@
 				<nl>Volledige naam van de functionaris</nl>
 			</Description>
 		</Attribute>
+		<Attribute id="euid" optional="true">
+			<Name>
+				<en>EUID</en>
+				<nl>EUID</nl>
+			</Name>
+			<Description>
+				<en>European Unique Identifier</en>
+				<nl>Europees uniek identificatienummer</nl>
+			</Description>
+		</Attribute>
 	</Attributes>
 </IssueSpecification>
