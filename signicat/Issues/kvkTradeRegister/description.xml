@@ -15,8 +15,8 @@
 		<nl>KVK bevoegdheidsgegevens van een functionaris voor een rechtspersoon</nl>
 	</Description>
 	<IssueURL>
-		<en>https://organisatiegegevens.signicat.dev</en>
-		<nl>https://organisatiegegevens.signicat.dev</nl>
+		<en>https://organisatiegegevens.signicat.dev/getauthorization/info</en>
+		<nl>https://organisatiegegevens.signicat.dev/getauthorization/info</nl>
 	</IssueURL>
 	<Attributes>
 		<Attribute id="kvkNumber">

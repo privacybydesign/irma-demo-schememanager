@@ -15,8 +15,8 @@
 		<nl>Machtiging voor een organisatie, uitgegeven door een functionaris die geregistreerd staat in het KVK handelsregister</nl>
 	</Description>
 	<IssueURL>
-		<en>https://organisatiegegevens.signicat.dev/getauthorization</en>
-		<nl>https://organisatiegegevens.signicat.dev/getauthorization</nl>
+		<en>https://organisatiegegevens.signicat.dev/getauthorization/infoauthorization</en>
+		<nl>https://organisatiegegevens.signicat.dev/getauthorization/infoauthorization</nl>
 	</IssueURL>
 	<Attributes>
 		<Attribute id="kvkNumber">
