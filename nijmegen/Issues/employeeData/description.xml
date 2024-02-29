@@ -27,8 +27,8 @@
 				<nl>Email</nl>
 			</Name>
 			<Description>
-				<en>Your Gemeente Nijmegen email</en>
-				<nl>Uw Gemeente Nijmegen email</nl>
+				<en>Your Gemeente Nijmegen email address</en>
+				<nl>Uw Gemeente Nijmegen e-mailadres</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="works-for-gemeente-nijmegen" displayIndex="1">
@@ -37,8 +37,8 @@
 				<nl>Werkt voor Gemeente Nijmegen</nl>
 			</Name>
 			<Description>
-				<en>Your Gemeente Nijmegen email</en>
-				<nl>Uw Gemeente Nijmegen email</nl>
+				<en>Works for Gemeente Nijmegen</en>
+				<nl>Werkt voor Gemeente Nijmegen</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
