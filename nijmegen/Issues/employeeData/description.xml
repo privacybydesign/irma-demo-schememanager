@@ -21,7 +21,7 @@
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
 	<Attributes>
-		<Attribute id="initials" displayIndex="0">
+		<Attribute id="email" displayIndex="0">
 			<Name>
 				<en>Email</en>
 				<nl>Email</nl>
@@ -31,7 +31,7 @@
 				<nl>Uw Gemeente Nijmegen email</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="initials" displayIndex="0">
+		<Attribute id="works-for-gemeente-nijmegen" displayIndex="0">
 			<Name>
 				<en>Works for Gemeente Nijmegen</en>
 				<nl>Werkt voor Gemeente Nijmegen</nl>
