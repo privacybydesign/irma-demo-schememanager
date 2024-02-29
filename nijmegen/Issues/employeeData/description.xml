@@ -23,8 +23,8 @@
 	<Attributes>
 		<Attribute id="email" displayIndex="0">
 			<Name>
-				<en>Email</en>
-				<nl>Email</nl>
+				<en>Email address</en>
+				<nl>E-mailadres</nl>
 			</Name>
 			<Description>
 				<en>Your Gemeente Nijmegen email address</en>
