@@ -1,0 +1,45 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Employee data</en>
+		<nl>Demo Personeelsgegevens</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Employee data</en>
+		<nl>Demo Personeelsgegevens</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>employeeData</CredentialID>
+	<Description>
+		<en>Your employee data, from Gemeente Nijmegen</en>
+		<nl>Uw personeelsgegevens, van Gemeente Nijmegen</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.nijmegen.employeeData.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.nijmegen.employeeData.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="initials" displayIndex="0">
+			<Name>
+				<en>Email</en>
+				<nl>Email</nl>
+			</Name>
+			<Description>
+				<en>Your Gemeente Nijmegen email</en>
+				<nl>Uw Gemeente Nijmegen email</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="initials" displayIndex="0">
+			<Name>
+				<en>Works for Gemeente Nijmegen</en>
+				<nl>Werkt voor Gemeente Nijmegen</nl>
+			</Name>
+			<Description>
+				<en>Your Gemeente Nijmegen email</en>
+				<nl>Uw Gemeente Nijmegen email</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
