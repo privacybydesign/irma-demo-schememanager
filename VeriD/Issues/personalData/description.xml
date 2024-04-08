@@ -227,5 +227,16 @@
 				<nl>Het betrouwbaarheidsniveau waarmee je identiteit is vastgesteld</nl>
 			</Description>
 		</Attribute>
+		<Attribute id="guardian"
+			displayIndex="18">
+			<Name>
+				<en>Guardian</en>
+				<nl>Voogd</nl>
+			</Name>
+			<Description>
+				<en>Your guardian(s)</en>
+				<nl>Je voogd(en)</nl>
+			</Description>
+		</Attribute>
 	</Attributes>
 </IssueSpecification>
