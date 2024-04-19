@@ -33,7 +33,7 @@
 		</Attribute>
 		<Attribute id="prefix"
 			displayIndex="1"
-			ptional="true">
+			optional="true">
 			<Name>
 				<en>Prefix</en>
 				<nl>Voorvoegsel</nl>
