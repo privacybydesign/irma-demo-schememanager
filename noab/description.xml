@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>noab</ID>
+	<Name>
+		<en>Demo NOAB</en>
+		<nl>Demo NOAB</nl>
+	</Name>
+	<ShortName>
+		<en>Demo NOAB</en>
+		<nl>Demo NOAB</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ContactAddress>https://noab.nl</ContactAddress>
+	<ContactEMail>info@noab.nl</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>
