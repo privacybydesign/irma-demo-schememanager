@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>tnodemo</ID>
+	<ShortName>
+		<en>Demo TNO</en>
+		<nl>Demo TNO</nl>
+	</ShortName>
+	<Name>
+		<en>Demo TNO</en>
+		<nl>Demo TNO</nl>
+	</Name>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ContactAddress>https://example.org</ContactAddress>
+	<ContactEMail>example@example.org</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>

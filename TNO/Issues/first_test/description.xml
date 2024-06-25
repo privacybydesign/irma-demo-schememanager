@@ -1,0 +1,54 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo for TNO</en>
+		<nl>Demo voor TNO</nl>
+	</Name>
+	<ShortName>
+		<en>Demo for TNO</en>
+		<nl>Demo voor TNO</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>tnodemo</IssuerID>
+	<CredentialID>demofortno</CredentialID>
+	<Description>
+		<en>A short demo to test functionality, to be expanded later</en>
+		<nl>Een kleine demo om de functionaliteit te testen, om later uitgebreid te worden</nl>
+	</Description>
+	<IssueURL>
+		<en>[TBD]</en>
+		<nl>[TBD]</nl>
+	</IssueURL>
+
+	<Attributes>
+		<Attribute id="name">
+			<Name>
+				<en>Name</en>
+				<nl>Naam</nl>
+			</Name>
+			<Description>
+				<en>Your full name</en>
+				<nl>Uw volledige naam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="age">
+			<Name>
+				<en>Age</en>
+				<nl>Leeftijd</nl>
+			</Name>
+			<Description>
+				<en>Your age</en>
+				<nl>Uw leeftijd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dutchCitizen">
+			<Name>
+				<en>Dutch citizen</en>
+				<nl>Nederlandse burger</nl>
+			</Name>
+			<Description>
+				<en>Whether you are a Dutch citizen</en>
+				<nl>Of u een Nederlandse burger bent</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
