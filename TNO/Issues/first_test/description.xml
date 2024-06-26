@@ -8,16 +8,12 @@
 		<nl>Demo voor TNO</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
-	<IssuerID>tnodemo</IssuerID>
-	<CredentialID>demofortno</CredentialID>
+	<IssuerID>TNO</IssuerID>
+	<CredentialID>first_test</CredentialID>
 	<Description>
 		<en>A short demo to test functionality, to be expanded later</en>
 		<nl>Een kleine demo om de functionaliteit te testen, om later uitgebreid te worden</nl>
 	</Description>
-	<IssueURL>
-		<en>[TBD]</en>
-		<nl>[TBD]</nl>
-	</IssueURL>
 
 	<Attributes>
 		<Attribute id="name">
