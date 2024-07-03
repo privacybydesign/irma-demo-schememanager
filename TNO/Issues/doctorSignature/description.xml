@@ -1,0 +1,60 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Doctor signature</en>
+		<nl>Demo Handtekening arts</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Doctor signature</en>
+		<nl>Demo Handtekening arts</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>TNO</IssuerID>
+	<CredentialID>doctorSignature</CredentialID>
+	<Description>
+		<en>The doctor's or dietician's signature approving the dietary preparation</en>
+		<nl>De handtekening van de arts of diëtist ter goedkeuring van het dieetpreparaat</nl>
+	</Description>
+
+	<Attributes>
+		<Attribute id="name">
+			<Name>
+				<en>Name</en>
+				<nl>Naam</nl>
+			</Name>
+			<Description>
+				<en>The doctor's name</en>
+				<nl>De naam van de arts</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="practiceAddress">
+			<Name>
+				<en>Practice address</en>
+				<nl>Praktijkadres</nl>
+			</Name>
+			<Description>
+				<en>The doctor's practice address</en>
+				<nl>Het praktijkadres van de arts</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="phoneNumber">
+			<Name>
+				<en>Phone number</en>
+				<nl>Telefoonnummer</nl>
+			</Name>
+			<Description>
+				<en>The doctor's phone number</en>
+				<nl>Het telefoonnummer van de arts</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="date">
+			<Name>
+				<en>Date</en>
+				<nl>Datum</nl>
+			</Name>
+			<Description>
+				<en>The signature's date</en>
+				<nl>De datum van de handtekening</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

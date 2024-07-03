@@ -1,0 +1,90 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Policyholder Details</en>
+		<nl>Demo Verzekerdegegevens</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Insured Data</en>
+		<nl>Demo Verzekerdegegevens</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>TNO</IssuerID>
+	<CredentialID>policyholderDetails</CredentialID>
+	<Description>
+		<en>Your policyholder details</en>
+		<nl>Uw verzekerdegegevens</nl>
+	</Description>
+
+	<Attributes>
+		<Attribute id="name">
+			<Name>
+				<en>Name</en>
+				<nl>Naam</nl>
+			</Name>
+			<Description>
+				<en>Your full name</en>
+				<nl>Uw volledige naam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="birthDate">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Your date of birth</en>
+				<nl>Uw geboortedatum</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="bsn">
+			<Name>
+				<en>Citizen Service Number</en>
+				<nl>Burgerservicenummer</nl>
+			</Name>
+			<Description>
+				<en>Your Dutch Citizen Service Number, similar to a Social Security Number</en>
+				<nl>Uw Burgerservicenummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="insuranceNumber">
+			<Name>
+				<en>Insurance number</en>
+				<nl>Verzekerdennummer</nl>
+			</Name>
+			<Description>
+				<en>The client number for your health insurance</en>
+				<nl>Het klantennummer voor uw zorgverzekering</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="street">
+			<Name>
+				<en>Street</en>
+				<nl>Straat</nl>
+			</Name>
+			<Description>
+				<en>Your street</en>
+				<nl>Uw straat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="zipcode">
+			<Name>
+				<en>Zip code</en>
+				<nl>Postcode</nl>
+			</Name>
+			<Description>
+				<en>Your zip code</en>
+				<nl>Uw postcode</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="city">
+			<Name>
+				<en>City</en>
+				<nl>Woonplaats</nl>
+			</Name>
+			<Description>
+				<en>Your city of residence</en>
+				<nl>Uw woonplaats</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
