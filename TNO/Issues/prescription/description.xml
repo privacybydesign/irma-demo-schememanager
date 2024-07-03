@@ -1,0 +1,190 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Prescription</en>
+		<nl>Demo Recept</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Prescription</en>
+		<nl>Demo Recept</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>TNO</IssuerID>
+	<CredentialID>prescription</CredentialID>
+	<Description>
+		<en>The doctor's prescription for the dietary preparation</en>
+		<nl>Het doktersrecept voor het dieetpreparaat</nl>
+	</Description>
+
+	<Attributes>
+		<Attribute id="notNormalFood">
+			<Name>
+				<en>Not normal food</en>
+				<nl>Niet normale voeding</nl>
+			</Name>
+			<Description>
+				<en>The insured cannot get by with modified normal food</en>
+				<nl>De verzekerde kan niet uitkomen met aangepaste normale voeding</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="notSpecialFood">
+			<Name>
+				<en>Not special food</en>
+				<nl>Niet bijzondere voeding</nl>
+			</Name>
+			<Description>
+				<en>The insured cannot get by with special food</en>
+				<nl>De verzekerde kan niet uitkomen met andere producten van bijzondere voeding</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="mildAllergyDate">
+			<Name>
+				<en>Date diagnosis mild food allergy</en>
+				<nl>Datum diagnosis milde voedselallergie</nl>
+			</Name>
+			<Description>
+				<en>The date the mild food allergy was diagnosed</en>
+				<nl>De datum waarop de milde voedselallergie is gediagnosticeerd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="mildAllergyEHF">
+			<Name>
+				<en>EHF diagnosis mild food allergy</en>
+				<nl>EHF diagnosis milde voedselallergie</nl>
+			</Name>
+			<Description>
+				<en>Whether the mild food allergy was diagnosed via an elimination-reintroduction phase</en>
+				<nl>Of de milde voedselallergie is gediagnosticeerd middels een eliminatie-herintroductiefase</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="mildAllergySO">
+			<Name>
+				<en>SO diagnosis mild food allergy</en>
+				<nl>SO diagnosis milde voedselallergie</nl>
+			</Name>
+			<Description>
+				<en>Whether the mild food allergy was diagnosed via an sensitization study</en>
+				<nl>Of de milde voedselallergie is gediagnosticeerd middels een sensibilisatieonderzoek</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="mildAllergyVPT">
+			<Name>
+				<en>VPT diagnosis mild food allergy</en>
+				<nl>VPT diagnosis milde voedselallergie</nl>
+			</Name>
+			<Description>
+				<en>Whether the mild food allergy was diagnosed via an food provocation test</en>
+				<nl>Of de milde voedselallergie is gediagnosticeerd middels een voedselprovocatietest</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="severeAllergy">
+			<Name>
+				<en>Severe food allergy</en>
+				<nl>Ernstige voedselallergie</nl>
+			</Name>
+			<Description>
+				<en>The insured suffers from a food allergy with severe symptoms, diagnosed by a medical specialist</en>
+				<nl>De verzekerde lijdt aan een voedselallergie met ernstige klachten, gediagnosticeerd door een medisch specialist</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="severeAllergyDate">
+			<Name>
+				<en>Date diagnosis severe food allergy</en>
+				<nl>Datum diagnosis ernstige voedselallergie</nl>
+			</Name>
+			<Description>
+				<en>The date the severe food allergy was diagnosed</en>
+				<nl>De datum waarop de ernstige voedselallergie is gediagnosticeerd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="resorptionDisorder">
+			<Name>
+				<en>Resorption disorder</en>
+				<nl>Resorptiestoornis</nl>
+			</Name>
+			<Description>
+				<en>The insured suffers from a resorption disorder</en>
+				<nl>De verzekerde lijdt aan een resorptiestoornis</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="metabolicDisorder">
+			<Name>
+				<en>Metabolic disorder</en>
+				<nl>Stofwisselingsstoornis</nl>
+			</Name>
+			<Description>
+				<en>The insured suffers from a metabolic disorder</en>
+				<nl>De verzekerde lijdt aan een stofwisselingsstoornis</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="malnutrition">
+			<Name>
+				<en>Ondervoeding</en>
+				<nl>Malnutrition</nl>
+			</Name>
+			<Description>
+				<en>the insured suffers from disease-related malnutrition, determined via a validated screening instrument, or a risk thereof</en>
+				<nl>De verzekerde lijdt aan een, via een gevalideerd screeningsinstrument vastgestelde, ziekte gerelateerde ondervoeding of een risico daarop</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="preparationDesignated">
+			<Name>
+				<en>Designated to on preparation</en>
+				<nl>Aangewezen op preparaat</nl>
+			</Name>
+			<Description>
+				<en>The insured is, in accordance with the guidelines in the Netherlands accepted by the relevant professional groups, designated to a polymer, oligomer, monomer or modular dietary preparation</en>
+				<nl>De verzekerde is, overeenkomstig de richtlijnen die in Nederland door de desbetreffende beroepsgroepen zijn aanvaard, aangewezen op een polymeer, oligomeer, monomeer of modulair dieetpreparaat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="preparationType">
+			<Name>
+				<en>Preparation type</en>
+				<nl>Type preparaat</nl>
+			</Name>
+			<Description>
+				<en>The type of the dietary preparation</en>
+				<nl>Het type dieetpreparaat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="preparationDose">
+			<Name>
+				<en>Preparation dose</en>
+				<nl>Dosering preparaat</nl>
+			</Name>
+			<Description>
+				<en>The dose of the dietary preparation</en>
+				<nl>De dosering van het dieetpreparaat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="preparationDuration">
+			<Name>
+				<en>Preparation duration</en>
+				<nl>Duur preparaat</nl>
+			</Name>
+			<Description>
+				<en>The duration of the dietary preparation</en>
+				<nl>De duur van het dieetpreparaat</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="namePrescriber">
+			<Name>
+				<en>Name prescriber</en>
+				<nl>Naam voorschrijver</nl>
+			</Name>
+			<Description>
+				<en>The prescriber's name</en>
+				<nl>De naam van de voorschrijver</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="date">
+			<Name>
+				<en>Date</en>
+				<nl>Datum</nl>
+			</Name>
+			<Description>
+				<en>The date of the prescription</en>
+				<nl>De datum van het recept</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

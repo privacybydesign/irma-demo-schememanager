@@ -1,0 +1,60 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Pharmacist signature</en>
+		<nl>Demo Handtekening apotheker</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Pharmacist signature</en>
+		<nl>Demo Handtekening apotheker</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>TNO</IssuerID>
+	<CredentialID>pharmacistSignature</CredentialID>
+	<Description>
+		<en>The pharmacist's signature confirming the dietary preparation was delivered</en>
+		<nl>De handtekening van de apotheker ter bevestiging van de aflevering van het dieetpreparaat</nl>
+	</Description>
+
+	<Attributes>
+		<Attribute id="deliveryStatus">
+			<Name>
+				<en>Delivery status</en>
+				<nl>Afgeleverstatus</nl>
+			</Name>
+			<Description>
+				<en>Whether the dietary preparation was delivered, and whether it is delivered at the expense of the insurer</en>
+				<nl>Of het dieetpreparaat is afgeleverd, en of het ten laste van de verzekeraar is afgelevered</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="agb">
+			<Name>
+				<en>AGB code</en>
+				<nl>AGB-code</nl>
+			</Name>
+			<Description>
+				<en>The pharmacy's AGB code (General Data Management Healthcare Providers)</en>
+				<nl>De AGB-code (Algemeen Gegevensbeheer Zorgverleners) van de apotheek</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="date">
+			<Name>
+				<en>Date</en>
+				<nl>Datum</nl>
+			</Name>
+			<Description>
+				<en>The delivery's date</en>
+				<nl>De datum van de aflevering</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="name">
+			<Name>
+				<en>Name</en>
+				<nl>Naam</nl>
+			</Name>
+			<Description>
+				<en>The pharmacist's or supplier's name</en>
+				<nl>De naam van de apotheker of leverancier</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
