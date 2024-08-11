@@ -1,0 +1,175 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo International Motor Insurance Certificate (green card)</en>
+		<nl>Demo International Motor Insurance Certificate (groene kaart)</nl>
+	</Name>
+	<ShortName>
+		<en>IMIC</en>
+		<nl>IMIC</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>imic</CredentialID>
+	<Description>
+		<en>Your proof of car insurance</en>
+		<nl>Je bewijs van autoverzekering</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.imic.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.imic.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="customerNumber">
+			<Name>
+				<en>Customer number</en>
+				<nl>Klantnummer</nl>
+			</Name>
+			<Description>
+				<en>Serial and Policy number</en>
+				<nl>Serie- en Polisnummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="policyNumber">
+			<Name>
+				<en>Serial and Policy number</en>
+				<nl>Serie- en Polisnummer</nl>
+			</Name>
+			<Description>
+				<en>Serial and Policy number</en>
+				<nl>Serie- en Polisnummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="issuedUnderTheAuthorityOf">
+			<Name>
+				<en>Authority</en>
+				<nl>Gezag</nl>
+			</Name>
+			<Description>
+				<en>Issued under the authority of</en>
+				<nl>Uitgegeven op het gezag van</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="coverageStartDate">
+			<Name>
+				<en>Valid from</en>
+				<nl>Geldig vanaf</nl>
+			</Name>
+			<Description>
+				<en>Your insurance is valid from this date</en>
+				<nl>Je verzekering is geldig vanaf deze datum</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="coverageEndDate">
+			<Name>
+				<en>Valid to</en>
+				<nl>Geldig tot en met</nl>
+			</Name>
+			<Description>
+				<en>Your insurance is valid to this date</en>
+				<nl>Je verzekering is geldig tot en met deze datum</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="countryCodeInsurer">
+			<Name>
+				<en>Country code issuer</en>
+				<nl>Landcode verzekeraar</nl>
+			</Name>
+			<Description>
+				<en>Country code issuer</en>
+				<nl>Landcode verzekeraar</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleRegistrationnNumber">
+			<Name>
+				<en>Vehicle registration number</en>
+				<nl>Voortuig registratie nummer</nl>
+			</Name>
+			<Description>
+				<en>Vehicle registration number</en>
+				<nl>Voortuig registratie nummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleCategory">
+			<Name>
+				<en>Category of vehicle</en> registration
+				<nl>Soort motorrijtuig</nl>
+			</Name>
+			<Description>
+				<en>Category of vehicle</en>
+				<nl>Soort motorrijtuig</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleCategoryDescription">
+			<Name>
+				<en>Description of vehicle category</en>
+				<nl>Omschrijving soort motorrijtuig</nl>
+			</Name>
+			<Description>
+				<en>Description of vehicle category</en>
+				<nl>Omschrijving soort motorrijtuig</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleMake">
+			<Name>
+				<en>Make of vehicle</en>
+				<nl>Merk motorrijtuig</nl>
+			</Name>
+			<Description>
+				<en>Make of vehicle</en>
+				<nl>Merk motorrijtuig</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleModel"
+			optional="true">
+			<Name>
+				<en>Model of vehicle</en>
+				<nl>Model motorrijtuig</nl>
+			</Name>
+			<Description>
+				<en>Model of vehicle</en>
+				<nl>Model motorrijtuig</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="coverageAreas">
+			<Name>
+				<en>Coverage areas</en>
+				<nl>Dekkingsgebied</nl>
+			</Name>
+			<Description>
+				<en>Coverage areas</en>
+				<nl>Dekkingsgebied</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="policyholderName">
+			<Name>
+				<en>Policyholder name</en>
+				<nl>Naam verzekerde</nl>
+			</Name>
+			<Description>
+				<en>Name of the policyholder</en>
+				<nl>Naam van de verzekerde</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="policyholderAddress">
+			<Name>
+				<en>Policyholder address</en>
+				<nl>Adres verzekerde</nl>
+			</Name>
+			<Description>
+				<en>Address of the policyholder</en>
+				<nl>Adres van de verzekerde</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="issuer">
+			<Name>
+				<en>Card issuer</en>
+				<nl>Kaart uitgegeven door</nl>
+			</Name>
+			<Description>
+				<en>This insurance has been issued by</en>
+				<nl>Deze verzekering is afgegeven door</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
