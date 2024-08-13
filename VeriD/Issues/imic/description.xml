@@ -80,7 +80,7 @@
 				<nl>Landcode verzekeraar</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="vehicleRegistrationnNumber">
+		<Attribute id="vehicleRegistrationNumber">
 			<Name>
 				<en>Vehicle registration number</en>
 				<nl>Voortuig registratie nummer</nl>
