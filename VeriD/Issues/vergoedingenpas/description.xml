@@ -1,0 +1,99 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Benefits card</en>
+		<nl>Demo Vergoedingenpas</nl>
+	</Name>
+	<ShortName>
+		<en>Benefits card</en>
+		<nl>Vergoedingenpas</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>vergoedingenpas</CredentialID>
+	<Description>
+		<en>Demo for an income-related benefits card</en>
+		<nl>Demo voor een inkomens afhankelijke vergoedingenpas</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.vergoedingenpas.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.vergoedingenpas.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="logo"
+			displayHint="portraitPhoto">
+			<Name>
+				<en>logo</en>
+				<nl>logo</nl>
+			</Name>
+			<Description>
+				<en></en>
+				<nl></nl>
+			</Description>
+		</Attribute>
+		<Attribute id="barcode"
+			displayHint="portraitPhoto">
+			<Name>
+				<en>Barcode</en>
+				<nl>Barcode</nl>
+			</Name>
+			<Description>
+				<en></en>
+				<nl></nl>
+			</Description>
+		</Attribute>
+		<Attribute id="region">
+			<Name>
+				<en>Region</en>
+				<nl>Regio</nl>
+			</Name>
+			<Description>
+				<en>Region where this card is valid</en>
+				<nl>Regio waar deze kaart geldig is</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="postalcode">
+			<Name>
+				<en>Postalcode</en>
+				<nl>Postcode</nl>
+			</Name>
+			<Description>
+				<en>Postalcode of the card holder</en>
+				<nl>Postcode van de kaarthouder</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="over18"
+			displayHint="yesno">
+			<Name>
+				<en>Over 18</en>
+				<nl>Ouder dan 18</nl>
+			</Name>
+			<Description>
+				<en>Whether you are over 18</en>
+				<nl>Of je ouder dan 18 bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="over65"
+			displayHint="yesno">
+			<Name>
+				<en>Over 65</en>
+				<nl>Ouder dan 65</nl>
+			</Name>
+			<Description>
+				<en>Whether you are over 65</en>
+				<nl>Of je ouder dan 65 bent</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="photo"
+			displayHint="portraitPhoto">
+			<Name>
+				<en>Passport photo</en>
+				<nl>Pasfoto</nl>
+			</Name>
+			<Description>
+				<en></en>
+				<nl></nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
