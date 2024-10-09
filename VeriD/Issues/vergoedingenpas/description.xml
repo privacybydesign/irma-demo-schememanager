@@ -21,7 +21,8 @@
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>
 		<Attribute id="logo"
-			displayHint="portraitPhoto">
+			displayHint="portraitPhoto"
+			optional="true">
 			<Name>
 				<en>logo</en>
 				<nl>logo</nl>
@@ -32,7 +33,8 @@
 			</Description>
 		</Attribute>
 		<Attribute id="barcode"
-			displayHint="portraitPhoto">
+			displayHint="portraitPhoto"
+			optional="true">
 			<Name>
 				<en>Barcode</en>
 				<nl>Barcode</nl>
@@ -63,7 +65,8 @@
 			</Description>
 		</Attribute>
 		<Attribute id="over18"
-			displayHint="yesno">
+			displayHint="yesno"
+			optional="true">
 			<Name>
 				<en>Over 18</en>
 				<nl>Ouder dan 18</nl>
@@ -74,7 +77,8 @@
 			</Description>
 		</Attribute>
 		<Attribute id="over65"
-			displayHint="yesno">
+			displayHint="yesno"
+			optional="true">
 			<Name>
 				<en>Over 65</en>
 				<nl>Ouder dan 65</nl>
@@ -85,7 +89,8 @@
 			</Description>
 		</Attribute>
 		<Attribute id="photo"
-			displayHint="portraitPhoto">
+			displayHint="portraitPhoto"
+			optional="true">
 			<Name>
 				<en>Passport photo</en>
 				<nl>Pasfoto</nl>
