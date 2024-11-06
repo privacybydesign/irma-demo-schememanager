@@ -1,0 +1,79 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Status Education Implementation Service</en>
+		<nl>Demo Status Dienst Uitvoering Onderwijs</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Status DUO</en>
+		<nl>Demo Status DUO</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>duo-status</CredentialID>
+	<Description>
+		<en>Demo Status Education Implementation Service</en>
+		<nl>Demo Dienst Uitvoering Onderwijs, je actuele status bij duo</nl>
+	</Description>
+	<IssueURL>
+		<en>https://verid-duo.framer.website/</en>
+		<nl>https://verid-duo.framer.website/</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="studentFinance"
+			optional="true">
+			<Name>
+				<en>Student finance</en>
+				<nl>Studiefinanciering</nl>
+			</Name>
+			<Description>
+				<en>Travel product</en>
+				<nl>Studiefinanciering</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="travelProduct"
+			optional="true">
+			<Name>
+				<en>Travel product</en>
+				<nl>Reisproduct</nl>
+			</Name>
+			<Description>
+				<en>Travel product</en>
+				<nl>Reisproduct</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="travelProduct"
+			optional="true">
+			<Name>
+				<en>Student finance</en>
+				<nl>Reisproduct</nl>
+			</Name>
+			<Description>
+				<en>Travel product</en>
+				<nl>Reisproduct</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="performanceGrant"
+			optional="true">
+			<Name>
+				<en>Performance grant</en>
+				<nl>Prestatiebeurs</nl>
+			</Name>
+			<Description>
+				<en>Performance grant</en>
+				<nl>Prestatiebeurs</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="studentDebt"
+			optional="true">
+			<Name>
+				<en>Student debt</en>
+				<nl>Studieschuld</nl>
+			</Name>
+			<Description>
+				<en>Student debt</en>
+				<nl>Studieschuld</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
