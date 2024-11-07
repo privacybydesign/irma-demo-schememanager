@@ -9,7 +9,7 @@
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>VeriD</IssuerID>
-	<CredentialID>duo-status</CredentialID>
+	<CredentialID>duoStatus</CredentialID>
 	<Description>
 		<en>Demo Status Education Implementation Service</en>
 		<nl>Demo Dienst Uitvoering Onderwijs, je actuele status bij duo</nl>
