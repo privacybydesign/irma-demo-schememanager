@@ -1,0 +1,66 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Actual Wage (UWV)</en>
+		<nl>Demo Acteel Loon (UWV)</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Actual Wage (UWV)</en>
+		<nl>Demo Acteel Loon (UWV)</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>actualWage</CredentialID>
+	<Description>
+		<en>Demo Actual Wage (UWV)</en>
+		<nl>Demo Acteel Loon (UWV)</nl>
+	</Description>
+	<IssueURL>
+		<en>https://verid-uwv.framer.website/</en>
+		<nl>https://verid-uwv.framer.website/</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="wage">
+			<Name>
+				<en>Wage</en>
+				<nl>Loon (SV)</nl>
+			</Name>
+			<Description>
+				<en>Your current wage</en>
+				<nl>Je actuele loon</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="period">
+			<Name>
+				<en>Period</en>
+				<nl>Periode</nl>
+			</Name>
+			<Description>
+				<en>The period of the wage</en>
+				<nl>De periode van het loon</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="kind"
+			optional="true">
+			<Name>
+				<en>Kind</en>
+				<nl>Soort loon</nl>
+			</Name>
+			<Description>
+				<en>What kind of wage is it?</en>
+				<nl>Wat voor loon is het?</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="range"
+			optional="true">
+			<Name>
+				<en>Range</en>
+				<nl>Bereik</nl>
+			</Name>
+			<Description>
+				<en>What range is the wage in?</en>
+				<nl>In welk bereik valt het loon?</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
