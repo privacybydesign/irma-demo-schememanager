@@ -34,7 +34,7 @@
 		<Attribute id="travelProduct"
 			optional="true">
 			<Name>
-				<en>Student finance</en>
+				<en>Travel product</en>
 				<nl>Reisproduct</nl>
 			</Name>
 			<Description>
