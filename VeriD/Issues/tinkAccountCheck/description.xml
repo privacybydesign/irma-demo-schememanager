@@ -1,0 +1,86 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo TINK Bank Account Check</en>
+		<nl>Demo TINK Bank Account Check</nl>
+	</Name>
+	<ShortName>
+		<en>Demo TINK Bank Account Check</en>
+		<nl>Demo TINK Bank Account Check</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>tinkAccountCheck</CredentialID>
+	<Description>
+		<en>Demo TINK Bank Account Check</en>
+		<nl>Demo TINK Bank Account Check</nl>
+	</Description>
+	<IssueURL>
+		<en>https://verid-tink.framer.website/</en>
+		<nl>https://verid-tink.framer.website/</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="accountNumber">
+			<Name>
+				<en>Account number</en>
+				<nl>Rekeningnummer</nl>
+			</Name>
+			<Description>
+				<en>Account number</en>
+				<nl>Rekeningnummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="IBAN">
+			<Name>
+				<en>IBAN</en>
+				<nl>IBAN</nl>
+			</Name>
+			<Description>
+				<en>IBAN</en>
+				<nl>IBAN</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="holderName">
+			<Name>
+				<en>Holder name</en>
+				<nl>Naam houder</nl>
+			</Name>
+			<Description>
+				<en>Name of the account holder</en>
+				<nl>Naam van de rekeninghouder</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="currencyCode">
+			<Name>
+				<en>Currency code</en>
+				<nl>Valutacode</nl>
+			</Name>
+			<Description>
+				<en>Currency code</en>
+				<nl>Valutacode</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="parties"
+			optional="true">
+			<Name>
+				<en>Parties</en>
+				<nl>Partijen</nl>
+			</Name>
+			<Description>
+				<en>Parties related to this account</en>
+				<nl>Partijen die zijn gerelateerd aan deze rekening</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="name"
+			optional="true">
+			<Name>
+				<en>Accountname</en>
+				<nl>Rekeningnaam</nl>
+			</Name>
+			<Description>
+				<en>Name of the account</en>
+				<nl>Naam van de rekening</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
