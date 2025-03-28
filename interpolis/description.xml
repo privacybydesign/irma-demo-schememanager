@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>interpolis</ID>
+	<ShortName>
+		<en>Demo Interpolis</en>
+		<nl>Demo Interpolis</nl>
+	</ShortName>
+	<Name>
+		<en>Demo Interpolis</en>
+		<nl>Demo Interpolis</nl>
+	</Name>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ContactAddress>https://interpolis.nl</ContactAddress>
+	<ContactEMail>info@interpolis.nl</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>
