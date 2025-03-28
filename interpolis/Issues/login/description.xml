@@ -15,8 +15,8 @@
 		<nl>Attributes required for logging in at Interpolis</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.interpolis.login.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.interpolis.login.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.interpolis.login.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.interpolis.login.html</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
