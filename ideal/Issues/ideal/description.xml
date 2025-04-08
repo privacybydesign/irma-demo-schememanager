@@ -15,8 +15,8 @@
 		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDeal.</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.ideal.ideal.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.ideal.ideal.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.ideal.ideal.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.ideal.ideal.html</nl>
 	</IssueURL>
 
 	<Attributes>

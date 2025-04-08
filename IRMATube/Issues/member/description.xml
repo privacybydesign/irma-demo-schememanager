@@ -15,8 +15,8 @@
 		<nl>Uw IRMATube lidmaatschapsattributen</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.IRMATube.member.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.IRMATube.member.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.IRMATube.member.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.IRMATube.member.html</nl>
 	</IssueURL>
 
 	<Attributes>

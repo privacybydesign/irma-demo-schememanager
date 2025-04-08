@@ -15,8 +15,8 @@
 		<nl>Gebiedonline buurt en plaats</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.locality.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/en/irma-demo.gebiedonline.locality.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.gebiedonline.locality.html</en>
+		<nl>https://attribute-index.yivi.app/en/irma-demo.gebiedonline.locality.html</nl>
 	</IssueURL>
 
 	<Attributes>

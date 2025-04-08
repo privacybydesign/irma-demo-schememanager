@@ -15,8 +15,8 @@
 		<nl>Vektis agb attributen uitgegeven door Nuts.</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.nuts.agb.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.nuts.agb.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.nuts.agb.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.nuts.agb.html</nl>
 	</IssueURL>
 
 	<Attributes>

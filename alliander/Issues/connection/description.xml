@@ -15,8 +15,8 @@
 		<nl>Identificatienummers (EAN) voor uw electriciteits- en gasaansluiting. Zie https://www.eancodeboek.nl/</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.alliander.connection.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.alliander.connection.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.alliander.connection.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.alliander.connection.html</nl>
 	</IssueURL>
 
 	<Attributes>

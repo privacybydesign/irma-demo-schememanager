@@ -15,8 +15,8 @@
     <nl>Uw voucher voor een toeslag</nl>
   </Description>
   <IssueURL>
-    <en>https://privacybydesign.foundation/attribute-index/en/irma-demo.tweedegolf.regelregister.html</en>
-    <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.tweedegolf.regelregister.html</nl>
+    <en>https://attribute-index.yivi.app/en/irma-demo.tweedegolf.regelregister.html</en>
+    <nl>https://attribute-index.yivi.app/nl/irma-demo.tweedegolf.regelregister.html</nl>
   </IssueURL>
   <ShouldBeSingleton>false</ShouldBeSingleton>
 
