@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.pbdf.linkedin.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.pbdf.linkedin.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.pbdf.linkedin.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.pbdf.linkedin.html</nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>

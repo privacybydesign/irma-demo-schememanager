@@ -15,8 +15,8 @@
     <nl>Login credential for coronameting.nl</nl>
   </Description>
   <IssueURL>
-    <en>https://privacybydesign.foundation/attribute-index/en/irma-demo.coronameting.login.html</en>
-    <nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.coronameting.login.html</nl>
+    <en>https://attribute-index.yivi.app/en/irma-demo.coronameting.login.html</en>
+    <nl>https://attribute-index.yivi.app/nl/irma-demo.coronameting.login.html</nl>
   </IssueURL>
 
   <Attributes>

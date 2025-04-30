@@ -1,6 +1,6 @@
 <SchemeManager version="7">
 	<Id>irma-demo</Id>
-	<Url>https://privacybydesign.foundation/schememanager/irma-demo</Url>
+	<Url>https://schemes.yivi.app/irma-demo</Url>
 	<Demo>true</Demo>
 	<Name>
 		<en>IRMA Demo</en>

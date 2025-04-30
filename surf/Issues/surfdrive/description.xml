@@ -15,8 +15,8 @@
 		<nl>Uw SURFdrive licentie, waarmee u in kunt loggen op SURFdrive</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.surf.surfdrive.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.surf.surfdrive.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.surf.surfdrive.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.surf.surfdrive.html</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 

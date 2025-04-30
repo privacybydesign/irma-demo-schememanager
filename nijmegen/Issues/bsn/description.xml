@@ -15,8 +15,8 @@
 		<nl>Uw Burgerservicenummer (BSN), afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.nijmegen.bsn.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.nijmegen.bsn.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.bsn.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.bsn.html</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
