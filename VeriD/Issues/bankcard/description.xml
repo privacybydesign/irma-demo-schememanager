@@ -1,0 +1,86 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Debit Card</en>
+		<nl>Demo Bankpas</nl>
+	</Name>
+	<ShortName>
+		<en>Debit Card</en>
+		<nl>Bankpas</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>bankcard</CredentialID>
+	<Description>
+		<en>Demo debit card for eIDAS bank</en>
+		<nl>Demo bankpas voor eIDAS bank</nl>
+	</Description>
+	<IssueURL>
+		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.VeriD.debitCard.html</en>
+		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.VeriD.debitCard.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="logo"
+			displayHint="portraitPhoto"
+			optional="true">
+			<Name>
+				<en>Logo</en>
+				<nl>Logo</nl>
+			</Name>
+			<Description>
+				<en>Bank logo</en>
+				<nl>Bank logo</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="accountNumber">
+			<Name>
+				<en>Account Number</en>
+				<nl>Rekeningnummer</nl>
+			</Name>
+			<Description>
+				<en>Number of the bank account</en>
+				<nl>Nummer van de bankrekening</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="cardNumber">
+			<Name>
+				<en>Card Number</en>
+				<nl>Kaartnummer</nl>
+			</Name>
+			<Description>
+				<en>Number of the bank card</en>
+				<nl>Nummer van de bankkaart</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="cardHolderName">
+			<Name>
+				<en>Cardholder name</en>
+				<nl>Kaarthouder naam</nl>
+			</Name>
+			<Description>
+				<en>Name of the card holder</en>
+				<nl>Naam van de kaarthouder</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="expirationDate">
+			<Name>
+				<en>Expiration Date</en>
+				<nl>Vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiration date of the bank card</en>
+				<nl>Vervaldatum van de bankpas</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="issuerInfo">
+			<Name>
+				<en>Issuer Information</en>
+				<nl>Uitgever Informatie</nl>
+			</Name>
+			<Description>
+				<en>Information about the card issuing bank</en>
+				<nl>Informatie over de uitgevende bank</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
