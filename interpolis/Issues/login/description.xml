@@ -1,0 +1,35 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Interpolis Login</en>
+		<nl>Demo Interpolis Login</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Interpolis Login</en>
+		<nl>Demo Interpolis Login</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>interpolis</IssuerID>
+	<CredentialID>login</CredentialID>
+	<Description>
+		<en>Attributen benodigd voor het inloggen bij Interpolis</en>
+		<nl>Attributes required for logging in at Interpolis</nl>
+	</Description>
+	<IssueURL>
+		<en>https://attribute-index.yivi.app/en/irma-demo.interpolis.login.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.interpolis.login.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="identifier">
+			<Name>
+				<en>Identifier</en>
+				<nl>Identifier</nl>
+			</Name>
+			<Description>
+				<en>Unique identifier for Interpolis</en>
+				<nl>Unieke identifier voor Interpolis</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

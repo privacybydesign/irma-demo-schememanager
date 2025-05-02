@@ -15,8 +15,8 @@
 		<nl>Demo Rijbewijs</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.MijnOverheid.drivinglicense.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.MijnOverheid.drivinglicense.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.MijnOverheid.drivinglicense.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.MijnOverheid.drivinglicense.html</nl>
 	</IssueURL>
 
 	<Attributes>

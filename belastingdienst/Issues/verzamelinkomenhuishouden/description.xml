@@ -15,8 +15,8 @@
 		<nl>Het verzamelinkomen van uw huishouden, zoals bekend bij de Belastingdienst</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.belastingdienst.verzamelinkomenhuishouden.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.belastingdienst.verzamelinkomenhuishouden.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.belastingdienst.verzamelinkomenhuishouden.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.belastingdienst.verzamelinkomenhuishouden.html</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 

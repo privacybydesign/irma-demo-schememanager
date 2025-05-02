@@ -15,8 +15,8 @@
 		<nl>Demo Virtueel Inkomstenloket (VIL) die gebruik maakt van Regel Services</nl>
 	</Description>
 	<IssueURL>
-		<en>https://privacybydesign.foundation/attribute-index/en/irma-demo.discipl.demoVIL.html</en>
-		<nl>https://privacybydesign.foundation/attribute-index/nl/irma-demo.discipl.demoVIL.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.discipl.demoVIL.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.discipl.demoVIL.html</nl>
 	</IssueURL>
 
 	<Attributes>
