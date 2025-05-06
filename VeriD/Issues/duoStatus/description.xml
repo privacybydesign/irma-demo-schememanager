@@ -20,6 +20,17 @@
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<Attributes>
+		<Attribute id="student"
+			optional="false">
+			<Name>
+				<en>Are you a student</en>
+				<nl>Ben je een student?</nl>
+			</Name>
+			<Description>
+				<en>Are you a student</en>
+				<nl>Ben je een student?</nl>
+			</Description>
+		</Attribute>
 		<Attribute id="studentFinance"
 			optional="true">
 			<Name>
