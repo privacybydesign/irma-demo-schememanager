@@ -1,0 +1,86 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo mandate (Central Mandates Register)</en>
+		<nl>Demo machtiging (Centraal Machtigingen Register)</nl>
+	</Name>
+	<ShortName>
+		<en>Demo guardianship (Central Mandates Register)</en>
+		<nl>Demo machtiging (Centraal Machtigingen Register)</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>mandate</CredentialID>
+	<Description>
+		<en>Demo mandate (Central Mandates Register)</en>
+		<nl>Demo machtiging (Centraal Machtigingen Register)</nl>
+	</Description>
+	<IssueURL>
+		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.mandate.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.mandate.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="mandator_bsn">
+			<Name>
+				<en>BSN number of mandator</en>
+				<nl>BSN nummer machtgever</nl>
+			</Name>
+			<Description>
+				<en>BSN number of mandator</en>
+				<nl>BSN nummer machtgever</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="mandatary_bsn">
+			<Name>
+				<en>BSN number of mandatary</en>
+				<nl>BSN nummer gemachtigde</nl>
+			</Name>
+			<Description>
+				<en>BSN number of mandatary</en>
+				<nl>BSN nummer gemachtigde</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="scope">
+			<Name>
+				<en>Scope of mandate</en>
+				<nl>Reikwijdte machtiging</nl>
+			</Name>
+			<Description>
+				<en>Scope of mandate</en>
+				<nl>Reikwijdte van de machtiging</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="type">
+			<Name>
+				<en>Kind of mandate</en>
+				<nl>Soort machtiging</nl>
+			</Name>
+			<Description>
+				<en>Kind of mandate, onetime use or for a specific period</en>
+				<nl>Soort machtiging, eenmalig of voor bepaalde tijd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="end_date"
+			optional="true">
+			<Name>
+				<en>End date of mandatary</en>
+				<nl>Einddatum machtiging</nl>
+			</Name>
+			<Description>
+				<en>End date of mandatary</en>
+				<nl>Einddatum machtiging</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="kvk_number"
+			optional="true">
+			<Name>
+				<en>KVK number of mandatary</en>
+				<nl>KVK nummer gemachtigde</nl>
+			</Name>
+			<Description>
+				<en>KVK number of mandatary</en>
+				<nl>KVK nummer gemachtigde</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
