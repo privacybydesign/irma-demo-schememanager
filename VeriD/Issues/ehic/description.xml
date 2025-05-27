@@ -1,0 +1,94 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo European Health Insurance Card</en>
+		<nl>Demo European Health Insurance Card</nl>
+	</Name>
+	<ShortName>
+		<en>EHIC</en>
+		<nl>EHIC</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>ehic</CredentialID>
+	<Description>
+		<en>The European Health Insurance Card (EHIC) is a European health insurance card that gives access to essential medical care in 34 countries within the public healthcare system.</en>
+		<nl>De European Health Insurance Card (EHIC) is een Europese zorgpas die toegang geeft tot medisch noodzakelijke zorg in 34 landen binnen het publieke ziektekostenstelsel.</nl>
+	</Description>
+	<IssueURL>
+		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.ehic.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.ehic.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="name">
+			<Name>
+				<en>Name</en>
+				<nl>Naam</nl>
+			</Name>
+			<Description>
+				<en>Name of the policyholder</en>
+				<nl>Naam van de verzekerde</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="given_names">
+			<Name>
+				<en>Given names</en>
+				<nl>Voornamen</nl>
+			</Name>
+			<Description>
+				<en>Given names of the policyholder</en>
+				<nl>Voornamen van de verzekerde</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="date_of_birth">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Date of birth of the policyholder</en>
+				<nl>Geboortedatum van de verzekerde</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="personal_identification_number">
+			<Name>
+				<en>Personal identification number</en>
+				<nl>Persoonlijk identificatienummer</nl>
+			</Name>
+			<Description>
+				<en>Personal identification number of the policyholder</en>
+				<nl>Persoonlijk identificatienummer van de verzekerde</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="identification_number_of_the_institution">
+			<Name>
+				<en>Identification number of the institution</en>
+				<nl>Identificatienummer van de instelling</nl>
+			</Name>
+			<Description>
+				<en>Identification number of the institution</en>
+				<nl>Identificatienummer van de instelling</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="identification_number_of_the_card">
+			<Name>
+				<en>Identification number of the card</en>
+				<nl>Identificatienummer van de kaart</nl>
+			</Name>
+			<Description>
+				<en>Identification number of the card</en>
+				<nl>Identificatienummer van de kaart</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="expiry_date">
+			<Name>
+				<en>Expiry date</en>
+				<nl>Vervaldatum</nl>
+			</Name>
+			<Description>
+				<en>Expiry date of the card</en>
+				<nl>Vervaldatum van de kaart</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
