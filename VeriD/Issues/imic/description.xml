@@ -20,6 +20,18 @@
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>
+		<Attribute id="logo"
+			displayHint="portraitPhoto"
+			optional="true">
+			<Name>
+				<en>Logo</en>
+				<nl>Logo</nl>
+			</Name>
+			<Description>
+				<en>Issuer logo</en>
+				<nl>Uitgever logo</nl>
+			</Description>
+		</Attribute>
 		<Attribute id="customerNumber">
 			<Name>
 				<en>Customer number</en>
