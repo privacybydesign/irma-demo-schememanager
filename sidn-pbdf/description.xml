@@ -1,15 +1,15 @@
 <Issuer version="4">
 	<ID>sidn-pbdf</ID>
 	<ShortName>
-		<en>Demo PbDF via SIDN</en>
-		<nl>Demo PbDF via SIDN</nl>
+		<en>Demo Yivi</en>
+		<nl>Demo Yivi</nl>
 	</ShortName>
 	<Name>
-		<en>Demo Privacy by Design Foundation via SIDN</en>
-		<nl>Demo Stichting Privacy by Design via SIDN</nl>
+		<en>Demo Yivi</en>
+		<nl>Demo Yivi</nl>
 	</Name>
 	<SchemeManager>irma-demo</SchemeManager>
-	<ContactAddress>https://www.sidn.nl</ContactAddress>
-	<ContactEMail>support@sidn.nl</ContactEMail>
+	<ContactAddress>https://www.yivi.app</ContactAddress>
+	<ContactEMail>support@yivi.app</ContactEMail>
 	<baseURL></baseURL>
 </Issuer>
