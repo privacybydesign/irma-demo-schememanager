@@ -8,15 +8,15 @@
 		<nl>Demo Verklaring van erfrecht</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
-	<IssuerID>nijmegen</IssuerID>
+	<IssuerID>VeriD</IssuerID>
 	<CredentialID>successionCertificate</CredentialID>
 	<Description>
 		<en>Certificate of succession</en>
 		<nl>Verklaring van erfrecht</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.successionCertificate.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.successionCertificate.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.successionCertificate.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.successionCertificate.html</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>
