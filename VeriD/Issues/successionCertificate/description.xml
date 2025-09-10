@@ -121,96 +121,105 @@
 				<nl>Achternaam van de overledene</nl>
 			</Description>
 		</Attribute>
-		<Attributes>
-			<Attribute id="street"
-				displayIndex="9">
-				<Name>
-					<en>Street</en>
-					<nl>Straat</nl>
-				</Name>
-				<Description>
-					<en>Street of the deceased</en>
-					<nl>Straat van de overledene</nl>
-				</Description>
-			</Attribute>
-			<Attribute id="houseNumber"
-				displayIndex="10"
-				optional="true">
-				<Name>
-					<en>House number</en>
-					<nl>Huisnummer</nl>
-				</Name>
-				<Description>
-					<en>House number, letter and/or addition of the deceased</en>
-					<nl>Huisnummer, letter en/of toevoeging van de overledene</nl>
-				</Description>
-			</Attribute>
-			<Attribute id="zipcode"
-				displayIndex="11">
-				<Name>
-					<en>Zip code</en>
-					<nl>Postcode</nl>
-				</Name>
-				<Description>
-					<en>Zip code of the deceased</en>
-					<nl>Postcode van de overledene</nl>
-				</Description>
-			</Attribute>
-			<Attribute id="municipality"
-				displayIndex="12">
-				<Name>
-					<en>Municipality</en>
-					<nl>Gemeente</nl>
-				</Name>
-				<Description>
-					<en>Municipality of the deceased</en>
-					<nl>Gemeente van de overledene</nl>
-				</Description>
-			</Attribute>
-			<Attribute id="city"
-				displayIndex="13">
-				<Name>
-					<en>City</en>
-					<nl>Woonplaats</nl>
-				</Name>
-				<Description>
-					<en>City of residence of the deceased</en>
-					<nl>Woonplaats van de overledene</nl>
-				</Description>
-			</Attribute>
-			<Attribute id="will"
-				displayIndex="14">
-				<Name>
-					<en>Is there a will?</en>
-					<nl>Is er een testament?</nl>
-				</Name>
-				<Description>
-					<en>Is there a will?</en>
-					<nl>Is er een testament?</nl>
-				</Description>
-			</Attribute>
-			<Attribute id="heirs"
-				displayIndex="15">
-				<Name>
-					<en>Heirs</en>
-					<nl>Erfgenamen</nl>
-				</Name>
-				<Description>
-					<en>Heirs of the deceased</en>
-					<nl>Erfgenamen van de overledene</nl>
-				</Description>
-			</Attribute>
-			<Attribute id="executor"
-				displayIndex="16">
-				<Name>
-					<en>Executor</en>
-					<nl>Executeur</nl>
-				</Name>
-				<Description>
-					<en>Executor of the deceased</en>
-					<nl>Executeur van de overledene</nl>
-				</Description>
-			</Attribute>
-		</Attributes>
+		<Attribute id="street"
+			displayIndex="9">
+			<Name>
+				<en>Street</en>
+				<nl>Straat</nl>
+			</Name>
+			<Description>
+				<en>Street of the deceased</en>
+				<nl>Straat van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="housenumber"
+			displayIndex="10"
+			optional="true">
+			<Name>
+				<en>House number</en>
+				<nl>Huisnummer</nl>
+			</Name>
+			<Description>
+				<en>House number, letter and/or addition of the deceased</en>
+				<nl>Huisnummer, letter en/of toevoeging van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="zipcode"
+			displayIndex="11">
+			<Name>
+				<en>Zip code</en>
+				<nl>Postcode</nl>
+			</Name>
+			<Description>
+				<en>Zip code of the deceased</en>
+				<nl>Postcode van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="municipality"
+			displayIndex="12">
+			<Name>
+				<en>Municipality</en>
+				<nl>Gemeente</nl>
+			</Name>
+			<Description>
+				<en>Municipality of the deceased</en>
+				<nl>Gemeente van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="city"
+			displayIndex="13">
+			<Name>
+				<en>City</en>
+				<nl>Woonplaats</nl>
+			</Name>
+			<Description>
+				<en>City of residence of the deceased</en>
+				<nl>Woonplaats van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="will"
+			displayIndex="14">
+			<Name>
+				<en>Is there a will?</en>
+				<nl>Is er een testament?</nl>
+			</Name>
+			<Description>
+				<en>Is there a will?</en>
+				<nl>Is er een testament?</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="heirs"
+			displayIndex="15">
+			<Name>
+				<en>Heirs</en>
+				<nl>Erfgenamen</nl>
+			</Name>
+			<Description>
+				<en>Heirs of the deceased</en>
+				<nl>Erfgenamen van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="executor"
+			displayIndex="16">
+			<Name>
+				<en>Executor</en>
+				<nl>Executeur</nl>
+			</Name>
+			<Description>
+				<en>Executor of the deceased</en>
+				<nl>Executeur van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="issuancedate"
+			displayIndex="17">
+			<Name>
+				<en>Issuance date</en>
+				<nl>Datum van afgifte</nl>
+			</Name>
+			<Description>
+				<en>Issuance date of the succession certificate</en>
+				<nl>Datum van afgifte</nl>
+			</Description>
+		</Attribute>
 	</Attributes>
 </IssueSpecification>
