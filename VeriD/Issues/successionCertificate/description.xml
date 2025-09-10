@@ -1,0 +1,216 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Certificate of succession</en>
+		<nl>Demo Verklaring van erfrecht</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Certificate of succession</en>
+		<nl>Demo Verklaring van erfrecht</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>successionCertificate</CredentialID>
+	<Description>
+		<en>Certificate of succession</en>
+		<nl>Verklaring van erfrecht</nl>
+	</Description>
+	<IssueURL>
+		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.successionCertificate.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.successionCertificate.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="initials"
+			displayIndex="0">
+			<Name>
+				<en>Initials</en>
+				<nl>Voorletters</nl>
+			</Name>
+			<Description>
+				<en>Initials of the deceased</en>
+				<nl>Voorletters van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="firstnames"
+			displayIndex="1">
+			<Name>
+				<en>First names</en>
+				<nl>Voornamen</nl>
+			</Name>
+			<Description>
+				<en>First names of the deceased</en>
+				<nl>Voornamen van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="prefix"
+			optional="true"
+			displayIndex="2">
+			<Name>
+				<en>Prefix</en>
+				<nl>Voorvoegsel</nl>
+			</Name>
+			<Description>
+				<en>Prefix of the deceased's family name</en>
+				<nl>Voorvoegsel van de overledene's achternaam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="familyname"
+			displayIndex="3">
+			<Name>
+				<en>Family name</en>
+				<nl>Geslachtsnaam</nl>
+			</Name>
+			<Description>
+				<en>Family name of the deceased</en>
+				<nl>Achternaam van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="fullname"
+			optional="true"
+			displayIndex="4">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Full name of the deceased</en>
+				<nl>Volledige naam van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateofbirth"
+			displayIndex="5">
+			<Name>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Name>
+			<Description>
+				<en>Date of birth</en>
+				<nl>Geboortedatum</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateofdeath"
+			displayIndex="6">
+			<Name>
+				<en>Date of death</en>
+				<nl>Overlijdensdatum</nl>
+			</Name>
+			<Description>
+				<en>Date of death</en>
+				<nl>Overlijdensdatum</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="gender"
+			displayIndex="7">
+			<Name>
+				<en>Gender</en>
+				<nl>Geslacht</nl>
+			</Name>
+			<Description>
+				<en>Gender of the deceased</en>
+				<nl>Geslacht van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="surname"
+			displayIndex="8">
+			<Name>
+				<en>Surname</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Family name of the deceased</en>
+				<nl>Achternaam van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attributes>
+			<Attribute id="street"
+				displayIndex="9">
+				<Name>
+					<en>Street</en>
+					<nl>Straat</nl>
+				</Name>
+				<Description>
+					<en>Street of the deceased</en>
+					<nl>Straat van de overledene</nl>
+				</Description>
+			</Attribute>
+			<Attribute id="houseNumber"
+				displayIndex="10"
+				optional="true">
+				<Name>
+					<en>House number</en>
+					<nl>Huisnummer</nl>
+				</Name>
+				<Description>
+					<en>House number, letter and/or addition of the deceased</en>
+					<nl>Huisnummer, letter en/of toevoeging van de overledene</nl>
+				</Description>
+			</Attribute>
+			<Attribute id="zipcode"
+				displayIndex="11">
+				<Name>
+					<en>Zip code</en>
+					<nl>Postcode</nl>
+				</Name>
+				<Description>
+					<en>Zip code of the deceased</en>
+					<nl>Postcode van de overledene</nl>
+				</Description>
+			</Attribute>
+			<Attribute id="municipality"
+				displayIndex="12">
+				<Name>
+					<en>Municipality</en>
+					<nl>Gemeente</nl>
+				</Name>
+				<Description>
+					<en>Municipality of the deceased</en>
+					<nl>Gemeente van de overledene</nl>
+				</Description>
+			</Attribute>
+			<Attribute id="city"
+				displayIndex="13">
+				<Name>
+					<en>City</en>
+					<nl>Woonplaats</nl>
+				</Name>
+				<Description>
+					<en>City of residence of the deceased</en>
+					<nl>Woonplaats van de overledene</nl>
+				</Description>
+			</Attribute>
+			<Attribute id="will"
+				displayIndex="14">
+				<Name>
+					<en>Is there a will?</en>
+					<nl>Is er een testament?</nl>
+				</Name>
+				<Description>
+					<en>Is there a will?</en>
+					<nl>Is er een testament?</nl>
+				</Description>
+			</Attribute>
+			<Attribute id="heirs"
+				displayIndex="15">
+				<Name>
+					<en>Heirs</en>
+					<nl>Erfgenamen</nl>
+				</Name>
+				<Description>
+					<en>Heirs of the deceased</en>
+					<nl>Erfgenamen van de overledene</nl>
+				</Description>
+			</Attribute>
+			<Attribute id="executor"
+				displayIndex="16">
+				<Name>
+					<en>Executor</en>
+					<nl>Executeur</nl>
+				</Name>
+				<Description>
+					<en>Executor of the deceased</en>
+					<nl>Executeur van de overledene</nl>
+				</Description>
+			</Attribute>
+		</Attributes>
+	</Attributes>
+</IssueSpecification>
