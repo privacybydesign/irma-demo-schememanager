@@ -1,22 +1,22 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Demo Death certificate</en>
-		<nl>Demo Overlijdensakte</nl>
+		<en>Demo Certificate of succession</en>
+		<nl>Demo Verklaring van erfrecht</nl>
 	</Name>
 	<ShortName>
-		<en>Demo Death certificate</en>
-		<nl>Demo Overlijdensakte</nl>
+		<en>Demo Certificate of succession</en>
+		<nl>Demo Verklaring van erfrecht</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
-	<IssuerID>nijmegen</IssuerID>
-	<CredentialID>deathCertificate</CredentialID>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>successionCertificate</CredentialID>
 	<Description>
-		<en>Death certificate of the deceased</en>
-		<nl>Overlijdensakte van de overledene</nl>
+		<en>Certificate of succession</en>
+		<nl>Verklaring van erfrecht</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.deathCertificate.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.deathCertificate.html</nl>
+		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.successionCertificate.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.successionCertificate.html</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>
@@ -65,8 +65,20 @@
 				<nl>Achternaam van de overledene</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="dateofbirth"
+		<Attribute id="fullname"
+			optional="true"
 			displayIndex="4">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Full name of the deceased</en>
+				<nl>Volledige naam van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateofbirth"
+			displayIndex="5">
 			<Name>
 				<en>Date of birth</en>
 				<nl>Geboortedatum</nl>
@@ -77,7 +89,7 @@
 			</Description>
 		</Attribute>
 		<Attribute id="dateofdeath"
-			displayIndex="5">
+			displayIndex="6">
 			<Name>
 				<en>Date of death</en>
 				<nl>Overlijdensdatum</nl>
@@ -88,7 +100,7 @@
 			</Description>
 		</Attribute>
 		<Attribute id="gender"
-			displayIndex="6">
+			displayIndex="7">
 			<Name>
 				<en>Gender</en>
 				<nl>Geslacht</nl>
@@ -99,7 +111,7 @@
 			</Description>
 		</Attribute>
 		<Attribute id="surname"
-			displayIndex="7">
+			displayIndex="8">
 			<Name>
 				<en>Surname</en>
 				<nl>Achternaam</nl>
@@ -110,7 +122,7 @@
 			</Description>
 		</Attribute>
 		<Attribute id="street"
-			displayIndex="8">
+			displayIndex="9">
 			<Name>
 				<en>Street</en>
 				<nl>Straat</nl>
@@ -120,8 +132,9 @@
 				<nl>Straat van de overledene</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="houseNumber"
-			displayIndex="9">
+		<Attribute id="housenumber"
+			displayIndex="10"
+			optional="true">
 			<Name>
 				<en>House number</en>
 				<nl>Huisnummer</nl>
@@ -132,7 +145,7 @@
 			</Description>
 		</Attribute>
 		<Attribute id="zipcode"
-			displayIndex="10">
+			displayIndex="11">
 			<Name>
 				<en>Zip code</en>
 				<nl>Postcode</nl>
@@ -143,7 +156,7 @@
 			</Description>
 		</Attribute>
 		<Attribute id="municipality"
-			displayIndex="11">
+			displayIndex="12">
 			<Name>
 				<en>Municipality</en>
 				<nl>Gemeente</nl>
@@ -154,7 +167,7 @@
 			</Description>
 		</Attribute>
 		<Attribute id="city"
-			displayIndex="12">
+			displayIndex="13">
 			<Name>
 				<en>City</en>
 				<nl>Woonplaats</nl>
@@ -164,15 +177,48 @@
 				<nl>Woonplaats van de overledene</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="relation"
-			displayIndex="13">
+		<Attribute id="will"
+			displayIndex="14">
 			<Name>
-				<en>Relation to the deceased</en>
-				<nl>Relatie tot de overledene</nl>
+				<en>Is there a will?</en>
+				<nl>Is er een testament?</nl>
 			</Name>
 			<Description>
-				<en>Relation to the deceased</en>
-				<nl>Relatie tot de overledene</nl>
+				<en>Is there a will?</en>
+				<nl>Is er een testament?</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="heirs"
+			displayIndex="15">
+			<Name>
+				<en>Heirs</en>
+				<nl>Erfgenamen</nl>
+			</Name>
+			<Description>
+				<en>Heirs of the deceased</en>
+				<nl>Erfgenamen van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="executor"
+			displayIndex="16">
+			<Name>
+				<en>Executor</en>
+				<nl>Executeur</nl>
+			</Name>
+			<Description>
+				<en>Executor of the deceased</en>
+				<nl>Executeur van de overledene</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="issuancedate"
+			displayIndex="17">
+			<Name>
+				<en>Issuance date</en>
+				<nl>Datum van afgifte</nl>
+			</Name>
+			<Description>
+				<en>Issuance date of the succession certificate</en>
+				<nl>Datum van afgifte</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
