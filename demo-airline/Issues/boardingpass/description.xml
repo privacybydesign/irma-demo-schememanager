@@ -1,0 +1,121 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Boarding Pass</en>
+		<nl>Demo Instapkaart</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Boarding Pass</en>
+		<nl>Demo Instapkaart</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>demo-airline</IssuerID>
+	<CredentialID>boardingpass</CredentialID>
+	<Description>
+		<en>Your verified boarding pass</en>
+		<nl>Je geverifieerde instapkaart</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<IssueURL>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/demo-airline/boardingpass</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/demo-airline/boardingpass</nl>
+	</IssueURL>
+
+	<ForegroundColor>#15222E</ForegroundColor>
+	<BackgroundGradientStart>#3BB992</BackgroundGradientStart>
+	<BackgroundGradientEnd>#6CE6C1</BackgroundGradientEnd>
+	<IsInCredentialStore>false</IsInCredentialStore>
+
+
+	<Attributes>
+		<Attribute id="firstname" displayIndex="0">
+			<Name>
+				<en>First name</en>
+				<nl>Voornaam</nl>
+			</Name>
+			<Description>
+				<en>Your first name as written on the boarding pass</en>
+				<nl>Je voornaam zoals vermeld op de instapkaart</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="lastname" displayIndex="1">
+			<Name>
+				<en>Last name</en>
+				<nl>Achternaam</nl>
+			</Name>
+			<Description>
+				<en>Your family name as written on the boarding pass</en>
+				<nl>Je achternaam zoals vermeld op de instapkaart</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="flight" displayIndex="2">
+			<Name>
+				<en>Flight number</en>
+				<nl>Vluchtnummer</nl>
+			</Name>
+			<Description>
+				<en>The airline flight number corresponding to this boarding pass</en>
+				<nl>Het vluchtnummer van de luchtvaartmaatschappij behorend bij deze instapkaart</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="from" displayIndex="3">
+			<Name>
+				<en>Departure airport</en>
+				<nl>Vertrekluchthaven</nl>
+			</Name>
+			<Description>
+				<en>The airport you depart from</en>
+				<nl>De luchthaven waarvan je vertrekt</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="to" displayIndex="4">
+			<Name>
+				<en>Arrival airport</en>
+				<nl>Aankomstluchthaven</nl>
+			</Name>
+			<Description>
+				<en>The destination airport for this flight</en>
+				<nl>De aankomstluchthaven van deze vlucht</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="seat" displayIndex="5">
+			<Name>
+				<en>Seat</en>
+				<nl>Stoel</nl>
+			</Name>
+			<Description>
+				<en>The seat assigned to you on this flight</en>
+				<nl>De stoel die aan jou is toegewezen voor deze vlucht</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="date" displayIndex="6">
+			<Name>
+				<en>Departure date</en>
+				<nl>Vertrekdatum</nl>
+			</Name>
+			<Description>
+				<en>The date on which the flight departs</en>
+				<nl>De datum waarop de vlucht vertrekt</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="time" displayIndex="7">
+			<Name>
+				<en>Departure time</en>
+				<nl>Vertrektijd</nl>
+			</Name>
+			<Description>
+				<en>The scheduled departure time</en>
+				<nl>De geplande vertrektijd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="gate" displayIndex="8">
+			<Name>
+				<en>Gate</en>
+				<nl>Gate</nl>
+			</Name>
+			<Description>
+				<en>The boarding gate number for this flight</en>
+				<nl>Het boardingsgatenummer voor deze vlucht</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

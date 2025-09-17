@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>demo-airline</ID>
+	<ShortName>
+		<en>Demo Boarding Pass Issuer</en>
+		<nl>Demo Boarding Pass Issuer</nl>
+	</ShortName>
+	<Name>
+		<en>Demo Boarding Pass Issuer</en>
+		<nl>Demo Boarding Pass Issuer</nl>
+	</Name>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ContactAddress>https://example.org</ContactAddress>
+	<ContactEMail>example@example.org</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>
