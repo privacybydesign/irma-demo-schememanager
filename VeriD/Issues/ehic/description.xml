@@ -15,8 +15,8 @@
 		<nl>De European Health Insurance Card (EHIC) is een Europese zorgpas die toegang geeft tot medisch noodzakelijke zorg in 34 landen binnen het publieke ziektekostenstelsel.</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.ehic.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.ehic.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/ehic</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/ehic</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>
@@ -88,6 +88,26 @@
 			<Description>
 				<en>Expiry date of the card</en>
 				<nl>Vervaldatum van de kaart</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="policy_name">
+			<Name>
+				<en>Policy name</en>
+				<nl>Naam polis</nl>
+			</Name>
+			<Description>
+				<en>Name of the health insurance policy</en>
+				<nl>Naam van de zorgverzekering</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="monthly_fee">
+			<Name>
+				<en>Monthly fee</en>
+				<nl>Maandelijkse premie</nl>
+			</Name>
+			<Description>
+				<en>Monthly insurance fee/premium</en>
+				<nl>Maandelijkse premie</nl>
 			</Description>
 		</Attribute>
 	</Attributes>

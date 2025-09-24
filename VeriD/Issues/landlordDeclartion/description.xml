@@ -1,0 +1,230 @@
+<IssueSpecification version="4">
+    <Name>
+        <en>Demo Landlord declaration</en>
+        <nl>Demo Verhuurdersverklaring</nl>
+    </Name>
+    <ShortName>
+        <en>Demo Landlord declaration</en>
+        <nl>Demo Verhuurdersverklaring</nl>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>VeriD</IssuerID>
+    <CredentialID>landlordDeclartion</CredentialID>
+    <Description>
+        <en>Statement from landlord about tenant and tenancy</en>
+        <nl>Verklaring van verhuurder over huurder en huurovereenkomst</nl>
+    </Description>
+    <IssueURL>
+        <en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/landlordDeclartion</en>
+        <nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/landlordDeclartion</nl>
+    </IssueURL>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+    <Attributes>
+        <Attribute id="tenantInitials"
+            displayIndex="0">
+            <Name>
+                <en>Initials</en>
+                <nl>Voorletters</nl>
+            </Name>
+            <Description>
+                <en>Tenant initials</en>
+                <nl>Voorletters huurder</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tenantFirstnames"
+            displayIndex="1">
+            <Name>
+                <en>First names</en>
+                <nl>Voornamen</nl>
+            </Name>
+            <Description>
+                <en>Tenant first names</en>
+                <nl>Voornamen huurder</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tenantPrefix"
+            optional="true"
+            displayIndex="2">
+            <Name>
+                <en>Prefix</en>
+                <nl>Voorvoegsel</nl>
+            </Name>
+            <Description>
+                <en>Prefix of tenant family name</en>
+                <nl>Voorvoegsel achternaam huurder</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tenantFamilyname"
+            displayIndex="3">
+            <Name>
+                <en>Family name</en>
+                <nl>Geslachtsnaam</nl>
+            </Name>
+            <Description>
+                <en>Tenant family name</en>
+                <nl>Achternaam huurder</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tenantBirthdate"
+            displayIndex="4">
+            <Name>
+                <en>Date of birth</en>
+                <nl>Geboortedatum</nl>
+            </Name>
+            <Description>
+                <en>Tenant date of birth</en>
+                <nl>Geboortedatum huurder</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="street"
+            displayIndex="5">
+            <Name>
+                <en>Street</en>
+                <nl>Straat</nl>
+            </Name>
+            <Description>
+                <en>Street of the rented address</en>
+                <nl>Straat van het gehuurde adres</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="housenumber"
+            displayIndex="6"
+            optional="true">
+            <Name>
+                <en>House number</en>
+                <nl>Huisnummer</nl>
+            </Name>
+            <Description>
+                <en>House number, letter and/or addition</en>
+                <nl>Huisnummer, letter en/of toevoeging</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="zipcode"
+            displayIndex="7">
+            <Name>
+                <en>Zip code</en>
+                <nl>Postcode</nl>
+            </Name>
+            <Description>
+                <en>Zip code of the rented address</en>
+                <nl>Postcode van het gehuurde adres</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="city"
+            displayIndex="8">
+            <Name>
+                <en>City</en>
+                <nl>Woonplaats</nl>
+            </Name>
+            <Description>
+                <en>City of the rented address</en>
+                <nl>Woonplaats van het gehuurde adres</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tenancyStartDate"
+            displayIndex="9">
+            <Name>
+                <en>Tenancy start date</en>
+                <nl>Startdatum huur</nl>
+            </Name>
+            <Description>
+                <en>Start date of the tenancy</en>
+                <nl>Startdatum van de huurovereenkomst</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tenancyEndDate"
+            optional="true"
+            displayIndex="10">
+            <Name>
+                <en>Tenancy end date</en>
+                <nl>Einddatum huur</nl>
+            </Name>
+            <Description>
+                <en>End date of the tenancy (if applicable)</en>
+                <nl>Einddatum van de huurovereenkomst (indien van toepassing)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="rentPerMonth"
+            displayIndex="11">
+            <Name>
+                <en>Monthly rent</en>
+                <nl>Huur per maand</nl>
+            </Name>
+            <Description>
+                <en>Monthly rent (excluding service charges)</en>
+                <nl>Maandelijkse huur (excl. servicekosten)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="serviceChargesPerMonth"
+            optional="true"
+            displayIndex="12">
+            <Name>
+                <en>Service charges per month</en>
+                <nl>Servicekosten per maand</nl>
+            </Name>
+            <Description>
+                <en>Monthly service charges</en>
+                <nl>Maandelijkse servicekosten</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="paymentArrears"
+            optional="true"
+            displayIndex="13">
+            <Name>
+                <en>Payment arrears</en>
+                <nl>Betalingsachterstand</nl>
+            </Name>
+            <Description>
+                <en>Any payment arrears amount and months</en>
+                <nl>Eventuele betalingsachterstand bedrag en maanden</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tenantConduct"
+            optional="true"
+            displayIndex="14">
+            <Name>
+                <en>Tenant conduct</en>
+                <nl>Gedrag/huurderschap</nl>
+            </Name>
+            <Description>
+                <en>Notes on tenant conduct (e.g., complaints)</en>
+                <nl>Opmerkingen over het huurderschap (bijv. klachten)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="landlordName"
+            displayIndex="15">
+            <Name>
+                <en>Landlord</en>
+                <nl>Verhuurder</nl>
+            </Name>
+            <Description>
+                <en>Name of the landlord or housing association</en>
+                <nl>Naam van de verhuurder of woningcorporatie</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="landlordContact"
+            optional="true"
+            displayIndex="16">
+            <Name>
+                <en>Landlord contact</en>
+                <nl>Contact verhuurder</nl>
+            </Name>
+            <Description>
+                <en>Contact details (email/phone)</en>
+                <nl>Contactgegevens (e-mail/telefoon)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="issuancedate"
+            displayIndex="17">
+            <Name>
+                <en>Issuance date</en>
+                <nl>Datum van afgifte</nl>
+            </Name>
+            <Description>
+                <en>Date of issuance of this declaration</en>
+                <nl>Datum van afgifte van deze verklaring</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>
+
