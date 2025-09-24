@@ -1,0 +1,183 @@
+<IssueSpecification version="4">
+    <Name>
+        <en>Demo Water board tax assessment</en>
+        <nl>Demo Waterschapsbelasting aanslag</nl>
+    </Name>
+    <ShortName>
+        <en>Water board tax</en>
+        <nl>Waterschapsbelasting</nl>
+    </ShortName>
+    <SchemeManager>irma-demo</SchemeManager>
+    <IssuerID>VeriD</IssuerID>
+    <CredentialID>waterBoardTax</CredentialID>
+    <Description>
+        <en>Details from a Dutch water board tax bill</en>
+        <nl>Gegevens van een Nederlandse waterschapsbelastingaanslag</nl>
+    </Description>
+    <IssueURL>
+        <en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/waterBoardTax</en>
+        <nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/waterBoardTax</nl>
+    </IssueURL>
+    <ShouldBeSingleton>false</ShouldBeSingleton>
+    <Attributes>
+        <!-- Bill header identifiers/dates -->
+        <Attribute id="pay_for_date"
+            displayIndex="0">
+            <Name>
+                <en>Payment due date</en>
+                <nl>Uiterste betaaldatum</nl>
+            </Name>
+            <Description>
+                <en>Payment due date</en>
+                <nl>Uiterste betaaldatum</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="document_date"
+            displayIndex="1">
+            <Name>
+                <en>Document date</en>
+                <nl>Dagtekening</nl>
+            </Name>
+            <Description>
+                <en>Date the assessment was issued</en>
+                <nl>Datum waarop de aanslag is opgelegd</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="subject_number"
+            displayIndex="2">
+            <Name>
+                <en>Subject number</en>
+                <nl>Subjectnummer</nl>
+            </Name>
+            <Description>
+                <en>Subject number (reference)</en>
+                <nl>Subjectnummer (referentie)</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="assessment_number"
+            displayIndex="3">
+            <Name>
+                <en>Assessment number</en>
+                <nl>Vorderingsnummer</nl>
+            </Name>
+            <Description>
+                <en>Assessment or collection number</en>
+                <nl>Vorderingsnummer</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="tax_year"
+            displayIndex="4">
+            <Name>
+                <en>Tax year</en>
+                <nl>Belastingjaar</nl>
+            </Name>
+            <Description>
+                <en>Tax year of the assessment</en>
+                <nl>Belastingjaar van de aanslag</nl>
+            </Description>
+        </Attribute>
+
+        <!-- Amounts and payment -->
+        <Attribute id="amount_due"
+            displayIndex="5">
+            <Name>
+                <en>Amount due</en>
+                <nl>Te betalen bedrag</nl>
+            </Name>
+            <Description>
+                <en>Total amount due</en>
+                <nl>Totaal te betalen bedrag</nl>
+            </Description>
+        </Attribute>
+        <!-- Address on which the levies apply -->
+        <Attribute id="address_street"
+            displayIndex="6">
+            <Name>
+                <en>Street</en>
+                <nl>Straat</nl>
+            </Name>
+            <Description>
+                <en>Street of the taxed object</en>
+                <nl>Straat van het belast object</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="address_house_number"
+            displayIndex="7">
+            <Name>
+                <en>House number</en>
+                <nl>Huisnummer</nl>
+            </Name>
+            <Description>
+                <en>House number of the taxed object</en>
+                <nl>Huisnummer van het belast object</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="address_zipcode"
+            displayIndex="8">
+            <Name>
+                <en>Zip code</en>
+                <nl>Postcode</nl>
+            </Name>
+            <Description>
+                <en>Zip code of the taxed object</en>
+                <nl>Postcode van het belast object</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="address_city"
+            displayIndex="9">
+            <Name>
+                <en>City</en>
+                <nl>Plaats</nl>
+            </Name>
+            <Description>
+                <en>City of the taxed object</en>
+                <nl>Plaats van het belast object</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="roads_user_levy"
+            displayIndex="10">
+            <Name>
+                <en>Roads levy - user</en>
+                <nl>Wegenheffing - gebruiker</nl>
+            </Name>
+            <Description>
+                <en>Roads levy amount</en>
+                <nl>Bedrag wegenheffing</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="water_system_levy_user"
+            displayIndex="11">
+            <Name>
+                <en>Water system levy - user</en>
+                <nl>Watersysteemheffing - gebruiker</nl>
+            </Name>
+            <Description>
+                <en>Water system levy amount</en>
+                <nl>Bedrag watersysteemheffing</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="waste_water_treatment_levy_home"
+            displayIndex="12">
+            <Name>
+                <en>Wastewater treatment levy - home</en>
+                <nl>Zuiveringsheffing woonruimte</nl>
+            </Name>
+            <Description>
+                <en>Wastewater treatment levy amount</en>
+                <nl>Bedrag zuiveringsheffing woonruimte</nl>
+            </Description>
+        </Attribute>
+        <Attribute id="water_board"
+            displayIndex="13">
+            <Name>
+                <en>Water board</en>
+                <nl>Waterschap</nl>
+            </Name>
+            <Description>
+                <en>Water board</en>
+                <nl>Waterschap</nl>
+            </Description>
+        </Attribute>
+    </Attributes>
+</IssueSpecification>
+
