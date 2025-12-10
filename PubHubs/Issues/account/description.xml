@@ -15,6 +15,10 @@
     <nl>Je PubHubs registratie</nl>
   </Description>
   <ShouldBeSingleton>false</ShouldBeSingleton>
+  <IssueURL>
+    <en>https://main.pubhubs.ihub.ru.nl/#/register?yivi_info</en>
+    <nl>https://main.pubhubs.ihub.ru.nl/#/register?yivi_info</nl>
+  </IssueURL>
 
   <Attributes>
     <Attribute id="id">
