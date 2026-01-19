@@ -1,0 +1,123 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Event Permit</en>
+		<nl>Demo Evenementvergunning</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Event Permit</en>
+		<nl>Demo Evenementvergunning</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>eventPermit</CredentialID>
+	<Description>
+		<en>Event permit</en>
+		<nl>Evenementvergunning</nl>
+	</Description>
+	<IssueURL>
+		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.eventPermit.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.eventPermit.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="uniforme_product_naam"
+			displayIndex="0">
+			<Name>
+				<en>Uniform product name</en>
+				<nl>Uniforme productnaam</nl>
+			</Name>
+			<Description>
+				<en>Standardized product name</en>
+				<nl>Gestandaardiseerde productnaam</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="product_code"
+			displayIndex="1">
+			<Name>
+				<en>Product code</en>
+				<nl>Productcode</nl>
+			</Name>
+			<Description>
+				<en>Code of the product</en>
+				<nl>Code van het product</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="product_naam"
+			displayIndex="2">
+			<Name>
+				<en>Product name</en>
+				<nl>Productnaam</nl>
+			</Name>
+			<Description>
+				<en>Name of the product</en>
+				<nl>Naam van het product</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="geldig_van"
+			displayIndex="3">
+			<Name>
+				<en>Valid from</en>
+				<nl>Geldig van</nl>
+			</Name>
+			<Description>
+				<en>Start date of validity</en>
+				<nl>Startdatum van de geldigheid</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="geldig_tot"
+			displayIndex="4">
+			<Name>
+				<en>Valid until</en>
+				<nl>Geldig tot</nl>
+			</Name>
+			<Description>
+				<en>End date of validity</en>
+				<nl>Einddatum van de geldigheid</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="locatie"
+			displayIndex="5">
+			<Name>
+				<en>Location</en>
+				<nl>Locatie</nl>
+			</Name>
+			<Description>
+				<en>Location of the event</en>
+				<nl>Locatie van het evenement</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="typeLocatie"
+			displayIndex="6">
+			<Name>
+				<en>Location type</en>
+				<nl>Type locatie</nl>
+			</Name>
+			<Description>
+				<en>Type of location</en>
+				<nl>Type van de locatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="kenmerk"
+			displayIndex="7">
+			<Name>
+				<en>Reference</en>
+				<nl>Kenmerk</nl>
+			</Name>
+			<Description>
+				<en>Permit reference or case number</en>
+				<nl>Vergunningskenmerk of zaaknummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="bsn"
+			displayIndex="8">
+			<Name>
+				<en>Citizen service number</en>
+				<nl>BSN</nl>
+			</Name>
+			<Description>
+				<en>Dutch citizen service number (BSN)</en>
+				<nl>Burgerservicenummer (BSN)</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
