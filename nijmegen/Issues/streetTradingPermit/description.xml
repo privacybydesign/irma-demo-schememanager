@@ -104,8 +104,8 @@
 				<nl>Kenmerk</nl>
 			</Name>
 			<Description>
-				<en>Permit reference or case number</en>
-				<nl>Vergunningskenmerk of zaaknummer</nl>
+				<en>Permit reference</en>
+				<nl>Vergunningskenmerk</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="bsn"
