@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Employee Card</en>
-		<nl>Bedrijfspas</nl>
+		<en>Demo Employee Card</en>
+		<nl>Demo Bedrijfspas</nl>
 	</Name>
 	<ShortName>
-		<en>Employee Card</en>
-		<nl>Bedrijfspas</nl>
+		<en>Demo Employee Card</en>
+		<nl>Demo Bedrijfspas</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>staffpass</IssuerID>
