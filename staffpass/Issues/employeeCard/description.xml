@@ -14,10 +14,6 @@
 		<en>Digital employee identity card issued by StaffPass</en>
 		<nl>Digitale bedrijfspas uitgegeven door StaffPass</nl>
 	</Description>
-	<IssueURL>
-		<en>https://staffpass.nl</en>
-		<nl>https://staffpass.nl</nl>
-	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>
 		<Attribute id="cardPassId">
