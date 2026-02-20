@@ -1,11 +1,11 @@
 <IssuerDescription version="4">
 	<Name>
-		<en>StaffPass</en>
-		<nl>StaffPass</nl>
+		<en>Demo StaffPass</en>
+		<nl>Demo StaffPass</nl>
 	</Name>
 	<ShortName>
-		<en>StaffPass</en>
-		<nl>StaffPass</nl>
+		<en>Demo StaffPass</en>
+		<nl>Demo StaffPass</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<ID>staffpass</ID>
