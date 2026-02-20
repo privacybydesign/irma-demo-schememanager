@@ -1,0 +1,14 @@
+<IssuerDescription version="4">
+	<Name>
+		<en>StaffPass</en>
+		<nl>StaffPass</nl>
+	</Name>
+	<ShortName>
+		<en>StaffPass</en>
+		<nl>StaffPass</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ID>staffpass</ID>
+	<ContactAddress>https://staffpass.nl</ContactAddress>
+	<ContactEMail>info@staffpass.nl</ContactEMail>
+</IssuerDescription>

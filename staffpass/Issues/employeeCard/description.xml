@@ -1,0 +1,116 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Employee Card</en>
+		<nl>Bedrijfspas</nl>
+	</Name>
+	<ShortName>
+		<en>Employee Card</en>
+		<nl>Bedrijfspas</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>staffpass</IssuerID>
+	<CredentialID>employeeCard</CredentialID>
+	<Description>
+		<en>Digital employee identity card issued by StaffPass</en>
+		<nl>Digitale bedrijfspas uitgegeven door StaffPass</nl>
+	</Description>
+	<IssueURL>
+		<en>https://staffpass.nl</en>
+		<nl>https://staffpass.nl</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="cardPassId">
+			<Name>
+				<en>Card Pass ID</en>
+				<nl>Pas ID</nl>
+			</Name>
+			<Description>
+				<en>Unique identifier for this employee card</en>
+				<nl>Uniek identificatienummer van deze bedrijfspas</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="fullName">
+			<Name>
+				<en>Full name</en>
+				<nl>Volledige naam</nl>
+			</Name>
+			<Description>
+				<en>Full name of the employee</en>
+				<nl>Volledige naam van de medewerker</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="orgName">
+			<Name>
+				<en>Organization</en>
+				<nl>Organisatie</nl>
+			</Name>
+			<Description>
+				<en>Name of the organization</en>
+				<nl>Naam van de organisatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="orgLogo"
+			displayHint="portraitPhoto">
+			<Name>
+				<en>Organization logo</en>
+				<nl>Organisatie logo</nl>
+			</Name>
+			<Description>
+				<en>Logo of the organization</en>
+				<nl>Logo van de organisatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="role">
+			<Name>
+				<en>Role</en>
+				<nl>Rol</nl>
+			</Name>
+			<Description>
+				<en>Role within the organization</en>
+				<nl>Rol binnen de organisatie</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="jobTitle">
+			<Name>
+				<en>Job title</en>
+				<nl>Functie</nl>
+			</Name>
+			<Description>
+				<en>Job title of the employee</en>
+				<nl>Functie van de medewerker</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="email">
+			<Name>
+				<en>Email</en>
+				<nl>E-mail</nl>
+			</Name>
+			<Description>
+				<en>Work email address</en>
+				<nl>Werk e-mailadres</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="kvkNumber">
+			<Name>
+				<en>KVK number</en>
+				<nl>KVK-nummer</nl>
+			</Name>
+			<Description>
+				<en>Chamber of Commerce registration number</en>
+				<nl>Kamer van Koophandel registratienummer</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="photo"
+			displayHint="portraitPhoto">
+			<Name>
+				<en>Photo</en>
+				<nl>Foto</nl>
+			</Name>
+			<Description>
+				<en>Portrait photo of the employee</en>
+				<nl>Pasfoto van de medewerker</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
