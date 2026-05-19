@@ -1,0 +1,81 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Current Wealth Conclusion</en>
+		<nl>Demo Actueel vermogen conclusie</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Wealth</en>
+		<nl>Demo Vermogen</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>cluis</IssuerID>
+	<CredentialID>vermogenConclusie</CredentialID>
+	<Description>
+		<en>Conclusion about current wealth, including range, source and policy maker, over a given period.</en>
+		<nl>Conclusie over het actuele vermogen, met bandbreedte, bron en beleidsbepaler, over een bepaalde periode.</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="periode">
+			<Name>
+				<en>Period</en>
+				<nl>Periode</nl>
+			</Name>
+			<Description>
+				<en>Period covered by this conclusion (from/until)</en>
+				<nl>Periode waarover deze conclusie gaat (van/tot)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vermogen">
+			<Name>
+				<en>Wealth</en>
+				<nl>Vermogen</nl>
+			</Name>
+			<Description>
+				<en>Current wealth amount</en>
+				<nl>Hoogte van het actuele vermogen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="range">
+			<Name>
+				<en>Range</en>
+				<nl>Bandbreedte</nl>
+			</Name>
+			<Description>
+				<en>Wealth range (bandwidth)</en>
+				<nl>Bandbreedte waarbinnen het vermogen valt</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="bron">
+			<Name>
+				<en>Source</en>
+				<nl>Bron</nl>
+			</Name>
+			<Description>
+				<en>Source of the wealth data (e.g. bank, UWV)</en>
+				<nl>Bron van de vermogensgegevens (bijv. bank, UWV)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="bronLogo"
+			displayHint="portraitPhoto">
+			<Name>
+				<en>Source logo</en>
+				<nl>Logo bron</nl>
+			</Name>
+			<Description>
+				<en>Logo of the source providing the wealth data</en>
+				<nl>Logo van de bron die de vermogensgegevens levert</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="beleidsbepaler">
+			<Name>
+				<en>Policy maker</en>
+				<nl>Beleidsbepaler</nl>
+			</Name>
+			<Description>
+				<en>Policy maker responsible for the interpretation of this conclusion</en>
+				<nl>Beleidsbepaler die verantwoordelijk is voor de interpretatie van deze conclusie</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
