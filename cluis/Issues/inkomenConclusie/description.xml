@@ -36,14 +36,14 @@
 				<nl>Hoogte van het actuele inkomen</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="range">
+		<Attribute id="bracket">
 			<Name>
-				<en>Range</en>
-				<nl>Bandbreedte</nl>
+				<en>Income bracket</en>
+				<nl>Inkomensklasse</nl>
 			</Name>
 			<Description>
-				<en>Income range (bandwidth)</en>
-				<nl>Bandbreedte waarbinnen het inkomen valt</nl>
+				<en>The bracket containing the income (e.g. 500-1000), so the exact amount stays hidden during disclosure.</en>
+				<nl>De klasse waarbinnen het inkomen valt (bijv. 500-1000), zodat het exacte bedrag verborgen blijft bij delen.</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="bron">
