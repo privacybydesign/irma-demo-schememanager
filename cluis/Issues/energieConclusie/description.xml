@@ -1,0 +1,50 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Energy Conclusion</en>
+		<nl>Demo Energie conclusie</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Energy</en>
+		<nl>Demo Energie</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>cluis</IssuerID>
+	<CredentialID>energieConclusie</CredentialID>
+	<Description>
+		<en>Conclusion about energy usage (gas and electricity) over a given period.</en>
+		<nl>Conclusie over het energieverbruik (gas en stroom) over een bepaalde periode.</nl>
+	</Description>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="periode">
+			<Name>
+				<en>Period</en>
+				<nl>Periode</nl>
+			</Name>
+			<Description>
+				<en>Period covered by this conclusion (from/until)</en>
+				<nl>Periode waarover deze conclusie gaat (van/tot)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="gas">
+			<Name>
+				<en>Gas</en>
+				<nl>Gas</nl>
+			</Name>
+			<Description>
+				<en>Gas usage over the given period</en>
+				<nl>Gasverbruik over de opgegeven periode</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="stroom">
+			<Name>
+				<en>Electricity</en>
+				<nl>Stroom</nl>
+			</Name>
+			<Description>
+				<en>Electricity usage over the given period</en>
+				<nl>Stroomverbruik over de opgegeven periode</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
