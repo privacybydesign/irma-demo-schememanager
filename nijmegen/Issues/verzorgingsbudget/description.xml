@@ -1,0 +1,34 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Care Budget</en>
+		<nl>Demo Verzorgingsbudget</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Care Budget</en>
+		<nl>Demo Verzorgingsbudget</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>nijmegen</IssuerID>
+	<CredentialID>verzorgingsbudget</CredentialID>
+	<Description>
+		<en>Care budget allocated to the holder. Intended for use a limited number of times within the budget period.</en>
+		<nl>Verzorgingsbudget toegekend aan de houder. Bedoeld om een beperkt aantal keer binnen de budgetperiode te gebruiken.</nl>
+	</Description>
+	<IssueURL>
+		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.verzorgingsbudget.html</en>
+		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.verzorgingsbudget.html</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="budget">
+			<Name>
+				<en>Budget</en>
+				<nl>Budget</nl>
+			</Name>
+			<Description>
+				<en>Care budget amount granted to the holder.</en>
+				<nl>Toegekend verzorgingsbudget bedrag.</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
