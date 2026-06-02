@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://portal.yivi.app/attribute-index/credentials/demo/cis/official</en>
-		<nl>https://portal.yivi.app/attribute-index/credentials/demo/cis/official</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/cis/complianceCheck</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/cis/complianceCheck</nl>
 	</IssueURL>
 	<Attributes>
 		<Attribute id="initials" displayIndex="0">
