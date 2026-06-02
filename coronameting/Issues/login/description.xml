@@ -15,8 +15,8 @@
     <nl>Login credential for coronameting.nl</nl>
   </Description>
   <IssueURL>
-    <en>https://attribute-index.yivi.app/en/irma-demo.coronameting.login.html</en>
-    <nl>https://attribute-index.yivi.app/nl/irma-demo.coronameting.login.html</nl>
+    <en>https://portal.yivi.app/attribute-index/credentials/demo/coronameting/login</en>
+    <nl>https://portal.yivi.app/attribute-index/credentials/demo/coronameting/login</nl>
   </IssueURL>
 
   <Attributes>

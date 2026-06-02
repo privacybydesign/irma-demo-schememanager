@@ -15,8 +15,8 @@
 		<nl>Evenementenvergunning</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.eventPermit.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.eventPermit.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/eventPermit</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/eventPermit</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>

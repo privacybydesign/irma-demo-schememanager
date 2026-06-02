@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.sidn-pbdf.uniqueid.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.sidn-pbdf.uniqueid.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/sidn-pbdf/uniqueid</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/sidn-pbdf/uniqueid</nl>
 	</IssueURL>
 
 	<Attributes>

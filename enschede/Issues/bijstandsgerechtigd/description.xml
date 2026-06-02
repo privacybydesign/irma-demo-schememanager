@@ -15,8 +15,8 @@
 		<nl>Attributen voor Pilot Bijstand Aanvaarden Werk</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.enschede.bijstandsgerechtigd.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.enschede.bijstandsgerechtigd.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/enschede/bijstandsgerechtigd</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/enschede/bijstandsgerechtigd</nl>
 	</IssueURL>
 
 	<Attributes>

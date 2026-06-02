@@ -15,8 +15,8 @@
 		<nl>Overlijdensakte van de overledene</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.deathCertificate.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.deathCertificate.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/deathCertificate</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/deathCertificate</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>

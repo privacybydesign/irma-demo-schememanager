@@ -15,8 +15,8 @@
 		<nl>Gebiedonline buurt en plaats</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.gebiedonline.locality.html</en>
-		<nl>https://attribute-index.yivi.app/en/irma-demo.gebiedonline.locality.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/gebiedonline/locality</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/gebiedonline/locality</nl>
 	</IssueURL>
 
 	<Attributes>

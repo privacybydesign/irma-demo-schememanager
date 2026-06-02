@@ -15,8 +15,8 @@
 		<nl>Uw personeelsgegevens, van Gemeente Nijmegen</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.employeeData.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.employeeData.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/employeeData</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/employeeData</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

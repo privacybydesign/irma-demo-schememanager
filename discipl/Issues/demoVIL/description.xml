@@ -15,8 +15,8 @@
 		<nl>Demo Virtueel Inkomstenloket (VIL) die gebruik maakt van Regel Services</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.discipl.demoVIL.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.discipl.demoVIL.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/discipl/demoVIL</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/discipl/demoVIL</nl>
 	</IssueURL>
 
 	<Attributes>

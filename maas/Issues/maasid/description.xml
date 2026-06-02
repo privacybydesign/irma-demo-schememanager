@@ -15,8 +15,8 @@
 		<nl>Demo MaaS ID</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.maas.maasid.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.maas.maasid.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/maas/maasid</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/maas/maasid</nl>
 	</IssueURL>
 
 	<Attributes>

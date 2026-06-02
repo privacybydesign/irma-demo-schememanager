@@ -15,8 +15,8 @@
 		<nl>Uw leeftijdsgrenzen, afgeleid uit uw geboortedatum afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.ageLimits.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.ageLimits.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/ageLimits</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/ageLimits</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

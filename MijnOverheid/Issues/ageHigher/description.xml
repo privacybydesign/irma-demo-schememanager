@@ -15,8 +15,8 @@
 		<nl>Uw senior-leeftijdslimieten uitgegeven door MijnOverheid gebaseeerd op GBA-data</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.MijnOverheid.ageHigher.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.MijnOverheid.ageHigher.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/MijnOverheid/ageHigher</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/MijnOverheid/ageHigher</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

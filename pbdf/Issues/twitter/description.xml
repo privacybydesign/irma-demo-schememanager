@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.pbdf.twitter.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.pbdf.twitter.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/pbdf/twitter</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/pbdf/twitter</nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>

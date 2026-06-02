@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.pbdf.linkedin.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.pbdf.linkedin.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/pbdf/linkedin</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/pbdf/linkedin</nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>

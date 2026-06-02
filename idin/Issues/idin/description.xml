@@ -15,8 +15,8 @@
 		<nl>Uw identiteitsgegevens volgens uw bank, verkregen met iDIN.</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.idin.idin.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.idin.idin.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/idin/idin</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/idin/idin</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

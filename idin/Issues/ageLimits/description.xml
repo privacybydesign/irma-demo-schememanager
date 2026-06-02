@@ -15,8 +15,8 @@
 		<nl>Uw leeftijdsgrenzen, afgeleid uit uw geboortedatum afkomstig uit het iDIN bank credential.</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.idin.ageLimits.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.idin.ageLimits.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/idin/ageLimits</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/idin/ageLimits</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

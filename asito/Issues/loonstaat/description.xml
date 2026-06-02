@@ -15,8 +15,8 @@
 		<nl>Loonstaat attributen voor i4Sociaal Pilot Bijstand Aanvaarden Werk - Enschede</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.asito.loonstaat.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.asito.loonstaat.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/asito/loonstaat</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/asito/loonstaat</nl>
 	</IssueURL>
 
 	<Attributes>

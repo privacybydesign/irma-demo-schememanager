@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.irvn.account.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.irvn.account.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/irvn/account</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/irvn/account</nl>
 	</IssueURL>
 
 	<Attributes>

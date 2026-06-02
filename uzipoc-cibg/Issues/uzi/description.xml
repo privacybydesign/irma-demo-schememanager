@@ -15,8 +15,8 @@
 		<nl>Demo uzipas gegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.uzipoc-cibg.uzi.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.uzipoc-cibg.uzi.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/uzipoc-cibg/uzi</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/uzipoc-cibg/uzi</nl>
 	</IssueURL>
 
 	<Attributes>

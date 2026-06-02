@@ -15,8 +15,8 @@
 		<nl>Met deze machtiging kunt u declaraties indienen bij VGZ namens de verzekerde die u deze machtiging gegeven heeft</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.vgz.machtiging.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.vgz.machtiging.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/vgz/machtiging</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/vgz/machtiging</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 

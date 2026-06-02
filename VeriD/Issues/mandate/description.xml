@@ -15,8 +15,8 @@
 		<nl>Demo machtiging (Centraal Machtigingen Register)</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.mandate.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.mandate.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/mandate</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/mandate</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>

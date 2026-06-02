@@ -15,8 +15,8 @@
 		<nl>Attributen voor Pilots van TWI</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.TWIpilot.TWIattributes.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.TWIpilot.TWIattributes.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/TWIpilot/TWIattributes</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/TWIpilot/TWIattributes</nl>
 	</IssueURL>
 
 	<Attributes>

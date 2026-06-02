@@ -15,8 +15,8 @@
 		<nl>Bevestiging van ouderlijk gezag uit het gezagsregister</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.gezagsbevestiging.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.gezagsbevestiging.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/gezagsbevestiging</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/gezagsbevestiging</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>

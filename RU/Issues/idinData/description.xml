@@ -15,8 +15,8 @@
 		<nl></nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.RU.idinData.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.RU.idinData.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/RU/idinData</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/RU/idinData</nl>
 	</IssueURL>
 
 

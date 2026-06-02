@@ -15,8 +15,8 @@
 		<nl>Uw burgerlijke staat op basis van GBA-data</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.maritalStatus.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.maritalStatus.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/maritalStatus</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/maritalStatus</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<Attributes>

@@ -15,8 +15,8 @@
 		<nl>Adres uitgegeven door MijnOverheid gebaseerd op GBA-gegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.MijnOverheid.address.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.MijnOverheid.address.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/MijnOverheid/address</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/MijnOverheid/address</nl>
 	</IssueURL>
 
 	<Attributes>
