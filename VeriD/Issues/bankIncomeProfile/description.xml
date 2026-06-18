@@ -1,0 +1,79 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Bank Income Profile</en>
+		<nl>Demo Bankrekening inkomensprofiel</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Bank Income Profile</en>
+		<nl>Demo Bankrekening inkomensprofiel</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>VeriD</IssuerID>
+	<CredentialID>bankIncomeProfile</CredentialID>
+	<Description>
+		<en>Bank account income profile from De Hollandsche Bank</en>
+		<nl>Bankrekening inkomensprofiel van De Hollandsche Bank</nl>
+	</Description>
+	<IssueURL>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/bankIncomeProfile</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/bankIncomeProfile</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+	<Attributes>
+		<Attribute id="rekeninghouder"
+			displayIndex="0">
+			<Name>
+				<en>Account holder</en>
+				<nl>Rekeninghouder</nl>
+			</Name>
+			<Description>
+				<en>Account holder</en>
+				<nl>Rekeninghouder</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="bankrekening"
+			displayIndex="1">
+			<Name>
+				<en>Bank account number</en>
+				<nl>Bankrekening</nl>
+			</Name>
+			<Description>
+				<en>Bank account number</en>
+				<nl>Bankrekening</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="uitgever"
+			displayIndex="2">
+			<Name>
+				<en>Issuer</en>
+				<nl>Uitgever</nl>
+			</Name>
+			<Description>
+				<en>Issuer</en>
+				<nl>Uitgever</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="datum_uitgifte"
+			displayIndex="3">
+			<Name>
+				<en>Date of issuance</en>
+				<nl>Datum uitgifte</nl>
+			</Name>
+			<Description>
+				<en>Date of issuance</en>
+				<nl>Datum uitgifte</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="inkomensprofiel_gelijk"
+			displayIndex="4">
+			<Name>
+				<en>Income profile this month equal to last month</en>
+				<nl>Inkomensprofiel deze maand gelijk aan vorige maand</nl>
+			</Name>
+			<Description>
+				<en>Income profile this month equal to last month</en>
+				<nl>Inkomensprofiel deze maand gelijk aan vorige maand</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
