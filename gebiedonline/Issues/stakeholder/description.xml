@@ -15,8 +15,8 @@
 		<nl>Gebruiker van Gebiedonline platform</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.gebiedonline.stakeholder.html</en>
-		<nl>https://attribute-index.yivi.app/en/irma-demo.gebiedonline.stakeholder.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/gebiedonline/stakeholder</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/gebiedonline/stakeholder</nl>
 	</IssueURL>
 
 	<Attributes>

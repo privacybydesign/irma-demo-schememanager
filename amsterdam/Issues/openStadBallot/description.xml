@@ -15,8 +15,8 @@
 		<nl>Uw recht om te stemmen met OpenStad uitgegeven door Gemeente Amsterdam</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.amsterdam.openStadBallot.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.amsterdam.openStadBallot.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/amsterdam/openStadBallot</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/amsterdam/openStadBallot</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

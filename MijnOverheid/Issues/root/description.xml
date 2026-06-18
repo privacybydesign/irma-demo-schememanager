@@ -15,8 +15,8 @@
 		<nl>Root-credential uitgegeven door MijnOverheid.nl</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.MijnOverheid.root.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.MijnOverheid.root.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/MijnOverheid/root</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/MijnOverheid/root</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<RevocationServers>

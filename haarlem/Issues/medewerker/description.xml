@@ -15,8 +15,8 @@
 		<nl>Attributen werknemers van Haarlem</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.haarlem.medewerker.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.haarlem.medewerker.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/haarlem/medewerker</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/haarlem/medewerker</nl>
 	</IssueURL>
 
 	<Attributes>

@@ -15,8 +15,8 @@
 		<nl>Verklaring van huwelijksbevoegdheid voor huwelijk in het buitenland, bewijs van bevoegdheid om te trouwen naar Nederlands recht</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.huwelijksbevoegdheid.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.huwelijksbevoegdheid.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/huwelijksbevoegdheid</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/huwelijksbevoegdheid</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<Attributes>

@@ -15,8 +15,8 @@
 		<nl>Demo Rijbewijs</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.MijnOverheid.drivinglicense.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.MijnOverheid.drivinglicense.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/MijnOverheid/drivinglicense</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/MijnOverheid/drivinglicense</nl>
 	</IssueURL>
 
 	<Attributes>

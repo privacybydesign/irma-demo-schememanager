@@ -15,8 +15,8 @@
 		<nl>Uw adres, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.gemeenten.address.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.gemeenten.address.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/gemeenten/address</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/gemeenten/address</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

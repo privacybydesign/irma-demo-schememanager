@@ -15,8 +15,8 @@
 		<nl>Demo Evenement ticket</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.eventTicket.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.eventTicket.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/eventTicket</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/eventTicket</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>

@@ -15,8 +15,8 @@
 		<nl>Demo curatele of bewind (Centraal curatele- en bewindregister)</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.guardianship.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.guardianship.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/guardianship</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/guardianship</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<Attributes>

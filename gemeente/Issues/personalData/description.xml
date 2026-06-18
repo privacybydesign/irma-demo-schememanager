@@ -15,8 +15,8 @@
 		<nl>Je persoonsgegevens, afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.gemeente.personalData.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.gemeente.personalData.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/gemeente/personalData</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/gemeente/personalData</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

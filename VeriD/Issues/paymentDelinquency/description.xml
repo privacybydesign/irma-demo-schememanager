@@ -15,8 +15,8 @@
 		<nl>Demo betalingsachterstanden (NVB/Tink)</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.paymentDelinquency.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.paymentDelinquency.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/paymentDelinquency</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/paymentDelinquency</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<Attributes>

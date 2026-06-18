@@ -15,8 +15,8 @@
 		<nl>Ouderlijke toestemming voor een minderjarige om naar het buitenland te reizen, een privaatrechtelijke verklaring tussen ouders</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.toestemmingReizenMinderjarige.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.toestemmingReizenMinderjarige.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/toestemmingReizenMinderjarige</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/toestemmingReizenMinderjarige</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>

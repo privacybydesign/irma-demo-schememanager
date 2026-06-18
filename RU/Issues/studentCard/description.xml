@@ -15,8 +15,8 @@
 		<nl>Studentenkaart uitgegeven door de Radboud Universiteit Nijmegen</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.RU.studentCard.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.RU.studentCard.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/RU/studentCard</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/RU/studentCard</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 

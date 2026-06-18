@@ -15,8 +15,8 @@
 		<nl>Demo boven of onder Nibud (NVB/Tink)</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.VeriD.nibud.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.VeriD.nibud.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/nibud</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/VeriD/nibud</nl>
 	</IssueURL>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 	<Attributes>

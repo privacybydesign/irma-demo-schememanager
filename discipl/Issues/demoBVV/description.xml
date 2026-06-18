@@ -15,8 +15,8 @@
 		<nl>Demo Beslagvrije Voet (BVV) using API's</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.discipl.demoBVV.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.discipl.demoBVV.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/discipl/demoBVV</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/discipl/demoBVV</nl>
 	</IssueURL>
 
 	<Attributes>

@@ -15,8 +15,8 @@
     <nl>Uw Burgerservicenummer (BSN), afkomstig uit de Nederlandse Basisregistratie Persoonsgegevens, fysiek geverifieerd</nl>
   </Description>
   <IssueURL>
-    <en>https://attribute-index.yivi.app/en/irma-demo.chipsoft.bsn.html</en>
-    <nl>https://attribute-index.yivi.app/en/irma-demo.chipsoft.bsn.html</nl>
+    <en>https://portal.yivi.app/attribute-index/credentials/demo/chipsoft/bsn</en>
+    <nl>https://portal.yivi.app/attribute-index/credentials/demo/chipsoft/bsn</nl>
   </IssueURL>
   <ShouldBeSingleton>true</ShouldBeSingleton>
 

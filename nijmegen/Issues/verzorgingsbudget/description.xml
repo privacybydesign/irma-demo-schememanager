@@ -15,8 +15,8 @@
 		<nl>Verzorgingsbudget toegekend aan de houder. Bedoeld om een beperkt aantal keer binnen de budgetperiode te gebruiken.</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.nijmegen.verzorgingsbudget.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.nijmegen.verzorgingsbudget.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/verzorgingsbudget</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/nijmegen/verzorgingsbudget</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<Attributes>

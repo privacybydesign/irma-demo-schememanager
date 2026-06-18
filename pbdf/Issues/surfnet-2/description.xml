@@ -16,8 +16,8 @@
 	</Description>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.pbdf.surfnet-2.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.pbdf.surfnet-2.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/pbdf/surfnet-2</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/pbdf/surfnet-2</nl>
 	</IssueURL>
 
 	<ForegroundColor>#15222E</ForegroundColor>

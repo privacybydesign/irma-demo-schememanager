@@ -15,8 +15,8 @@
 		<nl>Uw kentekennummer</nl>
 	</Description>
 	<IssueURL>
-		<en>https://attribute-index.yivi.app/en/irma-demo.rdw.vrn.html</en>
-		<nl>https://attribute-index.yivi.app/nl/irma-demo.rdw.vrn.html</nl>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/rdw/vrn</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/rdw/vrn</nl>
 	</IssueURL>
 
 	<Attributes>
