@@ -18,6 +18,15 @@ permissions:
 jobs:
   review:
     runs-on: ubuntu-latest
+    # Gate the whole job behind a manual approval. Because this is a
+    # pull_request_target workflow that checks out and runs against untrusted
+    # fork code (see allow-unsafe-pr-checkout below), a maintainer must approve
+    # each run via the "fork-pr-review" environment's required reviewers.
+    # Approval is requested again on every new push to the PR.
+    # NOTE: an org admin must configure Settings > Environments > fork-pr-review
+    # with required reviewers, otherwise the environment is auto-created with no
+    # protection and the gate does nothing.
+    environment: fork-pr-review
     if: github.event.pull_request.draft == false
     steps:
       - name: Checkout pull request base
@@ -32,9 +41,9 @@ jobs:
           path: ./head
           ref: ${{ github.event.pull_request.head.sha }}
           # actions/checkout@v7 refuses to check out fork PR code in a
-          # pull_request_target workflow unless explicitly opted in. This is safe
-          # here: no fork-controlled code is executed; the trusted yivi binary only
-          # parses the fork's scheme data files.
+          # pull_request_target workflow unless explicitly opted in. The job is
+          # gated behind the fork-pr-review environment (above), so a maintainer
+          # reviews the fork's code before this runs.
           allow-unsafe-pr-checkout: true
 
       - name: Initialize ~/.local/bin directory
