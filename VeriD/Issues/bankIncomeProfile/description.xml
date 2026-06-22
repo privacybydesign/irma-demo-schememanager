@@ -64,15 +64,37 @@
 				<nl>Datum uitgifte</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="inkomensprofiel_gelijk"
+		<Attribute id="number_of_transactions"
 			displayIndex="4">
 			<Name>
-				<en>Income profile this month equal to last month</en>
-				<nl>Inkomensprofiel deze maand gelijk aan vorige maand</nl>
+				<en>Number of transactions</en>
+				<nl>Aantal transacties</nl>
 			</Name>
 			<Description>
-				<en>Income profile this month equal to last month</en>
-				<nl>Inkomensprofiel deze maand gelijk aan vorige maand</nl>
+				<en>Number of transactions</en>
+				<nl>Aantal transacties</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="received_amount_this_month"
+			displayIndex="5">
+			<Name>
+				<en>Total received amount this month</en>
+				<nl>Totaal ontvangen bedrag deze maand</nl>
+			</Name>
+			<Description>
+				<en>Total received amount this month</en>
+				<nl>Totaal ontvangen bedrag deze maand</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="spent_amount_this_month"
+			displayIndex="6">
+			<Name>
+				<en>Total spent amount this month</en>
+				<nl>Totaal uitgegeven bedrag deze maand</nl>
+			</Name>
+			<Description>
+				<en>Total spent amount this month</en>
+				<nl>Totaal uitgegeven bedrag deze maand</nl>
 			</Description>
 		</Attribute>
 	</Attributes>
