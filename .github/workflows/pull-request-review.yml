@@ -31,6 +31,11 @@ jobs:
         with:
           path: ./head
           ref: ${{ github.event.pull_request.head.sha }}
+          # actions/checkout@v7 refuses to check out fork PR code in a
+          # pull_request_target workflow unless explicitly opted in. This is safe
+          # here: no fork-controlled code is executed; the trusted yivi binary only
+          # parses the fork's scheme data files.
+          allow-unsafe-pr-checkout: true
 
       - name: Initialize ~/.local/bin directory
         run: |
