@@ -23,8 +23,8 @@
 	<Attributes>
 		<Attribute id="result">
 			<Name>
-				<en>CAWA plus test</en>
-				<nl>Uitslag CAWA-plustoets</nl>
+				<en>CAWA plus</en>
+				<nl>CAWA-plus</nl>
 			</Name>
 			<Description>
 				<en>Result CAWA plus test</en>
