@@ -1,0 +1,45 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo CAWA plus test</en>
+		<nl>Demo CAWA-plustoets</nl>
+	</Name>
+	<ShortName>
+		<en>Demo CAWA plus test</en>
+		<nl>Demo CAWA-plustoets</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>amsterdam</IssuerID>
+	<CredentialID>cawaPlusTest</CredentialID>
+	<Description>
+		<en>Result of the CAWA plus test</en>
+		<nl>Uitslag CAWA-plustoets</nl>
+	</Description>
+	<IssueURL>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/amsterdam/cawaPlusTest</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/amsterdam/cawaPlusTest</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="result">
+			<Name>
+				<en>CAWA plus test</en>
+				<nl>CAWA-plustoetsuitslag</nl>
+			</Name>
+			<Description>
+				<en>Result CAWA plus test</en>
+				<nl>Toetsuitslag CAWA-plustoets</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="date">
+			<Name>
+				<en>Validity</en>
+				<nl>Geldigheid</nl>
+			</Name>
+			<Description>
+				<en>Valid up to and including</en>
+				<nl>Geldig tot en met</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

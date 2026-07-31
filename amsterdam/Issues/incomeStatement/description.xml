@@ -1,0 +1,55 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Registered income</en>
+		<nl>Demo Geregistreerd inkomen</nl>
+	</Name>
+	<ShortName>
+		<en>Demo year income</en>
+		<nl>Demo jaarinkomen</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>amsterdam</IssuerID>
+	<CredentialID>incomeStatement</CredentialID>
+	<Description>
+		<en>Income Statement (IB60) from the Tax and Customs Administration.</en>
+		<nl>Inkomensverklaring (IB60) van de Belastingdienst.</nl>
+	</Description>
+	<IssueURL>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/amsterdam/incomeStatement</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/amsterdam/incomeStatement</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="income">
+			<Name>
+				<en>Year income</en>
+				<nl>Jaarinkomen</nl>
+			</Name>
+			<Description>
+				<en>Registered income</en>
+				<nl>Geregistreerd inkomen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="year">
+			<Name>
+				<en>Year</en>
+				<nl>Jaar</nl>
+			</Name>
+			<Description>
+				<en>Year of income</en>
+				<nl>Jaar van inkomen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="date">
+			<Name>
+				<en>Date</en>
+				<nl>Datum</nl>
+			</Name>
+			<Description>
+				<en>Date of registration</en>
+				<nl>Datum van registratie</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
