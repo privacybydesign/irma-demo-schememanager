@@ -1,0 +1,324 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo vehicle registration certificate</en>
+		<nl>Demo kentekenbewijs</nl>
+	</Name>
+	<ShortName>
+		<en>Demo vehicle registration certificate</en>
+		<nl>Demo kentekenbewijs</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>rdw</IssuerID>
+	<CredentialID>vehicleRegistrationCertificate</CredentialID>
+	<Description>
+		<en>Your vehicle registration certificate.</en>
+		<nl>Uw kentekenbewijs</nl>
+	</Description>
+	<IssueURL>
+		<en>https://portal.yivi.app/attribute-index/credentials/demo/rdw/vehicleRegistrationCertificate</en>
+		<nl>https://portal.yivi.app/attribute-index/credentials/demo/rdw/vehicleRegistrationCertificate</nl>
+	</IssueURL>
+
+	<Attributes>
+		<Attribute id="vehicleRegistrationNumber">
+			<Name>
+				<en>Vehicle registration number</en>
+				<nl>Kenteken</nl>
+			</Name>
+			<Description>
+				<en>The identifying numbers on the license plate of the vehicle.</en>
+				<nl>Het nummer op de kentekenplaat van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfFirstRegistration">
+			<Name>
+				<en>Date of first registration</en>
+				<nl>Datum eerste toelating</nl>
+			</Name>
+			<Description>
+				<en>The date when the vehicle was first registered.</en>
+				<nl>De datum waarop het voertuig voor het eerst is toegelaten.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="holderName">
+			<Name>
+				<en>Holder name</en>
+				<nl>Naam houder</nl>
+			</Name>
+			<Description>
+				<en>The name of the vehicle holder.</en>
+				<nl>De naam van de houder van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="holderInitials">
+			<Name>
+				<en>Holder initial(s)</en>
+				<nl>Voorletter(s) houder</nl>
+			</Name>
+			<Description>
+				<en>The initials of the vehicle holder.</en>
+				<nl>De initialen van de houder van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="holderAddress">
+			<Name>
+				<en>Holder address</en>
+				<nl>Adres houder</nl>
+			</Name>
+			<Description>
+				<en>The address of the vehicle holder.</en>
+				<nl>Het adres van de houder van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="indicationOfOwnership">
+			<Name>
+				<en>Indication of ownership</en>
+				<nl>Aanduiding eigenaarschap</nl>
+			</Name>
+			<Description>
+				<en>Indicates whether the vehicle is owned by the holder.</en>
+				<nl>Geeft aan of het voertuig eigendom is van de houder.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleBrand">
+			<Name>
+				<en>Vehicle brand</en>
+				<nl>Merk voertuig</nl>
+			</Name>
+			<Description>
+				<en>The brand of your vehicle.</en>
+				<nl>Het merk van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleType">
+			<Name>
+				<en>Vehicle type</en>
+				<nl>Type voertuig</nl>
+			</Name>
+			<Description>
+				<en>The type of your vehicle.</en>
+				<nl>Het type van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleVariant" optional="true">
+			<Name>
+				<en>Vehicle variant</en>
+				<nl>Variant voertuig</nl>
+			</Name>
+			<Description>
+				<en>The variant of your vehicle.</en>
+				<nl>De variant van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleVersion" optional="true">
+			<Name>
+				<en>Vehicle version</en>
+				<nl>Versie voertuig</nl>
+			</Name>
+			<Description>
+				<en>The version of your vehicle.</en>
+				<nl>De versie van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleTradeName">
+			<Name>
+				<en>Vehicle trade name</en>
+				<nl>Handelsnaam voertuig</nl>
+			</Name>
+			<Description>
+				<en>The trade name of your vehicle.</en>
+				<nl>De handelsnaam van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleIdentificationNumber">
+			<Name>
+				<en>Vehicle identification number</en>
+				<nl>Voertuigidentificatienummer</nl>
+			</Name>
+			<Description>
+				<en>The identification number of your vehicle.</en>
+				<nl>Het identificatienummer van het voertuig (VIN).</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleMaxTechnicalMass">
+			<Name>
+				<en>Vehicle maximum technical mass</en>
+				<nl>Technische maximum massa voertuig</nl>
+			</Name>
+			<Description>
+				<en>The maximum mass of your vehicle.</en>
+				<nl>De technische maximum massa van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleMaxPermissibleMass" optional="true">
+			<Name>
+				<en>Vehicle maximum permissible mass</en>
+				<nl>Maximaal toelaatbare massa voertuig</nl>
+			</Name>
+			<Description>
+				<en>The maximum permissible mass of your vehicle.</en>
+				<nl>De maximaal toelaatbare massa van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleMassInRunningOrder">
+			<Name>
+				<en>Vehicle mass in running order</en>
+				<nl>Rijklaarmassa voertuig</nl>
+			</Name>
+			<Description>
+				<en>The mass of your vehicle in running order.</en>
+				<nl>De rijklaarmassa van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateRegistrationValidUntil" optional="true">
+			<Name>
+				<en>Registration valid until date</en>
+				<nl>Inschrijving geldig tot</nl>
+			</Name>
+			<Description>
+				<en>The date until which your vehicle registration is valid.</en>
+				<nl>De datum tot welke de registratie van het voertuig geldig is.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfRegistration">
+			<Name>
+				<en>Date of registration</en>
+				<nl>Datum tenaamstelling</nl>
+			</Name>
+			<Description>
+				<en>The date on which your vehicle was registered.</en>
+				<nl>De datum waarop het voertuig op naam is geregistreerd.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleCategory" optional="true">
+			<Name>
+				<en>Vehicle category</en>
+				<nl>Voertuigcategorie</nl>
+			</Name>
+			<Description>
+				<en>The category of your vehicle.</en>
+				<nl>De categorie van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleTypeApprovalNumber" optional="true">
+			<Name>
+				<en>Vehicle type approval number</en>
+				<nl>Typegoedkeuringsnummer voertuig</nl>
+			</Name>
+			<Description>
+				<en>The type approval number of your vehicle.</en>
+				<nl>Het typegoedkeuringsnummer van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleMaxTechnicalMassOfBrakedTrailer" optional="true">
+			<Name>
+				<en>Vehicle maximum technical mass of braked trailer</en>
+				<nl>Technisch maximale massa aanhangwagen (geremd)</nl>
+			</Name>
+			<Description>
+				<en>The technical maximum mass of a braked trailer for your vehicle.</en>
+				<nl>Het technisch maximale gewicht van een geremde aanhangwagen voor het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleMaxTechnicalMassOfUnbrakedTrailer" optional="true">
+			<Name>
+				<en>Vehicle maximum technical mass of unbraked trailer</en>
+				<nl>Technisch maximale massa aanhangwagen (ongeremd)</nl>
+			</Name>
+			<Description>
+				<en>The technical maximum permissible mass of an unbraked trailer for your vehicle.</en>
+				<nl>Het technisch maximale gewicht van een ongeremde aanhangwagen voor het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleEngineDisplacement">
+			<Name>
+				<en>Vehicle engine displacement</en>
+				<nl>Motorinhoud voertuig</nl>
+			</Name>
+			<Description>
+				<en>The engine displacement of your vehicle.</en>
+				<nl>De motorinhoud van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleEnginePower">
+			<Name>
+				<en>Vehicle engine power</en>
+				<nl>Vermogen motor voertuig</nl>
+			</Name>
+			<Description>
+				<en>The engine power of your vehicle.</en>
+				<nl>Het vermogen van de motor van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleFuel">
+			<Name>
+				<en>Vehicle fuel</en>
+				<nl>Brandstof voertuig</nl>
+			</Name>
+			<Description>
+				<en>The fuel type of your vehicle.</en>
+				<nl>Het type brandstof van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleColor" optional="true">
+			<Name>
+				<en>Vehicle color</en>
+				<nl>Kleur voertuig</nl>
+			</Name>
+			<Description>
+				<en>The color of your vehicle.</en>
+				<nl>De kleur van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleSeating">
+			<Name>
+				<en>Vehicle seating</en>
+				<nl>Zitplaatsen voertuig</nl>
+			</Name>
+			<Description>
+				<en>The number of seats in your vehicle.</en>
+				<nl>Het aantal zitplaatsen van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleMaxSpeed" optional="true">
+			<Name>
+				<en>Vehicle max speed</en>
+				<nl>Maximale snelheid voertuig</nl>
+			</Name>
+			<Description>
+				<en>The maximum speed of your vehicle.</en>
+				<nl>De maximale snelheid van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleEnvironmentalClassEC" optional="true">
+			<Name>
+				<en>Vehicle environmental class (EC)</en>
+				<nl>Voertuig milieuklasse EG</nl>
+			</Name>
+			<Description>
+				<en>The environmental class of your vehicle according to the European emission standards.</en>
+				<nl>De milieuklasse van het voertuig volgens de Europese emissienormen.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="vehicleReportingCode" optional="true">
+			<Name>
+				<en>Vehicle reporting code</en>
+				<nl>Meldcode voertuig</nl>
+			</Name>
+			<Description>
+				<en>The reporting code of your vehicle.</en>
+				<nl>De meldcode van het voertuig.</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="dateOfFirstRegistrationInTheNetherlands" optional="true">
+			<Name>
+				<en>Date of first registration in the Netherlands</en>
+				<nl>Datum eerste registratie in Nederland</nl>
+			</Name>
+			<Description>
+				<en>The date when your vehicle was first registered in the Netherlands.</en>
+				<nl>De datum waarop het voertuig voor het eerst in Nederland is geregistreerd.</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
