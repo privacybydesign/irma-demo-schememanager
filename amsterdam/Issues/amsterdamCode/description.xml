@@ -1,0 +1,35 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Amsterdam code</en>
+		<nl>Demo Amsterdam-code</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Amsterdam code</en>
+		<nl>Demo Amsterdam-code</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>amsterdam</IssuerID>
+	<CredentialID>amsterdamCode</CredentialID>
+	<Description>
+		<en>Your personal pseudonymous code for the City of Amsterdam. With it you follow your reports and log in to Mijn Amsterdam without revealing who you are.</en>
+		<nl>Uw persoonlijke, anonieme code bij de gemeente Amsterdam. Hiermee volgt u uw meldingen en logt u in op Mijn Amsterdam zonder te laten zien wie u bent.</nl>
+	</Description>
+	<IssueURL>
+		<en>http://localhost:8088/mijn/code-ophalen</en>
+		<nl>http://localhost:8088/mijn/code-ophalen</nl>
+	</IssueURL>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<Attributes>
+		<Attribute id="code">
+			<Name>
+				<en>Amsterdam code</en>
+				<nl>Amsterdam-code</nl>
+			</Name>
+			<Description>
+				<en>Your pseudonymous code at the City of Amsterdam</en>
+				<nl>Uw anonieme code bij de gemeente Amsterdam</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
