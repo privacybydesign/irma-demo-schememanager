@@ -1,11 +1,11 @@
 <IssueSpecification version="4">
 	<Name>
-		<en>Dutch Driving Licence (demo)</en>
-		<nl>Nederlands Rijbewijs (demo)</nl>
+		<en>Demo Dutch Driving Licence</en>
+		<nl>Demo Nederlands Rijbewijs</nl>
 	</Name>
 	<ShortName>
-		<en>Dutch Driving Licence (demo)</en>
-		<nl>Nederlands Rijbewijs (demo)</nl>
+		<en>Demo Dutch Driving Licence</en>
+		<nl>Demo Nederlands Rijbewijs</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
 	<IssuerID>pbdf</IssuerID>
