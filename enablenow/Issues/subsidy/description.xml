@@ -1,0 +1,176 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Benefits and allowances</en>
+		<nl>Demo Toeslagen en uitkeringen</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Benefits and allowances</en>
+		<nl>Demo Toeslagen en uitkeringen</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>enablenow</IssuerID>
+	<CredentialID>subsidy</CredentialID>
+	<Description>
+		<en>Government allowances and benefits, derived from your bank transactions</en>
+		<nl>Toeslagen en uitkeringen van de overheid, afgeleid uit je banktransacties</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#0B4F3C</BackgroundGradientStart>
+	<BackgroundGradientEnd>#167A5B</BackgroundGradientEnd>
+
+	<Category>
+		<en>Finance</en>
+		<nl>Financieel</nl>
+	</Category>
+	<FAQIntro>
+		<en>Add government allowances and benefits, derived from your bank transactions, to your Yivi app.</en>
+		<nl>Voeg toeslagen en uitkeringen van de overheid, afgeleid uit je banktransacties, toe aan je Yivi-app.</nl>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>With financial data in your Yivi app you can prove facts about your finances, for example to a landlord or lender, without handing over your bank statements.</en>
+		<nl>Met financiële gegevens in je Yivi-app kun je feiten over je financiën aantonen, bijvoorbeeld aan een verhuurder of geldverstrekker, zonder je bankafschriften af te geven.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You will add the following data:\n• child benefits,\n• family income benefits,\n• healthcare allowance,\n• disability and sickness benefits,\n• social assistance,\n• other municipal support,\n• rent allowance,\n• unemployment benefits,\n• student finance,\n• other benefits,\n• months analysed,\n• period from,\n• period until.</en>
+		<nl>Je voegt de volgende gegevens toe:\n• kindgebonden budget en kinderopvangtoeslag,\n• WAZO- en WAZ-uitkering,\n• zorgtoeslag,\n• arbeidsongeschiktheids- en ziektewetuitkering,\n• bijstand,\n• overige gemeentelijke inkomensondersteuning,\n• huurtoeslag,\n• WW-uitkering,\n• studiefinanciering,\n• overige toeslagen en uitkeringen,\n• geanalyseerde maanden,\n• periode vanaf,\n• periode tot en met.</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en>1. Log in to your bank through enablenow and give permission to read your transactions.\n2. Your transactions of the last 12 months are categorized automatically.\n3. Check the results and choose which cards to add to your Yivi app.</en>
+		<nl>1. Log in bij je bank via enablenow en geef toestemming om je transacties te lezen.\n2. Je transacties van de afgelopen 12 maanden worden automatisch gecategoriseerd.\n3. Controleer de resultaten en kies welke kaartjes je aan je Yivi-app toevoegt.</nl>
+	</FAQHowto>
+
+	<Attributes>
+		<Attribute id="family">
+			<Name>
+				<en>Child benefits</en>
+				<nl>Kindgebonden budget en kinderopvangtoeslag</nl>
+			</Name>
+			<Description>
+				<en>E1 category subsidy.family: Child budget or childcare allowance (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie subsidy.family: Kindgebonden budget of kinderopvangtoeslag (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="familyincome">
+			<Name>
+				<en>Family income benefits</en>
+				<nl>WAZO- en WAZ-uitkering</nl>
+			</Name>
+			<Description>
+				<en>E1 category subsidy.family.income: Family income benefits paid by UWV (WAZO, WAZ) (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie subsidy.family.income: Gezinsgerelateerde uitkeringen van het UWV (WAZO, WAZ) (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="health">
+			<Name>
+				<en>Healthcare allowance</en>
+				<nl>Zorgtoeslag</nl>
+			</Name>
+			<Description>
+				<en>E1 category subsidy.health: Healthcare allowance (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie subsidy.health: Zorgtoeslag (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="disability">
+			<Name>
+				<en>Disability and sickness benefits</en>
+				<nl>Arbeidsongeschiktheids- en ziektewetuitkering</nl>
+			</Name>
+			<Description>
+				<en>E1 category subsidy.disability: Disability and sickness benefits (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie subsidy.disability: Arbeidsongeschiktheids- en ziektewetuitkeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="social">
+			<Name>
+				<en>Social assistance</en>
+				<nl>Bijstand</nl>
+			</Name>
+			<Description>
+				<en>E1 category subsidy.social: Social assistance benefit payments (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie subsidy.social: Bijstandsuitkeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="socialother">
+			<Name>
+				<en>Other municipal support</en>
+				<nl>Overige gemeentelijke inkomensondersteuning</nl>
+			</Name>
+			<Description>
+				<en>E1 category subsidy.social.other: Other municipal social income support (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie subsidy.social.other: Overige gemeentelijke inkomensondersteuning (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="rent">
+			<Name>
+				<en>Rent allowance</en>
+				<nl>Huurtoeslag</nl>
+			</Name>
+			<Description>
+				<en>E1 category subsidy.rent: Rent allowance (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie subsidy.rent: Huurtoeslag (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="unemployment">
+			<Name>
+				<en>Unemployment benefits</en>
+				<nl>WW-uitkering</nl>
+			</Name>
+			<Description>
+				<en>E1 category subsidy.unemployment: Unemployment benefits (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie subsidy.unemployment: Werkloosheidsuitkeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="student">
+			<Name>
+				<en>Student finance</en>
+				<nl>Studiefinanciering</nl>
+			</Name>
+			<Description>
+				<en>E1 category subsidy.student: Student finance paid by DUO (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie subsidy.student: Studiefinanciering van DUO (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="other">
+			<Name>
+				<en>Other benefits</en>
+				<nl>Overige toeslagen en uitkeringen</nl>
+			</Name>
+			<Description>
+				<en>E1 category subsidy.other: Other government benefits (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie subsidy.other: Overige overheidsuitkeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="months">
+			<Name>
+				<en>Months analysed</en>
+				<nl>Geanalyseerde maanden</nl>
+			</Name>
+			<Description>
+				<en>Number of full calendar months the averages are based on</en>
+				<nl>Aantal volledige kalendermaanden waarop de gemiddelden zijn gebaseerd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="periodstart">
+			<Name>
+				<en>Period from</en>
+				<nl>Periode vanaf</nl>
+			</Name>
+			<Description>
+				<en>First day of the analysed period (YYYY-MM-DD)</en>
+				<nl>Eerste dag van de geanalyseerde periode (JJJJ-MM-DD)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="periodend">
+			<Name>
+				<en>Period until</en>
+				<nl>Periode tot en met</nl>
+			</Name>
+			<Description>
+				<en>Last day of the analysed period (YYYY-MM-DD)</en>
+				<nl>Laatste dag van de geanalyseerde periode (JJJJ-MM-DD)</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

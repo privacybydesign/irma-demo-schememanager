@@ -1,0 +1,106 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Other transactions</en>
+		<nl>Demo Overige transacties</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Other transactions</en>
+		<nl>Demo Overige transacties</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>enablenow</IssuerID>
+	<CredentialID>other</CredentialID>
+	<Description>
+		<en>Fines, transfers between private persons and unclassified transactions, derived from your bank transactions</en>
+		<nl>Boetes, overboekingen tussen particulieren en niet-geclassificeerde transacties, afgeleid uit je banktransacties</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#0B4F3C</BackgroundGradientStart>
+	<BackgroundGradientEnd>#167A5B</BackgroundGradientEnd>
+
+	<Category>
+		<en>Finance</en>
+		<nl>Financieel</nl>
+	</Category>
+	<FAQIntro>
+		<en>Add fines, transfers between private persons and unclassified transactions, derived from your bank transactions, to your Yivi app.</en>
+		<nl>Voeg boetes, overboekingen tussen particulieren en niet-geclassificeerde transacties, afgeleid uit je banktransacties, toe aan je Yivi-app.</nl>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>With financial data in your Yivi app you can prove facts about your finances, for example to a landlord or lender, without handing over your bank statements.</en>
+		<nl>Met financiële gegevens in je Yivi-app kun je feiten over je financiën aantonen, bijvoorbeeld aan een verhuurder of geldverstrekker, zonder je bankafschriften af te geven.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You will add the following data:\n• fines,\n• private transfers,\n• unclassified,\n• months analysed,\n• period from,\n• period until.</en>
+		<nl>Je voegt de volgende gegevens toe:\n• boetes,\n• overboekingen tussen particulieren,\n• niet geclassificeerd,\n• geanalyseerde maanden,\n• periode vanaf,\n• periode tot en met.</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en>1. Log in to your bank through enablenow and give permission to read your transactions.\n2. Your transactions of the last 12 months are categorized automatically.\n3. Check the results and choose which cards to add to your Yivi app.</en>
+		<nl>1. Log in bij je bank via enablenow en geef toestemming om je transacties te lezen.\n2. Je transacties van de afgelopen 12 maanden worden automatisch gecategoriseerd.\n3. Controleer de resultaten en kies welke kaartjes je aan je Yivi-app toevoegt.</nl>
+	</FAQHowto>
+
+	<Attributes>
+		<Attribute id="fines">
+			<Name>
+				<en>Fines</en>
+				<nl>Boetes</nl>
+			</Name>
+			<Description>
+				<en>E1 category other.fines: Government fines (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie other.fines: Boetes van de overheid (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="privatetransfer">
+			<Name>
+				<en>Private transfers</en>
+				<nl>Overboekingen tussen particulieren</nl>
+			</Name>
+			<Description>
+				<en>E1 category other.private_transfer: Transfers between private persons or payment requests (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie other.private_transfer: Overboekingen tussen particulieren of betaalverzoeken (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="other">
+			<Name>
+				<en>Unclassified</en>
+				<nl>Niet geclassificeerd</nl>
+			</Name>
+			<Description>
+				<en>E1 category other.other: Transactions that cannot be classified elsewhere (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie other.other: Transacties die nergens anders onder vallen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="months">
+			<Name>
+				<en>Months analysed</en>
+				<nl>Geanalyseerde maanden</nl>
+			</Name>
+			<Description>
+				<en>Number of full calendar months the averages are based on</en>
+				<nl>Aantal volledige kalendermaanden waarop de gemiddelden zijn gebaseerd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="periodstart">
+			<Name>
+				<en>Period from</en>
+				<nl>Periode vanaf</nl>
+			</Name>
+			<Description>
+				<en>First day of the analysed period (YYYY-MM-DD)</en>
+				<nl>Eerste dag van de geanalyseerde periode (JJJJ-MM-DD)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="periodend">
+			<Name>
+				<en>Period until</en>
+				<nl>Periode tot en met</nl>
+			</Name>
+			<Description>
+				<en>Last day of the analysed period (YYYY-MM-DD)</en>
+				<nl>Laatste dag van de geanalyseerde periode (JJJJ-MM-DD)</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

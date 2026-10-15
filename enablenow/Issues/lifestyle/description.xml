@@ -1,0 +1,166 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Lifestyle</en>
+		<nl>Demo Vrije tijd</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Lifestyle</en>
+		<nl>Demo Vrije tijd</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>enablenow</IssuerID>
+	<CredentialID>lifestyle</CredentialID>
+	<Description>
+		<en>Restaurants, subscriptions, sports, travel and other leisure, derived from your bank transactions</en>
+		<nl>Horeca, abonnementen, sport, reizen en overige vrije tijd, afgeleid uit je banktransacties</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#0B4F3C</BackgroundGradientStart>
+	<BackgroundGradientEnd>#167A5B</BackgroundGradientEnd>
+
+	<Category>
+		<en>Finance</en>
+		<nl>Financieel</nl>
+	</Category>
+	<FAQIntro>
+		<en>Add restaurants, subscriptions, sports, travel and other leisure, derived from your bank transactions, to your Yivi app.</en>
+		<nl>Voeg horeca, abonnementen, sport, reizen en overige vrije tijd, afgeleid uit je banktransacties, toe aan je Yivi-app.</nl>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>With financial data in your Yivi app you can prove facts about your finances, for example to a landlord or lender, without handing over your bank statements.</en>
+		<nl>Met financiële gegevens in je Yivi-app kun je feiten over je financiën aantonen, bijvoorbeeld aan een verhuurder of geldverstrekker, zonder je bankafschriften af te geven.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You will add the following data:\n• restaurants and bars,\n• streaming,\n• subscriptions,\n• sports,\n• culture,\n• travel,\n• donations,\n• pets,\n• other leisure,\n• months analysed,\n• period from,\n• period until.</en>
+		<nl>Je voegt de volgende gegevens toe:\n• restaurants en cafés,\n• streaming,\n• abonnementen,\n• sport,\n• cultuur,\n• reizen,\n• donaties,\n• huisdieren,\n• overige vrije tijd,\n• geanalyseerde maanden,\n• periode vanaf,\n• periode tot en met.</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en>1. Log in to your bank through enablenow and give permission to read your transactions.\n2. Your transactions of the last 12 months are categorized automatically.\n3. Check the results and choose which cards to add to your Yivi app.</en>
+		<nl>1. Log in bij je bank via enablenow en geef toestemming om je transacties te lezen.\n2. Je transacties van de afgelopen 12 maanden worden automatisch gecategoriseerd.\n3. Controleer de resultaten en kies welke kaartjes je aan je Yivi-app toevoegt.</nl>
+	</FAQHowto>
+
+	<Attributes>
+		<Attribute id="restaurantsbars">
+			<Name>
+				<en>Restaurants and bars</en>
+				<nl>Restaurants en cafés</nl>
+			</Name>
+			<Description>
+				<en>E1 category expense.lifestyle.restaurants_bars: Restaurants, cafes, and bars (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie expense.lifestyle.restaurants_bars: Restaurants, cafés en bars (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="streaming">
+			<Name>
+				<en>Streaming</en>
+				<nl>Streaming</nl>
+			</Name>
+			<Description>
+				<en>E1 category expense.lifestyle.streaming: Streaming subscriptions (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie expense.lifestyle.streaming: Streamingabonnementen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="subscriptions">
+			<Name>
+				<en>Subscriptions</en>
+				<nl>Abonnementen</nl>
+			</Name>
+			<Description>
+				<en>E1 category expense.lifestyle.subscriptions: Other paid subscriptions (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie expense.lifestyle.subscriptions: Overige betaalde abonnementen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="sports">
+			<Name>
+				<en>Sports</en>
+				<nl>Sport</nl>
+			</Name>
+			<Description>
+				<en>E1 category expense.lifestyle.sports: Sports and gym memberships (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie expense.lifestyle.sports: Sport- en sportschoolabonnementen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="culture">
+			<Name>
+				<en>Culture</en>
+				<nl>Cultuur</nl>
+			</Name>
+			<Description>
+				<en>E1 category expense.lifestyle.culture: Museums, theater, and concerts (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie expense.lifestyle.culture: Musea, theater en concerten (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="travel">
+			<Name>
+				<en>Travel</en>
+				<nl>Reizen</nl>
+			</Name>
+			<Description>
+				<en>E1 category expense.lifestyle.travel: Travel and holiday expenses (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie expense.lifestyle.travel: Reis- en vakantie-uitgaven (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="donations">
+			<Name>
+				<en>Donations</en>
+				<nl>Donaties</nl>
+			</Name>
+			<Description>
+				<en>E1 category expense.lifestyle.donations: Donations to charities and churches (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie expense.lifestyle.donations: Donaties aan goede doelen en kerken (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="pets">
+			<Name>
+				<en>Pets</en>
+				<nl>Huisdieren</nl>
+			</Name>
+			<Description>
+				<en>E1 category expense.lifestyle.pets: Pet care, vets, and pet food (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie expense.lifestyle.pets: Dierverzorging, dierenarts en dierenvoeding (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="other">
+			<Name>
+				<en>Other leisure</en>
+				<nl>Overige vrije tijd</nl>
+			</Name>
+			<Description>
+				<en>E1 category expense.lifestyle.other: Other leisure spending (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie expense.lifestyle.other: Overige uitgaven aan vrije tijd (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="months">
+			<Name>
+				<en>Months analysed</en>
+				<nl>Geanalyseerde maanden</nl>
+			</Name>
+			<Description>
+				<en>Number of full calendar months the averages are based on</en>
+				<nl>Aantal volledige kalendermaanden waarop de gemiddelden zijn gebaseerd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="periodstart">
+			<Name>
+				<en>Period from</en>
+				<nl>Periode vanaf</nl>
+			</Name>
+			<Description>
+				<en>First day of the analysed period (YYYY-MM-DD)</en>
+				<nl>Eerste dag van de geanalyseerde periode (JJJJ-MM-DD)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="periodend">
+			<Name>
+				<en>Period until</en>
+				<nl>Periode tot en met</nl>
+			</Name>
+			<Description>
+				<en>Last day of the analysed period (YYYY-MM-DD)</en>
+				<nl>Laatste dag van de geanalyseerde periode (JJJJ-MM-DD)</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>
