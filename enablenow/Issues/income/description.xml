@@ -1,0 +1,126 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Income</en>
+		<nl>Demo Inkomen</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Income</en>
+		<nl>Demo Inkomen</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>enablenow</IssuerID>
+	<CredentialID>income</CredentialID>
+	<Description>
+		<en>Your average monthly income, derived from your bank transactions</en>
+		<nl>Je gemiddelde maandelijkse inkomen, afgeleid uit je banktransacties</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#0B4F3C</BackgroundGradientStart>
+	<BackgroundGradientEnd>#167A5B</BackgroundGradientEnd>
+
+	<Category>
+		<en>Finance</en>
+		<nl>Financieel</nl>
+	</Category>
+	<FAQIntro>
+		<en>Add your average monthly income, derived from your bank transactions, to your Yivi app.</en>
+		<nl>Voeg je gemiddelde maandelijkse inkomen, afgeleid uit je banktransacties, toe aan je Yivi-app.</nl>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>With financial data in your Yivi app you can prove facts about your finances, for example to a landlord or lender, without handing over your bank statements.</en>
+		<nl>Met financiële gegevens in je Yivi-app kun je feiten over je financiën aantonen, bijvoorbeeld aan een verhuurder of geldverstrekker, zonder je bankafschriften af te geven.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You will add the following data:\n• salary per month,\n• pension per month,\n• other income per month,\n• total income per month,\n• months with salary,\n• months analysed,\n• period from,\n• period until.</en>
+		<nl>Je voegt de volgende gegevens toe:\n• salaris per maand,\n• pensioen per maand,\n• overig inkomen per maand,\n• totaal inkomen per maand,\n• maanden met salaris,\n• geanalyseerde maanden,\n• periode vanaf,\n• periode tot en met.</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en>1. Log in to your bank through enablenow and give permission to read your transactions.\n2. Your transactions of the last 12 months are categorized automatically.\n3. Check the results and choose which cards to add to your Yivi app.</en>
+		<nl>1. Log in bij je bank via enablenow en geef toestemming om je transacties te lezen.\n2. Je transacties van de afgelopen 12 maanden worden automatisch gecategoriseerd.\n3. Controleer de resultaten en kies welke kaartjes je aan je Yivi-app toevoegt.</nl>
+	</FAQHowto>
+
+	<Attributes>
+		<Attribute id="salary">
+			<Name>
+				<en>Salary per month</en>
+				<nl>Salaris per maand</nl>
+			</Name>
+			<Description>
+				<en>Average per month in whole euros over the analysed period</en>
+				<nl>Gemiddelde per maand in hele euro's over de geanalyseerde periode</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="pension">
+			<Name>
+				<en>Pension per month</en>
+				<nl>Pensioen per maand</nl>
+			</Name>
+			<Description>
+				<en>Average per month in whole euros over the analysed period</en>
+				<nl>Gemiddelde per maand in hele euro's over de geanalyseerde periode</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="otherincome">
+			<Name>
+				<en>Other income per month</en>
+				<nl>Overig inkomen per maand</nl>
+			</Name>
+			<Description>
+				<en>Average per month in whole euros over the analysed period</en>
+				<nl>Gemiddelde per maand in hele euro's over de geanalyseerde periode</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="total">
+			<Name>
+				<en>Total income per month</en>
+				<nl>Totaal inkomen per maand</nl>
+			</Name>
+			<Description>
+				<en>Average per month in whole euros over the analysed period</en>
+				<nl>Gemiddelde per maand in hele euro's over de geanalyseerde periode</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="salarymonths">
+			<Name>
+				<en>Months with salary</en>
+				<nl>Maanden met salaris</nl>
+			</Name>
+			<Description>
+				<en>Number of analysed months in which salary was received</en>
+				<nl>Aantal geanalyseerde maanden waarin salaris is ontvangen</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="months">
+			<Name>
+				<en>Months analysed</en>
+				<nl>Geanalyseerde maanden</nl>
+			</Name>
+			<Description>
+				<en>Number of full calendar months the averages are based on</en>
+				<nl>Aantal volledige kalendermaanden waarop de gemiddelden zijn gebaseerd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="periodstart">
+			<Name>
+				<en>Period from</en>
+				<nl>Periode vanaf</nl>
+			</Name>
+			<Description>
+				<en>First day of the analysed period (YYYY-MM-DD)</en>
+				<nl>Eerste dag van de geanalyseerde periode (JJJJ-MM-DD)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="periodend">
+			<Name>
+				<en>Period until</en>
+				<nl>Periode tot en met</nl>
+			</Name>
+			<Description>
+				<en>Last day of the analysed period (YYYY-MM-DD)</en>
+				<nl>Laatste dag van de geanalyseerde periode (JJJJ-MM-DD)</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

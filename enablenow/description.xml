@@ -1,0 +1,14 @@
+<Issuer version="4">
+	<ID>enablenow</ID>
+	<Name>
+		<en>Demo enablenow</en>
+		<nl>Demo enablenow</nl>
+	</Name>
+	<ShortName>
+		<en>Demo enablenow</en>
+		<nl>Demo enablenow</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ContactAddress>https://www.enablenow.nl</ContactAddress>
+	<ContactEMail></ContactEMail>
+</Issuer>
