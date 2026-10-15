@@ -1,0 +1,69 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo MeetINN ticket</en>
+		<nl>Demo MeetINN ticket</nl>
+	</Name>
+	<ShortName>
+		<en>MeetINN ticket</en>
+		<nl>MeetINN ticket</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>ictnetwerknijmegen</IssuerID>
+	<CredentialID>ticket</CredentialID>
+	<Description>
+		<en>Your ticket for a MeetINN, the network meeting of ICT Netwerk Nijmegen. At the door, you scan the QR code and share it to check in. It holds no name or email address.</en>
+		<nl>Je ticket voor een MeetINN, de netwerkbijeenkomst van ICT Netwerk Nijmegen. Bij de deur scan je de QR-code en deel je het om in te checken. Er staat geen naam of e-mailadres op.</nl>
+	</Description>
+	<IssueURL>
+		<en>https://inn.bw20.nl/en/</en>
+		<nl>https://inn.bw20.nl/</nl>
+	</IssueURL>
+	<ShouldBeSingleton>false</ShouldBeSingleton>
+
+	<ForegroundColor>#161414</ForegroundColor>
+	<BackgroundGradientStart>#f94744</BackgroundGradientStart>
+	<BackgroundGradientEnd>#fb6a5f</BackgroundGradientEnd>
+
+	<Attributes>
+		<Attribute id="event">
+			<Name>
+				<en>Event</en>
+				<nl>Bijeenkomst</nl>
+			</Name>
+			<Description>
+				<en>The event this ticket is for</en>
+				<nl>De bijeenkomst waarvoor dit ticket is</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="date">
+			<Name>
+				<en>Date</en>
+				<nl>Datum</nl>
+			</Name>
+			<Description>
+				<en>When the event is</en>
+				<nl>Wanneer de bijeenkomst is</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="location">
+			<Name>
+				<en>Location</en>
+				<nl>Locatie</nl>
+			</Name>
+			<Description>
+				<en>Where the event is</en>
+				<nl>Waar de bijeenkomst is</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="ticket">
+			<Name>
+				<en>Ticket</en>
+				<nl>Ticket</nl>
+			</Name>
+			<Description>
+				<en>The ticket code, which the door checks</en>
+				<nl>De ticketcode, die bij de deur wordt gecontroleerd</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

@@ -1,0 +1,15 @@
+<Issuer version="4">
+	<ID>ictnetwerknijmegen</ID>
+	<Name>
+		<en>Demo ICT Netwerk Nijmegen</en>
+		<nl>Demo ICT Netwerk Nijmegen</nl>
+	</Name>
+	<ShortName>
+		<en>ICT Netwerk Nijmegen</en>
+		<nl>ICT Netwerk Nijmegen</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<ContactAddress>https://inn.bw20.nl</ContactAddress>
+	<ContactEMail>jorrit+inn@bw20.nl</ContactEMail>
+	<baseURL></baseURL>
+</Issuer>
