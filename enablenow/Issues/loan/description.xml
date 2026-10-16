@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="debtcollection">
+		<Attribute id="debtcollection" displayHint="currency:EUR">
 			<Name>
 				<en>Debt collection</en>
 				<nl>Incasso en deurwaarder</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie loan.debt_collection: Betalingen aan incassobureaus of deurwaarders (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="student">
+		<Attribute id="student" displayHint="currency:EUR">
 			<Name>
 				<en>Student loan</en>
 				<nl>Studieschuld</nl>
@@ -62,7 +62,7 @@
 				<nl>E1-categorie loan.student: Aflossingen van studieschuld (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="flash">
+		<Attribute id="flash" displayHint="currency:EUR">
 			<Name>
 				<en>Flash loans</en>
 				<nl>Flitskredieten</nl>
@@ -72,7 +72,7 @@
 				<nl>E1-categorie loan.flash: Kortlopend, duur consumptief krediet (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="bnpl">
+		<Attribute id="bnpl" displayHint="currency:EUR">
 			<Name>
 				<en>Buy now, pay later</en>
 				<nl>Achteraf betalen</nl>
@@ -82,7 +82,7 @@
 				<nl>E1-categorie loan.bnpl: Achteraf betalen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="creditcard">
+		<Attribute id="creditcard" displayHint="currency:EUR">
 			<Name>
 				<en>Credit card</en>
 				<nl>Creditcard</nl>
@@ -92,7 +92,7 @@
 				<nl>E1-categorie loan.credit_card: Aflossingen van creditcards (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="vehiclelease">
+		<Attribute id="vehiclelease" displayHint="currency:EUR">
 			<Name>
 				<en>Vehicle lease</en>
 				<nl>Autolease</nl>
@@ -102,7 +102,7 @@
 				<nl>E1-categorie loan.vehicle_lease: Leaseverplichtingen voor voertuigen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="private">
+		<Attribute id="private" displayHint="currency:EUR">
 			<Name>
 				<en>Private loans</en>
 				<nl>Particuliere leningen</nl>
@@ -112,7 +112,7 @@
 				<nl>E1-categorie loan.private: Leningen tussen particulieren en de aflossingen daarvan (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other loans</en>
 				<nl>Overige leningen</nl>

@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="salary">
+		<Attribute id="salary" displayHint="currency:EUR">
 			<Name>
 				<en>Salary paid</en>
 				<nl>Betaalde salarissen</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie expense.salary: Salariskosten en vergoedingen aan personeel (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other expenses</en>
 				<nl>Overige uitgaven</nl>

@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="groceries">
+		<Attribute id="groceries" displayHint="currency:EUR">
 			<Name>
 				<en>Groceries</en>
 				<nl>Boodschappen</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie expense.essential.groceries: Dagelijkse boodschappen en supermarktuitgaven (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="utilitiesenergy">
+		<Attribute id="utilitiesenergy" displayHint="currency:EUR">
 			<Name>
 				<en>Energy</en>
 				<nl>Energie</nl>
@@ -62,7 +62,7 @@
 				<nl>E1-categorie expense.essential.utilities.energy: Gas en elektriciteit (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="utilitieswater">
+		<Attribute id="utilitieswater" displayHint="currency:EUR">
 			<Name>
 				<en>Water</en>
 				<nl>Water</nl>
@@ -72,7 +72,7 @@
 				<nl>E1-categorie expense.essential.utilities.water: Drinkwater en rioolheffing (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="utilitiesother">
+		<Attribute id="utilitiesother" displayHint="currency:EUR">
 			<Name>
 				<en>Other utilities</en>
 				<nl>Overige nutsvoorzieningen</nl>
@@ -82,7 +82,7 @@
 				<nl>E1-categorie expense.essential.utilities.other: Overige kosten voor nutsvoorzieningen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="childcare">
+		<Attribute id="childcare" displayHint="currency:EUR">
 			<Name>
 				<en>Childcare</en>
 				<nl>Kinderopvang</nl>
@@ -92,7 +92,7 @@
 				<nl>E1-categorie expense.essential.childcare: Kinderopvang en buitenschoolse opvang (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="clothing">
+		<Attribute id="clothing" displayHint="currency:EUR">
 			<Name>
 				<en>Clothing</en>
 				<nl>Kleding</nl>
@@ -102,7 +102,7 @@
 				<nl>E1-categorie expense.essential.clothing: Kleding, schoenen en accessoires (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="medical">
+		<Attribute id="medical" displayHint="currency:EUR">
 			<Name>
 				<en>Medical costs</en>
 				<nl>Medische kosten</nl>
@@ -112,7 +112,7 @@
 				<nl>E1-categorie expense.essential.medical: Medische kosten die niet door de verzekering worden vergoed (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="personalcare">
+		<Attribute id="personalcare" displayHint="currency:EUR">
 			<Name>
 				<en>Personal care</en>
 				<nl>Persoonlijke verzorging</nl>
@@ -122,7 +122,7 @@
 				<nl>E1-categorie expense.essential.personal_care: Drogisterij, kapper en persoonlijke verzorging (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="education">
+		<Attribute id="education" displayHint="currency:EUR">
 			<Name>
 				<en>Education</en>
 				<nl>Onderwijs</nl>
@@ -132,7 +132,7 @@
 				<nl>E1-categorie expense.essential.education: Collegegeld, schoolgeld en studiemateriaal (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="financial">
+		<Attribute id="financial" displayHint="currency:EUR">
 			<Name>
 				<en>Banking fees</en>
 				<nl>Bankkosten</nl>
@@ -142,7 +142,7 @@
 				<nl>E1-categorie expense.essential.financial: Bankkosten en kosten voor financiële diensten (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="telecom">
+		<Attribute id="telecom" displayHint="currency:EUR">
 			<Name>
 				<en>Telecom</en>
 				<nl>Telecom</nl>
@@ -152,7 +152,7 @@
 				<nl>E1-categorie expense.essential.telecom: Abonnementen voor telefoon, internet en tv (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="municipal">
+		<Attribute id="municipal" displayHint="currency:EUR">
 			<Name>
 				<en>Municipal taxes</en>
 				<nl>Gemeentelijke belastingen</nl>
@@ -162,7 +162,7 @@
 				<nl>E1-categorie expense.essential.municipal: Onroerendezaakbelasting, afvalstoffenheffing en waterschapsbelasting (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other essentials</en>
 				<nl>Overige basisbehoeften</nl>

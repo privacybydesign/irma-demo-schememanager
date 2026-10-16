@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="restaurantsbars">
+		<Attribute id="restaurantsbars" displayHint="currency:EUR">
 			<Name>
 				<en>Restaurants and bars</en>
 				<nl>Restaurants en cafés</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie expense.lifestyle.restaurants_bars: Restaurants, cafés en bars (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="streaming">
+		<Attribute id="streaming" displayHint="currency:EUR">
 			<Name>
 				<en>Streaming</en>
 				<nl>Streaming</nl>
@@ -62,7 +62,7 @@
 				<nl>E1-categorie expense.lifestyle.streaming: Streamingabonnementen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="subscriptions">
+		<Attribute id="subscriptions" displayHint="currency:EUR">
 			<Name>
 				<en>Subscriptions</en>
 				<nl>Abonnementen</nl>
@@ -72,7 +72,7 @@
 				<nl>E1-categorie expense.lifestyle.subscriptions: Overige betaalde abonnementen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="sports">
+		<Attribute id="sports" displayHint="currency:EUR">
 			<Name>
 				<en>Sports</en>
 				<nl>Sport</nl>
@@ -82,7 +82,7 @@
 				<nl>E1-categorie expense.lifestyle.sports: Sport- en sportschoolabonnementen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="culture">
+		<Attribute id="culture" displayHint="currency:EUR">
 			<Name>
 				<en>Culture</en>
 				<nl>Cultuur</nl>
@@ -92,7 +92,7 @@
 				<nl>E1-categorie expense.lifestyle.culture: Musea, theater en concerten (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="travel">
+		<Attribute id="travel" displayHint="currency:EUR">
 			<Name>
 				<en>Travel</en>
 				<nl>Reizen</nl>
@@ -102,7 +102,7 @@
 				<nl>E1-categorie expense.lifestyle.travel: Reis- en vakantie-uitgaven (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="donations">
+		<Attribute id="donations" displayHint="currency:EUR">
 			<Name>
 				<en>Donations</en>
 				<nl>Donaties</nl>
@@ -112,7 +112,7 @@
 				<nl>E1-categorie expense.lifestyle.donations: Donaties aan goede doelen en kerken (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="pets">
+		<Attribute id="pets" displayHint="currency:EUR">
 			<Name>
 				<en>Pets</en>
 				<nl>Huisdieren</nl>
@@ -122,7 +122,7 @@
 				<nl>E1-categorie expense.lifestyle.pets: Dierverzorging, dierenarts en dierenvoeding (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other leisure</en>
 				<nl>Overige vrije tijd</nl>

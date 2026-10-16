@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="family">
+		<Attribute id="family" displayHint="currency:EUR">
 			<Name>
 				<en>Child benefits</en>
 				<nl>Kindgebonden budget en kinderopvangtoeslag</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie subsidy.family: Kindgebonden budget of kinderopvangtoeslag (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="familyincome">
+		<Attribute id="familyincome" displayHint="currency:EUR">
 			<Name>
 				<en>Family income benefits</en>
 				<nl>WAZO- en WAZ-uitkering</nl>
@@ -62,7 +62,7 @@
 				<nl>E1-categorie subsidy.family.income: Gezinsgerelateerde uitkeringen van het UWV (WAZO, WAZ) (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="health">
+		<Attribute id="health" displayHint="currency:EUR">
 			<Name>
 				<en>Healthcare allowance</en>
 				<nl>Zorgtoeslag</nl>
@@ -72,7 +72,7 @@
 				<nl>E1-categorie subsidy.health: Zorgtoeslag (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="disability">
+		<Attribute id="disability" displayHint="currency:EUR">
 			<Name>
 				<en>Disability and sickness benefits</en>
 				<nl>Arbeidsongeschiktheids- en ziektewetuitkering</nl>
@@ -82,7 +82,7 @@
 				<nl>E1-categorie subsidy.disability: Arbeidsongeschiktheids- en ziektewetuitkeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="social">
+		<Attribute id="social" displayHint="currency:EUR">
 			<Name>
 				<en>Social assistance</en>
 				<nl>Bijstand</nl>
@@ -92,7 +92,7 @@
 				<nl>E1-categorie subsidy.social: Bijstandsuitkeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="socialother">
+		<Attribute id="socialother" displayHint="currency:EUR">
 			<Name>
 				<en>Other municipal support</en>
 				<nl>Overige gemeentelijke inkomensondersteuning</nl>
@@ -102,7 +102,7 @@
 				<nl>E1-categorie subsidy.social.other: Overige gemeentelijke inkomensondersteuning (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="rent">
+		<Attribute id="rent" displayHint="currency:EUR">
 			<Name>
 				<en>Rent allowance</en>
 				<nl>Huurtoeslag</nl>
@@ -112,7 +112,7 @@
 				<nl>E1-categorie subsidy.rent: Huurtoeslag (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="unemployment">
+		<Attribute id="unemployment" displayHint="currency:EUR">
 			<Name>
 				<en>Unemployment benefits</en>
 				<nl>WW-uitkering</nl>
@@ -122,7 +122,7 @@
 				<nl>E1-categorie subsidy.unemployment: Werkloosheidsuitkeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="student">
+		<Attribute id="student" displayHint="currency:EUR">
 			<Name>
 				<en>Student finance</en>
 				<nl>Studiefinanciering</nl>
@@ -132,7 +132,7 @@
 				<nl>E1-categorie subsidy.student: Studiefinanciering van DUO (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other benefits</en>
 				<nl>Overige toeslagen en uitkeringen</nl>

@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="publictransport">
+		<Attribute id="publictransport" displayHint="currency:EUR">
 			<Name>
 				<en>Public transport</en>
 				<nl>Openbaar vervoer</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie expense.transport.public_transport: Uitgaven aan openbaar vervoer (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="fuel">
+		<Attribute id="fuel" displayHint="currency:EUR">
 			<Name>
 				<en>Fuel</en>
 				<nl>Brandstof</nl>
@@ -62,7 +62,7 @@
 				<nl>E1-categorie expense.transport.fuel: Brandstof, inclusief elektrisch laden (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="vehicle">
+		<Attribute id="vehicle" displayHint="currency:EUR">
 			<Name>
 				<en>Vehicle maintenance</en>
 				<nl>Onderhoud voertuig</nl>
@@ -72,7 +72,7 @@
 				<nl>E1-categorie expense.transport.vehicle: Onderhoud, reparaties en keuringen van voertuigen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="parking">
+		<Attribute id="parking" displayHint="currency:EUR">
 			<Name>
 				<en>Parking</en>
 				<nl>Parkeren</nl>
@@ -82,7 +82,7 @@
 				<nl>E1-categorie expense.transport.parking: Parkeerkosten en vergunningen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other transport</en>
 				<nl>Overig vervoer</nl>

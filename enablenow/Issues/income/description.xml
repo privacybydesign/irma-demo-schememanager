@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="rent">
+		<Attribute id="rent" displayHint="currency:EUR">
 			<Name>
 				<en>Rental income</en>
 				<nl>Huurinkomsten</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie income.rent: Huurinkomsten uit vastgoed of verhuurde bezittingen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="salary">
+		<Attribute id="salary" displayHint="currency:EUR">
 			<Name>
 				<en>Salary</en>
 				<nl>Salaris</nl>
@@ -62,7 +62,7 @@
 				<nl>E1-categorie income.salary: Salaris of loon, inclusief vakantiegeld en bonussen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="pensionstate">
+		<Attribute id="pensionstate" displayHint="currency:EUR">
 			<Name>
 				<en>State pension</en>
 				<nl>AOW</nl>
@@ -72,7 +72,7 @@
 				<nl>E1-categorie income.pension.state: AOW-uitkeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="pensionprivate">
+		<Attribute id="pensionprivate" displayHint="currency:EUR">
 			<Name>
 				<en>Private pension</en>
 				<nl>Aanvullend pensioen</nl>
@@ -82,7 +82,7 @@
 				<nl>E1-categorie income.pension.private: Particulier of bedrijfspensioen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="pensionother">
+		<Attribute id="pensionother" displayHint="currency:EUR">
 			<Name>
 				<en>Other pension</en>
 				<nl>Overig pensioen</nl>
@@ -92,7 +92,7 @@
 				<nl>E1-categorie income.pension.other: Overig pensioen- of oudedagsinkomen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other income</en>
 				<nl>Overig inkomen</nl>

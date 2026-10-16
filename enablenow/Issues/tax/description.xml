@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="income">
+		<Attribute id="income" displayHint="currency:EUR">
 			<Name>
 				<en>Income tax</en>
 				<nl>Inkomstenbelasting</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie tax.income: Inkomstenbelasting (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="vehicle">
+		<Attribute id="vehicle" displayHint="currency:EUR">
 			<Name>
 				<en>Vehicle tax</en>
 				<nl>Motorrijtuigenbelasting</nl>
@@ -62,7 +62,7 @@
 				<nl>E1-categorie tax.vehicle: Motorrijtuigenbelasting en andere voertuiggerelateerde belastingen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="corporate">
+		<Attribute id="corporate" displayHint="currency:EUR">
 			<Name>
 				<en>Corporate income tax</en>
 				<nl>Vennootschapsbelasting</nl>
@@ -72,7 +72,7 @@
 				<nl>E1-categorie tax.corporate: Vennootschapsbelasting (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="payroll">
+		<Attribute id="payroll" displayHint="currency:EUR">
 			<Name>
 				<en>Payroll tax</en>
 				<nl>Loonheffing</nl>
@@ -82,7 +82,7 @@
 				<nl>E1-categorie tax.payroll: Loonheffing en inhoudingen door de werkgever (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="social">
+		<Attribute id="social" displayHint="currency:EUR">
 			<Name>
 				<en>Social premiums</en>
 				<nl>Sociale premies</nl>
@@ -92,7 +92,7 @@
 				<nl>E1-categorie tax.social: Sociale premies en premies werknemersverzekeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="vat">
+		<Attribute id="vat" displayHint="currency:EUR">
 			<Name>
 				<en>VAT</en>
 				<nl>Btw</nl>
@@ -102,7 +102,7 @@
 				<nl>E1-categorie tax.vat: Btw-betalingen of -teruggaven (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other taxes</en>
 				<nl>Overige belastingen</nl>

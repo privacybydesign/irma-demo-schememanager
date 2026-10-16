@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="lottery">
+		<Attribute id="lottery" displayHint="currency:EUR">
 			<Name>
 				<en>Lotteries</en>
 				<nl>Loterijen</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie gambling.lottery: Loterijen en loten, inclusief prijzen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other gambling</en>
 				<nl>Overig gokken</nl>
