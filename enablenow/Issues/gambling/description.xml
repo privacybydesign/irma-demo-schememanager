@@ -1,0 +1,96 @@
+<IssueSpecification version="4">
+	<Name>
+		<en>Demo Gambling</en>
+		<nl>Demo Gokken</nl>
+	</Name>
+	<ShortName>
+		<en>Demo Gambling</en>
+		<nl>Demo Gokken</nl>
+	</ShortName>
+	<SchemeManager>irma-demo</SchemeManager>
+	<IssuerID>enablenow</IssuerID>
+	<CredentialID>gambling</CredentialID>
+	<Description>
+		<en>Lotteries and other gambling, derived from your bank transactions</en>
+		<nl>Loterijen en overig gokken, afgeleid uit je banktransacties</nl>
+	</Description>
+	<ShouldBeSingleton>true</ShouldBeSingleton>
+
+	<ForegroundColor>#ffffff</ForegroundColor>
+	<BackgroundGradientStart>#0B4F3C</BackgroundGradientStart>
+	<BackgroundGradientEnd>#167A5B</BackgroundGradientEnd>
+
+	<Category>
+		<en>Finance</en>
+		<nl>Financieel</nl>
+	</Category>
+	<FAQIntro>
+		<en>Add lotteries and other gambling, derived from your bank transactions, to your Yivi app.</en>
+		<nl>Voeg loterijen en overig gokken, afgeleid uit je banktransacties, toe aan je Yivi-app.</nl>
+	</FAQIntro>
+	<FAQPurpose>
+		<en>With financial data in your Yivi app you can prove facts about your finances, for example to a landlord or lender, without handing over your bank statements.</en>
+		<nl>Met financiële gegevens in je Yivi-app kun je feiten over je financiën aantonen, bijvoorbeeld aan een verhuurder of geldverstrekker, zonder je bankafschriften af te geven.</nl>
+	</FAQPurpose>
+	<FAQContent>
+		<en>You will add the following data:\n• lotteries,\n• other gambling,\n• months analysed,\n• period from,\n• period until.</en>
+		<nl>Je voegt de volgende gegevens toe:\n• loterijen,\n• overig gokken,\n• geanalyseerde maanden,\n• periode vanaf,\n• periode tot en met.</nl>
+	</FAQContent>
+	<FAQHowto>
+		<en>1. Log in to your bank through enablenow and give permission to read your transactions.\n2. Your transactions of the last 12 months are categorized automatically.\n3. Check the results and choose which cards to add to your Yivi app.</en>
+		<nl>1. Log in bij je bank via enablenow en geef toestemming om je transacties te lezen.\n2. Je transacties van de afgelopen 12 maanden worden automatisch gecategoriseerd.\n3. Controleer de resultaten en kies welke kaartjes je aan je Yivi-app toevoegt.</nl>
+	</FAQHowto>
+
+	<Attributes>
+		<Attribute id="lottery">
+			<Name>
+				<en>Lotteries</en>
+				<nl>Loterijen</nl>
+			</Name>
+			<Description>
+				<en>E1 category gambling.lottery: Lotteries and lottery tickets, including prizes (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie gambling.lottery: Loterijen en loten, inclusief prijzen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="other">
+			<Name>
+				<en>Other gambling</en>
+				<nl>Overig gokken</nl>
+			</Name>
+			<Description>
+				<en>E1 category gambling.other: Other gambling (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie gambling.other: Overig gokken (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="months">
+			<Name>
+				<en>Months analysed</en>
+				<nl>Geanalyseerde maanden</nl>
+			</Name>
+			<Description>
+				<en>Number of full calendar months the averages are based on</en>
+				<nl>Aantal volledige kalendermaanden waarop de gemiddelden zijn gebaseerd</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="periodstart">
+			<Name>
+				<en>Period from</en>
+				<nl>Periode vanaf</nl>
+			</Name>
+			<Description>
+				<en>First day of the analysed period (YYYY-MM-DD)</en>
+				<nl>Eerste dag van de geanalyseerde periode (JJJJ-MM-DD)</nl>
+			</Description>
+		</Attribute>
+		<Attribute id="periodend">
+			<Name>
+				<en>Period until</en>
+				<nl>Periode tot en met</nl>
+			</Name>
+			<Description>
+				<en>Last day of the analysed period (YYYY-MM-DD)</en>
+				<nl>Laatste dag van de geanalyseerde periode (JJJJ-MM-DD)</nl>
+			</Description>
+		</Attribute>
+	</Attributes>
+</IssueSpecification>

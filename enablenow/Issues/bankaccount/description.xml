@@ -32,8 +32,8 @@
 		<nl>Met financiële gegevens in je Yivi-app kun je feiten over je financiën aantonen, bijvoorbeeld aan een verhuurder of geldverstrekker, zonder je bankafschriften af te geven.</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data:\n• iBAN,\n• account holder,\n• bank.</en>
-		<nl>Je voegt de volgende gegevens toe:\n• iBAN,\n• rekeninghouder,\n• bank.</nl>
+		<en>You will add the following data:\n• IBAN,\n• account holder,\n• bank.</en>
+		<nl>Je voegt de volgende gegevens toe:\n• IBAN,\n• rekeninghouder,\n• bank.</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en>1. Log in to your bank through enablenow and give permission to read your transactions.\n2. Your transactions of the last 12 months are categorized automatically.\n3. Check the results and choose which cards to add to your Yivi app.</en>

@@ -11,8 +11,8 @@
 	<IssuerID>enablenow</IssuerID>
 	<CredentialID>income</CredentialID>
 	<Description>
-		<en>Your average monthly income, derived from your bank transactions</en>
-		<nl>Je gemiddelde maandelijkse inkomen, afgeleid uit je banktransacties</nl>
+		<en>Salary, pension, rental and other income, derived from your bank transactions</en>
+		<nl>Salaris, pensioen, huurinkomsten en overig inkomen, afgeleid uit je banktransacties</nl>
 	</Description>
 	<ShouldBeSingleton>true</ShouldBeSingleton>
 
@@ -25,16 +25,16 @@
 		<nl>Financieel</nl>
 	</Category>
 	<FAQIntro>
-		<en>Add your average monthly income, derived from your bank transactions, to your Yivi app.</en>
-		<nl>Voeg je gemiddelde maandelijkse inkomen, afgeleid uit je banktransacties, toe aan je Yivi-app.</nl>
+		<en>Add salary, pension, rental and other income, derived from your bank transactions, to your Yivi app.</en>
+		<nl>Voeg salaris, pensioen, huurinkomsten en overig inkomen, afgeleid uit je banktransacties, toe aan je Yivi-app.</nl>
 	</FAQIntro>
 	<FAQPurpose>
 		<en>With financial data in your Yivi app you can prove facts about your finances, for example to a landlord or lender, without handing over your bank statements.</en>
 		<nl>Met financiële gegevens in je Yivi-app kun je feiten over je financiën aantonen, bijvoorbeeld aan een verhuurder of geldverstrekker, zonder je bankafschriften af te geven.</nl>
 	</FAQPurpose>
 	<FAQContent>
-		<en>You will add the following data:\n• salary per month,\n• pension per month,\n• other income per month,\n• total income per month,\n• months with salary,\n• months analysed,\n• period from,\n• period until.</en>
-		<nl>Je voegt de volgende gegevens toe:\n• salaris per maand,\n• pensioen per maand,\n• overig inkomen per maand,\n• totaal inkomen per maand,\n• maanden met salaris,\n• geanalyseerde maanden,\n• periode vanaf,\n• periode tot en met.</nl>
+		<en>You will add the following data:\n• rental income,\n• salary,\n• state pension,\n• private pension,\n• other pension,\n• other income,\n• months analysed,\n• period from,\n• period until.</en>
+		<nl>Je voegt de volgende gegevens toe:\n• huurinkomsten,\n• salaris,\n• AOW,\n• aanvullend pensioen,\n• overig pensioen,\n• overig inkomen,\n• geanalyseerde maanden,\n• periode vanaf,\n• periode tot en met.</nl>
 	</FAQContent>
 	<FAQHowto>
 		<en>1. Log in to your bank through enablenow and give permission to read your transactions.\n2. Your transactions of the last 12 months are categorized automatically.\n3. Check the results and choose which cards to add to your Yivi app.</en>
@@ -42,54 +42,64 @@
 	</FAQHowto>
 
 	<Attributes>
+		<Attribute id="rent">
+			<Name>
+				<en>Rental income</en>
+				<nl>Huurinkomsten</nl>
+			</Name>
+			<Description>
+				<en>E1 category income.rent: Rental income from property or rented assets (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie income.rent: Huurinkomsten uit vastgoed of verhuurde bezittingen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
+			</Description>
+		</Attribute>
 		<Attribute id="salary">
 			<Name>
-				<en>Salary per month</en>
-				<nl>Salaris per maand</nl>
+				<en>Salary</en>
+				<nl>Salaris</nl>
 			</Name>
 			<Description>
-				<en>Average per month in whole euros over the analysed period</en>
-				<nl>Gemiddelde per maand in hele euro's over de geanalyseerde periode</nl>
+				<en>E1 category income.salary: Salary or wages, including holiday allowance and bonuses (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie income.salary: Salaris of loon, inclusief vakantiegeld en bonussen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="pension">
+		<Attribute id="pensionstate">
 			<Name>
-				<en>Pension per month</en>
-				<nl>Pensioen per maand</nl>
+				<en>State pension</en>
+				<nl>AOW</nl>
 			</Name>
 			<Description>
-				<en>Average per month in whole euros over the analysed period</en>
-				<nl>Gemiddelde per maand in hele euro's over de geanalyseerde periode</nl>
+				<en>E1 category income.pension.state: State pension payments (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie income.pension.state: AOW-uitkeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="otherincome">
+		<Attribute id="pensionprivate">
 			<Name>
-				<en>Other income per month</en>
-				<nl>Overig inkomen per maand</nl>
+				<en>Private pension</en>
+				<nl>Aanvullend pensioen</nl>
 			</Name>
 			<Description>
-				<en>Average per month in whole euros over the analysed period</en>
-				<nl>Gemiddelde per maand in hele euro's over de geanalyseerde periode</nl>
+				<en>E1 category income.pension.private: Private or occupational pension payments (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie income.pension.private: Particulier of bedrijfspensioen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="total">
+		<Attribute id="pensionother">
 			<Name>
-				<en>Total income per month</en>
-				<nl>Totaal inkomen per maand</nl>
+				<en>Other pension</en>
+				<nl>Overig pensioen</nl>
 			</Name>
 			<Description>
-				<en>Average per month in whole euros over the analysed period</en>
-				<nl>Gemiddelde per maand in hele euro's over de geanalyseerde periode</nl>
+				<en>E1 category income.pension.other: Other pension or retirement income (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie income.pension.other: Overig pensioen- of oudedagsinkomen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="salarymonths">
+		<Attribute id="other">
 			<Name>
-				<en>Months with salary</en>
-				<nl>Maanden met salaris</nl>
+				<en>Other income</en>
+				<nl>Overig inkomen</nl>
 			</Name>
 			<Description>
-				<en>Number of analysed months in which salary was received</en>
-				<nl>Aantal geanalyseerde maanden waarin salaris is ontvangen</nl>
+				<en>E1 category income.other: Other income, including self-employed income (net average per month in whole euros; positive is received, negative is paid)</en>
+				<nl>E1-categorie income.other: Overig inkomen, inclusief inkomen als zelfstandige (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
 		<Attribute id="months">
