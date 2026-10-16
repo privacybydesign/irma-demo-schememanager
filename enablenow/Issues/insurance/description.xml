@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="health">
+		<Attribute id="health" displayHint="currency:EUR">
 			<Name>
 				<en>Health insurance</en>
 				<nl>Zorgverzekering</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie insurance.health: Premies voor de zorgverzekering (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="vehicle">
+		<Attribute id="vehicle" displayHint="currency:EUR">
 			<Name>
 				<en>Vehicle insurance</en>
 				<nl>Autoverzekering</nl>
@@ -62,7 +62,7 @@
 				<nl>E1-categorie insurance.vehicle: Premies voor voertuigverzekeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="life">
+		<Attribute id="life" displayHint="currency:EUR">
 			<Name>
 				<en>Life insurance</en>
 				<nl>Levensverzekering</nl>
@@ -72,7 +72,7 @@
 				<nl>E1-categorie insurance.life: Premies voor levens-, overlijdensrisico- en uitvaartverzekeringen (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other insurance</en>
 				<nl>Overige verzekeringen</nl>

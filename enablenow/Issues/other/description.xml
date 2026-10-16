@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="fines">
+		<Attribute id="fines" displayHint="currency:EUR">
 			<Name>
 				<en>Fines</en>
 				<nl>Boetes</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie other.fines: Boetes van de overheid (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="privatetransfer">
+		<Attribute id="privatetransfer" displayHint="currency:EUR">
 			<Name>
 				<en>Private transfers</en>
 				<nl>Overboekingen tussen particulieren</nl>
@@ -62,7 +62,7 @@
 				<nl>E1-categorie other.private_transfer: Overboekingen tussen particulieren of betaalverzoeken (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Unclassified</en>
 				<nl>Niet geclassificeerd</nl>

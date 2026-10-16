@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="rent">
+		<Attribute id="rent" displayHint="currency:EUR">
 			<Name>
 				<en>Rent</en>
 				<nl>Huur</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie housing.rent: Huur voor woonruimte (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="mortgage">
+		<Attribute id="mortgage" displayHint="currency:EUR">
 			<Name>
 				<en>Mortgage</en>
 				<nl>Hypotheek</nl>
@@ -62,7 +62,7 @@
 				<nl>E1-categorie housing.mortgage: Hypotheeklasten, rente en aflossing (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other housing costs</en>
 				<nl>Overige woonlasten</nl>

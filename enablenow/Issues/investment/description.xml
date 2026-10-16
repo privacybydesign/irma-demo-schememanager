@@ -42,7 +42,7 @@
 	</FAQHowto>
 
 	<Attributes>
-		<Attribute id="savings">
+		<Attribute id="savings" displayHint="currency:EUR">
 			<Name>
 				<en>Savings</en>
 				<nl>Sparen</nl>
@@ -52,7 +52,7 @@
 				<nl>E1-categorie investment.savings: Overboekingen van en naar spaarrekeningen, inclusief rente (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="crypto">
+		<Attribute id="crypto" displayHint="currency:EUR">
 			<Name>
 				<en>Crypto</en>
 				<nl>Crypto</nl>
@@ -62,7 +62,7 @@
 				<nl>E1-categorie investment.crypto: Handel in of overboekingen van crypto (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="pension">
+		<Attribute id="pension" displayHint="currency:EUR">
 			<Name>
 				<en>Pension savings</en>
 				<nl>Pensioensparen</nl>
@@ -72,7 +72,7 @@
 				<nl>E1-categorie investment.pension: Pensioenbeleggingen en lijfrente-inleg (netto gemiddelde per maand in hele euro's; positief is ontvangen, negatief is betaald)</nl>
 			</Description>
 		</Attribute>
-		<Attribute id="other">
+		<Attribute id="other" displayHint="currency:EUR">
 			<Name>
 				<en>Other investments</en>
 				<nl>Overige beleggingen</nl>
