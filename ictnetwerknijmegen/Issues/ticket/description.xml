@@ -15,8 +15,8 @@
 		<nl>Je ticket voor een MeetINN, de netwerkbijeenkomst van ICT Netwerk Nijmegen. Bij de deur scan je de QR-code en deel je het om in te checken. Er staat geen naam of e-mailadres op.</nl>
 	</Description>
 	<IssueURL>
-		<en>https://inn.bw20.nl/en/</en>
-		<nl>https://inn.bw20.nl/</nl>
+		<en>https://ictnetwerknijmegen.nl/en/</en>
+		<nl>https://ictnetwerknijmegen.nl/</nl>
 	</IssueURL>
 	<ShouldBeSingleton>false</ShouldBeSingleton>
 
