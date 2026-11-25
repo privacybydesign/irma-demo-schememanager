@@ -9,7 +9,7 @@
 		<nl>ICT Netwerk Nijmegen</nl>
 	</ShortName>
 	<SchemeManager>irma-demo</SchemeManager>
-	<ContactAddress>https://inn.bw20.nl</ContactAddress>
+	<ContactAddress>https://ictnetwerknijmegen.nl</ContactAddress>
 	<ContactEMail>jorrit+inn@bw20.nl</ContactEMail>
 	<baseURL></baseURL>
 </Issuer>
